@@ -1,0 +1,77 @@
+{
+  "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+  "name": "Apple Swift Student Challenge",
+  "contentDigest": "6d7eeb127996319e2bb6498424dbca809a9ba3d637aa86c013f4741061a8bdde",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.095774+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+    "previousContentDigest": "ace2fa90c20e38ae5c4f1dc046df2809513d7439318442c0247328c7f28d0780",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "swift-2026-policy",
+      "url": "https://developer.apple.com/swift-student-challenge/policy/",
+      "readingLocation": "A3 P1:L144—161个人原创及判断",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb.html",
+      "sha256": "afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb",
+      "bytes": 117108,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "swift-playground-requirements",
+      "url": "https://developer.apple.com/swift-student-challenge/eligibility/",
+      "readingLocation": "A3 P1:L132—137个人与离线",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235.html",
+      "sha256": "cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235",
+      "bytes": 107448,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "事实和历史边界有支持，个人路线可用于入门；但只是自由创作、三分钟与离线通用要求，无具体完整任务或完整公开作品，稿内missingForPublication也明确缺口。不能批准严格L3。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-06-01",
+      "severity": "major",
+      "description": "补入可逐项审查的完整具体作品/具体完整命题及对应官方评审映射；现有通用创作格式和编辑状态机练习不可充当严格L3案例。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

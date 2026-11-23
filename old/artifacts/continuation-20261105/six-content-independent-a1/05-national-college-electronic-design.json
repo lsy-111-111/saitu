@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "changes_requested",
+    "contentDigest": "e4a58d1267b250682723b1a5f17f92535c14c47ff754115d0bf3edf127a358b1",
+    "sourceIds": [
+      "electronics-2025-main-notice",
+      "electronics-2025-c-task-shanghai-rar",
+      "electronics-2025-national-process"
+    ],
+    "checks": {
+      "factualSupport": false,
+      "entityScope": true,
+      "studentUsefulness": false,
+      "temporalAccuracy": true
+    },
+    "findings": [
+      {
+        "id": "A-EC-01",
+        "severity": "major",
+        "description": "技术边界不清；sections.skills/roles[电路与系统]的“实现独立供电”和sections.track/nextStep的测距表述。C-1图1、2及C-2、3明确：外部5V直流稳压电源；实时测该电源对整机的供电电流。D是标记点的垂直投影至基准线的距离，不是任取摄像头到目标的距离。当前正文/体验未定义D且容易把独立运行读成自供电，学生可能按不同电源或真值做标定。请标清外部5V、自制采样、D基准；桌面练习标为局部。",
+        "resolved": false
+      },
+      {
+        "id": "A-EC-02",
+        "severity": "minor",
+        "description": "来源绑定错误；valueDimensions.governance文字是全国组委会、湖南赛区托管原件，但所链v2:track实际只指上海赛区本科RAR内C题，不能复核所述湖南来源。请链接main-notice支持的资格或参与事实；C题项目继续单独链RAR。",
+        "resolved": false
+      }
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/05-national-college-electronic-design.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "electronics-2025-main-notice",
+      "url": "https://hnedc.hnie.edu.cn/__local/0/0D/80/FD1C067B95F5F7BF3968A58D3D5_331E6B71_D7CEE.pdf",
+      "independentlyRead": "主办通知p2–6：3人，学校报赛，正式全日制本科、高职高专，后者可以选本科题。7/30 08:00—8/2 20:00；禁止队外讨论，教师回避；报告及实物封存、脱机；赛区可向学校收报名费，场地工具一般由学校供应。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+          "sha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca.txt",
+          "sha256": "da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca"
+        }
+      ]
+    },
+    {
+      "sourceId": "electronics-2025-c-task-shanghai-rar",
+      "url": "https://nuedc-sh.sjtu.edu.cn/storage/seiee/project/nuedc/article/2025/07/ae91eea2c584a04d97e0414dcaa5af10.rar",
+      "independentlyRead": "将官方上海通知的本科RAR列目录并直接解出C题，成员SHA与清单相同。p1图1正/俯视D连到基准线；图2外部5V稳压电源、电流测量电路、摄像头、微处理器、显示和按键；p2规定电流绝对相对误差≤5%、不可用商品电流模块，禁PC、非视觉测距、改装测距产品；p3定义D为目标标记点垂直投影到基准线距离100–200cm，固定机位不联网、5s、基本5cm/1cm、发挥2cm/0.5cm，P=5V×Is。p4表：报告4/6/4/4/2、基本12/12/12/14、发挥8/8/9/10/10/5，合计120；四原页均目检。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/shanghai-undergraduate.rar",
+          "sha256": "bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/2025-C.txt",
+          "sha256": "fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/2025-C.pdf",
+          "sha256": "388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/shanghai-notice.html",
+          "sha256": "6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-1.png",
+          "sha256": "2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-2.png",
+          "sha256": "d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-3.png",
+          "sha256": "db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099"
+        },
+        {
+          "path": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-4.png",
+          "sha256": "4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf"
+        }
+      ]
+    },
+    {
+      "sourceId": "electronics-2025-national-process",
+      "url": "https://www.nuedc-training.com.cn/index/news/details/new_id/333",
+      "independentlyRead": "2025实施过程说明：一之赛场封存；三之全国综合测评、初评、复测。被赛区推荐全国评奖的全体队员在赛区参加综合测评，一等奖候选队和被抽调的队在全国复测，非所有参赛队均参加。对当前记录只据此和主赛通知，不激活旧通用引用。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6.html",
+          "sha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/legacy-original-20261106/83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50.txt",
+          "sha256": "83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "测D、x及电流的实际基准不清见发现",
+    "eligibility": "本科题，高职可选，三人全程",
+    "track": "数字范围准确但距离定义缺失",
+    "participation": "全国综合测评与复测各自适用对象清楚",
+    "deliverables": "报告、实物、登记表；离线限制及电路限制有据",
+    "rubric": "20/50/50与误差分档成立",
+    "skills": "视觉与硬件角色有产物，独立供电表述见发现",
+    "investment": "学校支付区级费用，不把成本估为零",
+    "difficulty": "先测基本档再测复杂项，不将单项超时视为失格",
+    "benefits": "不拿一次演示预测获奖",
+    "value": "治理来源链接与文字不符见发现",
+    "nextStep": "保留独立位置样本、只称电脑原型；仍须定义真值"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

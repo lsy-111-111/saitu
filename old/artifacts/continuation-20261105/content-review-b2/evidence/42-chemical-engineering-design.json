@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chemical-engineering-design:2026-20:clean-styrene-plant:undergraduate:china-styrene:v3",
+  "contentDigest": "5464b3f0aca0188501909ff3637941d28402bd2d08c42d14a58bbef0672dd4ca",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:13:38.078302+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "chemical-design-2026-notice",
+    "chemical-design-2026-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "chemical-design-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53.pdf",
+      "sourceSha256": "de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53",
+      "actualReadLocator": "PDF pages 1–3; rendered/chemical-2-1.png through chemical-2-3.png",
+      "verification": "三页通知逐页视觉读：同校全日制本科5人、单队、最多换2或缺1、七赛区及全国答辩、2026早期时间表、学会会员需另行注册。"
+    },
+    {
+      "sourceId": "chemical-design-2026-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d.pdf",
+      "sourceSha256": "d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d",
+      "actualReadLocator": "PDF pages 1–5; rendered/chemical-3-1.png through chemical-3-5.png",
+      "verification": "五页任务书全部视觉读：苯乙烯清洁生产具体题、原料产品规模自行调研、公用工程集成、安全低碳、可研流程设备布置经济各模块、13类经济参考数据、7.1基本材料与7.2计分材料、软件源文件、基本材料缺项不成功参赛。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、个人角色和前置、四周简化子任务、退出条件已读；完整具体设计任务已经直接读取。",
+    "7.2明确计入评分，可支撑定性评价映射；没有捏造正式数值权重。未知最终权重及个人费用保留，不用工程成本参考价充当报名费。",
+    "本次不重新计算工厂方案，不构成实际装置操作或工程可行性认证。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-42-01",
+      "severity": "minor",
+      "description": "suitability.uncertainties明确断言“最终赛程与早期通知有调整”，但本稿冻结来源只有2月早期通知和任务书，没有最终通知可独立确认发生了调整。请改为“早期通知注明部分安排另行通知，最终安排待核”，或补入最终通知；不要求将已结束历史赛事改为当前可报名。",
+      "resolved": false
+    },
+    {
+      "id": "B2-42-02",
+      "severity": "minor",
+      "description": "rubric事实含“综合作品质量、口头报告与答辩”，对应通知第3页，现只绑定任务书。请给该事实追加chemical-design-2026-notice来源，使具体事实可直接追溯。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "saitu.github-export.validation.v1",
+  "version": "old",
+  "sourceReleaseId": "20261120T044604Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "typecheck",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 3.778
+    },
+    {
+      "name": "lint",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 2.455
+    },
+    {
+      "name": "tests",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 34.775,
+      "counts": {
+        "files": 38,
+        "total": 450,
+        "passed": 450,
+        "failed": 0,
+        "pending": 0,
+        "todo": 0
+      }
+    },
+    {
+      "name": "joint-build",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 19.804
+    }
+  ],
+  "externalNetwork": "blocked",
+  "paidAiCalls": 0,
+  "applicationServiceStarted": false,
+  "nextEnvRestored": false,
+  "build": {
+    "sourceSha256": "9b73875f7f43cd29b8e65059507afb6d978b9fe283a871cd09c582e43e266990",
+    "workerArtifactSha256": "00cf2c5a56c927bb113832e42d3c420f0af2fc256c7279bfc55ec00e19a2ae42",
+    "nextBindingSha256": "750b4869cdf64cf219a71fc8ed9eccbed5522ea7054f9c2c0e901969143da3ae",
+    "nextBuildId": "TS60hnKYcL3wn7fbJDRAG",
+    "bindingMatches": true
+  },
+  "testDatabase": {
+    "isolated": true,
+    "actualRemoteAddress": "::1",
+    "dedicatedDataDirectoryVerified": true,
+    "productSourceUnchanged": true,
+    "transportNote": "Verification-only TCP redirection preserves original 127.0.0.1 URL guards while connecting exclusively to the disposable IPv6 cluster."
+  },
+  "verificationEnvironmentCorrections": [
+    "Initial bracketed IPv6 URL was rejected by the pg driver resolver.",
+    "localhost URL reached the isolated cluster but failed the preserved strict product URL guard.",
+    "Removed an extra SAITU_STANDALONE_LOCAL runner flag to match the existing verify environment; historical grouped-worker fixtures then passed."
+  ]
+}

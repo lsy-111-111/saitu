@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-software-testing:2025-10:web-testing:individual:china-web-2025:v3",
+  "contentDigest": "033ec6da26a8a02211bbc4ff9cbf55e3623ac6133b24efb2e0e0178ca8a6354c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.882235+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "testing-2025-rules",
+    "testing-2025-track"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "testing-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/670d6ddedce4f3a0bf2c88af0ba9454630d56e67b5c57c2066eb872c9c920a1e.pdf",
+      "sourceSha256": "670d6ddedce4f3a0bf2c88af0ba9454630d56e67b5c57c2066eb872c9c920a1e",
+      "actualReadLocator": "本轮全文文本extracted/09-00.txt；实际渲染目读PDF第1、3—6、8页，rendered/testing-rules-*.png",
+      "verification": "2025历史、全日制、个人1人和导师无的登记例外、预省国流程、自动/人工评审、免报名费与差旅另计"
+    },
+    {
+      "sourceId": "testing-2025-track",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/af7caac1d89d2186a792f4dab3286716295d075d84357ca8c24bbfd8452a1232.pdf",
+      "sourceSha256": "af7caac1d89d2186a792f4dab3286716295d075d84357ca8c24bbfd8452a1232",
+      "actualReadLocator": "本轮文本extracted/09-01.txt，PDF第1页完整Web赛项渲染目读testing-track-1.png",
+      "verification": "Web应用和功能需求作为给定输入，测试用例/脚本/截图及具体质性评分维度、工具版本；当前原件本身没有给出完整具体被测应用/需求"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、前置、四周、退出完整正文已读。PDF其余赛项未作为Web依据；仅列实际目读页面。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-09-01",
+      "severity": "major",
+      "description": "新增原件已支持2025 Web赛项规则和正式评分，但workedExample仍是赛项说明与通用测试流程，未含一个完整具体被测Web应用/功能需求或完整公开答卷的拆解。严格L3的完整具体任务原例尚缺，不能把赛项概述等同具体试题。",
+      "resolved": false
+    }
+  ]
+}

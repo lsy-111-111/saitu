@@ -1,0 +1,56 @@
+{
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "name": "Hult Prize",
+  "contentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.168012+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+    "previousContentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-hult-guide",
+      "url": "https://a.storyblok.com/f/133195/x/c87070884e/2023-hult-prize-challenge.pdf",
+      "readingLocation": "原PDF第1—23页完整挑战主体：服装定义、七段价值链、具体问题与机会、商业方案、组队和五项评审关注点",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "bytes": 12789453,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "完整官方2023挑战指南将任务限定服装/鞋类价值链的营利社会企业、可衡量SDG影响，包含具体七环节问题和提交/评审要求；可作为完整历史开放原题。本文不把指南企业宣传数据改成本项目成效，五项定性官方依据已足，数字权重未编造。个人问题/商业路线、四周及退出具体。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

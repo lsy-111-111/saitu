@@ -1,0 +1,463 @@
+{
+  "schemaVersion": "saitu.independent-content-source-recheck.v1",
+  "runId": "classics-recheck-b9",
+  "reviewerId": "/root/classics_recheck_b8",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T21:08:17.800724+00:00",
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "0722dd9efbe73ba692acf357f184f293adeb6ed023fecacbbd29fc3e035fed0c",
+  "inputManifest": "artifacts/continuation-20261105/content/review-batch-09/manifest.json",
+  "inputManifestSha256": "41db04ca601a6b97819480ecd5fdbfa494b24b3c82614e59931a21c16b6c0437",
+  "recordsFileSha256": "696c32af6d7a1c11dfe0f5639fad3d1547cea3bc88372c74a7d1e7ac4390f297",
+  "contentDigestNote": "绑定batch09冻结条目所声明的新实质正文摘要0722dd...；records.json文件SHA另列且全文件通过manifest核验。未读取src中的摘要算法。",
+  "independence": {
+    "authorAgentIds": [
+      "/root/research_b",
+      "/root"
+    ],
+    "reviewerNotAuthor": true,
+    "otherReviewConclusionsRead": false,
+    "authorReadingLogsUsedAsEvidence": false,
+    "sourceAndLedgerModified": false,
+    "private800Read": false,
+    "paidAccess": false,
+    "networkUsed": false,
+    "authorExclusions": [
+      "/root",
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "integrity": {
+    "fileCount": 17,
+    "dependencyCount": 15,
+    "allManifestHashesMatched": true,
+    "artifact": "artifacts/continuation-20261105/classics-recheck-b9/integrity.json"
+  },
+  "requiredSourceIds": [
+    "b-classics-local",
+    "b-classics-rules",
+    "b-classics-task",
+    "chinese-classics:legacy:source:2"
+  ],
+  "requiredSourceIdsDerivation": "冻结记录未显式提供requiredSourceIds；递归并集record内全部sourceIds（含facts和deepDive）得到4项，逐一复核。第5来源legacy:source:1无字节且未被正文引用，保留unknown。",
+  "sources": [
+    {
+      "sourceId": "chinese-classics:legacy:source:1",
+      "url": "https://www.moe.gov.cn/srcsite/A18/s3137/202605/t20260528_1437956.html",
+      "required": false,
+      "status": "unknown_unavailable",
+      "reason": "冻结包无原始字节；未将其作为事实批准依据，未重新联网。",
+      "referencedByContent": false
+    },
+    {
+      "sourceId": "chinese-classics:legacy:source:2",
+      "url": "https://www.cup.edu.cn/docs/2026-05/e6e258c803314bdfbd3f183fe944c111.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0.pdf",
+      "sourceByteSha256": "f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2.txt",
+      "status": "independently_read",
+      "pdfPages": 27,
+      "readRelevantPdfPages": [
+        8,
+        10,
+        13,
+        15,
+        18,
+        21,
+        24,
+        25
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        10,
+        15,
+        21,
+        25
+      ],
+      "pageNumberConvention": "PDF页码；对应印刷页码减1",
+      "observations": [
+        "第8、13、18、24页分别列诵读、讲解/演讲、书写、篆刻对象及组别，支持仅概括各赛项学生/教师/其他组别的跨赛项参考。",
+        "PDF第10页/印刷第9页：诵读每件作品指导教师不超过2人；第15页/印刷第14页：讲解/演讲每人限报1名；第21页/印刷第20页：书写每人限报1名；第25页/印刷第24页：篆刻每人限报1名且教师组不填写。",
+        "稿件两条legacy official fact已标entity=2026-national-8/multi-event-reference/source-defined-groups/china-national，导师正文亦明确不可套其他年份地方专项；2025地方identity未覆盖这两条fact。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-local",
+      "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+      "sourceByteSha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-local.txt",
+      "status": "independently_read",
+      "readRelevantLocator": "赛项一的一、参赛对象；二、参赛要求；三、竞赛形式及内容；四、报名方法；文末附件1、附件2链接",
+      "observations": [
+        "独立HTML解析第90—100行支持本校全日制、2025毕业生不在选送范围、往届同赛项一二等奖同类别限制、脱稿一篇及三个能力维度。",
+        "原文“无需配乐，无需PPT”未写禁止；batch09的v2:deliverables与sections.deliverables均已恢复“无需”，B8-F01解决。",
+        "原页面标题及题库附件为第十三届/2025；正文一处仍写第十二届，报名截止写2024年4月15日，故不可推导报名日期有效。稿件已披露并维持historical。",
+        "原HTML附件1/2 href与冻结省赛规则和题库URL一致，完成通知到原件的来源链。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+      "sourceByteSha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules.txt",
+      "status": "independently_read",
+      "pdfPages": 25,
+      "readRelevantPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "observations": [
+        "第4—5页区分个人/综合/留学生，列校选及参赛限制；第5—6页规定个人初赛古代、现当代各一篇朗读讲解及备稿演讲三个视频。",
+        "第9页全国推荐条款限定综合组和留学生组，不支持个人校选直接通国赛。",
+        "第9—10页个人初赛每人500元由学校承担、不得向学生收费，决赛参赛学生及带队教师差旅住宿学校承担。并不证明个人总费用为零。",
+        "第4、9页2025浙江诵读最多2名指导教师且须高校在职全职教师；这与2026全国一般专业能力要求不同，稿件未混用。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-task",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+      "sourceByteSha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-task.txt",
+      "status": "independently_read",
+      "pdfPages": 9,
+      "readRelevantPdfPages": [
+        1
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        1
+      ],
+      "observations": [
+        "第1页古代部分第3题为《庄子·秋水》（节选），从“秋水时至”至“吾长见笑于大方之家”。完整题目在同页，未截断。",
+        "题目包含河伯自喜、见海、反思及引语层次，支持教学练习。题库本身不规定湖州校选只选一篇；batch09的v2:track已同时列b-classics-local和b-classics-task及对应sourceScopes，B8-F02解决。"
+      ]
+    }
+  ],
+  "keyEvidence": [
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-local.txt",
+      "lineStart": 100,
+      "lineEnd": 102,
+      "text": "“中华经典朗诵”篇目范围见《浙江省第十三届大学生中华经典诵写讲大赛“典润之江”经典诵读竞赛（初赛）朗读题库（2025）》（附件2），主要考察选手对经典的阅读理解能力、艺术鉴赏能力和语言表达能力。要求选手自选古代或现当代作品1篇脱稿表演，无需配乐，无需PPT。\n四、报名方法\n报名时间："
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-task.txt",
+      "locator": "PDF第1页，古代部分第3题",
+      "text": "•秋水（节选）\n秋水时至，百川灌河。泾流之大，两涘渚崖之间不辩牛马。于是焉河伯欣然自喜，以天\n下之美为尽在己。顺流而东行，至于北海，东面而视，不见水端。于是焉河伯始旋其面目，\n望洋向若而叹曰：“野语有之曰：‘闻道百，以为莫己若’者，我之谓也。且夫(fú)我尝闻\n少(shǎo)仲尼之闻，而轻伯夷之义者，始吾弗信；今我睹子之难穷也，吾非至于子之门，则\n殆矣，吾长见笑于大方之家。”\n"
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2.txt",
+      "locator": "PDF第10、15、21、25页（印刷第9、14、20、24页）",
+      "renderArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p10.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p15.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p21.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p25.png"
+      ]
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules.txt",
+      "locator": "PDF第4—6、9—10页",
+      "renderArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p4.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p5.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p6.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p9.png",
+        "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p10.png"
+      ]
+    }
+  ],
+  "factChecks": [
+    {
+      "factId": "chinese-classics:legacy:fact:eligibility",
+      "sourceIds": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:team",
+      "sourceIds": [],
+      "result": "unknown_preserved"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:mentor",
+      "sourceIds": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:fee",
+      "sourceIds": [],
+      "result": "unknown_preserved"
+    },
+    {
+      "factId": "chinese-classics:v2:eligibility",
+      "sourceIds": [
+        "b-classics-local"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:track",
+      "sourceIds": [
+        "b-classics-local",
+        "b-classics-task"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:participation",
+      "sourceIds": [
+        "b-classics-rules"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:deliverables",
+      "sourceIds": [
+        "b-classics-local",
+        "b-classics-rules"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:rubric",
+      "sourceIds": [
+        "b-classics-local"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:investment",
+      "sourceIds": [
+        "b-classics-rules"
+      ],
+      "result": "supported_with_stated_scope"
+    }
+  ],
+  "moduleChecks": [
+    {
+      "module": "task",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "eligibility",
+      "result": "supported_or_labeled_editorial",
+      "note": "2025湖州校选限制有来源，不扩大为2026全国资格。"
+    },
+    {
+      "module": "track",
+      "result": "supported_or_labeled_editorial",
+      "note": "已补b-classics-local及其sourceScope，校选一篇和题库第3题分别直接支持。"
+    },
+    {
+      "module": "participation",
+      "result": "supported_or_labeled_editorial",
+      "note": "个人组与综合/留学生国赛推荐路径正确区分。"
+    },
+    {
+      "module": "deliverables",
+      "result": "supported_or_labeled_editorial",
+      "note": "校选“无需配乐、无需PPT”与原文一致；省初赛古今各一篇朗读讲解和备稿演讲另列，不混为同一交付。"
+    },
+    {
+      "module": "rubric",
+      "result": "supported_or_labeled_editorial",
+      "note": "三个能力维度来自校通知；数字权重未读取，不补造权重。"
+    },
+    {
+      "module": "skills",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "investment",
+      "result": "supported_or_labeled_editorial",
+      "note": "500元及学校承担来源正确，个人总费用金额为null，未推断全程免费。"
+    },
+    {
+      "module": "difficulty",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "benefits",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "value",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "nextStep",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    }
+  ],
+  "studentUsefulness": {
+    "result": "pass_for_historical_learning",
+    "reason": "完整《秋水》指定节选可核对；文本理解—停连重音—录音复述—修订—脱稿的步骤可实际执行，有个人句读稿、原声、反馈与版本证据；四周计划和7日试做均清楚，练习不冒充官方答案，明确单篇不能满足省初赛全套交付。",
+    "notVerified": [
+      "数字评分权重",
+      "现代篇目及备稿演讲完整题库",
+      "当前届报名状态及个人资格",
+      "个人总成本",
+      "学校认定及获奖概率"
+    ]
+  },
+  "scopeNotes": [
+    "四条legacy fact的entity均为2026-national-8/multi-event-reference/source-defined-groups/china-national；其中team/fee仍为unknown且无sourceIds，不因本轮批准变成已知资格/费用。",
+    "记录主体及v2事实仍为2025-zhejiang-13/classics-recitation/huzhou-individual/zhejiang-huzhou-local；不将全国2026参考fact套用到地方历史稿。",
+    "批准仅覆盖冻结单条L3历史学习内容；未检查产品运行时实体约束，不代表当前可报名、个人合资格、费用完整已知或严格参赛覆盖。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [
+    {
+      "id": "B8-F01",
+      "severity": "medium",
+      "description": "已解决：batch09的v2:deliverables与sections.deliverables均改为“无需配乐、无需PPT”，与冻结校通知正文第83行（本人独立HTML提取第100行）相符；没有再把无需准备表述为官方禁止。",
+      "resolved": true
+    },
+    {
+      "id": "B8-F02",
+      "severity": "low",
+      "description": "已解决：batch09的v2:track现列b-classics-local、b-classics-task及各自sourceScopes，scope合并2025湖州校选与2025浙江初赛；校选单篇要求与《秋水》第3题分别有直接来源。",
+      "resolved": true
+    }
+  ],
+  "continuationEvidence": {
+    "priorRunId": "classics-recheck-b8",
+    "priorOutcome": "changes_requested",
+    "priorContentDigest": "cf4d1de166aa1f09924d03bf25d5a831edf8c14dd9213e2ebce4f957cfb932fa",
+    "priorSealSha256": "533561e921763fa0db7ff199bbc74ff6e106c8b069b55f69c7518016b98b7878",
+    "priorOutputUnmodified": true,
+    "sameReviewer": true,
+    "newApprovalIsNotInherited": true,
+    "reuseBasis": "四个必需来源原始字节以及全部14个既有依赖SHA均不变；本人先前实际阅读定位与目读图像可以继承。本轮已重新读取新正文差分及冻结校通知第83行并逐项核对修复；不宣称重新逐页阅读未变原件。",
+    "reusedReadingArtifacts": [
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-local.txt",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-local.txt",
+        "sha256": "538f24dbb9285edc574efc6055cc02a0875a4ab43e8de197094b43e90e3eb716",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p10.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p10.png",
+        "sha256": "2e3ee3aa381e5210f50f7f76504099be18d6d4df36d7f187bdb63a8d1b76c415",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p4.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p4.png",
+        "sha256": "045697230b4ed7f6ef5cf55ad4cb9def1a23246370ba33b32db533c3ff637873",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p5.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p5.png",
+        "sha256": "f81732acc44b797fa8d6a09fc9a31759e4bb59d4e6b2f19f1d00c02c01531684",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p6.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p6.png",
+        "sha256": "4b9d7c32d6d409db09db5753369c9f522c0d8dbc5f84bd1b32b660cfa0f7db76",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules-p9.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p9.png",
+        "sha256": "a96aaf08487a9c02e39d7b16387a9684acd8f7087de6a5a39ea90615deb7eadd",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-rules.txt",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules.txt",
+        "sha256": "79b2e1f363e0d668031df79fdb313203108903a3ba7ee4d4244fd2cc1d2af693",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-task-p1.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-task-p1.png",
+        "sha256": "fd2e00b530ba0ca5ee20b835b015e4dc9ac8aa4044bd40d4ff4216f109e43a1f",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/b-classics-task.txt",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-task.txt",
+        "sha256": "24763378d9d637c9c6a392c751a7a7ae02d890e1ab09284e3d4a9b0efe713ffb",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p10.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p10.png",
+        "sha256": "b092232998549f78791e0a3669459ad17da4c80700cbc9a3e4d9995c1f255378",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p15.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p15.png",
+        "sha256": "46cf4fab0ddf29e67cd4d93c2d0513c82bf394bf1a70170b513e31a71893b15a",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p21.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p21.png",
+        "sha256": "4e7922738eb20bd35509d4a8931554aae2c52ddd641019f095162a0f86a40ebd",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2-p25.png",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p25.png",
+        "sha256": "79c88d98d62dc5be7155413f8ba32764e7c4489f98e7ba658ea71595d032cf77",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      },
+      {
+        "artifact": "artifacts/continuation-20261105/classics-recheck-b9/chinese-classics_legacy_source_2.txt",
+        "inheritedFrom": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2.txt",
+        "sha256": "99032861319598a9c785ec72a1ad7d5c44b66fc37ea2f04c4bb7f1d5f06928dd",
+        "basis": "same reviewer actually read/extracted/rendered and visually inspected in B8; original source-byte SHA unchanged in B9"
+      }
+    ],
+    "diffArtifact": "artifacts/continuation-20261105/classics-recheck-b9/diff.json"
+  },
+  "repairVerification": {
+    "requiredChangesResolved": true,
+    "unknownMetadataScopeAligned": true,
+    "unexpectedSubstantiveChanges": false,
+    "authorReadingLogUsedAsEvidence": false
+  }
+}

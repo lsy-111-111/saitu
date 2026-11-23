@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "aiaa-dbf-2026-rules",
+      "url": "https://aiaa.org/wp-content/uploads/2025/08/2026-DBF-Rules.pdf",
+      "locator": "PDF第5、8、19—20、26—29、32—34页",
+      "finding": "读取资格、历史时点、具体任务二全部公式和报告要求；不将2027传感器题混入。公式与任务解析是历史案例。"
+    }
+  ]
+}

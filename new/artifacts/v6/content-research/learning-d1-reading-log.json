@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "chi-d1-2025-rules",
+      "url": "https://chi2025.acm.org/for-authors/student-research-competition/",
+      "locator": "完整HTML正文Winners至FAQ；官方名单明确本科组第二名，三阶段评分30/45/35分别核对",
+      "readMethod": "web full HTML body read",
+      "finding": "2025 historical scope; membership/registration/in-person required if accepted; fee amount not supplied."
+    },
+    {
+      "sourceId": "chi-d1-chemlab-work",
+      "url": "https://kimsieun.com/pdfs/chemlabplanner.pdf",
+      "locator": "PDF第1—6页全文；第5页图7和8渲染图片视觉核对",
+      "readMethod": "curl original PDF; pypdf all six pages; page5 image inspected",
+      "sourceByteSha256": "5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01",
+      "finding": "62 survey participants, 5 followup interviews, 3 informal prototype testers; no completed controlled learning outcome evaluation. Public author work, not organizer authority. Methods, findings, design, limitations and references read."
+    }
+  ]
+}

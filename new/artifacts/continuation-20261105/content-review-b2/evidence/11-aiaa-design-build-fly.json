@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+  "contentDigest": "cc087b20f75dce4cd5b91a7aec73a45537332bc3c2c651436d9c50290847f33b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:52:25.760212+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "aiaa-dbf-2026-rules"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "aiaa-dbf-2026-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917.pdf",
+      "sourceSha256": "cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917",
+      "actualReadLocator": "PDF pages 1,5,8-20,26-29,32-34; rendered/dbf-{page}.png",
+      "verification": "Visual read 2025-26 eligibility/membership/pilot, 550 USD team fee, full Charter Flight incl payload compartments and propulsion limits, course diagram, ordered missions, net-income formula and relative score, report formats/proposal rubric and combined 15/85 score, FAQ configuration limits."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周、退出均已读；2026任务分析、官方评分、资格与550美元团队费用有原文支持。",
+    "Reviewed listed pages only, not all 34 pages. Unread pages include other ground mission and inspection details, design-report detailed rubric; record focuses on Mission 2 and does not claim full-source read.",
+    "Full Mission 2: 5-min airborne laps, successful landing outside time window, passenger/cargo income coefficients 6/2 and 10/8, costs 10/0.5/2 times laps and total Wh/100. No fabricated flight result."
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-11-01",
+      "severity": "minor",
+      "description": "scope明确声称2027是传感器新题，registration.note也断言2027另有新任务，但本稿唯一冻结来源为2025-26规则，无法支持2027具体命题。请删除未有原件支持的新届题目断言，保留下一届需另核的边界；或补入并绑定2027官方原件。",
+      "resolved": false
+    }
+  ]
+}

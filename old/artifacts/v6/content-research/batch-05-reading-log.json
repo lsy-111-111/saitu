@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "psychology-2026-notice",
+      "url": "https://jwb.bnuzh.edu.cn/docs/2026-03/94468b7ed4ae4ab3b1610a3dd0360737.pdf",
+      "locator": "PDF第1—3页、6—8页",
+      "finding": "教指委原件：个人心理实验与其他分论坛条件分开；短视频现场条款冲突不采用"
+    },
+    {
+      "sourceId": "datajournalism-2026-hainan",
+      "url": "https://webplus.hainnu.edu.cn/_s58/2026/0515/c2514a165201/page.psp",
+      "locator": "第一部分资格、评分、提交、规则与时间节点；98—230行",
+      "finding": "海南承办方完整公告：3—6人、费用、9类材料与六维评分；仅本赛区"
+    },
+    {
+      "sourceId": "cvma-vocational-2026",
+      "url": "https://www.cvma.org.cn/6848/202604/73246.html",
+      "locator": "比赛内容、参赛对象和其他事项；203—267行",
+      "finding": "协会原文：两人协作、20/80、教师与学校推荐；单项评分未采用"
+    }
+  ]
+}

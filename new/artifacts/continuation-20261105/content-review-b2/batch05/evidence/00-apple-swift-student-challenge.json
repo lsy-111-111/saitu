@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+  "contentDigest": "0ebe4265bc5c1fb71c91ff71d8849d51f38ae3f30a5ce8af74870c6fa4a822d2",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch05-20261106-4047b979",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:53:08.339604+00:00",
+  "manifestSha256": "4047b9792cf541eba7df288f513dc3808f5189756b021fc8165cf6080e9627b2",
+  "manifestVerification": {
+    "expectedFiles": 13,
+    "verifiedFiles": 13,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "swift-2026-policy",
+    "swift-playground-requirements",
+    "swift-accessibility-2025-full"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "swift-2026-policy",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb.html",
+      "sourceSha256": "afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb",
+      "actualReadLocator": "本人batch04同SHA读源证据：artifacts/continuation-20261105/content-review-b2/batch04/evidence/09-apple-swift-student-challenge.json :: 本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/06-apple-swift-student-challenge.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/06-apple-swift-student-challenge.json :: fresh HTML text lines 115-192",
+      "verification": "完整2026条款已读：2月28日23:59PST、地区年龄和特殊许可、教育身份、个人作品、25MB离线、工具版本、AI披露、英文、技术/创意/书面评审及不提供反馈。"
+    },
+    {
+      "sourceId": "swift-playground-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235.html",
+      "sourceSha256": "cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235",
+      "actualReadLocator": "本人batch04同SHA读源证据：artifacts/continuation-20261105/content-review-b2/batch04/evidence/09-apple-swift-student-challenge.json :: 本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/06-apple-swift-student-challenge.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/06-apple-swift-student-challenge.json :: fresh HTML text lines 115-139",
+      "verification": "三分钟完整官方开放任务及离线格式已读。"
+    },
+    {
+      "sourceId": "swift-accessibility-2025-full",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04.zip",
+      "sourceSha256": "4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04",
+      "actualReadLocator": "本人batch04同SHA读源证据：artifacts/continuation-20261105/content-review-b2/batch04/evidence/09-apple-swift-student-challenge.json :: swift/中上述15个源码/README文件全文；VoiceOver图、Images三PNG逐张目读；完整ZIP清单及SHA另存swift-file-index.json；本轮独立重新读取ZIP内Contents.json全12行、LevelVoiceOverView全68行、LevelViewModifier全89行及绑定JPEG原图；source-excerpts/",
+      "verification": "原图为海水/礁石/植被海岸航拍；图像绑定、Apples标签、水果问题、apple答案及共享onChange无true保护确认。新版准确揭示语义冲突，不再称苹果照片或成功理解案例。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "13/13冻结文件SHA一致；本轮完整阅读新记录12模块、角色/前置/4周/退出、全部修订。旧B4 changes_requested保留不覆盖。",
+    "此次批准是内容来源与边界审核：完整公开工程作为失败分析案例成立，不认证原作合规/获奖/运行效果；2025公开作品与2026正式准则仅作明确分年的学习比较。",
+    "资格为个人学生/地区年龄/全职开发排除等原规则；requires_confirmation用于用户教育身份多分支，未断言用户可报名。个人设备借用、总预算未知被明示；不将其推为免费，也不补原件不存在金额。",
+    "工程其余语义读取仅沿用本人B4已读清单；本轮未逐行读取全部辅助文件，未运行iOS，不凭ZIP解压/哈希声称全读或无缺陷。",
+    "前轮事实问题已通过真实原图/源码重新核验修正；B4四个图像视觉读取与15源码/文本文件读取记录可复审。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

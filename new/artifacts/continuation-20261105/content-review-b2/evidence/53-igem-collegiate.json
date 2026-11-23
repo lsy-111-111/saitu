@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+  "contentDigest": "4220b5f52cad29b3c6b24d76f5cdc3a9de353a9b996294df594379d3d7e1f6e9",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:46:13.725822+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "igem-2026-registration",
+    "igem-2026-roster",
+    "igem-2026-special-prizes",
+    "igem-2026-deliverables",
+    "igem-2026-fees",
+    "igem-2025-hkust-model"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "igem-2026-registration",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62.txt",
+      "sourceSha256": "e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62",
+      "actualReadLocator": "frozen rendered DOM text lines 21-238",
+      "verification": "高校与高中分开，Primary PI资格、机构、组织类型、注册付费和名单同意书。"
+    },
+    {
+      "sourceId": "igem-2026-roster",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053.txt",
+      "sourceSha256": "ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053",
+      "actualReadLocator": "frozen rendered DOM text lines 20-101",
+      "verification": "3月31日年龄门槛、Undergraduate/Overgraduate按年龄、PI名单管理与学生加入过程。"
+    },
+    {
+      "sourceId": "igem-2026-special-prizes",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8.txt",
+      "sourceSha256": "a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8",
+      "actualReadLocator": "frozen rendered DOM text lines 20-116",
+      "verification": "公开1—6量表、逐问题描述未公开、Best Model四项评审及指定model路径。"
+    },
+    {
+      "sourceId": "igem-2026-deliverables",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc.txt",
+      "sourceSha256": "e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc",
+      "actualReadLocator": "frozen rendered DOM text lines 20-86",
+      "verification": "交付目的、2026归属表仍提交但无需iframe、平台提交。"
+    },
+    {
+      "sourceId": "igem-2026-fees",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c.txt",
+      "sourceSha256": "3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c",
+      "actualReadLocator": "frozen rendered DOM text lines 20-174",
+      "verification": "两阶段团队费、赴巴黎个人票与远程区别、欧元、支付期限机制；金额图表不存在，未读金额。"
+    },
+    {
+      "sourceId": "igem-2025-hkust-model",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/95896bbd8219137be39e1ef64f7bfefcc02d87d74e6dffcf2b67af1327f74d62.txt",
+      "sourceSha256": "95896bbd8219137be39e1ef64f7bfefcc02d87d74e6dffcf2b67af1327f74d62",
+      "actualReadLocator": "frozen rendered DOM text lines 1-208",
+      "verification": "已读金属结合MT Cycle0文字全段：设计、替代输入、结构预测表、MIB2结果与独立文献冲突及局限；未看到图1—19图像。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周和退出均已读；2026规则与2025历史作品、年龄分区、团队/个人费用边界表述准确。",
+    "正文支持稿件的谨慎分析，没有将预测置信度等同实验成功；本次不背书作品作者的技术结论或引用论文。",
+    "除公开DOM文字外没有读取浏览器、隐藏页签、原图或外链论文；不能将文本抽取代替完整作品图像阅读。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-53-01",
+      "severity": "major",
+      "description": "严格L3完整公开作品核验仍未完成：冻结的HKUST2025来源只有rendered_dom_text，图1—19（结构、结合位点、对比/验证结果等）只剩图注，没有实际图像或完整页面截图，无法独立完成作品视觉及图文一致性复核。请补入所选完整模块的页面/PDF或原图并重审；不需扩大到整队项目，也不要求复现实验。",
+      "resolved": false
+    }
+  ]
+}

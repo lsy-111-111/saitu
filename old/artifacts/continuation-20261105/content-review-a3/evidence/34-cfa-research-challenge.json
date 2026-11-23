@@ -1,0 +1,70 @@
+{
+  "recordId": "cfa-research-challenge:2024-2025-historical:equity-research:university-team:global-2024-2025-report:v3",
+  "name": "CFA Institute Research Challenge",
+  "contentDigest": "dc207ab5bb241dff2cfd97c9146df13b3efb56a925966698e8398d08ad0ff967",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.157552+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "cfa-research-challenge:2024-2025-historical:equity-research:university-team:global-2024-2025-report:v3",
+    "previousContentDigest": "7270a2e3edaf523f9834680b1d51590f5e85d7bd7151b1a1b9e378d138faa168",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-cfa-2025-rules",
+      "url": "https://www.unive.it/web/fileadmin/user_upload/cdl_cdlm/area-economica/research-challenge-official-rules.pdf",
+      "readingLocation": "A3原PDF P5:L30—37、P6:L15—24；kickoff及part-time",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a.pdf",
+      "sha256": "c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a",
+      "bytes": 403781,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-cfa-report",
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2025-winning-written-report-kozminski-university.pdf",
+      "readingLocation": "提取定位P1-P2,P9-P11，封面、历史摘要、完整估值及敏感性/风险段",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb.pdf",
+      "sha256": "140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb",
+      "bytes": 2119526,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "2024—2025规则5—6页重核当地承办方接纳及kickoff时至少part-time在读；新事实有直接条款，非现届保证。完整2025报告与同届17—18页评分、估值敏感性训练和收益限制未变且同字节可核。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

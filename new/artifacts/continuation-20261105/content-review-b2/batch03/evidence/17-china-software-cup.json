@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "contentDigest": "6df1e99ea8964029d6d1ca530ac4244729c31ffd6748fdfe86c5c88e6b01c3a5",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.026694+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "softcup-c2-notice",
+    "softcup-c2-a3"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+      "sourceSha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/16-china-software-cup.json :: fresh HTML text lines 31-96",
+      "verification": "全国通知主体已读：全日制高校学生，队伍上限4含指导教师和至多3学生、跨校、学生只任一队队长、2026报名/初赛时间、原创与提交、无参赛费和决赛食宿自理。"
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+      "sourceSha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/16-china-software-cup.json :: fresh HTML text lines 31-77",
+      "verification": "A3完整正文已读：本科研究生高职、六维动态画像、五类资源、多智能体、路径、两项可选加分、防幻觉、完整课程知识集、工具限制、35/45/10/10大致占比、代码文档PPT7分钟视频及AI Coding声明。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/17-china-software-cup.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/16-china-software-cup.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "新讯飞辅助工具约束经原始HTML抽取行55重读支持，框架不限与其他AI工具限定准确区分。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

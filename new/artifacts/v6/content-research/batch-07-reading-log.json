@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_body_read; gdhyxh and myunion via direct public HTTP body",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "supplychain-2026-rules",
+      "url": "https://jwc.zjhzu.edu.cn/_upload/article/files/3f/5d/38e3c4e94f1b879d3dc93f0d4288/ce2b3a21-79f9-47c1-b298-e3d0b4dcf013.pdf",
+      "title": "关于举办第七届全国供应链大赛的通知及细则",
+      "publisher": "中物联、中国物流学会（浙江湖州学院托管原件）",
+      "scope": "2026全国规则及附件1供应链实战省赛",
+      "locator": "PDF第1—7页；全国初决赛仅作阶段区分"
+    },
+    {
+      "sourceId": "zhongshe-2026-notice",
+      "url": "https://www.myunion.com.cn/news/detail/6972d887546cdb0b3587b167.html",
+      "title": "第二届中社杯全国大学生社会服务实践技能大赛启动通知",
+      "publisher": "赛事技术单位美亚联创发布中国社会工作教育协会通知",
+      "scope": "2026第二届资格、交付、阶段评分、费用及作品使用条款",
+      "locator": "参赛要求、赛事流程、参赛费及特别声明"
+    },
+    {
+      "sourceId": "cupt-2020-rules",
+      "url": "https://jwc.ecust.edu.cn/_upload/article/files/37/7f/056b829b414e9ee2268c1beb2775/6f94229e-2725-47d6-a854-79d2997a269b.pdf",
+      "title": "中国大学生物理学术竞赛简介及比赛规则2020版",
+      "publisher": "CUPT（华东理工大学托管原件）",
+      "scope": "2020全国规则、明确采用IYPT2020题目",
+      "locator": "PDF第3—8页资格、角色与评分"
+    },
+    {
+      "sourceId": "iypt-2020-problem6",
+      "url": "https://iypt.org/problems/iypt-2020-problems/",
+      "title": "Problems for the 33rd IYPT 2020",
+      "publisher": "IYPT IOC",
+      "scope": "CUPT2020规则明确采用的题集；第6题Saxon Bowl",
+      "locator": "第6题完整题干"
+    },
+    {
+      "sourceId": "cupt-2026-north-notice",
+      "url": "https://ss.imust.edu.cn/info/1053/4852.htm",
+      "title": "2026 CUPT华北赛区第三轮通知",
+      "publisher": "CUPT华北赛区承办方内蒙古科技大学",
+      "scope": "仅证明2026举办及新规则应另核，不支撑2020资格",
+      "locator": "赛事题目、队伍与2026年6月5—7日安排"
+    }
+  ],
+  "limitations": [
+    "作者阅读记录不等于独立双审。",
+    "未读取的附件与具体赛题明确列为缺口；来源时间范围不能自动变为现行。"
+  ]
+}

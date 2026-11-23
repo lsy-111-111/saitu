@@ -1,0 +1,79 @@
+{
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "name": "Hult Prize",
+  "contentDigest": "03f846a46a4755dc986400c2b51d078ac289b0875b1aeb3beefbc7b8056c0694",
+  "priorOwnA3ContentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+  "runId": "a4-gpt6astra-20261105T182253Z-981b858ce5be",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T18:22:53.592874+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+    "previousContentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "sourceReads": [
+    {
+      "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+      "sourceId": "b-hult-guide",
+      "url": "https://a.storyblok.com/f/133195/x/c87070884e/2023-hult-prize-challenge.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "bytes": 12789453,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "原PDF第1—23页完整挑战主体：服装定义、七段价值链、具体问题与机会、商业方案、组队和五项评审关注点",
+      "readingLocation": "本轮重读PDF P23五项定性评委关注点并实际视觉核验；完整任务P1—23沿用本人同SHA的A2/A3阅读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-hult-guide.txt",
+      "visuallyReadArtifacts": [
+        "artifacts/continuation-20261105/content-review-a4/b-hult-guide-p23.png"
+      ]
+    }
+  ],
+  "assessment": "同SHA2023官方完整挑战指南沿用本人第1—23页阅读，本轮重新抽取并视觉阅读第23页五项定性评委关注点。服装/鞋类价值链营利社会企业任务及3—5学生组队限定清楚；相关性、实用性、聚焦、盈利潜力、可衡量影响已提供可适用定性评分依据，无须编造数字权重。当前新增边界明确缺数字评分卡/正式上传条件；四周训练、个人证据与退出并未依赖这些未知条件，可作为历史L3准备材料批准。",
+  "retainedUnknowns": [
+    "未取得另行数字评分卡及正式上传格式，不分配分值、不推定正式提交条件。",
+    "2027资格旧导入项仍pending；报名费和其它投入未确认为零，不据2023指南推定当前参赛资格。"
+  ],
+  "scopeReviewed": [
+    "当前冻结摘要与所有差异",
+    "12决策模块及具体任务",
+    "完整原题/公开原作与正式或明确参考评分",
+    "个人路线和贡献证据",
+    "四周完成条件与退出条件",
+    "费用、资格、届次及赛区范围"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A4-40-01",
+      "severity": "minor",
+      "description": "明确现有官方定性标准足以支持准备材料，同时保留缺数字评分卡和上传格式的边界；没有将2023任务当成当前报名规则。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "priorOwnEvidenceArtifact": "artifacts/continuation-20261105/content-review-a3/evidence/40-hult-prize.json",
+  "readingLocationConvention": "A4 HTML为本人自冻结原件抽取L序号；PDF为原件物理页，P#:L#在抽取文件可定位；图像阅读单列。",
+  "limitations": [
+    "本批准只针对当前contentDigest的L3准备内容，不是当前报名资格、得分、中奖或安全性能保证。",
+    "保留pending/unknown事实，不把requires_confirmation占位或validator通过当作事实已核。",
+    "AI独立阅读；未进行人审。流程独立共享文件系统，不宣称技术权限隔离。"
+  ]
+}

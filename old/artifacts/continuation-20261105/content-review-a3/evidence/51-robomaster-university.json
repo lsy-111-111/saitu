@@ -1,0 +1,69 @@
+{
+  "recordId": "robomaster-university:2026-rmuc:engineering-core-assembly:university:rmuc-2026-core-assembly:v3",
+  "name": "RoboMaster机甲大师高校系列赛",
+  "contentDigest": "dc2fe3a19f5cacbc2eb9ca5c260fa1aea772b4425f1bb9f30928911f5b412339",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.200937+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "robomaster-university:2026-rmuc:engineering-core-assembly:university:rmuc-2026-core-assembly:v3",
+    "previousContentDigest": "dc2fe3a19f5cacbc2eb9ca5c260fa1aea772b4425f1bb9f30928911f5b412339",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "robomaster-2026-participant",
+      "url": "https://bbs-web-static.robomaster.com/3fcc5b752b7a435b9323892f57c574141766654205303/RoboMaster%202026%20%E6%9C%BA%E7%94%B2%E5%A4%A7%E5%B8%88%E8%B6%85%E7%BA%A7%E5%AF%B9%E6%8A%97%E8%B5%9B%E5%8F%82%E8%B5%9B%E6%89%8B%E5%86%8CV1.1.0%EF%BC%8820251225%EF%BC%89.pdf",
+      "readingLocation": "原PDF第7—11页资格、10—35人、全日制及学籍；抽取P8—9（印刷14—20页）技术评审六阶段",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525.pdf",
+      "sha256": "444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525",
+      "bytes": 1117258,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "robomaster-2026-core-task",
+      "url": "https://bbs-web-static.robomaster.com/e354d2750e17485e8f67e5b5a9d1a2891786094242879/RoboMaster%202026%20%E6%9C%BA%E7%94%B2%E5%A4%A7%E5%B8%88%E8%B6%85%E7%BA%A7%E5%AF%B9%E6%8A%97%E8%B5%9B%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99%E6%89%8B%E5%86%8CV2.2.0%EF%BC%8820260807%EF%BC%89.pdf",
+      "readingLocation": "原PDF83—91页视觉阅读：位姿、难度、收益、灯效、步骤1—6、失败和退出规则",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5.pdf",
+      "sha256": "88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5",
+      "bytes": 21018604,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "任务限定科技核心装配，完整步骤和对应收益支持状态机学习；区分全赛规则未全读。个人控制/机械证据、四周及安全退出具体；2026已关闭，不外推2027。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

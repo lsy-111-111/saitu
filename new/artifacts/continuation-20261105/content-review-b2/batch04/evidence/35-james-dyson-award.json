@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "james-dyson-award:2025-global:engineering-design:students-recent-graduates:2025-national-review:v3",
+  "contentDigest": "76907f2ade5b7a3fdf40bb920f07b7624319adea8e93b9db709cd363642355a1",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.295617+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [],
+  "sourceEvidence": [],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/32-james-dyson-award.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "本轮三个来源仍无sourceArtifact；新增说明未提供可供独立查证的资格/作品原件；不采用作者取源失败作为已读证据。"
+  ],
+  "incompleteSources": [
+    "b-dyson-rule",
+    "b-dyson-bloc"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-35-01",
+      "severity": "major",
+      "description": "b-dyson-rule和b-dyson-bloc均未提供冻结原件，原件目录文本检索也未找到作品页。不能独立核验2025国家评审、截止及bloc°完整作品/设计过程，须补可读原文和图像材料。",
+      "resolved": false
+    },
+    {
+      "id": "B2-35-02",
+      "severity": "major",
+      "description": "记录本身承认精确资格、毕业年限、地区、团队及提交字段尚缺原始条款；若作为严格L3参赛决策内容，应补足适用规则或明确仅保留历史作品探索层级。",
+      "resolved": false
+    }
+  ]
+}

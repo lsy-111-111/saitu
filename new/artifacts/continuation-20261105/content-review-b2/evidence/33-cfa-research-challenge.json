@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "cfa-research-challenge:2024-2025-historical:equity-research:university-team:global-2024-2025-report:v3",
+  "contentDigest": "7270a2e3edaf523f9834680b1d51590f5e85d7bd7151b1a1b9e378d138faa168",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:01:45.216625+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-cfa-2025-rules",
+    "b-cfa-report"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-cfa-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a.pdf",
+      "sourceSha256": "c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a",
+      "actualReadLocator": "PDF pages 1,3-8,15,17-18; rendered/cfa-rules-p*.png",
+      "verification": "2024至2025封面、资格逐项及kickoff时点、3至5与后期人数例外、两周注册、公开信息、AI披露、10+10页、七项书面100分和独立展示100分已视觉核验。"
+    },
+    {
+      "sourceId": "b-cfa-report",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb.pdf",
+      "sourceSha256": "140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb",
+      "actualReadLocator": "PDF all 21 pages; rendered/cfa-report-01.png through cfa-report-21.png",
+      "verification": "整份报告含封面、10页主文及10页附录逐页视觉阅读。2025年1月31日时点、经营与行业、ESG、财务、DCF/WACC/终值、敏感性矩阵、牛熊及Monte Carlo、附录1至36均可定位。未独立重建底层表格模型或验证公司外部事实。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色前置、四周练习及退出全部已读；同届资格与两种评分准确，没有误用现届规则。",
+    "完整作品确实存在，读完整报告不等于确认作者所有模型正确。原报告正文与图表间可见若干口径差异，例如成本资本及预测表，稿件采取独立质询、只重建片段并声明未复核全部模型，未背书精确目标价，因此不作为稿件事实错误。",
+    "当前费用及学校接纳未知合理；没有把历史报告当当前投资建议。作者读取日志仅用于定位第二端点声明，不作为独立语义审核证据。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-33-01",
+      "severity": "minor",
+      "description": "workedExample.sourceBoundary断言学校托管规则与CFAI托管原件字节SHA一致；冻结包有学校PDF及相同本地副本，CFAI第二端点只有作者日志的sameByteSha256陈述，没有可独立检查的抓取索引/来源绑定。请删除这一非必要的双端点比对断言，仅保留已核验的同届规则，或补可验证来源记录。",
+      "resolved": false
+    }
+  ]
+}

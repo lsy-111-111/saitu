@@ -1,0 +1,58 @@
+{
+  "recordId": "chemical-engineering-design:2026-20:clean-styrene-plant:undergraduate:china-styrene:v3",
+  "name": "全国大学生化工设计竞赛",
+  "contentDigest": "5464b3f0aca0188501909ff3637941d28402bd2d08c42d14a58bbef0672dd4ca",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "chemical-design-2026-notice",
+      "url": "https://iche.zju.edu.cn/uploads/20260228/ad683cd23bc2417ffa3e1dd020f000a7.pdf",
+      "readingLocation": "扫描PDF三页全部视觉阅读，render chemical-notice-1/2/3.png",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53.pdf",
+      "sha256": "de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53",
+      "bytes": 9736636
+    },
+    {
+      "sourceId": "chemical-design-2026-task",
+      "url": "https://iche.zju.edu.cn/uploads/20260226/ec4637873e07197e1ce4b72c781d8617.pdf",
+      "readingLocation": "PDF第1-5页完整命题、基础条件、工作范围和基本/计分材料",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d.pdf",
+      "sha256": "d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d",
+      "bytes": 245819
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "同校五人本科、赛段、8月全国赛、作品质量/报告/答辩在扫描通知核验；苯乙烯任务与HAZOP等计分材料在任务书核验。12模块区分教学衡算与整厂交付，源文件/守恒检查、个人与四周路线充分，不含实际装置操作承诺。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

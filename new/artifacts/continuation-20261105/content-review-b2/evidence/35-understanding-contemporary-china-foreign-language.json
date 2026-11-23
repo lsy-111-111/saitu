@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "understanding-contemporary-china-foreign-language:2026-english-video:china-through-data:fulltime-undergraduate-masters:china-ahnu-local:v3",
+  "contentDigest": "e8fdc87420ed9cc9bc15cebbaa884d968f4c00c5442aba4efb6e60eb0de3024d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:02:41.249090+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-fltrp-rules",
+    "b-fltrp-local"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-fltrp-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c.html",
+      "sourceSha256": "49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c",
+      "actualReadLocator": "fresh HTML lines 25-85 and 751-789",
+      "verification": "总通知及英语短视频完整赛项文字：本科硕士含留学生、往届国赛前三禁同语种同赛项、原创/AI边界、3分钟双字幕真实声音、5人同校、三级赛制。其他语种无关页面未全读。"
+    },
+    {
+      "sourceId": "b-fltrp-local",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba.html",
+      "sourceSha256": "1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba",
+      "actualReadLocator": "fresh HTML lines 27-72",
+      "verification": "2026安师大本校范围、8月31日截止、数说中国开放主题、内容50语言30制作20正式本校评分，以及素材署名、匿名和图标要求。图片示例与二维码未获取，未声称其细节已读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、分工、前置、四周和退出均已读；2026校赛历史截止与安师大评分边界明确，没有借用全国权重。",
+    "正文稿件没有对未读图示作具体尺寸断言；需正式提交时仍应核验图标与示例。费用未知保留，没有改写为免费。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-35-01",
+      "severity": "major",
+      "description": "目前workedExample仍是数说中国开放主题和通用创作流程，没有一个具体指标、叙事情境的完整官方题例或完整公开短视频作品可供拆解。两份原件虽支持任务及评分，却未补足严格L3具体完整案例门槛；需补实际完整案例并据此重写拆解，或保留低层级。",
+      "resolved": false
+    },
+    {
+      "id": "B2-35-02",
+      "severity": "minor",
+      "description": "资格模块遗漏总通知第44行明确排除：往届同语种同赛项国赛冠、亚、季军不得再次参赛。eligibilityRules为空，建议加入该历史资格限制，避免只凭学籍/人数判断。",
+      "resolved": false
+    }
+  ]
+}

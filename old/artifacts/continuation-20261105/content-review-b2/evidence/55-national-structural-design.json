@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-structural-design:2026-19-shanghai:lele-cart:undergraduate-junior-college:shanghai-division:v3",
+  "contentDigest": "8f076fb59d3e8c0e2c30e37c1ab5531cb2150583e08d78a3ac5d7a3e6a649b2b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:12:24.052365+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "structure-shanghai-2026-notice",
+    "structure-shanghai-2026-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "structure-shanghai-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6.pdf",
+      "sourceSha256": "dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6",
+      "actualReadLocator": "PDF pages 1–2; rendered/structure-1-1.png and structure-1-2.png",
+      "verification": "两页原件逐页视觉核验：第十九届2026上海分区赛、学校2队每队3人、未毕业全日制本专科、学校领队、计划7月7—9日，不能视为11月开放。"
+    },
+    {
+      "sourceId": "structure-shanghai-2026-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c.pdf",
+      "sourceSha256": "734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c",
+      "actualReadLocator": "PDF pages 1–16; rendered/structure-2-01.png through structure-2-16.png",
+      "verification": "全部正文和三张工程图视觉读取：勒勒车B/C/D/E面连接、规定轴承车轴不得改造、20—40袋每袋500g、14小时制作、5分钟安装3分钟装货3分钟运输含10秒停留、材料和工具限制、失效与扣分、5/10/5/80评分及运输30/10/40公式；附件动力车/车轴/赛道图尺寸、减速带和弯道完整可见。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色及前置、四周学习验收、退出条件均已读；练习没有被写成整车通过或正式工程认证。",
+    "作者sourceBoundary只声明正文1—13页；B2本次另外核验14—16页工程图，不将文字抽取成功当成读完。PDF中工具清单另提附件3，包内未有其独立表；本稿不宣称具体未给工具可携带，实际参赛仍需最终补充通知。",
+    "费用与本人学校推荐通道明确未知；上海分区资格和赛程未泛化全国。完整官方具体题目与该题正式评分已经直接核验。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

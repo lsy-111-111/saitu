@@ -1,0 +1,49 @@
+{
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "name": "全国大学生智能汽车竞赛",
+  "contentDigest": "51dbd5d3f40743b3aaae685030958f4d8c23ca488f5eaf447076ad7e464c79c1",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "smartcar-2025-outdoor-ros",
+      "url": "https://www.smartcar.zone/upload/files/2025/9/%E8%B5%9B%E9%A1%B9%E4%B8%80-%E5%AE%A4%E5%A4%96ROS%E6%97%A0%E4%BA%BA%E8%BD%A6%E8%B5%9B%EF%BC%88%E9%AB%98%E6%95%99%E7%BB%84%EF%BC%89%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99.pdf",
+      "readingLocation": "PDF 14页全部文字；第3-6页赛道、标志、挡板图实际渲染视觉阅读",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e.pdf",
+      "sha256": "ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e",
+      "bytes": 1920565
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "80/20与两圈30/70、ROS1罚100、五案例、2-5学生/1-2导师均有据。两圈和随机建图具体原任务完整；设备指定/推荐措辞差异已提示采购前核实，未认定总成本低。个人节点/日志与四周、仿真退出有效。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

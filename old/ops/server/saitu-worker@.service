@@ -1,0 +1,25 @@
+[Unit]
+Description=Saitu AI worker release %i
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=saitu
+Group=saitu
+WorkingDirectory=/opt/resume-ai/releases/%i
+EnvironmentFile=/etc/saitu/saitu.env
+EnvironmentFile=/etc/saitu/releases/%i.env
+ExecStart=/opt/saitu-tools/node/bin/node dist/decision-worker/worker.mjs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=195
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/cache/resume-ai /var/lib/saitu
+
+[Install]
+WantedBy=multi-user.target

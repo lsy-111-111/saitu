@@ -1,0 +1,67 @@
+{
+  "recordId": "national-software-testing:2025-10:web-testing:individual:china-web-2025:v3",
+  "name": "全国大学生软件测试大赛",
+  "contentDigest": "033ec6da26a8a02211bbc4ff9cbf55e3623ac6133b24efb2e0e0178ca8a6354c",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "testing-2025-rules",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/e2b38fc7-deaf-46d0-9613-46b6146fbb73.pdf",
+      "readingLocation": "本次原站PDF1—8页，抽取L1—193资格、流程、费用及自行参赛无导师",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/testing-2025-rules-curl.pdf",
+      "sha256": "670d6ddedce4f3a0bf2c88af0ba9454630d56e67b5c57c2066eb872c9c920a1e",
+      "bytes": 335856,
+      "retrievedAt": "2026-11-05T16:55:19.052907+00:00"
+    },
+    {
+      "sourceId": "testing-2025-track",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/58ec3abc-b3c4-4e96-884b-68355b624244.pdf",
+      "readingLocation": "本次原站PDF第1页Web完整赛项说明L1—45",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/testing-2025-track-curl.pdf",
+      "sha256": "af7caac1d89d2186a792f4dab3286716295d075d84357ca8c24bbfd8452a1232",
+      "bytes": 189646,
+      "retrievedAt": "2026-11-05T16:55:18.981063+00:00"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "个人赛事实和Web评审有支持，完整应用/需求文档未取得；通用赛项概述不能复核具体测试。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-09-01",
+      "severity": "major",
+      "description": "补具体官方应用及完整需求（或完整公开测试作品）与适用评分；不得仅用自选表单练习当真实赛题。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

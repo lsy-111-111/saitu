@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "saitu.v7.stable-audience-independent-review.v1",
+  "reviewerId": "/root",
+  "createdAt": "2026-11-08T17:40:57.599325+00:00",
+  "rows": [
+    {
+      "recordId": "comap-mcm-icm:2026:mcm-a:undergraduate-or-below:global-2026-mcm-a:v3",
+      "reviewerId": "/root",
+      "runId": "v7-stable-audience-root-independent-20261109",
+      "reviewedAt": "2026-11-08T17:40:57.599325+00:00",
+      "metadataDigest": "7e631895b4f7285fad11d6c3f5c978e0286c0185c107ebf422ad23be6af93245",
+      "evidenceArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/root-stable-audience-review.json",
+      "outcome": "approved",
+      "method": "independent_official_page_recheck",
+      "evidence": {
+        "sources": [
+          {
+            "sourceId": "v7-audience:comap:standing-homepage",
+            "url": "https://comap.org/contests/mcm-icm",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/b045187357722c1946f4.bytes",
+            "sourceByteSha256": "6a043f881c1419b8a2aee03484e69dbd9bea63cff8d2266f38c68fc483f93398",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/b045187357722c1946f4.txt",
+            "bodySha256": "7ffb8dc46f407a0f09e58f9af419c4e27709b4d8a203cb310ecad4ba8561eb9a",
+            "anchor": "international contests for high school students and college undergraduates",
+            "line": 92,
+            "locator": "The Challenge首段：赛事的学生参赛者为高中生及大学本科层次学生",
+            "sourceScope": "COMAP常设MCM/ICM简介的高中及大学本科层次学生参赛者边界；不含研究生导师角色或当届报名状态"
+          },
+          {
+            "sourceId": "v7-audience:comap:held-2026-rules",
+            "url": "https://www2.scut.edu.cn/_upload/article/files/e5/f2/8871d9db4b7b8ea970516352c699/5b837653-8e0c-41dc-9238-97f734bcb90f.pdf",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/8575ed18c17a5198318b.bytes",
+            "sourceByteSha256": "0b69bcc27f8fc7d994ebb2d127b28ba6e6e4760bd5def691f0d19062e350d781",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/8575ed18c17a5198318b.txt",
+            "bodySha256": "f066bf1d94be124e07ad5372cb433f586586d8771d3ae6033f408205af162134",
+            "anchor": "open to all undergraduate and high school students",
+            "line": 57,
+            "locator": "PDF第2页 I. Participants and Advisors / Contest Participants；只核对学生队员层次",
+            "sourceScope": "已举办2026 MCM/ICM规则第2页Participants中参赛学生层次；不把辅导教师或Advisor计作学生队员"
+          }
+        ]
+      },
+      "checks": {
+        "rawAndTextHashes": true,
+        "officialPrimaryPagesRead": true,
+        "entityScope": true,
+        "standingOrMultipleHeldEditions": true,
+        "unknownNotExcluded": true,
+        "noCurrentRegistrationJudgment": true
+      },
+      "notes": "COMAP PDF page 2 independently re-extracted with pypdf from hashed original; web PDF fetch timed out. Main official homepage independently fetched. Yau official 2025 and 2026 pages read; historical scope preserved."
+    },
+    {
+      "recordId": "yau-college-mathematics:2026-17:algebra-non-simple-group:undergraduate-individual:global-2026-historical-training:v3",
+      "reviewerId": "/root",
+      "runId": "v7-stable-audience-root-independent-20261109",
+      "reviewedAt": "2026-11-08T17:40:57.599325+00:00",
+      "metadataDigest": "24f516fdbbd61230b4b7b964194faaf460d3e6959610d1291eb99693885f5381",
+      "evidenceArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/root-stable-audience-review.json",
+      "outcome": "approved",
+      "method": "independent_official_page_recheck",
+      "evidence": {
+        "sources": [
+          {
+            "sourceId": "v7-audience:yau:held-2025-rules",
+            "url": "https://yau-contest.com/show-86-72.html",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/551ef12a5e6aa9c22dda.bytes",
+            "sourceByteSha256": "9a13b724db5647921ad1685543536a6d79b79cadf9a8252569f6dd66305f1d61",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/551ef12a5e6aa9c22dda.txt",
+            "bodySha256": "4467d693a981e008301a74a11ba29fbf9ebf2f96354760d72f5861d565fa8b74",
+            "anchor": "面向全球高校尚未取得学士学位的本科在校生报名参赛",
+            "line": 33,
+            "locator": "2025丘成桐大学生数学竞赛全球报名开启（更新）正文首段，发布时间2025-03-14",
+            "sourceScope": "已举办2025第十六届面向尚未取得学士学位的本科在校学生的人群规则；不含当届报名状态"
+          },
+          {
+            "sourceId": "v7-audience:yau:held-2026-rules",
+            "url": "https://www.yau-contest.com/page-rule.html",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/52b0b24417e14b9d0792.bytes",
+            "sourceByteSha256": "2e5c8906a6e4429caddf5468c1cc1648d19df4447cdbbcf398814cbea8a9c10e",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/audience-source-captures/52b0b24417e14b9d0792.txt",
+            "bodySha256": "c4577f02b21520640cf7f747eee1d17c349db89a5aa94de03f6612ad2e7ba828",
+            "anchor": "面向全球高校尚未取得学士学位的本科在校生报名参赛",
+            "line": 32,
+            "locator": "2026参赛规则正文首段；仅采用本科在校人群定义，不采用其中报名日期作当前状态",
+            "sourceScope": "已举办2026第十七届面向尚未取得学士学位的本科在校学生的人群规则；不含当届报名状态"
+          }
+        ]
+      },
+      "checks": {
+        "rawAndTextHashes": true,
+        "officialPrimaryPagesRead": true,
+        "entityScope": true,
+        "standingOrMultipleHeldEditions": true,
+        "unknownNotExcluded": true,
+        "noCurrentRegistrationJudgment": true
+      },
+      "notes": "COMAP PDF page 2 independently re-extracted with pypdf from hashed original; web PDF fetch timed out. Main official homepage independently fetched. Yau official 2025 and 2026 pages read; historical scope preserved."
+    }
+  ],
+  "approvedRows": 2,
+  "approvedRules": 3,
+  "biomod": "No degree-only exclusion without known role; official requirements admit mentor roles and primarily undergraduate teams.",
+  "ledgerBeforeSha256": "cf8bf45baee8021cd242747ed675e98a13ea95a3b440dc40a141923de206551f"
+}

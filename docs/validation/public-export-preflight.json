@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "saitu.public-source-preflight.v1",
+  "passed": true,
+  "stagedFiles": 3104,
+  "uniqueBlobs": 1589,
+  "stagedBytes": 762638288,
+  "maxFileBytes": 63732368,
+  "projectSecretsDetected": false,
+  "findings": [],
+  "allowedSecurityTestSamples": [
+    "new/tests/competitions/discovery-report.test.tsx",
+    "new/tests/discovery/catalog.test.ts",
+    "old/tests/competitions/discovery-report.test.tsx",
+    "old/tests/discovery/catalog.test.ts"
+  ],
+  "excludedScopes": [
+    "runtime tools",
+    "dependencies",
+    "builds",
+    "actual environment files",
+    "database and consumption data",
+    "live authorization records",
+    "private conversations",
+    "SSH private keys",
+    "original Git history"
+  ],
+  "notes": [
+    "Scanned exact staged Git blobs including binary files for strong credential patterns, original private identity and forbidden paths.",
+    "Public third-party source documents remain byte-identical; publisher metadata and public embedded Maps configuration are not project credentials.",
+    "Known dummy credential-bearing example.com/example.org URLs are negative URL validation fixtures."
+  ],
+  "scope": "Exact staged files before adding this sanitized audit summary; summary separately reviewed."
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "contentDigest": "03f846a46a4755dc986400c2b51d078ac289b0875b1aeb3beefbc7b8056c0694",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.902083+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-hult-guide"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-hult-guide",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sourceSha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/39-hult-prize.json :: PDF pages 1-5 and 22-24; rendered/hult-01..05.png,hult-22..24.png",
+      "verification": "Visual read: 2023 apparel/footwear for-profit SDG challenge, value-chain diagram, 3-5 campus students, MVP/business model/finance, five qualitative judge expectations and four stages."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/39-hult-prize.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "前轮关于数字评分卡的要求本轮收窄：无数字权重本身不构成缺陷；本轮独立判断只保留具体原例不足。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-40-01",
+      "severity": "major",
+      "description": "已承认2023指南第23页五项正式定性评审可以作为核验依据，不要求另补数字权重。但workedExample仍是开放可持续时尚挑战和通用策划流程，缺一个完整具体任务或完整公开作品拆解；严格L3的具体完整原例缺口没有随missingForPublication清空而消失。",
+      "resolved": false
+    }
+  ]
+}

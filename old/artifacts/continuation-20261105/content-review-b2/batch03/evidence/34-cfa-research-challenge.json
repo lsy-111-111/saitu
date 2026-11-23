@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "cfa-research-challenge:2024-2025-historical:equity-research:university-team:global-2024-2025-report:v3",
+  "contentDigest": "dc207ab5bb241dff2cfd97c9146df13b3efb56a925966698e8398d08ad0ff967",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.040335+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-cfa-2025-rules",
+    "b-cfa-report"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-cfa-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a.pdf",
+      "sourceSha256": "c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/33-cfa-research-challenge.json :: PDF pages 1,3-8,15,17-18; rendered/cfa-rules-p*.png",
+      "verification": "2024至2025封面、资格逐项及kickoff时点、3至5与后期人数例外、两周注册、公开信息、AI披露、10+10页、七项书面100分和独立展示100分已视觉核验。"
+    },
+    {
+      "sourceId": "b-cfa-report",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb.pdf",
+      "sourceSha256": "140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/33-cfa-research-challenge.json :: PDF all 21 pages; rendered/cfa-report-01.png through cfa-report-21.png",
+      "verification": "整份报告含封面、10页主文及10页附录逐页视觉阅读。2025年1月31日时点、经营与行业、ESG、财务、DCF/WACC/终值、敏感性矩阵、牛熊及Monte Carlo、附录1至36均可定位。未独立重建底层表格模型或验证公司外部事实。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/34-cfa-research-challenge.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/33-cfa-research-challenge.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "已删除双托管件SHA一致无依据断言；新增当地kickoff注册至少part-time及承办接纳与已读2025规则一致。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

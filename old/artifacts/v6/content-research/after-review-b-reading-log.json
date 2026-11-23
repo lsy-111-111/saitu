@@ -1,0 +1,47 @@
+{
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "checkedAt": "2026-11-05",
+  "entries": [
+    {
+      "sourceId": "cmc-c5-zjut-rules",
+      "url": "https://www.soft.zjut.edu.cn/170.html",
+      "locator": "网页正文75—98行，2011-09-14发布，全文参赛资格/本校报名与60元/浙江赛区评奖",
+      "readMethod": "web open actual full notice body read",
+      "revision": "替换拦截页并收窄至本校历史scope；不再声明全国费用、统一程序或推荐事实"
+    },
+    {
+      "sourceId": "putnam-c3-home",
+      "url": "https://maa.org/putnam-/",
+      "locator": "MAA完整可见网页1—257行；资格FAQ及2026赛程与2025原题链接",
+      "method": "web_tool_body_read",
+      "status": "body_read",
+      "sha256": "19db67f6927cf7cfd40462451c16d2499882a6b5de26cdaa4862cd86f989716f",
+      "localResearchCopy": "tmp/research-sources/putnam-home-web-extract.txt",
+      "captureNote": "Actual web retrieval tool response text, not original HTTP/PDF bytes and not browser DOM. Direct urllib/curl returned403; retrieved source text stored verbatim with original URL/page-line markers. No factual approval.",
+      "independentReview": false
+    },
+    {
+      "sourceId": "putnam-c3-rules",
+      "url": "https://maa.org/wp-content/uploads/2026/08/2026-Putnam-Policies.pdf",
+      "locator": "9页245行正文完整阅读，重点1—6页资格、答题与评分；经首页到赛事政策页再点击Putnam规则",
+      "method": "web_tool_body_read",
+      "status": "body_read",
+      "sha256": "cbbcf727e07ced6a605641dd76ebf1744441ac46bafc975ea583d632e56daab4",
+      "localResearchCopy": "tmp/research-sources/putnam-policy-web-extract.txt",
+      "captureNote": "Actual web retrieval tool response text, not original HTTP/PDF bytes and not browser DOM. Direct urllib/curl returned403; retrieved source text stored verbatim with original URL/page-line markers. No factual approval.",
+      "independentReview": false
+    },
+    {
+      "sourceId": "putnam-c3-a1",
+      "url": "https://maa.org/wp-content/uploads/2026/02/2025OfficialSolutions.pdf",
+      "locator": "原PDF19页，本例仅用第1页A1全文与证明，抽取0—31行完整题解；未声称全文19页均读",
+      "method": "web_tool_body_read",
+      "status": "body_read",
+      "sha256": "a64c93d3cd02f5309bf1582c52340fc4d6351fc41d0e71017fd2dcaacac86a48",
+      "localResearchCopy": "tmp/research-sources/putnam-a1-web-extract.txt",
+      "captureNote": "Actual web retrieval tool response text, not original HTTP/PDF bytes and not browser DOM. Direct urllib/curl returned403; retrieved source text stored verbatim with original URL/page-line markers. No factual approval.",
+      "independentReview": false
+    }
+  ]
+}

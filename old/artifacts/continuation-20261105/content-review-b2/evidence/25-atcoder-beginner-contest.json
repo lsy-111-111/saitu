@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+  "contentDigest": "ca5776889ac5f053249bc66fad705130216b44bfd390e23527212f606a04b5e2",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:31:37.137446+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "abc-c7-home",
+    "abc-c7-rules",
+    "abc-c7-task",
+    "abc-c7-editorial",
+    "abc-c7-free"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "abc-c7-home",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b.html",
+      "sourceSha256": "42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b",
+      "actualReadLocator": "fresh HTML text lines 16-18,29-35,72-102,107-131",
+      "verification": "比赛100分钟、All与rating分离、奖品地区学生条件、D425分和罚时均支持。"
+    },
+    {
+      "sourceId": "abc-c7-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4.html",
+      "sourceSha256": "5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4",
+      "actualReadLocator": "fresh HTML text lines 29-58 and tail 1719-1742",
+      "verification": "已读相关规则，个人作答、CE无罚时、未解题错误不累加；庞大编译器列表未全读且未用于2025环境核验。"
+    },
+    {
+      "sourceId": "abc-c7-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b.html",
+      "sourceSha256": "1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b",
+      "actualReadLocator": "fresh HTML text lines 29-178",
+      "verification": "完整英日题面及样例说明已读，2K步、出度≥1、K≤10、总N/M各20万、2秒1024MiB均支持。"
+    },
+    {
+      "sourceId": "abc-c7-editorial",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c.html",
+      "sourceSha256": "41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c",
+      "actualReadLocator": "fresh HTML text lines 29-40",
+      "verification": "日文正式题解完整证明已读，偶数Alice取或、奇数Bob取与、终态与O((N+M)K)一致。"
+    },
+    {
+      "sourceId": "abc-c7-free",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627.html",
+      "sourceSha256": "c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627",
+      "actualReadLocator": "fresh HTML text lines 41-54",
+      "verification": "免费参赛、赞助及线上历史题练习原文已读；不支持个人设备网络总额为零。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、个人角色、图算法前置、四周计划及退出均已读；核心算法、复杂度、正式计分、费用和年份范围全部有原文支持。",
+    "没有声称官方AC；本次未运行代码，验证为数学推导及原文比对。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-25-01",
+      "severity": "minor",
+      "description": "suitability.uncertainties及workedExample.sourceBoundary断言英文题解14202有明显笔误；冻结输入仅绑定日文14196，没有14202原件可供独立检查。请删除对未冻结译文的错误断言（保留依据题面和日文的正确推导），或补入14202原件供复核。",
+      "resolved": false
+    }
+  ]
+}

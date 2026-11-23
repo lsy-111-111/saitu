@@ -1,0 +1,76 @@
+{
+  "recordId": "national-software-testing:2025-10:web-testing:individual:china-web-2025:v3",
+  "name": "全国大学生软件测试大赛",
+  "contentDigest": "033ec6da26a8a02211bbc4ff9cbf55e3623ac6133b24efb2e0e0178ca8a6354c",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.098096+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "national-software-testing:2025-10:web-testing:individual:china-web-2025:v3",
+    "previousContentDigest": "033ec6da26a8a02211bbc4ff9cbf55e3623ac6133b24efb2e0e0178ca8a6354c",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "testing-2025-rules",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/e2b38fc7-deaf-46d0-9613-46b6146fbb73.pdf",
+      "readingLocation": "本次原站PDF1—8页，抽取L1—193资格、流程、费用及自行参赛无导师",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/670d6ddedce4f3a0bf2c88af0ba9454630d56e67b5c57c2066eb872c9c920a1e.pdf",
+      "sha256": "670d6ddedce4f3a0bf2c88af0ba9454630d56e67b5c57c2066eb872c9c920a1e",
+      "bytes": 335856,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "testing-2025-track",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/58ec3abc-b3c4-4e96-884b-68355b624244.pdf",
+      "readingLocation": "本次原站PDF第1页Web完整赛项说明L1—45",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/af7caac1d89d2186a792f4dab3286716295d075d84357ca8c24bbfd8452a1232.pdf",
+      "sha256": "af7caac1d89d2186a792f4dab3286716295d075d84357ca8c24bbfd8452a1232",
+      "bytes": 189646,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "个人赛事实和Web评审有支持，完整应用/需求文档未取得；通用赛项概述不能复核具体测试。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-09-01",
+      "severity": "major",
+      "description": "补具体官方应用及完整需求（或完整公开测试作品）与适用评分；不得仅用自选表单练习当真实赛题。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

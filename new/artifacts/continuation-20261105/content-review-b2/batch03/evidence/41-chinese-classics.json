@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "94925177ff3603888052ca757fba776f7a7eef23dc5b65d3b7a524a168879bd3",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.046679+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-classics-local",
+    "b-classics-rules",
+    "b-classics-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-classics-local",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+      "sourceSha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/40-chinese-classics.json :: fresh HTML lines 65–87 and 158–164; extracted/40-02.txt",
+      "verification": "湖州师范2025校选全文相关段已读，范围、全日制身份、毕业生/历届同类别前二奖限制、指定题库单篇脱稿和三个评审维度。日期/届次原文笔误已识别。"
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+      "sourceSha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/40-chinese-classics.json :: PDF pages 4–10, rendered/classics-3-04.png through -10.png",
+      "verification": "逐页视觉已读附件1完整诵读方案：个人省赛古今篇加演讲，与全国综合组推荐分开；500元由学校承担且不得转收学生，决赛差旅住宿学校承担。其余书写讲解附件未读不用于此稿。"
+    },
+    {
+      "sourceId": "b-classics-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+      "sourceSha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/40-chinese-classics.json :: PDF page 1; rendered/classics-4-1.png",
+      "verification": "视觉完整读古代第3篇《秋水》选文，河伯自喜、望海、反思及引语层次支持编辑路线。其他页不用于该篇。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/41-chinese-classics.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/40-chinese-classics.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "全日制入口、500元学校承担与个人总费用未知两项均按已读原件修正，旧finding解除。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

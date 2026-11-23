@@ -1,0 +1,64 @@
+{
+  "recordId": "market-research-analysis:edition-d1b2c1bf1daf:undergraduate-practice:group-78fd9199138e:scope-8e1db2092033:v3",
+  "name": "全国大学生市场调查与分析大赛",
+  "contentDigest": "9f031289a1583cb8cd9eb61236240db7fe94fdbfa87c32cf5bb5497ac6fbc99c",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.090452+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "catalog-author-v6",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "market-research-analysis:edition-d1b2c1bf1daf:undergraduate-practice:group-78fd9199138e:scope-8e1db2092033:v3",
+    "previousContentDigest": "96f15c13625d1890a62face808c9bdc006c75fee3fd6501783e1a448e2c5327b",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "catalog-author-v6"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "market-czu-2027",
+      "url": "https://www.czu.cn/2026/1008/c6a178011/page.htm",
+      "readingLocation": "A3抽取P1:L56—135，重点L66全日制",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/45f2d01e9e699b86447489e9913220c1ad1b576a387709b529b037d47dcbbec7.html",
+      "sha256": "45f2d01e9e699b86447489e9913220c1ad1b576a387709b529b037d47dcbbec7",
+      "bytes": 48570,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "已重新核原校通知全日制条款，正文修复；完整市场调查报告与适用评分仍未提供，学校新闻摘要不足以独立检查具体研究。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-00-01",
+      "severity": "major",
+      "description": "补完整公开报告（问卷、样本、分析和结论）及适用评分；不能用报道摘要或编辑框架满足L3。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

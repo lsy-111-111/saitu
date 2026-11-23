@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "saitu.fast24.E.source10-google-incremental-binding.v1",
+  "reviewerId": "/root/fast24_e_review",
+  "reviewedAt": "2026-11-10T01:07:06.617Z",
+  "status": "approved",
+  "scope": "Bind only the already independently approved nine advisory strings and their17 derived text cells to three fresh actual current full-content digests. Unchanged primary facts/sources/deep worked examples/core/metadata verified by identity; no new whole-series research, full L3 dual approval, actual model quality or source09 result claimed.",
+  "semanticReview": {
+    "path": "artifacts/fast24-20261109/E/source10-static-practice-directed-review.safe.json",
+    "sha256": "0d25bf1b812d89c375241a8173bcc48e742a0a854a8008ec1415082d87627e4a"
+  },
+  "bindingCandidate": {
+    "path": "artifacts/fast24-20261109/B/source10-static-registration/binding-candidates.safe.json",
+    "sha256": "1435e8ed8fb6a91d9239199896209398ff32a6f1c7be9abbc88dc7daf8d59081"
+  },
+  "actualSnapshot": {
+    "path": "artifacts/fast24-20261109/B/source10-static-registration/actual/records.snapshot.json",
+    "sha256": "a2aa302bb59399bcc64e8ef34edc26602c122706ae3e06a0e4f13a4e16526759"
+  },
+  "beforeSnapshot": {
+    "path": "artifacts/fast24-20261109/B/source10-static-registration/before/records.snapshot.json",
+    "sha256": "38b333aa968bf98ed7b5ccbeb2c211c00c9fccb0cc41c8347d9987a5c831de5d"
+  },
+  "checks": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "actualContentDigest": "47a1a2e38960365fbf34a409e7cf0887635df6fc864c19cbac72311e46bc286f",
+      "coreDigestUnchanged": true,
+      "metadataDigestUnchanged": true,
+      "metadataRowExact": true,
+      "factsExact": true,
+      "sourcesExact": true,
+      "deepWorkedExampleExact": true,
+      "onlyPreviouslyReviewedDerivedTextDelta": true,
+      "derivedTextChanges": 4,
+      "deltas": [
+        {
+          "path": "$.sections.nextStep.0.text",
+          "before": "手算原题三个样例的四个逐色最小值，逐项检查总和与上界，再独立构造一个不同合法输出。完成标准：对第二例指出总上限不足100万；对第三例不把容量够用误判为任意总和都可。",
+          "after": "选择或自行构造一组输入，列出逐色容量表，逐项核对自己的输出与题面约束，并记录演算过程。完成标准：能用自己的逐色容量表解释输出结果；若与题面约束不一致，能指出并修正。"
+        },
+        {
+          "path": "$.valueDimensions.3.assessment.text",
+          "before": "体验时可以这样检查学习：对第二例指出总上限不足100万；对第三例不把容量够用误判为任意总和都可。；这不是承诺赛事会提供个人反馈。",
+          "after": "体验时可以这样检查学习：能用自己的逐色容量表解释输出结果；若与题面约束不一致，能指出并修正。；这不是承诺赛事会提供个人反馈。"
+        },
+        {
+          "path": "$.sevenDayTrial.action",
+          "before": "手算原题三个样例的四个逐色最小值，逐项检查总和与上界，再独立构造一个不同合法输出。",
+          "after": "选择或自行构造一组输入，列出逐色容量表，逐项核对自己的输出与题面约束，并记录演算过程。"
+        },
+        {
+          "path": "$.sevenDayTrial.completionCheck",
+          "before": "对第二例指出总上限不足100万；对第三例不把容量够用误判为任意总和都可。",
+          "after": "能用自己的逐色容量表解释输出结果；若与题面约束不一致，能指出并修正。"
+        }
+      ]
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "actualContentDigest": "de09c1006f4ea1be71272fa93e8671745d7a2edf1f274699bdc902627969477d",
+      "coreDigestUnchanged": true,
+      "metadataDigestUnchanged": true,
+      "metadataRowExact": true,
+      "factsExact": true,
+      "sourcesExact": true,
+      "deepWorkedExampleExact": true,
+      "onlyPreviouslyReviewedDerivedTextDelta": true,
+      "derivedTextChanges": 4,
+      "deltas": [
+        {
+          "path": "$.sections.nextStep.0.text",
+          "before": "分别追踪I=aaaa/P=aaaaa和I=KickstartIsFun/P=kkickstartiisfun两个原例；再自行构造字符数量够但顺序错误的反例。完成标准：第一例删1；第二例不能通过删除生成大写K，不使用大小写归一化偷换题目。",
+          "after": "选择或自行构造几组目标字符串和输入字符串，逐步记录保留或删除的位置，再检查是否满足题面约束。完成标准：能用自己的步进表解释输出结果；若发现不一致，保留核对与修正记录，未发现时说明检查过哪些情形。"
+        },
+        {
+          "path": "$.valueDimensions.3.assessment.text",
+          "before": "体验时可以这样检查学习：第一例删1；第二例不能通过删除生成大写K，不使用大小写归一化偷换题目。；这不是承诺赛事会提供个人反馈。",
+          "after": "体验时可以这样检查学习：能用自己的步进表解释输出结果；若发现不一致，保留核对与修正记录，未发现时说明检查过哪些情形。；这不是承诺赛事会提供个人反馈。"
+        },
+        {
+          "path": "$.sevenDayTrial.action",
+          "before": "分别追踪I=aaaa/P=aaaaa和I=KickstartIsFun/P=kkickstartiisfun两个原例；再自行构造字符数量够但顺序错误的反例。",
+          "after": "选择或自行构造几组目标字符串和输入字符串，逐步记录保留或删除的位置，再检查是否满足题面约束。"
+        },
+        {
+          "path": "$.sevenDayTrial.completionCheck",
+          "before": "第一例删1；第二例不能通过删除生成大写K，不使用大小写归一化偷换题目。",
+          "after": "能用自己的步进表解释输出结果；若发现不一致，保留核对与修正记录，未发现时说明检查过哪些情形。"
+        }
+      ]
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "actualContentDigest": "a21e0a2b7816e48b2b6d5aef28eabaa155b4155d7abf0b3b1fb915b227228411",
+      "coreDigestUnchanged": true,
+      "metadataDigestUnchanged": true,
+      "metadataRowExact": true,
+      "factsExact": true,
+      "sourcesExact": true,
+      "deepWorkedExampleExact": true,
+      "onlyPreviouslyReviewedDerivedTextDelta": true,
+      "derivedTextChanges": 9,
+      "deltas": [
+        {
+          "path": "$.sections.skills.0.text",
+          "before": "约束与评分实现：按人员可用时间和技能验证安排，复现官方例的33分。需要的经历证据：为什么先做WebServer后Anna才能执行Logging？",
+          "after": "约束与评分实现：按人员可用时间和技能验证安排，用自己的事件表核对评分计算。需要的经历证据：为什么先做WebServer后Anna才能执行Logging？"
+        },
+        {
+          "path": "$.sections.difficulty.0.text",
+          "before": "入门：先会字典、排序和事件模拟；新手先手算官方三项目例，不能一开始追求复杂搜索。",
+          "after": "入门：可先用纸笔演算自己构造的小规模人员与项目安排，再尝试字典、排序和事件模拟；是否深入复杂搜索，可根据实际体验决定。"
+        },
+        {
+          "path": "$.sections.nextStep.0.text",
+          "before": "按官方输出顺序手算WebServer、Logging、WebChat的开始、完成、技能变化和得分。完成标准：Logging开始第7天结束第12天，best-before为5，扣7分；第7天Logging使用Anna，WebChat使用已空闲的Maria与Bob；任何贡献者都不能同时执行两项目。",
+          "after": "选择或自行构造一组人员、技能和项目数据，手算一种项目安排，记录开始、结束、人员占用、技能变化与得分。完成标准：能用自己的事件表说明安排、人员占用与评分计算；出现不一致时标出待查步骤，核对后保留修正记录。"
+        },
+        {
+          "path": "$.roles.0.task",
+          "before": "按人员可用时间和技能验证安排，复现官方例的33分",
+          "after": "按人员可用时间和技能验证安排，用自己的事件表核对评分计算"
+        },
+        {
+          "path": "$.valueDimensions.3.assessment.text",
+          "before": "体验时可以这样检查学习：Logging开始第7天结束第12天，best-before为5，扣7分；第7天Logging使用Anna，WebChat使用已空闲的Maria与Bob；任何贡献者都不能同时执行两项目。；这不是承诺赛事会提供个人反馈。",
+          "after": "体验时可以这样检查学习：能用自己的事件表说明安排、人员占用与评分计算；出现不一致时标出待查步骤，核对后保留修正记录。；这不是承诺赛事会提供个人反馈。"
+        },
+        {
+          "path": "$.difficulty.0.summary",
+          "before": "先会字典、排序和事件模拟；新手先手算官方三项目例，不能一开始追求复杂搜索。",
+          "after": "可先用纸笔演算自己构造的小规模人员与项目安排，再尝试字典、排序和事件模拟；是否深入复杂搜索，可根据实际体验决定。"
+        },
+        {
+          "path": "$.sevenDayTrial.action",
+          "before": "按官方输出顺序手算WebServer、Logging、WebChat的开始、完成、技能变化和得分。",
+          "after": "选择或自行构造一组人员、技能和项目数据，手算一种项目安排，记录开始、结束、人员占用、技能变化与得分。"
+        },
+        {
+          "path": "$.sevenDayTrial.output",
+          "before": "事件表及10+3+20=33分复算",
+          "after": "项目安排事件表及评分复算记录"
+        },
+        {
+          "path": "$.sevenDayTrial.completionCheck",
+          "before": "Logging开始第7天结束第12天，best-before为5，扣7分；第7天Logging使用Anna，WebChat使用已空闲的Maria与Bob；任何贡献者都不能同时执行两项目。",
+          "after": "能用自己的事件表说明安排、人员占用与评分计算；出现不一致时标出待查步骤，核对后保留修正记录。"
+        }
+      ]
+    }
+  ],
+  "canonicalReviews": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "review": {
+        "runId": "fast24-source10-google-practice-binding-E-20261110010706617-google-code-jam",
+        "reviewerId": "/root/fast24_e_review",
+        "model": "Codex independent reviewer E",
+        "reviewedAt": "2026-11-10T01:07:06.617Z",
+        "contentDigest": "47a1a2e38960365fbf34a409e7cf0887635df6fc864c19cbac72311e46bc286f",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "gcj-2022-3d-task"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source10-google-current-full-binding.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "review": {
+        "runId": "fast24-source10-google-practice-binding-E-20261110010706617-google-kick-start",
+        "reviewerId": "/root/fast24_e_review",
+        "model": "Codex independent reviewer E",
+        "reviewedAt": "2026-11-10T01:07:06.617Z",
+        "contentDigest": "de09c1006f4ea1be71272fa93e8671745d7a2edf1f274699bdc902627969477d",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "gks-2022-speed-task"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source10-google-current-full-binding.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "review": {
+        "runId": "fast24-source10-google-practice-binding-E-20261110010706617-google-hash-code",
+        "reviewerId": "/root/fast24_e_review",
+        "model": "Codex independent reviewer E",
+        "reviewedAt": "2026-11-10T01:07:06.617Z",
+        "contentDigest": "a21e0a2b7816e48b2b6d5aef28eabaa155b4155d7abf0b3b1fb915b227228411",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "ghc-2022-mentorship-task"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source10-google-current-full-binding.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    }
+  ],
+  "metadataReviews": [],
+  "metadataOrCoreReviewNeeded": false,
+  "source09OriginalVerdictsUnchanged": true,
+  "productionOrEvaluatorWritesByE": 0,
+  "paidCallsByE": 0
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "928a1bdc2a583e6cec708a32f24fba4e41f2a73951d47f16701ded2b12e0b993",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:28:14.882072+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-classics-local",
+    "b-classics-rules",
+    "b-classics-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-classics-local",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+      "sourceSha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+      "actualReadLocator": "fresh HTML lines 65–87 and 158–164; extracted/40-02.txt",
+      "verification": "湖州师范2025校选全文相关段已读，范围、全日制身份、毕业生/历届同类别前二奖限制、指定题库单篇脱稿和三个评审维度。日期/届次原文笔误已识别。"
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+      "sourceSha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+      "actualReadLocator": "PDF pages 4–10, rendered/classics-3-04.png through -10.png",
+      "verification": "逐页视觉已读附件1完整诵读方案：个人省赛古今篇加演讲，与全国综合组推荐分开；500元由学校承担且不得转收学生，决赛差旅住宿学校承担。其余书写讲解附件未读不用于此稿。"
+    },
+    {
+      "sourceId": "b-classics-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+      "sourceSha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+      "actualReadLocator": "PDF page 1; rendered/classics-4-1.png",
+      "verification": "视觉完整读古代第3篇《秋水》选文，河伯自喜、望海、反思及引语层次支持编辑路线。其他页不用于该篇。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、个人两类学习角色、前置、四周与退出均已核；完整指定古文及地方正式定性评审可支持严格学习案例。",
+    "未因历史或地方范围而拒绝；此稿明确不适用于下一届/全国个人通道。未猜造个人其他支出。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-40-01",
+      "severity": "minor",
+      "description": "cost.note写“官方规定不收参赛费用”，与同稿investment及原件第9–10页“每人500元，由学校承担、不得向参赛学生收费”不一致。应准确表述该届个人组费用由学校承担，不把承担主体变成赛事免收费用。",
+      "resolved": false
+    },
+    {
+      "id": "B2-40-02",
+      "severity": "minor",
+      "description": "资格正文与group只写本校在校生，遗漏校通知及省方案明确的“全日制”限制。请在资格表述中补足该条件，保留2025毕业生及历届同类一二等奖限制。",
+      "resolved": false
+    }
+  ]
+}

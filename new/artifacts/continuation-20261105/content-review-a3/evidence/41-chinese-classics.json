@@ -1,0 +1,90 @@
+{
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "name": "中华经典诵写讲大赛",
+  "contentDigest": "94925177ff3603888052ca757fba776f7a7eef23dc5b65d3b7a524a168879bd3",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.171991+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+    "previousContentDigest": "928a1bdc2a583e6cec708a32f24fba4e41f2a73951d47f16701ded2b12e0b993",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-classics-local",
+      "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+      "readingLocation": "HTML P1:L66-L87校选全段",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+      "sha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+      "bytes": 66863,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+      "readingLocation": "A3原PDF P4—5、P9:L21—P10:L5全日制及学校收费责任",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+      "sha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+      "bytes": 9646638,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-classics-task",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+      "readingLocation": "PDF P1:L17-L22完整秋水指定文本",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+      "sha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+      "bytes": 328637,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核省赛PDF4—5页全日制资格及9—10页费用：学校按500元/人缴费且不得向参赛学生收费。正文和结构化cost.note已同步修复，不把赛事不收费与学生不承担混同。完整秋水文本、参考定性评分与个人四周路线成立。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-41-resolved",
+      "severity": "major",
+      "description": "本人A2意见：将cost.note“官方规定不收参赛费用”改为该省赛收费由学校承担且不得转向学生，并把校选资格补为全日制在校生。现有正文虽写500元学校承担，结构化数据仍会误导。 本轮处理依据：重新核省赛PDF4—5页全日制资格及9—10页费用：学校按500元/人缴费且不得向参赛学生收费。正文和结构化cost.note已同步修复，不把赛事不收费与学生不承担混同。完整秋水文本、参考定性评分与个人四周路线成立。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

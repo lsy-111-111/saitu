@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "saitu.fast24.E.source08-design-incremental-binding.v1",
+  "reviewerId": "/root/fast24_e_review",
+  "reviewedAt": "2026-11-09T22:46:48.237Z",
+  "status": "approved",
+  "scope": "Only two new task facts already primary-image checked, four existing role/skills citation links per record rebound from deliverables to task, exact unchanged substantive remainder, and current metadata coreDigest linkage. Prior full reviews retained; no new full L3 or dual review claimed.",
+  "candidate": {
+    "path": "artifacts/fast24-20261109/B/source08-core-registration/candidate-02/binding-candidates.safe.json",
+    "sha256": "b785c585ff7080dfcf532ee662e00dc4e17f45802d267f4e72e24c0b6d6a0a4f"
+  },
+  "snapshot": {
+    "path": "artifacts/fast24-20261109/B/source08-core-registration/candidate-02/records.current.snapshot.json",
+    "sha256": "68f2318d84e1f5c317cc12aa25d7ed38b5f6010d99f2a464445a457efc1f53c3"
+  },
+  "checks": [
+    {
+      "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+      "contentDigest": "180f5d7e693d7252bf8e900b308170855735727255e6070e7820aa699460f3d3",
+      "coreDigest": "30060df9196532127719b73aecf894f8b2ccda6ac4056b78084f661b2b5011fd",
+      "metadataDigest": "b4fcf3e0a73af6ee8ec35995859d3fc9581374356d9d0928f018ddcdbb388978",
+      "addedFact": {
+        "id": "if-student-award:v2:task",
+        "field": "task",
+        "text": "2025官方指南第5页的MASHAV示范海报描述两件式服装，由裙装与通风风帽组成，并标示被动冷却、主动冷却和组合气流三种图示。以上是海报的设计说明，不证明实测降温效果，也不认定为2025当届获奖作品。",
+        "kind": "official_fact",
+        "status": "historical",
+        "sourceIds": [
+          "b-if-guide"
+        ],
+        "sourceScopes": [
+          {
+            "sourceId": "b-if-guide",
+            "scope": "2025全球学生奖参赛与展示规范"
+          }
+        ],
+        "scope": "2025全球学生奖参赛与展示规范",
+        "checkedAt": "2026-11-05",
+        "supersedes": [],
+        "conflictsWith": [],
+        "entity": {
+          "editionId": "2025-entry-guide",
+          "trackId": "sdg-design",
+          "groupId": "design-students-graduates",
+          "scopeId": "global-2025"
+        },
+        "validFrom": {
+          "raw": null,
+          "value": null,
+          "precision": "unknown",
+          "timezone": null
+        },
+        "validUntil": {
+          "raw": null,
+          "value": null,
+          "precision": "unknown",
+          "timezone": null
+        },
+        "retrievedAt": null,
+        "lastVerifiedAt": "2026-11-05",
+        "reviewStatus": "pending_review"
+      },
+      "onlyDerivedGateFieldsBeyondAddedTask": true,
+      "allPriorFactsExact": true,
+      "existingRoleAndSkillsOnlyCitationsReboundToTask": true,
+      "metadataOnlyCoreLinkChanged": true,
+      "oldReviewRowsExact": true,
+      "priorImageReview": {
+        "path": "artifacts/fast24-20261109/E/source08-design-fact-projection-directed-review.safe.json",
+        "sha256": "f2a6fabe7b1cf2d6c3c692f5831b29a2455157260dc19abac06b34e4ed73687c"
+      }
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "contentDigest": "44f1761e69613cffbaab028852baa78ed0d4d6d0d051c22d237de1b85a883c62",
+      "coreDigest": "22f4a96c7a2914438c7db5f1a217ea5c2f67ddb417728349680b253a8ff0abdb",
+      "metadataDigest": "5ae83a48837d4dfc314123b34e068cfe00c41f503789cc68170897bc8cbcc0c5",
+      "addedFact": {
+        "id": "national-college-industrial-design:v2:task",
+        "field": "task",
+        "text": "公开转载的Empty户外多功能灶具展板展示可拖动箱体，并描述运输与使用形态转换：冰箱向一侧滑出并翻出下方支架，打开盖板后将两片桌板装到两侧；灶具可单独拿出摆放。这是公开展板中的设计说明，不证明制造尺寸、安全实测或黑龙江赛区参赛身份。",
+        "kind": "official_fact",
+        "status": "historical",
+        "sourceIds": [
+          "b-industrial-work"
+        ],
+        "sourceScopes": [
+          {
+            "sourceId": "b-industrial-work",
+            "scope": "公开转载2024作品，不推断原始测试"
+          }
+        ],
+        "scope": "公开转载2024作品，不推断原始测试",
+        "checkedAt": "2026-11-05",
+        "supersedes": [],
+        "conflictsWith": [],
+        "entity": {
+          "editionId": "2024-7",
+          "trackId": "product-system",
+          "groupId": "fulltime-university",
+          "scopeId": "heilongjiang-rules-national-work"
+        },
+        "validFrom": {
+          "raw": null,
+          "value": null,
+          "precision": "unknown",
+          "timezone": null
+        },
+        "validUntil": {
+          "raw": null,
+          "value": null,
+          "precision": "unknown",
+          "timezone": null
+        },
+        "retrievedAt": null,
+        "lastVerifiedAt": "2026-11-05",
+        "reviewStatus": "pending_review"
+      },
+      "onlyDerivedGateFieldsBeyondAddedTask": true,
+      "allPriorFactsExact": true,
+      "existingRoleAndSkillsOnlyCitationsReboundToTask": true,
+      "metadataOnlyCoreLinkChanged": true,
+      "oldReviewRowsExact": true,
+      "priorImageReview": {
+        "path": "artifacts/fast24-20261109/E/source08-design-fact-projection-directed-review.safe.json",
+        "sha256": "f2a6fabe7b1cf2d6c3c692f5831b29a2455157260dc19abac06b34e4ed73687c"
+      }
+    }
+  ],
+  "checksPassed": 6,
+  "checksTotal": 6,
+  "canonicalReviews": [
+    {
+      "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+      "review": {
+        "runId": "fast24-source08-design-incremental-E-20261109224648237",
+        "reviewerId": "/root/fast24_e_review",
+        "model": "Codex independent reviewer E",
+        "reviewedAt": "2026-11-09T22:46:48.237Z",
+        "contentDigest": "180f5d7e693d7252bf8e900b308170855735727255e6070e7820aa699460f3d3",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "b-if-guide"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source08-design-binding-final-review.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "review": {
+        "runId": "fast24-source08-design-incremental-E-20261109224648237",
+        "reviewerId": "/root/fast24_e_review",
+        "model": "Codex independent reviewer E",
+        "reviewedAt": "2026-11-09T22:46:48.237Z",
+        "contentDigest": "44f1761e69613cffbaab028852baa78ed0d4d6d0d051c22d237de1b85a883c62",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "b-industrial-work",
+          "b-industrial-rule"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source08-design-binding-final-review.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    }
+  ],
+  "metadataReviews": [
+    {
+      "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+      "coreDigest": "30060df9196532127719b73aecf894f8b2ccda6ac4056b78084f661b2b5011fd",
+      "review": {
+        "reviewerId": "/root/fast24_e_review",
+        "runId": "fast24-source08-design-core-link-E-20261109224648237",
+        "reviewedAt": "2026-11-09T22:46:48.237Z",
+        "metadataDigest": "b4fcf3e0a73af6ee8ec35995859d3fc9581374356d9d0928f018ddcdbb388978",
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source08-design-binding-final-review.safe.json",
+        "outcome": "approved"
+      }
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "coreDigest": "22f4a96c7a2914438c7db5f1a217ea5c2f67ddb417728349680b253a8ff0abdb",
+      "review": {
+        "reviewerId": "/root/fast24_e_review",
+        "runId": "fast24-source08-design-core-link-E-20261109224648237",
+        "reviewedAt": "2026-11-09T22:46:48.237Z",
+        "metadataDigest": "5ae83a48837d4dfc314123b34e068cfe00c41f503789cc68170897bc8cbcc0c5",
+        "evidenceArtifact": "artifacts/fast24-20261109/E/source08-design-binding-final-review.safe.json",
+        "outcome": "approved"
+      }
+    }
+  ],
+  "sourceModifiedByE": false,
+  "paidCallsByE": 0
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+  "contentDigest": "d047b2f0d152e762e9145b3ffad39b64bae0be77ce48e3d1bcad4b7de039209a",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.278051+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fwwb-c2-handbooks",
+    "fwwb-c2-a11"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fwwb-c2-handbooks",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8.zip",
+      "sourceSha256": "db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/18-service-outsourcing-innovation.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/17-service-outsourcing-innovation.json :: 参赛手册PDF pages 12,28–30,37；A类赛题手册PDF page176；对应rendered/fwwb-*.png均已视觉阅读；本轮新增实际读取：参赛手册PDF第37页视觉核读；rendered/21-02-p37.png",
+      "verification": "核实全日制及毕业五年内、最多5学生2导师、A类一道题；提交材料与两种提交渠道；20/30/30/20表明确仅供参考。；20/30/30/20参考表，标题与正文均明示参考。"
+    },
+    {
+      "sourceId": "fwwb-c2-a11",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e.html",
+      "sourceSha256": "9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/18-service-outsourcing-innovation.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/17-service-outsourcing-innovation.json :: fresh HTML text lines11–70",
+      "verification": "A11完整篮球ReID题面、Query/Gallery、三类难点、mAP/Rank1/4090时延门槛、模型及展示材料、企业测试和外部数据披露已读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/18-service-outsourcing-innovation.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "仅恢复缺口不等于补足原件；未把作者自评作为批准理由。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-21-01",
+      "severity": "major",
+      "description": "正式适用评分仍缺：参赛手册第37页标题明确“仅供参考”，A11技术达标阈值不等于正式评审。新版已恢复缺口且标注正确，但严格L3尚不可通过。",
+      "resolved": false
+    }
+  ]
+}

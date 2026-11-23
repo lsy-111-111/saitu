@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+  "contentDigest": "46453b9bec11863317db6155a15e2370ca9de549b6c40a8f8ea3325eeeb44498",
+  "priorDigest": null,
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 5,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "完整9页Mentorship and Teamwork已逐页文字阅读，实际查看导师示意、输入样例与时间线图。现实队伍2—4人与题中contributors分清。导师须同项目另一角色、缺技能按0、仅差一级可辅导、完成后提升、每项目唯一与零分仍占用时间均有据。按输入例复算WebServer10、Logging3、WebChat20合33，7/12/17完成日正确。官方2022赛事文章及2023告别公告分别限定历史报名和停办事实。",
+  "qualificationDecision": "2022完整年龄/地域等资格仍未知；已核2—4真实团队门槛不补出其他资格。正文仅历史调度题学习、不提供当前报名，完整题/评分/个人验证器和四周路径足以支持限定L3学习用途；资格未知阻止任何正式参赛推荐。",
+  "retainedUnknowns": [
+    "历史完整资格和个人费用未知，不填免费或默认合格。",
+    "未复现大型数据及排行榜；仅原例计算正确不等于优化策略最优。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "ghc-2022-mentorship-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/hashcode/hashcode_2022_qualification_round.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8.pdf",
+      "sha256": "4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8",
+      "bytes": 662954,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1—9全文文字；视觉P3、5、6、8、9；独立复算示例33分",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/ghc-2022-mentorship-task.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/ghc-2022-mentorship-task-p3.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/ghc-2022-mentorship-task-p5.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/ghc-2022-mentorship-task-p6.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/ghc-2022-mentorship-task-p8.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/ghc-2022-mentorship-task-p9.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "ghc-2022-event",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/hash-code-2022-returns-new-look/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408.html",
+      "sha256": "ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408",
+      "bytes": 335106,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML正文L233—258；重点L248团队2—4，L255—258日期",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/ghc-2022-event.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML完整文章正文，L19—29结束赛事及保留历史题库供学习",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/google-competitions-farewell.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "ghc-2022-event",
+    "ghc-2022-mentorship-task",
+    "google-competitions-farewell"
+  ],
+  "actualFrozenReadSourceIds": [
+    "ghc-2022-mentorship-task",
+    "ghc-2022-event",
+    "google-competitions-farewell"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

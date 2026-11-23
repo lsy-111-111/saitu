@@ -1,0 +1,83 @@
+{
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "contentDigest": "eb04772c1518bbdd436d8f5c4693137a27c07cf4277996ed090f196ad393c0c6",
+  "reviewerId": "/root/stage2_content_b",
+  "runId": "stage2-content-review-b-20261106T055555Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "max",
+  "reviewedAt": "2026-11-06T05:55:55+00:00",
+  "method": "independent_source_recheck",
+  "outcome": "approved",
+  "inputBoundary": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review",
+  "independence": {
+    "readPriorRatings": false,
+    "readReviewerA": false,
+    "readRevisionDiffs": false,
+    "readOtherModelResults": false,
+    "calledPaidModels": false,
+    "published": false,
+    "sourceMethod": "local immutable originals only; direct HTML extraction and visual original PDF page inspection"
+  },
+  "sourceIds": [
+    "softcup-c2-notice",
+    "softcup-c2-a3"
+  ],
+  "pageReadings": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+      "page": "HTML全文",
+      "readMode": "direct_original_html_full_text",
+      "observations": [
+        "页面显示2026-03-24；标题是第十五届通知。参赛对象含全日制在籍学生，通知为全国通则；A3具体组类另用题面。",
+        "二（二）：总成员不超过4名，结构是队长1、指导教师1、其他学生不超过2；教师须学生所在学校专职教师，多导师指导组登记及赛前材料/决赛后再申请证明均有原文。",
+        "二（三）鼓励跨院校；一名学生可多队但只能担任一队队长。二（四）作品须本届期间原创，决赛完成前已在其他比赛或平台展出、获奖及雷同作品不得参赛。",
+        "报名表需注明职责，初赛电子版、决赛现场纸质盖章版。三：报名2026-03-24至7-20，初赛交件暂定7-20 15:00，总决赛拟8月。",
+        "五为一般交件要求，以题面专项要求为准；七（一）全程不收参赛队任何费用、决赛食宿自理。"
+      ],
+      "draftRefs": [
+        "identity",
+        "sections.eligibility",
+        "sections.participation",
+        "sections.deliverables",
+        "sections.investment",
+        "registration"
+      ]
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+      "page": "HTML全文",
+      "readMode": "direct_original_html_full_text",
+      "observations": [
+        "页面显示2026-04-01；标题及组类为第十五届A3、A组本科/研究生/高职，出题企业科大讯飞。",
+        "基本功能1—3：自然语言对话形成不少于6维动态画像，不同角色智能体协作产生至少5类型个性化多模态资源，动态学习路径与资源推送；4—5为智能辅导和学习效果评估可选加分。",
+        "非功能要求包含开源/工具名称来源协议声明、防幻觉及内容安全、合理响应及进度/流式展示。",
+        "实现条件：开发环境/语言/数据库/硬件等不限，智能体框架不限；其他AI辅助工具须选科大讯飞相关工具。测试数据要求自行构造至少一门完整高校专业课程初始知识库/文档集。",
+        "开发和测试文档须覆盖需求与开发部署全流程。评分是35/45/10/10的大致占比。",
+        "初赛要求PPT、完整可运行源码/数据/模型部署配置等、7分钟之内演示视频、配套文档、AI Coding说明；应用类型不限。"
+      ],
+      "draftRefs": [
+        "sections.track",
+        "sections.deliverables",
+        "sections.rubric",
+        "deepDive",
+        "roles",
+        "suitability"
+      ]
+    }
+  ],
+  "sectionChecksArtifact": "artifacts/specialist-20261106/stage2-content-review-b/software-cup/section-checks.json",
+  "hashesArtifact": "artifacts/specialist-20261106/stage2-content-review-b/software-cup/hashes.json",
+  "checkAssessments": {
+    "factualSupport": "六个v2历史事实及12节使用的官方规则直接得到两份HTML正文支持；旧库待核事实没有被作为本次核查通过的依据。",
+    "entityScope": "锁定2026第十五届A3，区分全国通则与A3组类，未套B组规则。",
+    "studentUsefulness": "两角色均有个人证据要求；七日试做与四周局部原型有明确检查和退出条件；费用和完整课程差距清楚。",
+    "temporalAccuracy": "2026-11-06复核时为历史材料；原通知报名/初赛时间已过，未宣称当前开放或下一届规则。"
+  },
+  "nonBlockingBoundaries": [
+    "尚未核查的旧校内通知及首页只保留为legacy待核，不在本次sourceIds背书范围。",
+    "不以局部训练承诺完整A3交付或真实学习效果，费用无金额依据则保留未知。"
+  ],
+  "findings": []
+}

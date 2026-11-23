@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "acm-student-research:2025-chi:hci-education-research:undergraduate:chi-2025-undergrad:v3",
+  "contentDigest": "4428f0dd70aa239dbd8068f41493baec686990309cc0ed999321c4dd32244a74",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.019959+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "chi-d1-2025-rules",
+    "chi-d1-chemlab-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "chi-d1-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc.html",
+      "sourceSha256": "5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/05-acm-student-research.json :: HTML lines 91-204 and 249-259; extracted/05-00.txt",
+      "verification": "Read CHI2025 winners, exact historical dates, enrolled/undergraduate exception, advisor exclusion, presenter membership, submission 8 pages, proof, onsite poster and all three distinct scoring rounds."
+    },
+    {
+      "sourceId": "chi-d1-chemlab-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01.pdf",
+      "sourceSha256": "5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/05-acm-student-research.json :: PDF all 6 pages; rendered/chi-work-1.png through -6.png",
+      "verification": "Visually read full published paper including Table1 and Figures1-8: 62 Korean survey respondents, 5 followup interviewees from survey, 3 informal trial participants from survey, step breakdown/environment/timeline design, and formal evaluation remains future work in 6.1; proficiency adaptation future in 6.3."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/05-acm-student-research.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/05-acm-student-research.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

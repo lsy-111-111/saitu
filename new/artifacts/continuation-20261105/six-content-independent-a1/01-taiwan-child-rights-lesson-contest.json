@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "approved",
+    "contentDigest": "a96c6bd030a053a54c5b0b1fd72ade7da3f622775d486800547398cc7ff24f95",
+    "sourceIds": [
+      "teach-d3-2023-rules",
+      "teach-d3-children-rights-work"
+    ],
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": true
+    },
+    "findings": [],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/01-taiwan-child-rights-lesson-contest.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "teach-d3-2023-rules",
+      "url": "https://dcc.npust.edu.tw/wp-content/uploads/2023/03/%E7%AC%AC%E4%B8%80%E5%B1%86%E8%87%BA%E7%81%A3%E5%A9%A6%E5%A5%B3%E3%80%81%E5%85%92%E7%AB%A5%E4%BA%BA%E6%AC%8A%E6%95%99%E6%A1%88%E7%AB%B6%E8%B3%BD%E8%AA%AA%E6%98%8E.pdf",
+      "independentlyRead": "简章p1、2：幼教和小学分别有教师、学生组，不可混组；每件1—4人。幼教学生是师资培育大学幼教学程师资生。p2–3评分表跨页：内容理念30、教学创新40、评量机制30。p2所列4月10日截止、5月21日颁奖为简章日程。p4–5主体原则四节；纸本及电子档两者缺一无效；20页含附件。p9封面不能写校名、作者名。附件6核对表要求封面及主题网+详案各3份。赠书邮资不可代替参赛费用。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d.pdf",
+          "sha256": "19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/2281488e5cf2c9edae7ed8f057be8a56f1c0b0022161d628649dd736f8ba1d1a.txt",
+          "sha256": "2281488e5cf2c9edae7ed8f057be8a56f1c0b0022161d628649dd736f8ba1d1a"
+        }
+      ]
+    },
+    {
+      "sourceId": "teach-d3-children-rights-work",
+      "url": "https://tgeea.org.tw/wp-content/uploads/2023/10/%E5%B9%BC%E6%95%99%E5%B8%AB%E8%B3%87%E7%94%9F%E7%B5%84_%E5%82%91%E5%87%BA%E7%8D%8E_%E5%85%92%E7%AB%A5%E6%AC%8A%E5%88%A9%E4%BD%A0%E6%88%91%E4%BB%96_2023%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%B1%86%E8%87%BA%E7%81%A3%E5%A9%A6%E5%A5%B3%E3%80%81%E5%85%92%E7%AB%A5%E4%BA%BA%E6%AC%8A%E6%95%99%E6%A1%88%E8%A8%AD%E8%A8%88%E7%AB%B6%E8%B3%BD.pdf",
+      "independentlyRead": "作品p1标题与幼儿园学生组杰出奖；p2主题网四枝，p8–9隐私课私开书包与讨论；p9游戏要口头解释，不能说原作只记录是否作画。p13情境四是举手表达意见，图下四个选项确为教育、健康、生存、游戏；p14是到校学到什么的画图单；p15示例是未经同意拿别人东西，非私开书包原句；p16记录用画出抽到的卡，p17三对游戏情境。上述原图已目检，评价设计不等于已经实施或测得儿童效果。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176.pdf",
+          "sha256": "1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/7c957927669ae5fc9dbf0c26daf9c2d6c7c9956868d5dfdc242f1b03351a594c.txt",
+          "sha256": "7c957927669ae5fc9dbf0c26daf9c2d6c7c9956868d5dfdc242f1b03351a594c"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "虚构情境→可观察理由",
+    "eligibility": "限台湾幼教师资生组",
+    "track": "四课完整主题，是选择评读非统一命题",
+    "participation": "纸电都需、审查人员有据",
+    "deliverables": "主题网/详案、封面及附件，无混用小学形式",
+    "rubric": "30/40/30与评价对齐",
+    "skills": "提问与评价两角色有可核产物",
+    "investment": "四周工时明示编辑估算、总费未知",
+    "difficulty": "区分会设计活动与证明理解",
+    "benefits": "仅评读，不取得教师资格",
+    "value": "产物能支持材料评读能力，不承诺学校认可",
+    "nextStep": "第9、15、16页区分原情境与卡面，改问题可执行"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

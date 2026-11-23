@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "saitu.catalog-full-source-recheck.v1",
+  "candidate": "v758",
+  "reviewer": "E",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "reviewedAt": "2026-11-11T19:06:41.765Z",
+  "input": {
+    "path": "artifacts/step8-first-20261111/C/v758-catalog-source-review-input-r2.safe.json",
+    "sha256": "f7e3ba4866fcfac02d3d739bfd4fe3809c7b5e3b097d663e16f04a8e5f016778"
+  },
+  "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+  "scope": "105 historical special education teaching demonstration and separately identified author material",
+  "canonicalReview": {
+    "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+    "review": {
+      "reviewerId": "/root/e_resume",
+      "runId": "v758-special-education-full-source-review-e-20261112",
+      "model": "gpt-6",
+      "reviewedAt": "2026-11-11T19:06:41.765Z",
+      "contentDigest": "90fef876a419307024b5d79f63035164f17be8f55684eff9413c4222245339b5",
+      "method": "independent_source_recheck",
+      "sourceIds": [
+        "teach-d2-2017-rules",
+        "teach-d2-official-work",
+        "teach-d2-roaming-lesson"
+      ],
+      "evidenceArtifact": "artifacts/step8-first-20261111/E/v758-special-education-catalog-full-review.E.safe.json",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "outcome": "approved",
+      "findings": []
+    }
+  },
+  "metadataReview": {
+    "reviewerId": "/root/e_resume",
+    "runId": "v758-special-education-official-entry-review-e-20261112",
+    "reviewedAt": "2026-11-11T19:06:41.765Z",
+    "metadataDigest": "c5396152401082e0546788f654178ef7f8b407a8f070e4339ae19920f3e64176",
+    "evidenceArtifact": "artifacts/step8-first-20261111/E/v758-special-education-catalog-full-review.E.safe.json",
+    "outcome": "approved"
+  },
+  "immutableProposedBinding": {
+    "proposedRecordSha256": "c80790245c557a1b266d3204bc269be733e9e377b8cbae4ce2b9927f1f293635",
+    "fullDigest": "90fef876a419307024b5d79f63035164f17be8f55684eff9413c4222245339b5",
+    "coreDigest": "2f85ab5669b35abdd4fa0ea05d43786de4f893fc82dec5aa7afca53d52edd022",
+    "metadataDigest": "c5396152401082e0546788f654178ef7f8b407a8f070e4339ae19920f3e64176",
+    "priorFullDigest": "d301539e1d828e6209065a975a8337c3e5acf8415ba51b0f062549ba85029843",
+    "priorCoreDigest": "274a4f6245e49de2536cfee73ac9306018192fdfe4bf0a39f1368a2339237cc5",
+    "previousMetadataDigest": "b46930179d56728837189d74c3d3e6cb99670c48d1fff7cfc2918ae82c25157b",
+    "sameRecordIdAndInternalTrackId": true,
+    "substantiveDiffVerified": true,
+    "authoredSourceApplicationPendingAtLock": true
+  },
+  "primarySources": [
+    {
+      "path": "artifacts/v6/content-research/source-byte-snapshots/b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152.pdf",
+      "sha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+      "sourceId": "teach-d2-2017-rules",
+      "locators": [
+        "PDF全3页",
+        "第1页甄选说明，普通教育课纲调整及特殊需求主题范围"
+      ]
+    },
+    {
+      "path": "artifacts/v6/content-research/frozen-source-text/31e51fb403e5a1291ffc6a56de748f3cbe730623a8b25263b0f36465f0dbbc39.txt",
+      "sha256": "31e51fb403e5a1291ffc6a56de748f3cbe730623a8b25263b0f36465f0dbbc39",
+      "sourceId": "teach-d2-official-work",
+      "locators": [
+        "第303–305行105学年度师资生组归档身份"
+      ]
+    },
+    {
+      "path": "artifacts/v6/content-research/source-byte-snapshots/253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe.pdf",
+      "sha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe",
+      "sourceId": "teach-d2-roaming-lesson",
+      "locators": [
+        "PDF第14–17页第三节教学准备、识字与阅读目标、活动及评量；仅核对教案结构，不摘录个体测评"
+      ]
+    }
+  ],
+  "officialEntryCapture": {
+    "raw": {
+      "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.bytes",
+      "sha256": "74f9ae9cfbe1d62e11413f43f3f74587d244fc7a089c69f149d757375575d437"
+    },
+    "body": {
+      "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.txt",
+      "sha256": "4416f5d8996ff9ccac1418d5091d2fdaaec3c97e1ab65e4c33a958d6a22fa415"
+    },
+    "url": "https://www.ncyu.edu.tw/cset/",
+    "title": "國立嘉義大學特殊教育教學研究中心官方主页",
+    "publicationAuthority": "國立嘉義大學特殊教育教學研究中心",
+    "locator": "frozen home page title/heading, archived competition menu; cross-check organizer in 105 rules p1"
+  },
+  "findings": [
+    {
+      "locations": "简章第1页肆一（一）、（二）、（三）",
+      "judgement": "师资生组身份、合作上限4人与另两个组别是105学年度规则；初选40分钟教案和15分钟视频、择优6件及决选12分钟有据。普通教育课纲调整及特殊需求是赛事主题，列资优、身心障碍、学前特教。原条不指定读写课。"
+    },
+    {
+      "locations": "简章第2页肆四、五、六、七及第3页捌",
+      "judgement": "匿名教案纸本/光碟4份及Word/PDF、报名审查授权、10/30/40/20和决选不收修订稿有据。教具、耗材自备及视经费补助交通的表述保持。2017收件和决赛仅作历史边界，未推断现时报名。"
+    },
+    {
+      "locations": "嘉义大学同届官方归档冻结正文303–305行；公开教案原PDF14–17页，18–20页结论/反思",
+      "judgement": "《漫游古都》是同届师资生组公开作者作品。第三节40分钟的识字和阅读目标、活动、提示及评价均有教案内对应位置。只审结构、提示条件与局限，不转录个体儿童资料，也不写成普遍教学效果。"
+    },
+    {
+      "locations": "新官方事实 v2:track、track.name 与 deepDive.workedExample.sourceBoundary",
+      "judgement": "规则主题事实只引简章，标题明示读写为公开作品案例。学习材料可追溯到官方归档与作者教案；建议的目标活动表、区分提示/独立、评价证据是学习任务，未成为统一命题或报名要求。"
+    },
+    {
+      "locations": "新入口metadata与冻结官方主页",
+      "judgement": "主页标题和栏目所属为国立嘉义大学特殊教育教学研究中心，与简章承办机构同一实体。URL和原检查时间保留，metadata绑定新core digest和同一recordId，未补称新的举办届次或招生规则。"
+    }
+  ],
+  "independentFullAndMetadataReviewsOnly": true,
+  "retainedAuthorMaterialIds": [
+    "ncyu-special-education-demonstration:material:v734:lesson-design-structure",
+    "ncyu-special-education-demonstration:material:v734:prompted-goal-and-assessment"
+  ],
+  "paidCallsByE": 0,
+  "formalAcceptanceCredit": false
+}

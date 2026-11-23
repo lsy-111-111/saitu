@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-mathematics:2011-3:calculus-third-derivative:non-mathematics:zhejiang-zjut-preliminary-2011:v3",
+  "contentDigest": "f1549241f50d233d749ce3f098a9015633d01d54a7941d7ff625494ddb1d9da3",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:31:37.136859+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "cmc-c5-paper",
+    "cmc-c5-answer"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "cmc-c5-paper",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846.pdf",
+      "sourceSha256": "97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846",
+      "actualReadLocator": "PDF pages 1 and 3; rendered/cmc-paper-p1.png and cmc-paper-p3.png",
+      "verification": "已视觉核：2011第三届非数学预赛、闭卷150分钟、100分与答卷要求；第3题15分及全部函数条件。仅这两页已读，不声称其余页。"
+    },
+    {
+      "sourceId": "cmc-c5-answer",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e.pdf",
+      "sourceSha256": "c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e",
+      "actualReadLocator": "PDF page 3; rendered/cmc-answer-p3.png",
+      "verification": "已视觉核该题完整解答：泰勒两端点、不同余项点、和为6、连续性介值及累计3/5/7/10/13/15分。其余题解未读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、前置、四周和退出条件已读；数学论证与累计分值正确。",
+    "2011浙江工业大学范围明确，没有误当现届或全国收费。",
+    "目前未知的是指定历史规则来源的原件支持，不是要求作者补猜当前费用。"
+  ],
+  "incompleteSources": [
+    "cmc-c5-zjut-rules"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-22-01",
+      "severity": "major",
+      "description": "支持本校资格、报名程序和每人60元的cmc-c5-zjut-rules没有sourceArtifact/frozenIndex，冻结source-rechecks也未找到该校原件；作者阅读日志不能替代本次独立复核。补入原始HTML或可验真PDF后再审。",
+      "resolved": false
+    },
+    {
+      "id": "B2-22-02",
+      "severity": "minor",
+      "description": "workedExample.sourceBoundary断言已与另一高校扫描版视觉交叉核对，但此包未提供对应扫描版来源绑定，B2不能独立验证该阅读过程断言；建议只写当前可核对原卷/评分解答，或补足可定位原件。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Saitu expired data maintenance
+After=postgresql.service
+
+[Service]
+Type=oneshot
+User=postgres
+Group=postgres
+WorkingDirectory=/opt/resume-ai/current
+Environment=SAITU_MAINTENANCE_DATABASE_URL=postgresql:///saitu_production?host=/var/run/postgresql
+ExecStart=/opt/saitu-tools/node/bin/node scripts/server/retention.mjs
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict

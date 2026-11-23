@@ -1,0 +1,115 @@
+{
+  "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+  "name": "CCF大学生计算机系统与程序设计竞赛",
+  "contentDigest": "c028deac9a49f76da30802b6baee0f7d85417500222d3e58a90466f7183897c1",
+  "priorOwnA3ContentDigest": "ae6daaaa46df44a0041f9e957282882098ac088b1a7d3228bb8f0203496d5e44",
+  "runId": "a4-gpt6astra-20261105T182253Z-981b858ce5be",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T18:22:53.566236+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+    "previousContentDigest": "ae6daaaa46df44a0041f9e957282882098ac088b1a7d3228bb8f0203496d5e44",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "sourceReads": [
+    {
+      "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+      "sourceId": "ccsp-c4-notice",
+      "url": "https://ccsp.ccf.org.cn/ccsp/Bulletin/2025-09-15/848571.shtml",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d.html",
+      "sha256": "edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d",
+      "bytes": 98513,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3 P1:L62—115竞赛方式、个人登记、CSP资格及收费；未找到独立作答明示条款",
+      "readingLocation": "本轮自原HTML抽取L62—141；核心L75—127时间、机考、个人排名、资格及缴费",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/ccsp-c4-notice.txt",
+      "visuallyReadArtifacts": []
+    },
+    {
+      "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+      "sourceId": "ccsp-c4-archive",
+      "url": "https://ccsp.ccf.org.cn/ccsp/bkzq/zlxz/",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723.html",
+      "sha256": "55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723",
+      "bytes": 56811,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "2025下载与版权原段",
+      "readingLocation": "2025下载与版权原段",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    },
+    {
+      "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+      "sourceId": "ccsp-c4-xor",
+      "url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=F43386642EF7A3E5563DD082AC261ED3E17E72083F2FC299A3BD8AB50C7B6EC4",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6.zip",
+      "sha256": "dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6",
+      "bytes": 63732368,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "原ZIP内题面PDF P1-P3，innerSHA=8be3b9a9a92224c2d4281cbd3272b0bf3b281b03000ace8ccb553852494404c6",
+      "readingLocation": "原ZIP内题面PDF P1-P3，innerSHA=8be3b9a9a92224c2d4281cbd3272b0bf3b281b03000ace8ccb553852494404c6",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    }
+  ],
+  "assessment": "2025通知重新核得机考、个人排名、CSP第33—39次至少200分且有名额、缴费审核及费用；没有独立作答明确条款。当前稿将原teamSize=1硬条件改成requires_confirmation，并保持pending事实与注记，解决的是证据强度与筛选强度不一致，不代表资格未知已经查明。完整XOR原题及十个子任务评分仍为已读同SHA原件；位贡献证明、稳定分组、64位计数、对拍路线具体。历史2025准备材料可批准。",
+  "retainedUnknowns": [
+    "独立作答及协作限制正式条款仍未取得；requires_confirmation中的字符串是确认目标占位，不能当作已经完成确认，也不授权比赛协作。",
+    "2025资格、收费、名额不适用于后续届次；本机测试不等于官方隐藏评测通过。"
+  ],
+  "scopeReviewed": [
+    "当前冻结摘要与所有差异",
+    "12决策模块及具体任务",
+    "完整原题/公开原作与正式或明确参考评分",
+    "个人路线和贡献证据",
+    "四周完成条件与退出条件",
+    "费用、资格、届次及赛区范围"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A4-22-01",
+      "severity": "major",
+      "description": "原teamSize=1硬排除已改为待确认，未核独立作答条款未被升级为已证实事实。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "priorOwnEvidenceArtifact": "artifacts/continuation-20261105/content-review-a3/evidence/22-ccf-ccsp.json",
+  "readingLocationConvention": "A4 HTML为本人自冻结原件抽取L序号；PDF为原件物理页，P#:L#在抽取文件可定位；图像阅读单列。",
+  "limitations": [
+    "本批准只针对当前contentDigest的L3准备内容，不是当前报名资格、得分、中奖或安全性能保证。",
+    "保留pending/unknown事实，不把requires_confirmation占位或validator通过当作事实已核。",
+    "AI独立阅读；未进行人审。流程独立共享文件系统，不宣称技术权限隔离。"
+  ]
+}

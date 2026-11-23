@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "robomaster-university:2026-rmuc:engineering-core-assembly:university:rmuc-2026-core-assembly:v3",
+  "contentDigest": "dc2fe3a19f5cacbc2eb9ca5c260fa1aea772b4425f1bb9f30928911f5b412339",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.059568+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "robomaster-2026-participant",
+    "robomaster-2026-core-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "robomaster-2026-participant",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525.pdf",
+      "sourceSha256": "444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/50-robomaster-university.json :: PDF pages 7–14、16–19；rendered/rm-part-07..14,16..19.png",
+      "verification": "全部相关入口与技术评审页视觉读：往届RMUC/RMUL资格、同校或合规联队、全日制专本科硕博、2025年9月至2026年8月在校证明、10–35正式队员、梯队无获奖资格；评审顺序与完整成本/BOM交付。"
+    },
+    {
+      "sourceId": "robomaster-2026-core-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5.pdf",
+      "sourceSha256": "88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/50-robomaster-university.json :: PDF pages 80–91（印刷79–90），rendered/rm-core-080..091.png",
+      "verification": "完整5.3.3装配子任务含坐标/机构图、难度位姿表、灯效、逐级开放、1至6动作与裁判确认、4级45秒和5秒双核心协同、90秒失败冷却、取出/失联/错误确认、游戏内资源收益全部视觉核对。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/51-robomaster-university.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/50-robomaster-university.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

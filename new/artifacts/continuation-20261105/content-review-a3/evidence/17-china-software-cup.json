@@ -1,0 +1,77 @@
+{
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "name": "中国软件杯大学生软件设计大赛",
+  "contentDigest": "6df1e99ea8964029d6d1ca530ac4244729c31ffd6748fdfe86c5c88e6b01c3a5",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.115703+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+    "previousContentDigest": "24d52d55246845605e325ab8d16fbebfc1affae773c5e5ff1ed9ce5f034f4941",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "url": "https://www.cnsoftbei.com/content-74-1250-1.html",
+      "readingLocation": "P1:L39-L84参赛资格、赛期、投稿与费用",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+      "sha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba",
+      "bytes": 22994,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "url": "https://www.cnsoftbei.com/content-3-1286-1.html",
+      "readingLocation": "A3 P1:L34—70，重点L56工具限制及35/45/10/10",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+      "sha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b",
+      "bytes": 26921,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "A3实现条件L56重新核实其他AI辅助工具须用科大讯飞相关工具，修订已在事实、技术路线、资源及深度第一步带入；不以框架自由掩盖工具限制。完整六维画像、五类资源、课程库、35/45/10/10评分及个人路线有效。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-17-resolved",
+      "severity": "major",
+      "description": "本人A2意见：A3原文P1:L56明确开发过程中使用的其他AI辅助工具需选用科大讯飞相关工具；正文及资源/交付/深度核对清单须明确该限制，不能让读者误认只需披露任意AI Coding工具即可。 本轮处理依据：A3实现条件L56重新核实其他AI辅助工具须用科大讯飞相关工具，修订已在事实、技术路线、资源及深度第一步带入；不以框架自由掩盖工具限制。完整六维画像、五类资源、课程库、35/45/10/10评分及个人路线有效。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

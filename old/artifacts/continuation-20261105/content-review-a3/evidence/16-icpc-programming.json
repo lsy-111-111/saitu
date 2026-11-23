@@ -1,0 +1,69 @@
+{
+  "recordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+  "name": "国际大学生程序设计竞赛ICPC",
+  "contentDigest": "391129705dcc9daea8a99fb9d68efdfb022d98333af74e6988763206912885c9",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.114861+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+    "previousContentDigest": "391129705dcc9daea8a99fb9d68efdfb022d98333af74e6988763206912885c9",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "icpc-c-2025-rules",
+      "url": "https://icpc.global/community/history/brochures/world-finals-2025-brochure.pdf",
+      "readingLocation": "PDF P24-P27世界总决赛规则全文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd.pdf",
+      "sha256": "69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd",
+      "bytes": 17032235,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "icpc-c-2025-d",
+      "url": "https://worldfinals.icpc.global/problems/2025/finals/problems/problemset.pdf",
+      "readingLocation": "PDF P7-P8完整D题及三样例",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456.pdf",
+      "sha256": "249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456",
+      "bytes": 5338768,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "资格/三人/教练/晋级/费用和罚时规则有原文。24排列动态规划状态与转移最优化正确，初始不计改变，样例1确需一次。12模块、个人证明/对拍、四周及基础退出可执行。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

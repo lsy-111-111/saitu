@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "saitu.fast24.F.source08-extra-task-incremental-binding.v1",
+  "reviewerId": "/root/fast24_f_integration",
+  "reviewedAt": "2026-11-09T22:48:07.098Z",
+  "status": "approved_exact_candidate02_extra_two_only",
+  "scope": "Only Classics and intercultural new task fact, task-first role references, removal of uncited privacy-dialogue wording, and exact metadata core linkage. No repeat homepage/audience/45-record review.",
+  "candidate": {
+    "path": "artifacts/fast24-20261109/B/source08-core-registration/candidate-02/binding-candidates.safe.json",
+    "sha256": "b785c585ff7080dfcf532ee662e00dc4e17f45802d267f4e72e24c0b6d6a0a4f"
+  },
+  "snapshot": {
+    "path": "artifacts/fast24-20261109/B/source08-core-registration/candidate-02/records.current.snapshot.json",
+    "sha256": "68f2318d84e1f5c317cc12aa25d7ed38b5f6010d99f2a464445a457efc1f53c3"
+  },
+  "metadataRows": {
+    "path": "artifacts/fast24-20261109/B/source08-core-registration/candidate-02/metadata.current.rows.json",
+    "sha256": "8688efa0690001b9f8c91b53dd94662dcb3d638ce13d06cc5fe259b7ba1fac88"
+  },
+  "primaryEvidenceReview": {
+    "path": "artifacts/fast24-20261109/F/source08-extra-task-primary-review.safe.json",
+    "sha256": "9457a4f6b13a1295350f88231dcd029b75fe088825b9e4dcb438bba80d79449e"
+  },
+  "records": [
+    {
+      "seriesId": "chinese-classics",
+      "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+      "contentDigest": "0b41ed663696dd353340a2f9002317aee986960ec2c8bee9978992d2999c5d72",
+      "coreDigest": "252dd9005d8f0a4f98dad3024901115126398f1b58d5e1e5e5a4095391ba5a37",
+      "metadataDigest": "e43ad86f09608ab6249397c9485d008ee6e057fe04a2caea307dd6f5f8d17a53",
+      "currentActualAndSnapshotDigestsVerified": true,
+      "newTaskExactPrimaryApproved": true,
+      "sourceIndexUrlAndHistoricalScopeVerified": true,
+      "allExistingFactsUnchanged": true,
+      "remainderOnlyAuthorizedRoleReferencesAndPrivacyWordingDeletion": true,
+      "metadataOnlyCoreLinkChangedAndOldReviewsPreserved": true,
+      "sourceReviewScope": "The new task source received F independent text and visual primary review. Unchanged historical sources/claims retain their existing source-review evidence; no new full-record L3 or dual review is claimed."
+    },
+    {
+      "seriesId": "intercultural-competence",
+      "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+      "contentDigest": "abdae19aba849bfcb5386f62f28df5ec924720a1be22e3e8a80d27b20c15e612",
+      "coreDigest": "733a9b6e75f86637e4512955823326b4273749515963d382d2913ec5ce554f96",
+      "metadataDigest": "1f202b575652df446de8f1dd945d47ebd2893bd684f787a00a94bb0c74ac196d",
+      "currentActualAndSnapshotDigestsVerified": true,
+      "newTaskExactPrimaryApproved": true,
+      "sourceIndexUrlAndHistoricalScopeVerified": true,
+      "allExistingFactsUnchanged": true,
+      "remainderOnlyAuthorizedRoleReferencesAndPrivacyWordingDeletion": true,
+      "metadataOnlyCoreLinkChangedAndOldReviewsPreserved": true,
+      "sourceReviewScope": "The new task source received F independent text and visual primary review. Unchanged historical sources/claims retain their existing source-review evidence; no new full-record L3 or dual review is claimed."
+    }
+  ],
+  "checksPassed": 14,
+  "checksTotal": 14,
+  "canonicalReviews": [
+    {
+      "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+      "review": {
+        "runId": "fast24-source08-extra-task-incremental-F-20261109224807098",
+        "reviewerId": "/root/fast24_f_integration",
+        "model": "Codex independent reviewer F",
+        "reviewedAt": "2026-11-09T22:48:07.098Z",
+        "contentDigest": "0b41ed663696dd353340a2f9002317aee986960ec2c8bee9978992d2999c5d72",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "b-classics-task",
+          "b-classics-local",
+          "b-classics-rules"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/F/source08-extra-task-binding-directed-review.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    },
+    {
+      "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+      "review": {
+        "runId": "fast24-source08-extra-task-incremental-F-20261109224807098",
+        "reviewerId": "/root/fast24_f_integration",
+        "model": "Codex independent reviewer F",
+        "reviewedAt": "2026-11-09T22:48:07.098Z",
+        "contentDigest": "abdae19aba849bfcb5386f62f28df5ec924720a1be22e3e8a80d27b20c15e612",
+        "method": "independent_source_recheck",
+        "sourceIds": [
+          "b-intercultural-rules-case"
+        ],
+        "evidenceArtifact": "artifacts/fast24-20261109/F/source08-extra-task-binding-directed-review.safe.json",
+        "checks": {
+          "factualSupport": true,
+          "entityScope": true,
+          "studentUsefulness": true,
+          "temporalAccuracy": true
+        },
+        "outcome": "approved",
+        "findings": []
+      }
+    }
+  ],
+  "metadataReviews": [
+    {
+      "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+      "coreDigest": "252dd9005d8f0a4f98dad3024901115126398f1b58d5e1e5e5a4095391ba5a37",
+      "review": {
+        "reviewerId": "/root/fast24_f_integration",
+        "runId": "fast24-source08-extra-task-incremental-F-20261109224807098-core-link",
+        "reviewedAt": "2026-11-09T22:48:07.098Z",
+        "metadataDigest": "e43ad86f09608ab6249397c9485d008ee6e057fe04a2caea307dd6f5f8d17a53",
+        "evidenceArtifact": "artifacts/fast24-20261109/F/source08-extra-task-binding-directed-review.safe.json",
+        "outcome": "approved"
+      }
+    },
+    {
+      "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+      "coreDigest": "733a9b6e75f86637e4512955823326b4273749515963d382d2913ec5ce554f96",
+      "review": {
+        "reviewerId": "/root/fast24_f_integration",
+        "runId": "fast24-source08-extra-task-incremental-F-20261109224807098-core-link",
+        "reviewedAt": "2026-11-09T22:48:07.098Z",
+        "metadataDigest": "1f202b575652df446de8f1dd945d47ebd2893bd684f787a00a94bb0c74ac196d",
+        "evidenceArtifact": "artifacts/fast24-20261109/F/source08-extra-task-binding-directed-review.safe.json",
+        "outcome": "approved"
+      }
+    }
+  ],
+  "productionSourceWrites": 0,
+  "ledgerWrites": 0,
+  "paidCalls": 0,
+  "networkCalls": 0
+}

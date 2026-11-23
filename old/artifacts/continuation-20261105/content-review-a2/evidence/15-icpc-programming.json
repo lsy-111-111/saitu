@@ -1,0 +1,58 @@
+{
+  "recordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+  "name": "国际大学生程序设计竞赛ICPC",
+  "contentDigest": "391129705dcc9daea8a99fb9d68efdfb022d98333af74e6988763206912885c9",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "icpc-c-2025-rules",
+      "url": "https://icpc.global/community/history/brochures/world-finals-2025-brochure.pdf",
+      "readingLocation": "PDF P24-P27世界总决赛规则全文",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd.pdf",
+      "sha256": "69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd",
+      "bytes": 17032235
+    },
+    {
+      "sourceId": "icpc-c-2025-d",
+      "url": "https://worldfinals.icpc.global/problems/2025/finals/problems/problemset.pdf",
+      "readingLocation": "PDF P7-P8完整D题及三样例",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456.pdf",
+      "sha256": "249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456",
+      "bytes": 5338768
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "资格/三人/教练/晋级/费用和罚时规则有原文。24排列动态规划状态与转移最优化正确，初始不计改变，样例1确需一次。12模块、个人证明/对拍、四周及基础退出可执行。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

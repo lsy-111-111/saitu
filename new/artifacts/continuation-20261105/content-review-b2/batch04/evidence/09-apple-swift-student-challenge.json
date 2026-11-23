@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+  "contentDigest": "fb3c3f4c6e582ce2ef5bfcc5355884e9e3e42219469095e08eba00c92b5cc788",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.312304+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "swift-2026-policy",
+    "swift-playground-requirements",
+    "swift-accessibility-2025-full"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "swift-2026-policy",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb.html",
+      "sourceSha256": "afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/06-apple-swift-student-challenge.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/06-apple-swift-student-challenge.json :: fresh HTML text lines 115-192",
+      "verification": "完整2026条款已读：2月28日23:59PST、地区年龄和特殊许可、教育身份、个人作品、25MB离线、工具版本、AI披露、英文、技术/创意/书面评审及不提供反馈。"
+    },
+    {
+      "sourceId": "swift-playground-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235.html",
+      "sourceSha256": "cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/06-apple-swift-student-challenge.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/06-apple-swift-student-challenge.json :: fresh HTML text lines 115-139",
+      "verification": "三分钟完整官方开放任务及离线格式已读。"
+    },
+    {
+      "sourceId": "swift-accessibility-2025-full",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04.zip",
+      "sourceSha256": "4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04",
+      "actualReadLocator": "swift/中上述15个源码/README文件全文；VoiceOver图、Images三PNG逐张目读；完整ZIP清单及SHA另存swift-file-index.json",
+      "verification": "五关结构、输入大小写、状态onChange缺true保护、iOS16/18差异均可核；图片并非苹果，故本稿须改。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/06-apple-swift-student-challenge.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "公开工程取得与静态关键路径核读已完成；未运行iOS，不认证获奖/原始提交版本/2026合规。静态源码能够证明分支，截图不能证明用户学习效果。",
+    "实际阅读全文：README、Package、入口、Model、Level、Levels、LevelsView、LevelViewModifier、五关Level视图、GuideVoiceOverView、LEVEL_5；实际看三作者截图及VoiceOver本地原图。其余辅助文件未逐行阅读，不声称全工程运行或全文件语义阅读。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-09-01",
+      "severity": "major",
+      "description": "完整工程的VoiceOver-1.imageset/Contents.json绑定的是dji_fly_20230404_140934_839_1680594234129_photo_optimized.jpg，实际图为海岸航拍；LevelVoiceOverView第30行却标签为Apples hanging from a tree、47行只接受apple。稿件步骤2把它写成“本地苹果图片”，遗漏图像与标签矛盾，核心原例事实不成立。应准确区分真实素材、硬编码标签和通关字符串，不能据标签反推图像内容。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "name": "全国大学生智能汽车竞赛",
+  "contentDigest": "51dbd5d3f40743b3aaae685030958f4d8c23ca488f5eaf447076ad7e464c79c1",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.192440+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+    "previousContentDigest": "51dbd5d3f40743b3aaae685030958f4d8c23ca488f5eaf447076ad7e464c79c1",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "smartcar-2025-outdoor-ros",
+      "url": "https://www.smartcar.zone/upload/files/2025/9/%E8%B5%9B%E9%A1%B9%E4%B8%80-%E5%AE%A4%E5%A4%96ROS%E6%97%A0%E4%BA%BA%E8%BD%A6%E8%B5%9B%EF%BC%88%E9%AB%98%E6%95%99%E7%BB%84%EF%BC%89%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99.pdf",
+      "readingLocation": "PDF 14页全部文字；第3-6页赛道、标志、挡板图实际渲染视觉阅读",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e.pdf",
+      "sha256": "ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e",
+      "bytes": 1920565,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "80/20与两圈30/70、ROS1罚100、五案例、2-5学生/1-2导师均有据。两圈和随机建图具体原任务完整；设备指定/推荐措辞差异已提示采购前核实，未认定总成本低。个人节点/日志与四周、仿真退出有效。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

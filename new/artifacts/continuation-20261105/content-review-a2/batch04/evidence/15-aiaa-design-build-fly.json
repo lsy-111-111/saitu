@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+  "contentDigest": "eb36d5551df194b59f07216fcf3403c041a964b9fa44dc773b4b49442052727e",
+  "priorDigest": "d8981f4a664c5b4ee94ade3309c81c248980201fc84be4802a3f501bd85ae004",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 15,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "删除未由冻结原件支持的2027新题断言，现仅解析2025—26 Charter Flight。重读原PDF P5/P8/P9：学生及AIAA会员、三分之一规则、AMA飞手、4月16—19日和550美元队费有据。完整飞行任务/公式及报告评分沿用本人同字节原件阅读；角色、桌面敏感性分析、四周验证和安全条件退出清楚。",
+  "qualificationDecision": "历史2026规则较完整且学生/飞手不同身份有区分；下一届未知不影响本历史L3，绝不视为当前报名合规。",
+  "retainedUnknowns": [
+    "下一届任务、报名和规则未核。",
+    "个人费用分摊、旅行和实机性能未知。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+      "sourceId": "aiaa-dbf-2026-rules",
+      "url": "https://aiaa.org/wp-content/uploads/2025/08/2026-DBF-Rules.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917.pdf",
+      "sha256": "cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917",
+      "bytes": 977575,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P5、P8、P9资格、日期、550美元；完整任务/公式保留本人旧同字节阅读",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3原PDF P5:L5—31、P8:L22—32；原任务/评分沿用本人A2同字节阅读",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/aiaa-dbf-2026-rules.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "aiaa-dbf-2026-rules"
+  ],
+  "actualFrozenReadSourceIds": [
+    "aiaa-dbf-2026-rules"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

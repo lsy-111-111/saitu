@@ -1,0 +1,57 @@
+{
+  "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+  "name": "全国大学生跨文化能力大赛",
+  "contentDigest": "717592b6ffccbe5e3327909a62157031fd8aaeba3a3299d8d76dc2b81967f1fa",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.154937+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+    "previousContentDigest": "717592b6ffccbe5e3327909a62157031fd8aaeba3a3299d8d76dc2b81967f1fa",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-intercultural-rules-case",
+      "url": "https://ictvd.oss-cn-beijing.aliyuncs.com/uploadfile/2025/0901/20250901041005540.pdf",
+      "readingLocation": "PDF P1-P6资格/复赛规则及完整评分；P9-P16完整案例和分析",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/7289328ed11f17fb773ac26914b7fbe0870ef117151fc5e2ac0949cb7cc24b1c.pdf",
+      "sha256": "7289328ed11f17fb773ac26914b7fbe0870ef117151fc5e2ac0949cb7cc24b1c",
+      "bytes": 716594,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "虽附件称模板，实际含完整具名叙事、四段冲突、理论和解决段，不是空表；编辑主动避免原文国籍概括并保留竞争解释。70/10/20与辽宁范围正确，个人路线/四周/退出可执行。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

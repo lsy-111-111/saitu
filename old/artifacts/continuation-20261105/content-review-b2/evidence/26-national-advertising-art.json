@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+  "contentDigest": "5abea1d8a0413433f2d6af86d136bca6eaac04d16c78cceca3d8faf4591133b5",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:38:06.568509+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ad-rules",
+    "b-ad-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ad-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sourceSha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "actualReadLocator": "fresh HTML text lines 57-88,155-212",
+      "verification": "2026第18届4月1日版参赛指南相关正文完整读取，资格、同校/人数、提交、A3横竖不限、RGB300dpi≤5MB、三级选拔、无全国费、匿名和AI标注均支持。"
+    },
+    {
+      "sourceId": "b-ad-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sourceSha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "actualReadLocator": "fresh HTML text lines 50-143",
+      "verification": "完整命题正文已读：三类受众、自拟slogan、千问工具、创作须知四维、平面A3竖版、其他广告形式分开及企业奖；未读素材网盘，不声称素材授权核验。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、两角色、前置、四周、退出已读；品牌宣传与验证事实分离良好，未把三人五秒测试当真实营销效果。",
+    "全国免费与工具制作支出区分正确；日期明确历史。",
+    "missingForPublication不应仅写没有独立权重表，应记录正式评分来源与创作要求性质差别。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-26-01",
+      "severity": "major",
+      "description": "deepDive.rubricMapping将“AI创作融合/创意性/传播性/美誉度”全部标official:true，来源实际标题是“创作须知/作品需遵循的创作要求”(b-ad-task 82—88行)，并非明确的正式评分标准。应移入requirementMapping，并补同届同类别正式评审依据；缺数值权重不等于可以把创作要求充当评分。",
+      "resolved": false
+    },
+    {
+      "id": "B2-26-02",
+      "severity": "minor",
+      "description": "deliverables事实写A3竖版却仅绑定b-ad-rules；该原文85行允许横竖不限，竖版特定限制来自b-ad-task第92行。需给该事实补准确的双源与范围绑定。",
+      "resolved": false
+    }
+  ]
+}

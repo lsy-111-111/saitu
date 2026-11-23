@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "contentDigest": "6620bbf6c76d756d5d3e2084baff7cad0babb8736b16a6b7154aff3f16db0784",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.301641+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-hult-guide"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-hult-guide",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sourceSha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/40-hult-prize.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/39-hult-prize.json :: PDF pages 1-5 and 22-24; rendered/hult-01..05.png,hult-22..24.png；本轮新增实际读取：2023指南PDF第23页视觉核读；rendered/43-01-p23.png",
+      "verification": "Visual read: 2023 apparel/footwear for-profit SDG challenge, value-chain diagram, 3-5 campus students, MVP/business model/finance, five qualitative judge expectations and four stages.；Relevance/Practicality/Focus/Profit potential/Measurable impact与流程均可核。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/40-hult-prize.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-43-01",
+      "severity": "major",
+      "description": "2023开放可持续时尚任务与通用策划路线仍不能构成完整具体原例；五项正式定性评审有效，无须编造数字权重，但严格L3案例缺口仍在。",
+      "resolved": false
+    }
+  ]
+}

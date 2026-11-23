@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+  "contentDigest": "a2771b436ae6d01010f1f3bc33ca90cda19f54d7d4d673072bfaab4808882951",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:48:02.376768+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "cupt-2020-rules",
+    "iypt-2020-problem6",
+    "cupt-2026-north-notice"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "cupt-2020-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be.pdf",
+      "sourceSha256": "4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be",
+      "actualReadLocator": "PDF pages 3-8; rendered/cupt-p3.png through p8.png",
+      "verification": "已逐页视觉核对2020采用IYPT2020、区域和全国资格、5人常规3—4人例外、本科不限专业、角色职责与正反评3/2/1权重和拒题系数；原文60分钟与表50分钟矛盾确实存在。"
+    },
+    {
+      "sourceId": "iypt-2020-problem6",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2.html",
+      "sourceSha256": "7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2",
+      "actualReadLocator": "fresh HTML text lines 48-63,89-91",
+      "verification": "2020正式题集第6题完整Saxon Bowl题干与IYPT高中边界。"
+    },
+    {
+      "sourceId": "cupt-2026-north-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf.html",
+      "sourceSha256": "687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf",
+      "actualReadLocator": "fresh HTML text lines 99-148",
+      "verification": "2026华北第三轮举办信息、采用2026题与2025规则附件、5人队和地区费用；仅支持系列续办，不外推至2020学习任务。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周小题研究与退出已读；完整具体开放物理题，不是笼统开放主题。",
+    "正反评论映射基于该规则角色评判；没有伪造单题标准答案或细项分值。",
+    "2020历史规则、2026华北通知及IYPT高中系列边界清楚；未知个人费用没有被填零。",
+    "PDF其他历史介绍和处罚末页未作本稿主张依据；2026附录未读，未背书2026新资格。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

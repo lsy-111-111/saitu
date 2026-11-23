@@ -1,0 +1,822 @@
+{
+  "reviewerId": "/root/stage2_content_a",
+  "runId": "stage2-content-review-a3-20261106",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "max",
+  "reviewedAt": "2026-11-06T06:04:28Z",
+  "method": "independent_source_recheck",
+  "inputManifestSha256": "a2899cb74830c976929cfb4749316a6cb3d9120a67546e1ecc936ce468c79d0a",
+  "reviewScope": {
+    "inputDirectory": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review",
+    "notAccessed": [
+      "B评审",
+      "作者变更说明",
+      "产品/开发结果/正式39目录"
+    ],
+    "unchanged": [
+      "首轮及第二轮评审和输入",
+      "第三轮输入及来源",
+      "产品及正式目录"
+    ],
+    "networkRefresh": false,
+    "uiRenderingClaimed": false
+  },
+  "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+  "contentDigest": "746d9ea506b1cb4f330ad407be182d371d0f3014270cab1bc1ae9274302dc029",
+  "outcome": "approved",
+  "decision": "批准第三轮当前摘要的电赛历史学习稿。十二节重新阅读全文；报告匿名处罚已按官方原句恢复，交付条件、几何/供电/电流和评分、资格与2025流程均可追溯。",
+  "sourceIds": [
+    "electronics-2025-main-notice",
+    "electronics-2025-c-task-shanghai-rar",
+    "electronics-2025-national-process"
+  ],
+  "sectionChecks": [
+    {
+      "section": "task",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。测量装置和误差/速度/功耗取舍作为编辑任务归纳合适；不把视觉识别演示等同完整计量装置。",
+      "statementsRead": [
+        {
+          "text": "把几何、图像处理和电路做成一个能重复测出真实数值的独立装置；解释误差、速度和功耗的取舍。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-electronic-design:v2:track"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P1",
+        "ED-C-P2",
+        "ED-C-P3"
+      ]
+    },
+    {
+      "section": "eligibility",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。正式学籍全日制本科/高职、3人、学校报名及高职可选本科题成立；本科组是题目归属，没有排斥高职选择。",
+      "statementsRead": [
+        {
+          "text": "2025普通高校正式学籍全日制本科、高职高专学生三人组队，由学校报名。本科生只能选本科题；高职高专学生也可选本科题。三人均须全程参赛和评审。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:eligibility"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-N-P3",
+        "ED-N-P5",
+        "ED-P-TEAM",
+        "ED-C-P1"
+      ]
+    },
+    {
+      "section": "track",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。D定义、固定单摄像头、100—200cm、5秒、外部5V及整机供电电流都与原图正文一致；没有把D写成镜头到目标的任意斜距。",
+      "statementsRead": [
+        {
+          "text": "C题用一只固定摄像头测量图形尺寸和距离 D。D 是目标物面标记点在基准面上的垂直投影点到基准线的距离。基本测距范围 100—200 厘米，一键结果须在 5 秒内给出。装置用外部 5V 直流稳压电源供电，同时实时测量该电源向整机输出的电流。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:track"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P1",
+        "ED-C-P2",
+        "ED-C-P3"
+      ]
+    },
+    {
+      "section": "participation",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。历史制作时间、封存、全国推荐队全员综合测评和后续复测对象均准确，教师回避/队外交流禁止未遗漏。",
+      "statementsRead": [
+        {
+          "text": "2025制作时段为7月30日8时至8月2日20时；学校组织参赛，完赛后封存交件；被赛区推荐全国评奖的队伍全员参加综合测评，全国初评后，一等奖候选队及有关抽调队参加复测。比赛期间禁止与队外人员讨论，教师须回避。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:participation"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-N-P3",
+        "ED-N-P5",
+        "ED-P-SEAL",
+        "ED-P-NATIONAL"
+      ]
+    },
+    {
+      "section": "deliverables",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "本轮已逐句核对。匿名处罚恢复官方原句；八页正文、另附300字摘要、页顶空白和密封纸代码规则可核；登记表身份与报告匿名分开，process在交付fact sourceIds内。硬件限制仍准确。",
+      "statementsRead": [
+        {
+          "text": "提交设计报告、实物和登记表。报告封面和每一页不得出现参赛学校、代码、姓名，否则取消评审资格。报告正文限 A4 八页以内，首页另附不超过 300 字中文摘要，每页上方留出至少 3 厘米空白。队伍代码按实施说明写在另张密封纸规定位置；报告匿名要求不用于登记表。实物须可脱机测评。C题不得用PC、成品视觉测距产品或非视觉测距传感器；电流测量电路不得直接使用商品模块。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P1",
+        "ED-C-P2",
+        "ED-N-P2",
+        "ED-P-REPORT",
+        "ED-P-SEAL"
+      ]
+    },
+    {
+      "section": "rubric",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。20+50+50=120准确且是C题作品表；综合测评另在participation说明，未把120当全国最终唯一评分。",
+      "statementsRead": [
+        {
+          "text": "C题共120分：设计报告20、基本要求50、发挥部分50。报告检查方案、理论、电路程序、测试及规范；发挥要求进一步测复杂图形、倾斜目标和功耗。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:rubric"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P4",
+        "ED-P-NATIONAL"
+      ]
+    },
+    {
+      "section": "skills",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。独立目标检验、像素到厘米、电流对照与端到端时延可留下个人证据；全部是编辑角色建议，未要求购买被禁止电流模块。",
+      "statementsRead": [
+        {
+          "text": "视觉与误差：完成相机标定、图形识别与几何测量，检验不同距离和角度。需要的经历证据：你怎样把像素误差转换为厘米误差，并用未参与调参的目标检查？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-electronic-design:v2:deliverables"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "电路与系统：接入外部 5V 直流稳压电源，用自制电流测量电路实时测整机供电电流，完成按键和显示，测试端到端耗时。需要的经历证据：电流显示来自哪个实际测量环节，如何与参考仪器比较？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-electronic-design:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P2",
+        "ED-C-P3"
+      ]
+    },
+    {
+      "section": "investment",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读三段。报名费由学校付/赛区定额、学校原则供设备有据；四周时间与价格未核明为训练建议和未知，报销提示不当作官方保证。",
+      "statementsRead": [
+        {
+          "text": "2025报名费可由各赛区按实际情况确定，由学校支付；学校原则上提供场地、仪器及元件。个人垫付、耗材和差旅是否报销仍需问本校，不能认定总费用为零。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-electronic-design:v2:investment"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "编辑建议四周每周5—8小时先验证测量链；需要相机、处理板、显示、电路工具和参考仪器，整套价格尚未核验。正式四天三夜赛制另需协调完整时间。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。"
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-N-P3",
+        "ED-N-P6"
+      ]
+    },
+    {
+      "section": "difficulty",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读三段。明确桌面Python只为局部训练，最终要嵌入式整机；超5秒为相应项不得分的后果准确，未误说自动失格。",
+      "statementsRead": [
+        {
+          "text": "入门：先会读图像和做简单几何测量；只会桌面Python可先做标定角色，正式装置仍需要电路与嵌入式队友。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "完赛：训练自检先看基本项的误差和5秒时限；超时影响相应测试项得分，不等于自动失去参赛资格。再试复杂目标识别和功耗优化。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "获奖：需结合所选赛道评审和同届作品比较；没有可靠数据，不给个人获奖概率。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P2",
+        "ED-C-P3"
+      ]
+    },
+    {
+      "section": "benefits",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。可复核作品证据与获奖选拔分开，综合测评角色有据，未承诺获奖。",
+      "statementsRead": [
+        {
+          "text": "可积累测量、嵌入式集成与实验记录作品。完成度取决于可复核指标；获奖遴选还包括综合测评，不能用做出一个演示预测奖项。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-electronic-design:v2:deliverables"
+          ],
+          "conditions": [
+            "已实际完成相应工作",
+            "公开展示已取得必要授权"
+          ]
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P4",
+        "ED-P-NATIONAL"
+      ]
+    },
+    {
+      "section": "value",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。升学/招聘/学校认定依本人政策核验为unknown；治理身份与全国原件相符，partial不夸大治理完整度。",
+      "statementsRead": [
+        {
+          "text": "可积累测量、嵌入式集成与实验记录作品。完成度取决于可复核指标；获奖遴选还包括综合测评，不能用做出一个演示预测奖项。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。"
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-N-P1",
+        "ED-N-P6",
+        "ED-N-P7",
+        "ED-P-RECOGNITION"
+      ]
+    },
+    {
+      "section": "nextStep",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。按标记投影测D、独立检查组、最大误差与未测条件列明可行动；适用历史训练，电脑局部原型不冒充参赛整机。",
+      "statementsRead": [
+        {
+          "text": "先做桌面局部标定：按标记点的垂直投影到基准线测量真值 D，在三种图形的位置中留出独立检查组，记录最大误差。电源电流、限时及脱机整机要求另行验证。完成标准：只声明实际测过的条件，电脑原型不冒充可参赛整机。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ED-C-P1",
+        "ED-C-P3"
+      ]
+    }
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "checkRationale": {
+    "factualSupport": "现有规则/指标及报告交付表述有原件支持；原处罚新增限定已删除，未发现新的实质不支持断言。",
+    "entityScope": "2025全国本科C题与高职选本科题、全国通知和全国实施流程均分清，未外推2026赛区或其他题。",
+    "studentUsefulness": "历史训练的交付清单、误差与电流验证、独立检查组和停止条件可执行；报告匿名/格式风险有提示，未把电脑原型冒充整机。",
+    "temporalAccuracy": "制作、综合测评和复测均限2025历史档案；网页7月15日发布时间与正文7月12日落款可区分，上海网页初始日/题包公布日/更新日也有不同语义。"
+  },
+  "findings": [
+    {
+      "id": "content-a-electronics-report-anonymity-and-format",
+      "severity": "major",
+      "description": "首轮报告交付条件遗漏已补：匿名、八页、300字摘要、页顶空白及密封纸位置已列出，process已加入交付fact的sourceIds。新增处罚范围限定另列新问题。",
+      "resolved": true
+    },
+    {
+      "id": "content-a2-electronics-report-only-qualification",
+      "severity": "minor",
+      "description": "第二轮新增处罚范围限定已解决：第三轮sections.deliverables及同文fact均改为“否则取消评审资格”，与实施说明一、8一致，无新增“该报告的”限定，也没有扩写其他未明示处罚。",
+      "resolved": true
+    }
+  ],
+  "governanceAndAnnotationObservations": [
+    "官方要求、编辑训练路线和未知个人效果总体分开；governance partial没有被当作全面治理认证。",
+    "工业规则2024-07-02可由PDF签发页支持；签发日与网页首次发布时刻仍应区分。"
+  ],
+  "studentImprovements": [
+    "演练时按原文检查匿名报告与密封纸代码的不同位置，登记表仍完整填写真实身份。",
+    "先验证基本D/x误差、电流误差与5秒时限，再扩展重叠、编号和倾斜目标；只报告实际测试条件。"
+  ],
+  "readingCompletion": {
+    "sectionsRead": 12,
+    "expectedSections": 12,
+    "notAUIRenderingReview": true
+  },
+  "priorEvidenceArtifact": "artifacts/specialist-20261106/stage2-content-review-a2/electronics-c-evidence.json",
+  "priorSourceReadingSameBytes": [
+    {
+      "sourceId": "electronics-2025-main-notice",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+          "sha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca.txt",
+          "sha256": "da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca"
+        }
+      ],
+      "readingMode": "all 7 original PDF pages visually inspected; full supplied text index read",
+      "scopeBoundary": "全国组委会2025主赛通知，湖南赛区托管原件；不是2026地方赛/专题赛。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "ED-N-P1",
+          "pdfPage": 1,
+          "printedPage": 1,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "电组字〔2025〕01号及全国竞赛组委会组织/专家组命题评审职责。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "value"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-1.png"
+        },
+        {
+          "evidenceId": "ED-N-P2",
+          "pdfPage": 2,
+          "printedPage": 2,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "本科/高职高专题；作品不得含PC/手机等，芯片须预先下载脱机并封存在箱内，未封箱存储器/开发装置等不得带入测试。",
+          "relevantSections": [
+            "deliverables"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-2.png"
+        },
+        {
+          "evidenceId": "ED-N-P3",
+          "pdfPage": 3,
+          "printedPage": 3,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "报名5月31日截止；制作7月30日8时至8月2日20时；学生3人一队学校统一报名；场地仪器元件材料原则由学校提供。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "investment"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-3.png"
+        },
+        {
+          "evidenceId": "ED-N-P4",
+          "pdfPage": 4,
+          "printedPage": 4,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "一次竞赛两级评奖；全国评审含综合测评/复测，比例上限属组织规则，未推断个人获奖概率。",
+          "relevantSections": [
+            "participation",
+            "benefits"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-4.png"
+        },
+        {
+          "evidenceId": "ED-N-P5",
+          "pdfPage": 5,
+          "printedPage": 5,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "正式学籍全日制本科/高职高专；本科只能本科题、高职也可本科；三人全程；封存和队外交流/教师回避。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "deliverables"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-5.png"
+        },
+        {
+          "evidenceId": "ED-N-P6",
+          "pdfPage": 6,
+          "printedPage": 6,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "报名费可由赛区按实际确定、由学校支付；费用公开透明受监督。未承诺个人耗材、差旅零成本。",
+          "relevantSections": [
+            "investment",
+            "value"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-6.png"
+        },
+        {
+          "evidenceId": "ED-N-P7",
+          "pdfPage": 7,
+          "printedPage": 7,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "全国组委会盖章落款为2025年1月17日；PDF提供的文本索引末页空白，日期依据原图。落款日与托管网页发布日期分开。",
+          "relevantSections": [
+            "participation",
+            "value"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-notice/page-7.png"
+        }
+      ]
+    },
+    {
+      "sourceId": "electronics-2025-c-task-shanghai-rar",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847.rar",
+          "sha256": "bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377.txt",
+          "sha256": "fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722.pdf",
+          "sha256": "388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167.html",
+          "sha256": "6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017.png",
+          "sha256": "2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5.png",
+          "sha256": "d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099.png",
+          "sha256": "db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf.png",
+          "sha256": "4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf"
+        }
+      ],
+      "readingMode": "saved Shanghai official-host HTML read; RAR member list inspected; only C member extracted in memory and hashed; C PDF all 4 original pages visually inspected and full text index read",
+      "scopeBoundary": "2025全国本科C题；高职选择本科题仍按本科标准；不使用同包其他题目的正文。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "ED-C-HOST",
+          "readingMode": "full_saved_html_body",
+          "originalPath": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167.html",
+          "observedEvidence": "上海赛区页标题为2025全国赛题（7月31日更新），页面日期7月26日，正文写7月30日上午7:50公布；本科RAR链接路径与记录URL完全相符。记录的7月30日可解释为题包公布日期，不混作网页初始发布日期。",
+          "relevantSections": [
+            "track",
+            "participation"
+          ]
+        },
+        {
+          "evidenceId": "ED-C-ARCHIVE",
+          "readingMode": "RAR_member_bytes_verified",
+          "archiveMember": "C题_基于单目视觉的目标物测量装置.pdf",
+          "memberBytes": 796463,
+          "memberSha256": "388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722",
+          "matchesSuppliedPdf": true,
+          "observedEvidence": "本次用tar -xOf读出C题成员，SHA与供应PDF一致；没有只因题包URL存在就认可题干。",
+          "relevantSections": [
+            "track",
+            "deliverables",
+            "rubric"
+          ]
+        },
+        {
+          "evidenceId": "ED-C-P1",
+          "pdfPage": 1,
+          "printedPage": "C-1/4",
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "本科组、3人、开赛截止、设计报告/实物/登记表；图1区分基准线和摄像头O点，图2为外部5V电源—电流测量—整机。",
+          "relevantSections": [
+            "task",
+            "eligibility",
+            "track",
+            "participation",
+            "deliverables"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-c-task/page-1.png"
+        },
+        {
+          "evidenceId": "ED-C-P2",
+          "pdfPage": 2,
+          "printedPage": "C-2/4",
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "三基本目标测D/x，实时电流误差绝对值不超5%；发挥目标含重叠/编号/倾斜及功耗最大值；限制单摄像头、禁PC/商品视觉测距改装/非视觉测距，电流电路不得商品模块，违者不测试。",
+          "relevantSections": [
+            "track",
+            "deliverables",
+            "rubric",
+            "skills"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-c-task/page-2.png"
+        },
+        {
+          "evidenceId": "ED-C-P3",
+          "pdfPage": 3,
+          "printedPage": "C-3/4",
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "基本图形圆/等边三角/正方形；D为目标标记投影至基准线，范围100—200cm；摄像头固定O点且不可变位置高度；不得联网；一键结果5秒内否则相应项不得分；基本D/x误差≤5/1cm、发挥≤2/0.5cm；P=5V×整机供电电流。",
+          "relevantSections": [
+            "track",
+            "difficulty",
+            "skills",
+            "nextStep"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-c-task/page-3.png"
+        },
+        {
+          "evidenceId": "ED-C-P4",
+          "pdfPage": 4,
+          "printedPage": "C-4/4",
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "评分表报告20、基本50、发挥50共120；基本目标各12分，电流14分；报告理论/电路程序/测试/规范均有栏目。",
+          "relevantSections": [
+            "rubric"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/electronics-c-task/page-4.png"
+        }
+      ]
+    },
+    {
+      "sourceId": "electronics-2025-national-process",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6.html",
+          "sha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50.txt",
+          "sha256": "83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50"
+        }
+      ],
+      "readingMode": "full saved HTML parsed and matching complete text index read; whitespace-normalized equality checked",
+      "scopeBoundary": "2025全国实施说明及附件综合测评办法；页面导航中的2026新闻不参与本条证据。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "ED-P-IDENTITY",
+          "textIndexLines": "59-65,182-194",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "页面发布2025-07-15；正文及附件落款为2025年7月12日，二者并非冲突日期。",
+          "relevantSections": [
+            "participation",
+            "value"
+          ]
+        },
+        {
+          "evidenceId": "ED-P-TEAM",
+          "textIndexLines": "66-98",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "学校组织、正式学籍三人、登记表、半封闭相对集中、官方发题站点清单列上海；高职可选本科且按本科标准，开赛后组别不改。",
+          "relevantSections": [
+            "eligibility",
+            "participation"
+          ]
+        },
+        {
+          "evidenceId": "ED-P-REPORT",
+          "textIndexLines": "99-105",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "设计报告封面和每页不得出现学校、代码、姓名，否则取消评审；正文A4不超8页，首页另附300字以内摘要，小四宋体、22磅、上留3cm；报告密封纸上代码写法另有特定位置，不能把匿名要求扩写为登记表不填身份。",
+          "relevantSections": [
+            "deliverables"
+          ]
+        },
+        {
+          "evidenceId": "ED-P-SEAL",
+          "textIndexLines": "104-110",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "报告、实物和登记表完赛一并装箱封存，队外交流禁止，三人全程。",
+          "relevantSections": [
+            "participation",
+            "deliverables"
+          ]
+        },
+        {
+          "evidenceId": "ED-P-NATIONAL",
+          "textIndexLines": "111-155,184-194",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "综合测评对象为赛区全部推荐全国评奖优秀队全员；综合测评8月10日8—15时、满分30；初评后一等奖候选及被抽调队复测，不是所有初赛队都复测。",
+          "relevantSections": [
+            "participation",
+            "benefits",
+            "value"
+          ]
+        },
+        {
+          "evidenceId": "ED-P-RECOGNITION",
+          "textIndexLines": "156-164",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "国家级奖项、社会异议和学校按实际考虑等是当届组织背景；不保证某学生升学或就业，未从比例上限推算个人获奖概率。",
+          "relevantSections": [
+            "benefits",
+            "value"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceRecheck": {
+    "inputFiles": [
+      {
+        "sourceId": "electronics-2025-main-notice",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+        "sha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69"
+      },
+      {
+        "sourceId": "electronics-2025-main-notice",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca.txt",
+        "sha256": "da9e371aca8094c72ef0a0011ba9728e8592b3edec03fd633e85db12bf2f97ca"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847.rar",
+        "sha256": "bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377.txt",
+        "sha256": "fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722.pdf",
+        "sha256": "388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167.html",
+        "sha256": "6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017.png",
+        "sha256": "2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5.png",
+        "sha256": "d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099.png",
+        "sha256": "db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099"
+      },
+      {
+        "sourceId": "electronics-2025-c-task-shanghai-rar",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf.png",
+        "sha256": "4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf"
+      },
+      {
+        "sourceId": "electronics-2025-national-process",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6.html",
+        "sha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6"
+      },
+      {
+        "sourceId": "electronics-2025-national-process",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round3/clean-content-review/sources/83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50.txt",
+        "sha256": "83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50"
+      }
+    ],
+    "all20SourceFileHashesVerified": true,
+    "sourceInventoryUnchanged": true,
+    "currentRoundPrimaryPages": {
+      "electronics-2025-main-notice": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "electronics-2025-c-task-shanghai-rar": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "currentRoundOriginalHtmlRecheck": [
+      "原HTML与索引归一化内容再次一致。一、8原文为“否则取消评审资格”；第三轮正文及交付fact均同此表述，无“该报告的”限定。",
+      "一、8—9的正文八页、另附300字以内摘要、页顶空白及密封纸代码分别核对。",
+      "同SHA原件的主通知第3—6页和C题第1—4页本轮重新渲染并逐页检查。",
+      "C题RAR成员再次只读提取并核验SHA，388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722，与当前PDF一致。"
+    ],
+    "readingBoundary": "独立读取第三轮新稿12节及当前所属主证据；背景来源与前两轮SHA相同，前两轮本评审者记录仅作可追溯历史，不以作者或B意见替代判断。"
+  },
+  "firstRoundEvidenceArtifact": "artifacts/specialist-20261106/stage2-content-review-a/electronics-c-evidence.json",
+  "currentRoundPageChecks": [
+    {
+      "folder": "electronics-notice",
+      "pdfPage": 3,
+      "observation": "2025制作时段、三人学校报名和学校原则提供设备材料。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-notice/page-3.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-notice",
+      "pdfPage": 4,
+      "observation": "一次竞赛两级评奖及全国综合测评/复测。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-notice/page-4.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-notice",
+      "pdfPage": 5,
+      "observation": "正式学籍全日制、本科/高职选题边界、三人全程、封存和教师回避。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-notice/page-5.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-notice",
+      "pdfPage": 6,
+      "observation": "赛区定报名费且学校支付，公开透明；不证明所有个人费用为零。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-notice/page-6.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-c-task",
+      "pdfPage": 1,
+      "observation": "C题本科组、报告实物登记表；基准线和相机O点区分，外部5V与整机电流框图。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-c-task/page-1.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-c-task",
+      "pdfPage": 2,
+      "observation": "三个基本目标/电流5%及发挥目标，单摄像头和禁PC/商品测距/非视觉/电流模块限制。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-c-task/page-2.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-c-task",
+      "pdfPage": 3,
+      "observation": "D投影定义、100—200cm、固定摄像头、5秒相应项后果、两档误差及功耗公式。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-c-task/page-3.png",
+      "visuallyInspectedThisRound": true
+    },
+    {
+      "folder": "electronics-c-task",
+      "pdfPage": 4,
+      "observation": "报告20、基本50、发挥50，总120。",
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a3/rendered/electronics-c-task/page-4.png",
+      "visuallyInspectedThisRound": true
+    }
+  ]
+}

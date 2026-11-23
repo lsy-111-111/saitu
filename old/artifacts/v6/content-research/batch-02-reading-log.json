@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "meteorology-2026-application",
+      "url": "https://ccsmic2026.cms1924.org/cn/web/index/32458_2808858",
+      "locator": "项目申报正文6—44行",
+      "finding": "本科组、年龄、四类交付及学校推荐；评分表未知"
+    },
+    {
+      "sourceId": "meteorology-2026-home",
+      "url": "https://ccsmic2026.cms1924.org/",
+      "locator": "阶段说明及文件资料",
+      "finding": "已发布决赛结果，仅做历史准备"
+    },
+    {
+      "sourceId": "urban-renewal-2026-notice",
+      "url": "https://www.ccen.com.cn/info/1150/5980.htm",
+      "locator": "正文92—155行",
+      "finding": "赛项、全日制学生及院校晋级；无完整任务书"
+    },
+    {
+      "sourceId": "urban-renewal-2026-final",
+      "url": "https://www.ccen.com.cn/info/1150/6130.htm",
+      "locator": "正文84—158行",
+      "finding": "决赛仅限晋级队伍；PPT必交、匿名和会务费"
+    },
+    {
+      "sourceId": "testing-2025-rules",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/e2b38fc7-deaf-46d0-9613-46b6146fbb73.pdf",
+      "locator": "PDF第1、3—6页",
+      "finding": "组委会2025原通知；大学仅托管，教师可填无分支保留"
+    },
+    {
+      "sourceId": "testing-2025-track",
+      "url": "https://cie.hsu.edu.cn/_upload/article/files/4c/cd/ec4c409b42b8935c13cb0fef7ba8/58ec3abc-b3c4-4e96-884b-68355b624244.pdf",
+      "locator": "PDF第1页",
+      "finding": "Web交付和评分；不借用第2页开发者40/30/20/10权重"
+    }
+  ]
+}

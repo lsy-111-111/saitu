@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "international-mathematics-competition:2026-33:proofs:individual:bulgaria-2026:v3",
+  "contentDigest": "fa5990e657eef26197b5da5a5868a1f0501325fa07308e40ef4ef60378b260ab",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.021845+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "imc-2026-info",
+    "imc-2026-day1",
+    "imc-2026-day1-marking"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "imc-2026-info",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974.html",
+      "sourceSha256": "4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/10-international-mathematics-competition.json :: fresh HTML text lines 15-17,31-60,82-84",
+      "verification": "完整相关正文：2026日期、完成1至4学年、23岁例外、现场强制住宿、个人评阅及Huawei项目另列。"
+    },
+    {
+      "sourceId": "imc-2026-day1",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c.pdf",
+      "sourceSha256": "5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/10-international-mathematics-competition.json :: PDF page 1; rendered/imc-paper-p1.png",
+      "verification": "已视觉读完整页；第1题 cos(cos x)=sin(sin x) 无实数解，题目完整。其余题不作为本稿证明路线依据。"
+    },
+    {
+      "sourceId": "imc-2026-day1-marking",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb.pdf",
+      "sourceSha256": "73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/10-international-mathematics-competition.json :: PDF page 1; rendered/imc-marking-p1.png",
+      "verification": "已视觉读第1题全部评分页；解法一互余2分、分支1+1分、周期排除2分、上界1分、矛盾3分，漏周期/单分支降分及其他两解法均可见。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/10-international-mathematics-competition.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/10-international-mathematics-competition.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

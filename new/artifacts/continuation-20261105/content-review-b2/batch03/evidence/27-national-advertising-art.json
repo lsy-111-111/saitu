@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+  "contentDigest": "557af1582406dffd971536ca1c6d8a45d2e0b7d7ea452d3a427d73eaefeb537b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.885909+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ad-rules",
+    "b-ad-task",
+    "b-ad-shaoyang-2026-reference"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ad-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sourceSha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "actualReadLocator": "与本轮02-03同SHA HTML，已实际阅读全文57-233行",
+      "verification": "全国2026指南、平面规范、资格/费用/提交流程"
+    },
+    {
+      "sourceId": "b-ad-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sourceSha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "actualReadLocator": "与本轮02-04同SHA HTML，已实际阅读全文50-143行",
+      "verification": "完整阿里云平面任务与特定A3竖版限制，绑定已修正"
+    },
+    {
+      "sourceId": "b-ad-shaoyang-2026-reference",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb.pdf",
+      "sourceSha256": "7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb",
+      "actualReadLocator": "本轮PDF第1、4、5页逐页渲染目读，rendered/ad-ref-1.png,-4.png,-5.png",
+      "verification": "2026邵阳职业技术学院校赛，30/30/30/10正式校赛权重，仅适用于该校赛"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "完整正文及相对batch02全部改动已读；跨地区边界正确，不把参考本身指为虚假。要求的是适用正式依据，不强制数值权重。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-27-01",
+      "severity": "major",
+      "description": "新增30/30/30/10原件是邵阳职业技术学院校赛正式评分；本文全国阿里云平面路径将它明确限定为训练参考，这个边界是正确的，但仍未补全国该路径适用的正式评审依据。请保留该缺口或提供适用依据；历史/地方参考不能自行关闭严格L3正式评审缺项。",
+      "resolved": false
+    }
+  ]
+}

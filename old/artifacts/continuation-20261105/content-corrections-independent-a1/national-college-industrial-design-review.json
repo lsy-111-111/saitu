@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "saitu.independent-content-review.v1",
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "contentDigest": "829c0b591739b3722b29605b761ee278927a5468192cf679477cbe079725b0cd",
+  "originalAuthorAgentId": "/root/continue_catalog",
+  "revisionAuthor": "/root",
+  "reviewerId": "/root/content_corrections_review_a",
+  "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+  "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "verifiedAs": "spawn configuration confirmed by parent; no hidden runtime version claimed"
+  },
+  "humanReadableVerdict": "needs_revision",
+  "contractOutcome": "changes_requested",
+  "completeCandidateRead": true,
+  "readBoundary": "All candidate record fields, not only revisions. All active official facts, historical scope, editorial learning suggestions, unknown boundaries, and worked examples compared with required sources. Imported pending legacy facts explicitly not promoted.",
+  "requiredSourceIds": [
+    "b-industrial-rule",
+    "b-industrial-work"
+  ],
+  "allRequiredSourcesRead": true,
+  "sourceReadingLog": "artifacts/continuation-20261105/content-corrections-independent-a1/source-reading-log.json",
+  "sevenCategoryEvidence": {
+    "task": "Empty展板的收纳、展开、滑移、支架与用户画像可用于纸模评读；并非制造/热安全验证。",
+    "eligibility": "规则p1–2普通高校全日制研究生、本科、高职高专，学校集体报名；黑龙江2024范围保留。",
+    "track": "展板p44印刷42清楚标CUIDC2024与沈阳理工大学；未归属黑龙江参赛或用黑龙江标准反推原奖分。",
+    "participation": "规则p3–5支持6/22–7/30网上报名、学校汇总、35件全国复评；没有误写单校推荐35件。",
+    "deliverables": "p3图版规格正确；p4单独设计说明遗漏，见finding。",
+    "rubric": "规则p5–6五项标准准确；跨赛区仅作为训练尺度。",
+    "investment": "未核报名/寄送/差旅金额，未知不作为免费；无燃料纸模方案与实物安全区分。"
+  },
+  "factAudit": [
+    {
+      "factId": "national-college-industrial-design:legacy:fact:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "national-college-industrial-design:legacy:source:2"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "national-college-industrial-design:legacy:fact:team",
+      "field": "team",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "national-college-industrial-design:legacy:source:2"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "national-college-industrial-design:legacy:fact:mentor",
+      "field": "mentor",
+      "candidateStatus": "unknown",
+      "assessment": "unknown_retained",
+      "sourceIds": [],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "national-college-industrial-design:legacy:fact:fee",
+      "field": "fee",
+      "candidateStatus": "unknown",
+      "assessment": "unknown_retained",
+      "sourceIds": [],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "national-college-industrial-design:v2:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "b-industrial-rule"
+      ],
+      "basis": "规则p1–2普通高校全日制研究生、本科、高职高专，学校集体报名；黑龙江2024范围保留。"
+    },
+    {
+      "factId": "national-college-industrial-design:v2:track",
+      "field": "track",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "b-industrial-work"
+      ],
+      "basis": "展板p44印刷42清楚标CUIDC2024与沈阳理工大学；未归属黑龙江参赛或用黑龙江标准反推原奖分。"
+    },
+    {
+      "factId": "national-college-industrial-design:v2:participation",
+      "field": "participation",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "b-industrial-rule"
+      ],
+      "basis": "规则p3–5支持6/22–7/30网上报名、学校汇总、35件全国复评；没有误写单校推荐35件。"
+    },
+    {
+      "factId": "national-college-industrial-design:v2:deliverables",
+      "field": "deliverables",
+      "candidateStatus": "historical",
+      "assessment": "supported_with_delivery_completeness_finding",
+      "sourceIds": [
+        "b-industrial-rule"
+      ],
+      "basis": "p3图版规格正确；p4单独设计说明遗漏，见finding。"
+    },
+    {
+      "factId": "national-college-industrial-design:v2:rubric",
+      "field": "rubric",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "b-industrial-rule"
+      ],
+      "basis": "规则p5–6五项标准准确；跨赛区仅作为训练尺度。"
+    }
+  ],
+  "deepDiveReview": {
+    "assessed": [
+      "representativeTask",
+      "workedExample.title/origin/sourceBoundary/steps/reviewQuestions",
+      "rubricMapping",
+      "rolePaths",
+      "fourWeekPlan",
+      "exitConditions",
+      "missingForPublication"
+    ],
+    "verdict": "delivery checklist incomplete; board analysis and safety/unknown boundaries are sound"
+  },
+  "legacyBoundary": {
+    "pendingLegacyFactIds": [
+      "national-college-industrial-design:legacy:fact:eligibility",
+      "national-college-industrial-design:legacy:fact:team"
+    ],
+    "notValidated": true,
+    "noActiveEligibilityRuleUsesLegacyFacts": true,
+    "note": "Archived source metadata may remain. Pending old facts are not current/scoped eligibility authority; no approval inheritance or promotion is authorized."
+  },
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A1-INDUSTRIAL-SEPARATE-DESCRIPTION",
+      "severity": "major",
+      "description": "deliverables事实和同名section只说明把设计说明编入一张图版，遗漏规则第4页（三）2（2）另列的“单独的作品设计说明”（官网模板）。这不是图版内说明的同义重复；照当前交付段准备可能只有展板而少交独立文件。应增加独立设计说明，并明确学校汇总表等流程材料；纸模学习练习仍可保留为缩小任务。",
+      "resolved": false
+    }
+  ],
+  "observations": [
+    "All supplied official current/historical facts are historical here; new/current edition eligibility, window and costs still require fresh review.",
+    "Time estimates, personal benefits, roles and trial plans are editorial, with outcomes/recognition not guaranteed."
+  ],
+  "vote": {
+    "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+    "reviewerId": "/root/content_corrections_review_a",
+    "model": "gpt-6-astra",
+    "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+    "contentDigest": "829c0b591739b3722b29605b761ee278927a5468192cf679477cbe079725b0cd",
+    "method": "independent_source_recheck",
+    "sourceIds": [
+      "b-industrial-rule",
+      "b-industrial-work"
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/content-corrections-independent-a1/national-college-industrial-design-review.json",
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": false,
+      "temporalAccuracy": true
+    },
+    "outcome": "changes_requested",
+    "findings": [
+      {
+        "id": "A1-INDUSTRIAL-SEPARATE-DESCRIPTION",
+        "severity": "major",
+        "description": "deliverables事实和同名section只说明把设计说明编入一张图版，遗漏规则第4页（三）2（2）另列的“单独的作品设计说明”（官网模板）。这不是图版内说明的同义重复；照当前交付段准备可能只有展板而少交独立文件。应增加独立设计说明，并明确学校汇总表等流程材料；纸模学习练习仍可保留为缩小任务。",
+        "resolved": false
+      }
+    ]
+  },
+  "acceptanceBoundary": "Not a 500-atomic formal acceptance, not an unseen challenge result, not publication authorization or canonical ledger mutation."
+}

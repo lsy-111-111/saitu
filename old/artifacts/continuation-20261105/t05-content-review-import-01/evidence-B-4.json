@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/review.json",
+    "sha256": "a690d5fd43631e2743982b3e3b70e9a834135dca4637408b8059db0666f730f8"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/source-reading-evidence.json",
+    "sha256": "b03685380557710b403aaf3a23024e51219f8732540ab4507aa27ed84ba566c0"
+  },
+  "recordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+  "contentDigest": "5034455272366d03f7c3e5a4a6daca11d9c7411aa151ac0588c3750e969e1792",
+  "informationalScopeNotes": [
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "报告打分表分项合计100，但注另列起评75、最高不超过95。候选陈述分项满分而未承诺实际可得100；不同赛段比例也明确另算，不构成本范围的错误。正式备赛应回看完整评分文件。"
+    },
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "原件还含匿名报告、查重、团队信息表、视频格式等正式提交要求。当前为历史学习路线与摘要，未声称列出全部申报材料；本审批不表示提交合规审核。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

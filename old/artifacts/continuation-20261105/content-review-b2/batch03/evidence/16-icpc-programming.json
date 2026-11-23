@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+  "contentDigest": "391129705dcc9daea8a99fb9d68efdfb022d98333af74e6988763206912885c9",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.025686+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "icpc-c-2025-rules",
+    "icpc-c-2025-d"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "icpc-c-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd.pdf",
+      "sourceSha256": "69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/15-icpc-programming.json :: PDF pages24–27；rendered/icpc-2-24..27.png逐页视觉",
+      "verification": "2025 Baku晋级、同校唯一队及原3人无替补、未曾两次总决赛、教练认证与签证/在读/到场、限定日期食宿与交通自理、5小时、前12名罚时与CE例外全部核对。"
+    },
+    {
+      "sourceId": "icpc-c-2025-d",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456.pdf",
+      "sourceSha256": "249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/15-icpc-programming.json :: PDF pages7–8完整D题；rendered/icpc-3-07..08.png逐页视觉",
+      "verification": "2秒，200x200网格，移动最多10000，四方向首可行选择，首步无改变费用；完整三组样例输出1/0/4及前两组解释。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/16-icpc-programming.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/15-icpc-programming.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

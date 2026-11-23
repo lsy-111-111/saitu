@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "lanqiao-cup:2019-10:cpp-array-successor:cpp-a:china-provincial-cpp-a-2019:v3",
+  "contentDigest": "02560bee51e0c2767fe4fa0e79b6103a535109a8005763ae57f3d4cbf4739a86",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.030244+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "lanqiao-c3-rules",
+    "lanqiao-c3-h"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "lanqiao-c3-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531.rar",
+      "sourceSha256": "bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/19-lanqiao-cup.json :: RAR: 个人赛通知 PDF p2-3; 软件类竞赛大纲 PDF p1-3; 报名指南 PDF p1,3; 报名费说明 PDF p1. rendered/lq-*.png",
+      "verification": "上述11张中的8张规则/报名/费用页已视觉核，全文提取仅辅助定位。资格组别、4小时、个人机考断网、逐测试用例计分、注册认证缴费、2018截止与300元/人和差旅自理均支持。未声称读完整归档或不相关练习题。"
+    },
+    {
+      "sourceId": "lanqiao-c3-h",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95.pdf",
+      "sourceSha256": "5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/19-lanqiao-cup.json :: PDF p1,12,13; rendered/lq-task-p1.png, lq-task-p12.png, lq-task-p13.png",
+      "verification": "完整H题两页及考生须知已视觉读，样例2 1 1 3 4→2 1 3 4 5，20分/1秒/256MB/N≤10万/A≤100万及80%用例N≤1万支持。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/20-lanqiao-cup.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/19-lanqiao-cup.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "新增个人机考fact与已读2019规程一致。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,49 @@
+{
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "name": "Hult Prize",
+  "contentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "b-hult-guide",
+      "url": "https://a.storyblok.com/f/133195/x/c87070884e/2023-hult-prize-challenge.pdf",
+      "readingLocation": "原PDF第1—23页完整挑战主体：服装定义、七段价值链、具体问题与机会、商业方案、组队和五项评审关注点",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "bytes": 12789453
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "完整官方2023挑战指南将任务限定服装/鞋类价值链的营利社会企业、可衡量SDG影响，包含具体七环节问题和提交/评审要求；可作为完整历史开放原题。本文不把指南企业宣传数据改成本项目成效，五项定性官方依据已足，数字权重未编造。个人问题/商业路线、四周及退出具体。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

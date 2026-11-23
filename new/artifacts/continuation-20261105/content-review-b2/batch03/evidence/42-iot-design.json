@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+  "contentDigest": "1bdd0572c34b716d2b4063461a42d14466b9f0ba7a833e93d67d4e838fadc51d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.048018+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "iot-2026-charter",
+    "iot-2026-espressif"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "iot-2026-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492.pdf",
+      "sourceSha256": "65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/41-iot-design.json :: PDF pages 1–6; rendered/iot-2-1.png through iot-2-6.png",
+      "verification": "章程全部六页视觉读取：第十三届、普通高校全日制本研同校≤4学生≤2导师单队、高职独立、2026提交窗口、原创要求、网评及现场定性评审、不收报名参赛评审费。"
+    },
+    {
+      "sourceId": "iot-2026-espressif",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30.pdf",
+      "sourceSha256": "538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/41-iot-design.json :: PDF pages 1–13; rendered/iot-3-01.png through iot-3-13.png",
+      "verification": "乐鑫命题全部13页视觉读取：第1页ESP三选一/传感器/至少一个云大模型/下行或非音视频上行四项必备；第2页可选加分，第3—7页板卡限量返还、云额度和资源，第8—11页官方及第三方案简介与图片，第12页条件性奖励，第13页品牌说明。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/42-iot-design.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/41-iot-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "physics-experiment-innovation:2026-12:ice-metal-friction:assigned-domestic:china-ice-metal:v3",
+  "contentDigest": "31afca33504a8b05dd03c45469fb4cc35acd9f0ff761013e133d025696ac4bd6",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:44:44.444053+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "physics-2026-notice-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "physics-2026-notice-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/38bbd5afbc5adf0154e492ecbc66cc12a204d027d469d169308be5a4a7db3095.pdf",
+      "sourceSha256": "38bbd5afbc5adf0154e492ecbc66cc12a204d027d469d169308be5a4a7db3095",
+      "actualReadLocator": "PDF pages 1,2,3,5,6,8; rendered/physics-p1.png etc.",
+      "verification": "逐页视觉已核：第十二届2026；国内学历/人数/奖项历史限制和校额；1000元仅网评及远程答辩；学校组织和9月报名；匿名引用AI规范；题1完整目的和要求；题1—4实际考核规范及装置条件。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、实验前置、四周子问题计划及退出已读。",
+    "第8页标题明确为考核方式（规范），可作定性评审映射；未借用自选题权重，未编出量化评分。",
+    "第5页匿名违规扣5—10分及AI声明规范可支持材料规范检查；费用明确团队及赛段边界，个人承担未知。",
+    "只读上述6页，其他题和其他类别评审不作本稿依据。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

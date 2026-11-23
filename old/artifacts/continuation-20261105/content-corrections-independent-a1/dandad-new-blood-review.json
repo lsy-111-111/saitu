@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "saitu.independent-content-review.v1",
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "contentDigest": "e9ad3b4e2477c4df47c239cdf43e2acec495c4aab7b38e8e42178e6da16f4009",
+  "originalAuthorAgentId": "/root/continue_catalog",
+  "revisionAuthor": "/root",
+  "reviewerId": "/root/content_corrections_review_a",
+  "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+  "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "verifiedAs": "spawn configuration confirmed by parent; no hidden runtime version claimed"
+  },
+  "humanReadableVerdict": "needs_revision",
+  "contractOutcome": "changes_requested",
+  "completeCandidateRead": true,
+  "readBoundary": "All candidate record fields, not only revisions. All active official facts, historical scope, editorial learning suggestions, unknown boundaries, and worked examples compared with required sources. Imported pending legacy facts explicitly not promoted.",
+  "requiredSourceIds": [
+    "newblood-2026-tutor-pack",
+    "newblood-2026-dad-brief"
+  ],
+  "allRequiredSourcesRead": true,
+  "sourceReadingLog": "artifacts/continuation-20261105/content-corrections-independent-a1/source-reading-log.json",
+  "sevenCategoryEvidence": {
+    "task": "官方brief p1自我推广、持续系列、明确受众与社交策略；编辑五幅分工未冒充官方步骤。",
+    "eligibility": "Tutor p30/34共同学生分支、团队<=5且全员合格；非学生冲突已公示，排除条件未忽略。",
+    "track": "2026 Share your passion，与2027/Craft资格无混用。",
+    "participation": "Tutor p26/34在线原创提交；brief p1本人身份例外限此题。英语条件遗漏见finding。",
+    "deliverables": "brief两页支持至少3x30s视频或5静态例子、主2min或8JPEG、辅助1min或4JPEG；语言遗漏见finding。",
+    "rubric": "Tutor p3/31/36支持创意/执行/回应及Games例外，未虚构权重与本题未明优先分支。",
+    "investment": "Tutor p30/34支持£15每作品或全员调查券；未称设备/素材/制作免费。"
+  },
+  "factAudit": [
+    {
+      "factId": "dandad-new-blood:v2:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-tutor-pack"
+      ],
+      "basis": "Tutor p30/34共同学生分支、团队<=5且全员合格；非学生冲突已公示，排除条件未忽略。"
+    },
+    {
+      "factId": "dandad-new-blood:v2:track",
+      "field": "track",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-dad-brief"
+      ],
+      "basis": "2026 Share your passion，与2027/Craft资格无混用。"
+    },
+    {
+      "factId": "dandad-new-blood:v2:participation",
+      "field": "participation",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-dad-brief",
+        "newblood-2026-tutor-pack"
+      ],
+      "basis": "Tutor p26/34在线原创提交；brief p1本人身份例外限此题。英语条件遗漏见finding。"
+    },
+    {
+      "factId": "dandad-new-blood:v2:deliverables",
+      "field": "deliverables",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-dad-brief"
+      ],
+      "basis": "brief两页支持至少3x30s视频或5静态例子、主2min或8JPEG、辅助1min或4JPEG；语言遗漏见finding。"
+    },
+    {
+      "factId": "dandad-new-blood:v2:investment",
+      "field": "investment",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-tutor-pack"
+      ],
+      "basis": "Tutor p30/34支持£15每作品或全员调查券；未称设备/素材/制作免费。"
+    },
+    {
+      "factId": "dandad-new-blood:v2:rubric",
+      "field": "rubric",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "newblood-2026-tutor-pack"
+      ],
+      "basis": "Tutor p3/31/36支持创意/执行/回应及Games例外，未虚构权重与本题未明优先分支。"
+    }
+  ],
+  "deepDiveReview": {
+    "assessed": [
+      "representativeTask",
+      "workedExample.title/origin/sourceBoundary/steps/reviewQuestions",
+      "rubricMapping",
+      "rolePaths",
+      "fourWeekPlan",
+      "exitConditions",
+      "missingForPublication"
+    ],
+    "verdict": "formal-format language condition needs adding; creative exercise remains useful"
+  },
+  "legacyBoundary": {
+    "pendingLegacyFactIds": [],
+    "notValidated": true,
+    "noActiveEligibilityRuleUsesLegacyFacts": true,
+    "note": "Archived source metadata may remain. Pending old facts are not current/scoped eligibility authority; no approval inheritance or promotion is authorized."
+  },
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A1-DAD-LANGUAGE",
+      "severity": "minor",
+      "description": "交付与四周计划把末步称为“正式格式的介绍材料”，但整条记录未交代Tutor Pack第26页明确的语言条件：作品须英语（除命题明确另有规定），解释也须英语。本命题虽提供中文题面，未授予中文提交例外。对中文读者，这是会影响制作工作量与正式材料合规的重要条件；应在交付/参与说明加入并区分中文练习稿与正式英语材料。现有数量、时长、资格及费用陈述本身得到支持。",
+      "resolved": false
+    }
+  ],
+  "observations": [
+    "All supplied official current/historical facts are historical here; new/current edition eligibility, window and costs still require fresh review.",
+    "Time estimates, personal benefits, roles and trial plans are editorial, with outcomes/recognition not guaranteed."
+  ],
+  "vote": {
+    "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+    "reviewerId": "/root/content_corrections_review_a",
+    "model": "gpt-6-astra",
+    "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+    "contentDigest": "e9ad3b4e2477c4df47c239cdf43e2acec495c4aab7b38e8e42178e6da16f4009",
+    "method": "independent_source_recheck",
+    "sourceIds": [
+      "newblood-2026-tutor-pack",
+      "newblood-2026-dad-brief"
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/content-corrections-independent-a1/dandad-new-blood-review.json",
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": false,
+      "temporalAccuracy": true
+    },
+    "outcome": "changes_requested",
+    "findings": [
+      {
+        "id": "A1-DAD-LANGUAGE",
+        "severity": "minor",
+        "description": "交付与四周计划把末步称为“正式格式的介绍材料”，但整条记录未交代Tutor Pack第26页明确的语言条件：作品须英语（除命题明确另有规定），解释也须英语。本命题虽提供中文题面，未授予中文提交例外。对中文读者，这是会影响制作工作量与正式材料合规的重要条件；应在交付/参与说明加入并区分中文练习稿与正式英语材料。现有数量、时长、资格及费用陈述本身得到支持。",
+        "resolved": false
+      }
+    ]
+  },
+  "acceptanceBoundary": "Not a 500-atomic formal acceptance, not an unseen challenge result, not publication authorization or canonical ledger mutation."
+}

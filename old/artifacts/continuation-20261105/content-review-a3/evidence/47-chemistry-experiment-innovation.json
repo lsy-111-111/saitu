@@ -1,0 +1,82 @@
+{
+  "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+  "name": "全国大学生化学实验创新设计大赛",
+  "contentDigest": "6b787bc779e9d77d98abbacc8ab93e26575697918b7bf9ffd630a7c4754fa076",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.189036+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+    "previousContentDigest": "6b787bc779e9d77d98abbacc8ab93e26575697918b7bf9ffd630a7c4754fa076",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "chem-innovation-2025-charter",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250311/1741657661442014167.pdf",
+      "readingLocation": "PDF P5:L31-P7:L15及P8:L1-L19，命题类型、资格、材料、经费",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b.pdf",
+      "sha256": "0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b",
+      "bytes": 12931938,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "chem-innovation-2025-final",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250818/1755500298814050899.pdf",
+      "readingLocation": "PDF P1-P2第三四七节，实际两轮计分和费用",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b.pdf",
+      "sha256": "55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b",
+      "bytes": 324834,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "chem-cochineal-2026-work",
+      "url": "https://www.dxhx.pku.edu.cn/CN/10.12461/PKU.DXHX202509113",
+      "readingLocation": "PDF P1-P11全文文字，原印页120-130，特别P5-P7比色限制、P7-P10受众分层",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115.pdf",
+      "sha256": "b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115",
+      "bytes": 5484160,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "完整公开作者论文内容可支撑分层科普和对照分析；稿件没有沿用作者泛化的家庭安全/食品含量判断，明确粗估与真实含量边界。2025两轮评分、费用主体与2026发表时点准确。12模块、个人新问题、四周及实验资源退出充分。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

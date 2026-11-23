@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+  "contentDigest": "6b787bc779e9d77d98abbacc8ab93e26575697918b7bf9ffd630a7c4754fa076",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.053543+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "chem-innovation-2025-charter",
+    "chem-innovation-2025-final",
+    "chem-cochineal-2026-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "chem-innovation-2025-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b.pdf",
+      "sourceSha256": "0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/46-chemistry-experiment-innovation.json :: PDF pages5-8; rendered/chemistry-2-05.png through -08.png",
+      "verification": "Visually read national charter attachment, not just Northeast notice: eligibility, three-person popular-science team, prior-publication restrictions, regional/national progression, anonymous materials, qualitative popular-science requirements."
+    },
+    {
+      "sourceId": "chem-innovation-2025-final",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b.pdf",
+      "sourceSha256": "55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/46-chemistry-experiment-innovation.json :: PDF pages1-2; rendered/chemistry-3-1.png,-2.png",
+      "verification": "Visually read national2025 final notice; first round50/50 and independent second round, fees3600/work and1400/teacher, school payment and self-funded accommodation."
+    },
+    {
+      "sourceId": "chem-cochineal-2026-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115.pdf",
+      "sourceSha256": "b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/46-chemistry-experiment-innovation.json :: All11PDF pages journal120-130; rendered/chemistry-4-01.png through -11.png",
+      "verification": "Complete paper visually read: structures/spectra, actual colour cards, predicted versus measured pH and predicted versus calculated metal concentration, age-specific outreach plans. Article explicitly2026, received2025-09-24. Figures1-15 and Tables1-2 actually read; no award stated."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/47-chemistry-experiment-innovation.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/46-chemistry-experiment-innovation.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-47-01",
+      "severity": "minor",
+      "description": "The manuscript calls this paper a fifth-edition competition special-issue work and binds it as a same-edition example, but the supplied full PDF only labels it as a 2026 themed article; no fifth-edition attribution, entry identifier or competition participation is visible. Supply the official issue/entry attribution or explicitly use it as an external published learning reference with 2025 rules as a separately bounded comparator. Do not imply verified same-edition participation or award.",
+      "resolved": false
+    }
+  ]
+}

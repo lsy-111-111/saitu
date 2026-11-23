@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "saitu.catalog.independent-source-recheck.v1",
+  "candidate": "v758",
+  "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+  "recordAuthor": "/root/continue_catalog",
+  "reviewerId": "/root/f_resume",
+  "runId": "codex-v758-f-formula-source-fe5b85e63716",
+  "reviewedAt": "2026-11-11T19:04:56.818Z",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "outcome": "approved",
+  "contentDigest": "fe5b85e637163beaa393be9b818a2b114fe1df47e40f6196cd045eb35ca492fe",
+  "canonicalRecordSha256": "1695795a866a171690cb220464040c334f6973752bc3dc1ba196131e37a122bb",
+  "matchingCoreDigest": "05248d6f581d219729f0247ae6754d77518872700e6bde518767489270d7b516",
+  "recordSnapshot": {
+    "path": "artifacts/step8-first-20261111/C/v758-catalog-source-review-input.safe.json",
+    "sha256": "f4ca934b78656d7b0957254c5e1fe83f36185b651c46a0b89e44275b6e54a894",
+    "pointer": "/formula/record"
+  },
+  "recordSourceFile": {
+    "path": "src/content/competitions-v6/researched-engineering-a9.ts",
+    "sha256": "49ccbdfe0ba0a1fcc7e7e3ec115614f5138bf45d2dbe1af742cb82a8f0f718a6"
+  },
+  "sources": [
+    {
+      "sourceId": "fsc-2026-rules-cost",
+      "path": "artifacts/v6/content-research/source-byte-snapshots/7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece.pdf",
+      "sha256": "7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece",
+      "scope": "2026最终规则",
+      "locators": [
+        "物理PDF13–14、17–18页资格、组队、费用与参赛",
+        "物理PDF138–142页S4.1–S4.9，尤其140页S4.5.1、141页表7.2、S4.6与S4.7"
+      ]
+    },
+    {
+      "sourceId": "fsc-2026-cost-case",
+      "path": "artifacts/v6/content-research/source-byte-snapshots/d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed.pdf",
+      "sha256": "d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed",
+      "scope": "另发案例题",
+      "locators": [
+        "PDF第1页题干、采购表、汇报事项、提示5；第2页提示6；第3–4页对应英语"
+      ]
+    }
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "scopeFindings": [
+    {
+      "fields": [
+        "facts.v2:eligibility",
+        "eligibilityRules",
+        "facts.v2:participation",
+        "facts.v2:investment",
+        "registration"
+      ],
+      "sourceIds": [
+        "fsc-2026-rules-cost"
+      ],
+      "locator": "规则物理PDF第13–14、17–18页，A4、A5、A7、A8",
+      "finding": "燃油队使用通用的全日制学生条件和7个月毕业例外，研究生至多3名、本科大三及以下至少3名、队员满18岁。院校学会会员与教师范围、车队登记、驾驶员证件及5000元/800美元不退的团队费均有来源。同校同类型登记的明确上限为一队。保险和非驾驶员证明条款保持待核，未把团队费当个人总成本或把历史规则当当前报名。郑州站遗留事实仍标待复核。"
+    },
+    {
+      "fields": [
+        "facts.v2:deliverables",
+        "facts.v2:rubric",
+        "sections.rubric",
+        "difficulty.completion",
+        "deepDive.rubricMapping"
+      ],
+      "sourceIds": [
+        "fsc-2026-rules-cost"
+      ],
+      "locator": "规则物理PDF第138–142页，S4.3、S4.5.1、S4.6、S4.7及表7.2。已直接查看140、141页版面",
+      "finding": "成本报告、赛车边现场陈述和另发案例为同一项目三个环节。评分表100分由调整后BOM成本20分、准确性与清晰性40分和现场比赛日/制造流程40分构成。最后一项准备讨论赛前案例，具体目标另发。正式成本报告按真实工艺与标准表，使用年产1000辆的规则口径，排除所列研发和基础设施经费。"
+    },
+    {
+      "fields": [
+        "facts.v2:track",
+        "summary",
+        "deepDive.representativeTask",
+        "deepDive.workedExample",
+        "sevenDayTrial"
+      ],
+      "sourceIds": [
+        "fsc-2026-rules-cost",
+        "fsc-2026-cost-case"
+      ],
+      "locator": "规则S4.3；案例PDF第1–2页采购表、汇报事项1–3、提示5–6及第3–4页英文。已直接查看案例第1–2页版面",
+      "finding": "三年200、500、800辆为题设采购量。成本、利润、性能优化成本和谈判目标来自另发案例。案例提示5使用题设公司产量口径，提示6要求车队自行估算设备、厂房和人力等增量投入，均和正式标准表口径分开。纸面扩产练习保留未知成本和假设，不把题设当实际订单。"
+    },
+    {
+      "fields": [
+        "roles",
+        "sections.skills",
+        "sections.benefits",
+        "sections.value",
+        "suitability",
+        "deepDive.rolePaths",
+        "deepDive.fourWeekPlan",
+        "deepDive.exitConditions"
+      ],
+      "sourceIds": [
+        "fsc-2026-rules-cost",
+        "fsc-2026-cost-case"
+      ],
+      "locator": "规则S4.1–S4.5与2026案例事项及提示",
+      "finding": "成本建模、设计论证与四周体验均为编辑学习路线。原规则交付、车队协作、独立贡献、当前报名及学校认可边界保留。未把学习产出当整车参赛材料或奖项证明。"
+    }
+  ],
+  "verifiedSourceSnapshotCount": 2,
+  "paidProviderCalls": 0,
+  "ledgerWrite": false
+}

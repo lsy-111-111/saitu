@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+  "contentDigest": "fd871bb9225f2c0de0c7780ab338529a0d554036e33c4d3da12ad45289237e84",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.027791+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fwwb-c2-handbooks",
+    "fwwb-c2-a11"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fwwb-c2-handbooks",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8.zip",
+      "sourceSha256": "db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/17-service-outsourcing-innovation.json :: 参赛手册PDF pages 12,28–30,37；A类赛题手册PDF page176；对应rendered/fwwb-*.png均已视觉阅读",
+      "verification": "核实全日制及毕业五年内、最多5学生2导师、A类一道题；提交材料与两种提交渠道；20/30/30/20表明确仅供参考。"
+    },
+    {
+      "sourceId": "fwwb-c2-a11",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e.html",
+      "sourceSha256": "9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/17-service-outsourcing-innovation.json :: fresh HTML text lines11–70",
+      "verification": "A11完整篮球ReID题面、Query/Gallery、三类难点、mAP/Rank1/4090时延门槛、模型及展示材料、企业测试和外部数据披露已读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/18-service-outsourcing-innovation.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/17-service-outsourcing-innovation.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-18-01",
+      "severity": "major",
+      "description": "严格L3适用正式评分仍未闭合：两份官方手册的20/30/30/20评分表均明确“仅供参考”，A11技术达标阈值不能替代最终适用评分依据。正文已正确标注参考性质，不属于虚构正式权重；但missingForPublication为空且请求完整L3批准不成立，应保留评分缺口或补入适用正式评分原件后再审。",
+      "resolved": false
+    }
+  ]
+}

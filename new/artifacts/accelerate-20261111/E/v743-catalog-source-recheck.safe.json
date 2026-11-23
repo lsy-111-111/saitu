@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "saitu.E.v743-catalog-source-recheck.safe.v1",
+  "reviewer": "E",
+  "reviewedAt": "2026-11-11T07:17:09.096Z",
+  "locked": true,
+  "sourceFiles": [
+    {
+      "path": "src/content/competitions-v6/researched-software-math-c2.ts",
+      "sha256": "2aaa04bb3a8c9b7bf626975e6178c7173f3d55d4fed30c1a43f618a3b00caec3"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-engineering-a6.ts",
+      "sha256": "ca24018b7593fd636b168f6010a744cc7da44b4118d1fe8a3d04c1d40cb22fce"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-engineering-a2.ts",
+      "sha256": "fc3c0590c2d200baa6678b9bf836edb2b365361c92252db0f8ab2b0d6cbbf8f7"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-engineering-a4.ts",
+      "sha256": "f054a959a8b879d182bf83bae8cab3b81792a3bd5e3412bddb7493d52e41a1ab"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-software-math-c4.ts",
+      "sha256": "1073eb397681202f4132d7ae31549662d427d07e8fb57af20e001c81156f0f05"
+    },
+    {
+      "path": "src/content/competitions-v6/compact-task-copy.ts",
+      "sha256": "9cca273475019290fd1ac160b9ac4f4c98b99a40856345b86fb1a44b6d83263e"
+    },
+    {
+      "path": "src/content/competitions-v6/compact-value-copy.ts",
+      "sha256": "3729291513c38db86aa3f75b9d0e15d95f369053de4e3c776af2dacab7d158f6"
+    }
+  ],
+  "scope": "独立复核五条已修改的源内容及学生可见映射，对三项改变匹配核心的记录复核同范围官方正文、完整核心与冻结官方主页。旧源审、旧入口记录及旧L3不迁用到新摘要。",
+  "previousCatalog": {
+    "path": "artifacts/accelerate-20261111/D/v742-formal-02/catalog.snapshot.json",
+    "sha256": "82e2b27c33b2a5129c496e304d927c826fa97a951e604ce72ac64f857e15eb09"
+  },
+  "reviewedRecords": [
+    {
+      "recordId": "china-college-computer-design:2026-19:ai-industrial-vision:full-time-undergraduate:china-ai-industrial-2026:v3",
+      "previousCoreDigest": "529b5e1db84c064d182cdf82536b36ce7c9941ad1f23d580660e6efd4a07bb5e",
+      "coreDigest": "1c8f926218e234be2454ee31d1e311befe8b4b916ba0a104474616ae2c55945c",
+      "previousContentDigest": "3021621bdf1a73a9f342b810532e296a9d2844c8a3668f70511f80f47efdd48b",
+      "contentDigest": "9dad117395e743d90b66cf0305ff343c829f5270c1f8b68a1426486467b5bba7",
+      "previousTier": "L3",
+      "currentTier": "L2",
+      "coreReapprovalRequired": true,
+      "summary": "按2026年国赛工业视觉专项任务完成产品分类、目标计数、缺陷检测、尺寸检测和编号识别。",
+      "sourceEvidence": [
+        {
+          "sourceId": "4c-c2-industrial",
+          "url": "https://jsjds.exelab.cc/docs/C02v20260225.01.pdf",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/425bf5579ebcf86cf07c384b631d2bbaf143c748da1190751a7db1179c5d8099.txt",
+          "sha256": "425bf5579ebcf86cf07c384b631d2bbaf143c748da1190751a7db1179c5d8099",
+          "locator": "第1—5页；冻结文本67–88、115–118、188–196：指定环境、五类检测、留图与用时；光照变化可能发生，不是另加的规定试验。"
+        },
+        {
+          "sourceId": "4c-c2-national",
+          "url": "https://jsjds.blcu.edu.cn/info/1042/2124.htm",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/7c1c55fc0d2ab258e9547d444022c1356bf19541720d3b0a500b9356a8420ca4.txt",
+          "sha256": "7c1c55fc0d2ab258e9547d444022c1356bf19541720d3b0a500b9356a8420ca4",
+          "locator": "2026预通知参赛对象和三级上推段：全国及人工智能专项范围。"
+        }
+      ],
+      "assessment": "核心任务准确列出2026国赛工业视觉的五类规定任务。照明变化保留为可选编辑训练；现有现场留图、用时和设备约束仍由原文独立支持。",
+      "officialEntryRecheck": {
+        "url": "https://jsjds.blcu.edu.cn/",
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/captures/833effd6f1669b21b9d5.txt",
+        "sha256": "fed282671f52bd8e9ddc433a8c5e85206f6c088f503cbfb2eb7e3d2ecae1ecf4",
+        "locator": "页首赛事名称及页脚北京语言大学托管、组委会版权。",
+        "metadataDigest": "3a4169d04e7d6481687392da8ccb67fc0093e308bd02f1bc1d2c70358dd6873f"
+      }
+    },
+    {
+      "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+      "previousCoreDigest": "21f4de241aeae8caaebfb6ff1bebd65bec5c75086f5eeffeef34c35e5363fdd4",
+      "coreDigest": "21f4de241aeae8caaebfb6ff1bebd65bec5c75086f5eeffeef34c35e5363fdd4",
+      "previousContentDigest": "c028deac9a49f76da30802b6baee0f7d85417500222d3e58a90466f7183897c1",
+      "contentDigest": "a546f989e808839c6e406450730beed45e57ea818386a93be6a676b3dcb143e4",
+      "previousTier": "L3",
+      "currentTier": "L2",
+      "coreReapprovalRequired": false,
+      "summary": "利用最高不同二进制位拆开数对贡献，避免枚举所有二十万个数之间的配对。",
+      "sourceEvidence": [
+        {
+          "sourceId": "ccsp-c4-xor",
+          "url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=F43386642EF7A3E5563DD082AC261ED3E17E72083F2FC299A3BD8AB50C7B6EC4",
+          "path": "artifacts/v6/content-research/frozen-source-text/78cc592cc3ef665d50d9b254d355bb1d06584ba6482bf6095b9242354dac4daf.txt",
+          "sha256": "78cc592cc3ef665d50d9b254d355bb1d06584ba6482bf6095b9242354dac4daf",
+          "locator": "2025正式赛题仓库价格调整，冻结文本27–59：XOR、原序和两个输出。"
+        },
+        {
+          "sourceId": "ccsp-c4-notice",
+          "url": "https://ccsp.ccf.org.cn/ccsp/Bulletin/2025-09-15/848571.shtml",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/b6f5aae6845729003932b1ee31e4be308d29a7d91c1241f037d9e5c49f7c3ff4.txt",
+          "sha256": "b6f5aae6845729003932b1ee31e4be308d29a7d91c1241f037d9e5c49f7c3ff4",
+          "locator": "2025全国赛通知，冻结文本71、80、82：9—21时、共五题各100分，仍在参与和评分各自有据。"
+        }
+      ],
+      "assessment": "作品价值以位运算、计数及性能验证为练习，不再从单道XOR链接声称整场十二小时。整场表现需看全部题目是对单题练习外推范围的分析。"
+    },
+    {
+      "recordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+      "previousCoreDigest": "ceb1d5ff240dd7afc84846e3030a6083b63aaea6a4aadf4849b870551e0a87ca",
+      "coreDigest": "6c0aa61c816b8c97905bb65d3fc9c9d57b925f7b746d95cd97f90881bf318594",
+      "previousContentDigest": "1bdd0572c34b716d2b4063461a42d14466b9f0ba7a833e93d67d4e838fadc51d",
+      "contentDigest": "f967aead82ab3660fd369922baeacca6ab5d053e39380eebcf33c6172a256920",
+      "previousTier": "L3",
+      "currentTier": "L2",
+      "coreReapprovalRequired": true,
+      "summary": "使用指定乐鑫芯片融合传感器数据，接入云端大模型，实现设备响应模型指令，或上传非音视频的感知数据供模型处理。",
+      "sourceEvidence": [
+        {
+          "sourceId": "iot-2026-espressif",
+          "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260329/6391039317778793056390288.pdf",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/69555573ce6591e697aab0142406c17b2aec93c048bce6be72bcea3275743053.txt",
+          "sha256": "69555573ce6591e697aab0142406c17b2aec93c048bce6be72bcea3275743053",
+          "locator": "1.1必备项、2开发资源、4.2企业额外奖励；冻结文本第5、10、61行：主控、传感器数据融合、至少一个云模型、上/下行二选，奖励范围独立。"
+        },
+        {
+          "sourceId": "iot-2026-charter",
+          "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260326/6391013243710844328303068.pdf",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/13743cb90f090ea786c726f82cb3d5abc09c445985121bab92514d2988d9c7b9.txt",
+          "sha256": "13743cb90f090ea786c726f82cb3d5abc09c445985121bab92514d2988d9c7b9",
+          "locator": "章程第2—6页：队伍/导师、设计方案和演示视频、原创与评审；章程交付不支持企业奖励承诺。"
+        }
+      ],
+      "assessment": "核心任务准确说明乐鑫芯片、传感器数据、云端模型和上/下行替代；异常处置仍在编辑练习。作品价值删去未由该条章程引文支持的奖励描述，保留设备接口、故障处理和用户验证的练习价值。",
+      "officialEntryRecheck": {
+        "url": "https://iot.sjtu.edu.cn/Default.aspx",
+        "path": "artifacts/continuation-v7-20261109/catalog/algorithm-reviewer-official-metadata/all-captures/3bb7161e21370ca57314.txt",
+        "sha256": "322b8c806fbbb5e75e534a2de55d0c182048190e66c07c0c98dd238b9a75876a",
+        "locator": "赛事主页标题、分赛区与国赛动态、页脚组委会版权。",
+        "metadataDigest": "8ffda04c1ea60e76d03913b6c4c2a315c04230df0904ccaae0c1335901081795"
+      }
+    },
+    {
+      "recordId": "embedded-chip-system-design:2026:gowin-real-time-synth:nuaa-undergraduate-graduate:nuaa-gowin-fpga:v3",
+      "previousCoreDigest": "c25d91413bff3ef86114b06850f20fd56937207d54c7e59e907d3f5212d856bb",
+      "coreDigest": "c25d91413bff3ef86114b06850f20fd56937207d54c7e59e907d3f5212d856bb",
+      "previousContentDigest": "cf12207cb6106bfecca452953b0209bd470e917632ca52f587976fb38b94c8bc",
+      "contentDigest": "1e5f3d6c498855fb33f549d652262b7f851e973e384b5f981b2f7ef34ffe0049",
+      "previousTier": "L3",
+      "currentTier": "L2",
+      "coreReapprovalRequired": false,
+      "summary": "把演奏动作变成有确定延迟的并行音频生成电路，证明听到的声音与个人设计的硬件逻辑对应。",
+      "sourceEvidence": [
+        {
+          "sourceId": "fpga-gowin-2026-task",
+          "url": "https://www.gowinsemi.com.cn/university/match2026",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/fe0888c7c2f2b1ff13c6da6c151c9a9870df4b8e7079495c7b169da25524a754.txt",
+          "sha256": "fe0888c7c2f2b1ff13c6da6c151c9a9870df4b8e7079495c7b169da25524a754",
+          "locator": "选题二，冻结文本188–201：硬件实时合成、基础延迟和现场频谱/RTL验证。"
+        },
+        {
+          "sourceId": "fpga-nuaa-2026-notice",
+          "url": "https://aao.nuaa.edu.cn/2026/0920/c19003a411397/page.htm",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/20ae83afa058b4337f00c2b564990b399552db5c262e5837d7c95acfc07f2678.txt",
+          "sha256": "20ae83afa058b4337f00c2b564990b399552db5c262e5837d7c95acfc07f2678",
+          "locator": "校内组织通知，冻结文本166–183：南航校内认定、参赛对象和组织。"
+        }
+      ],
+      "assessment": "作品价值保留数字逻辑、实时音频和可重复测量的学习成果，删除只引高云题目的南航认定。学校范围在原南航规则及限制中仍明确。"
+    },
+    {
+      "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+      "previousCoreDigest": "01adf43abf9ebe44122b87621980b0f1e665be54e6d343838b43ddeb4c24f51d",
+      "coreDigest": "10b2c6a610b77585227ffa9e02b56b61c766eb704d5253c3444551e456f456d8",
+      "previousContentDigest": "fd38a8e7cf3a2ef2162520425adbe6e15226333a887aa439f2eeca09f5f4b212",
+      "contentDigest": "d926f8c8d860e507b3323373f25cef90afbf0aaba889e5379d718eb91792581c",
+      "previousTier": "L3",
+      "currentTier": "L2",
+      "coreReapprovalRequired": true,
+      "summary": "把感知、建图、导航和停车串成能处理现场变化的闭环，用日志解释失败并验证改进。",
+      "sourceEvidence": [
+        {
+          "sourceId": "smartcar-2025-outdoor-ros",
+          "url": "https://www.smartcar.zone/upload/files/2025/9/%E8%B5%9B%E9%A1%B9%E4%B8%80-%E5%AE%A4%E5%A4%96ROS%E6%97%A0%E4%BA%BA%E8%BD%A6%E8%B5%9B%EF%BC%88%E9%AB%98%E6%95%99%E7%BB%84%EF%BC%89%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99.pdf",
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/36a5aefceab392c2449ff990dc6b8ce5f3e1c2b559be44e7134b300390b0798d.txt",
+          "sha256": "36a5aefceab392c2449ff990dc6b8ce5f3e1c2b559be44e7134b300390b0798d",
+          "locator": "2.1–2.3和3.1–3.5；冻结文本37–52、141–154、163–201、207–232、243–249：建图导航、手册评分、ROS2/ROS1罚时与分场景提交。"
+        }
+      ],
+      "assessment": "2025室外ROS高教组保留源码及至少五案例手册的提交要求。第2.3.1节独立规定复现得1分、否则0分；修正后没有把这一评分条件变成提交资格。ROS1加罚与线上线下范围保留。",
+      "officialEntryRecheck": {
+        "url": "https://www.smartcar.zone/",
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/captures/39a0ce055a3817380032.txt",
+        "sha256": "647a0ab187c3b20c1023b3dd6e30c86568a420809d9386109d94a840738ad089",
+        "locator": "赛事官网标题、赛事章程与历届赛事导航；不据首页推出现行资格。",
+        "metadataDigest": "6b88f43e9b0d45cc643daca228a55a7d2455244b780b6349042966675a5a143d"
+      }
+    }
+  ],
+  "canonicalLedgerBefore": [
+    {
+      "path": "src/content/competitions-v6/ai-review-ledger.json",
+      "sha256": "2492930a9212f2a4aaa5c3d1dcd76fea44af36b4a3a932957815fe4ef08aebb7"
+    },
+    {
+      "path": "src/content/competitions-v6/core-review-ledger-v7.json",
+      "sha256": "e65ae4c5494175da2b0e6c210e642fe82fc09a49aaea289e83759ce0b784566b"
+    },
+    {
+      "path": "src/content/competitions-v6/catalog-metadata-v7.json",
+      "sha256": "48500cf98eed8d6402f85ece1cfb9988b42b8034e12357484e1a9740aab87a7c"
+    }
+  ]
+}

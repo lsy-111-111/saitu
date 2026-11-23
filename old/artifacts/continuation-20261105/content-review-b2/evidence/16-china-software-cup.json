@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "contentDigest": "24d52d55246845605e325ab8d16fbebfc1affae773c5e5ff1ed9ce5f034f4941",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:36:48.159956+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "softcup-c2-notice",
+    "softcup-c2-a3"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+      "sourceSha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba",
+      "actualReadLocator": "fresh HTML text lines 31-96",
+      "verification": "全国通知主体已读：全日制高校学生，队伍上限4含指导教师和至多3学生、跨校、学生只任一队队长、2026报名/初赛时间、原创与提交、无参赛费和决赛食宿自理。"
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+      "sourceSha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b",
+      "actualReadLocator": "fresh HTML text lines 31-77",
+      "verification": "A3完整正文已读：本科研究生高职、六维动态画像、五类资源、多智能体、路径、两项可选加分、防幻觉、完整课程知识集、工具限制、35/45/10/10大致占比、代码文档PPT7分钟视频及AI Coding声明。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、两角色、前置、4周与退出均已读；课程局部原型明确不等于完整课程合规交付。",
+    "框架不限与其他AI辅助工具须选科大讯飞分开表述；未把官方目标“增强学习效果”变成已证实产品效果。",
+    "评分源列大致占比，所给四比例相符；演示证据为编辑建议。导师人数系名义队伍条目，原文另允许指导组登记，不解读为绝对只能一名实际教师。",
+    "费用/新届资格未知边界正确。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

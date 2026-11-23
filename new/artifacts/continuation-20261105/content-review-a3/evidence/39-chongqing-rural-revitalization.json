@@ -1,0 +1,69 @@
+{
+  "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+  "name": "重庆市大学生乡村振兴创意大赛",
+  "contentDigest": "7c3a58e7672e21b053416e2769fe6229b035e81375a50ceca5f8dd9ac848dd47",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.163373+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+    "previousContentDigest": "7c3a58e7672e21b053416e2769fe6229b035e81375a50ceca5f8dd9ac848dd47",
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-rural-rules",
+      "url": "https://www.cqgjxh.com/upload/file/202509/%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E7%AC%AC%E4%BA%94%E5%B1%8A%E9%87%8D%E5%BA%86%E5%B8%82%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E5%88%9B%E6%84%8F%E5%A4%A7%E8%B5%9B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "readingLocation": "PDF P1-P8参赛与常规作品；P12-P17知识产权、调研、常规初复赛及决赛评价",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383.pdf",
+      "sha256": "22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383",
+      "bytes": 666047,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-rural-task",
+      "url": "https://xtw.swupl.edu.cn/docs/2025-09/d9f9b43ef5ca415588bc637e066aae32.pdf",
+      "readingLocation": "PDF两页全文；常规任务P1-P2首段",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7.pdf",
+      "sha256": "014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7",
+      "bytes": 188876,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "324亩坡地、菊花农文旅原题完整，资格2-5学生/1-2导师及五年内毕业、有条件跨校精确。60/30/10明确限初复赛，未串用电商或现场决赛。12模块、场地真伪/运营责任、四周与桌面研究退出具体。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

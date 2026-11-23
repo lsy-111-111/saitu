@@ -1,0 +1,101 @@
+{
+  "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+  "name": "iGEM国际遗传工程机器大赛高校组",
+  "contentDigest": "4220b5f52cad29b3c6b24d76f5cdc3a9de353a9b996294df594379d3d7e1f6e9",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "igem-2026-registration",
+      "url": "https://competition.igem.org/registration/overview",
+      "readingLocation": "HTML P1:L22-L70,L94-L115,L156-L176",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62.txt",
+      "sha256": "e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62",
+      "bytes": 16382
+    },
+    {
+      "sourceId": "igem-2026-roster",
+      "url": "https://competition.igem.org/registration/team-roster",
+      "readingLocation": "HTML P1:L20-L35,L49-L61,L74-L75",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053.txt",
+      "sha256": "ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053",
+      "bytes": 7367
+    },
+    {
+      "sourceId": "igem-2026-deliverables",
+      "url": "https://competition.igem.org/deliverables",
+      "readingLocation": "HTML P1:L22-L40,L58-L63",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc.txt",
+      "sha256": "e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc",
+      "bytes": 4978
+    },
+    {
+      "sourceId": "igem-2026-fees",
+      "url": "https://competition.igem.org/registration/fees",
+      "readingLocation": "HTML P1:L22-L36,L46-L58",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c.txt",
+      "sha256": "3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c",
+      "bytes": 15511
+    },
+    {
+      "sourceId": "igem-2026-special-prizes",
+      "url": "https://competition.igem.org/judging/special-prizes",
+      "readingLocation": "HTML P1:L28-L41,L75-L84",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8.txt",
+      "sha256": "a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8",
+      "bytes": 19976
+    },
+    {
+      "sourceId": "igem-2025-hkust-model",
+      "url": "https://2025.igem.wiki/hkust/model",
+      "readingLocation": "HTML P1:L1-L118 MT初始筛选完整可见模块",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/95896bbd8219137be39e1ef64f7bfefcc02d87d74e6dffcf2b67af1327f74d62.txt",
+      "sha256": "95896bbd8219137be39e1ef64f7bfefcc02d87d74e6dffcf2b67af1327f74d62",
+      "bytes": 28520
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "资格年龄分区及两阶段收费准确，预测不等验证的分析有效；但严格L3要求完整作品及适用评分，此稿只取2025作品单模块并用2026问题，未有该作品适用评分。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-53-01",
+      "severity": "major",
+      "description": "补完整2025公开作品链（包括后续建模循环/结果及必要上下文）与2025适用评分；2026评分可保留为当前训练参考，但不能代替案例适用评分和完整作品审读。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

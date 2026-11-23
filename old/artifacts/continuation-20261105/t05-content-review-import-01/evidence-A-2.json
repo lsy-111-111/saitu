@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/review.json",
+    "sha256": "31aa875738fb02368e32336ce3077dc8e88f414bdb0ed53200dfa9c4f8f70b21"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/evidence.json",
+    "sha256": "d4c0df5b017d0f0f64ba4dd0ce6a27aaabb8519fb76d0e438081681441463a29"
+  },
+  "recordId": "loreal-brandstorm:2026-luxe:future-fragrance:18-30-team:global-local-entry:v3",
+  "contentDigest": "bfae3e6c92057ae9a996b93c0a248b6abfa80d7e08dc5779bc1f51f14371748a",
+  "informationalScopeNotes": [
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "历史2026命题练习不确认当前开放报名；所在地资格、通道、截止、总费用继续另核。"
+    },
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "旧legacy来源未作为本轮独立证据；当前关键事实由b-loreal-entry/brief支持；背景收益广告未被当作就业或升学保证。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

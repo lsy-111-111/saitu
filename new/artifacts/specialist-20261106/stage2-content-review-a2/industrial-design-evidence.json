@@ -1,0 +1,588 @@
+{
+  "reviewerId": "/root/stage2_content_a",
+  "runId": "stage2-content-review-a2-20261106",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "max",
+  "reviewedAt": "2026-11-06T06:00:12Z",
+  "method": "independent_source_recheck",
+  "inputManifestSha256": "b31dcc4a04128d2a7e0f576248a25be4f5c88a8daec45cd28e71f3e93e3f5d56",
+  "reviewScope": {
+    "inputDirectory": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review",
+    "notAccessed": [
+      "B评审",
+      "作者变更说明",
+      "产品/开发结果/正式39目录"
+    ],
+    "unchanged": [
+      "首轮评审及输入",
+      "第二轮输入及来源",
+      "产品及正式目录"
+    ],
+    "networkRefresh": false,
+    "uiRenderingClaimed": false
+  },
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "contentDigest": "2be8e6759d8b70df83e6892a600933af7b9a2077cf04d4902ab4f910f3f67db8",
+  "outcome": "approved",
+  "decision": "批准第二轮该摘要稿件；官方费用安排已补入，12节和原件支持仍成立。",
+  "sourceIds": [
+    "b-industrial-rule",
+    "b-industrial-work"
+  ],
+  "sectionChecks": [
+    {
+      "section": "task",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。以收纳/展开/操作/维护评读完整展板是合适的编辑任务，且未把渲染作为工程实测。",
+      "statementsRead": [
+        {
+          "text": "从完整产品展板检验收纳、展开、操作和维护的逻辑，再区分造型表达与工程可行性。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-industrial-design:v2:track"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-W-P44"
+      ]
+    },
+    {
+      "section": "eligibility",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。2024黑龙江省赛、全日制研究生/本科/高职高专及校集体报名均有据；没有把2026浙江农林大学的本研组队限制套入。",
+      "statementsRead": [
+        {
+          "text": "2024黑龙江赛区面向普通高校全日制研究生、本科生、高职高专，学校集体报名。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:eligibility"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P1",
+        "ID-R-P2"
+      ]
+    },
+    {
+      "section": "track",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。A-E五主题和F专项赛与原文一致；明确Empty的黑龙江类别未知，跨赛区评读边界足够。",
+      "statementsRead": [
+        {
+          "text": "2024 黑龙江赛区将作品分为 A 智慧与体验、B 服务与系统、C 文化与社会、D 时尚与生活、E 健康与环保及 F 专项赛。这里用全国公开的 Empty 户外灶具展板学习产品结构和使用系统，资料未说明这件作品属于哪个黑龙江省赛类别。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:track"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P2",
+        "ID-R-P3",
+        "ID-W-P44"
+      ]
+    },
+    {
+      "section": "participation",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。历史报名日期和35件推荐全国复评可核；35件被表述为当届通知安排，未当作个人获奖概率。",
+      "statementsRead": [
+        {
+          "text": "黑龙江赛区2024年6月22日至7月30日网上报名，学校汇总材料交分赛区组委会；由分赛区评审委员会评选35件优秀作品推荐全国复评。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:participation"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P3",
+        "ID-R-P4",
+        "ID-R-P5"
+      ]
+    },
+    {
+      "section": "deliverables",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。纵向图版的1089×841、JPG、150dpi、5MB、单独设计说明和学校汇总表均有明确页码；不是仅凭来源URL存在确认。",
+      "statementsRead": [
+        {
+          "text": "将设计草图、设计说明、预想图、模型照片等编排为一张纵向1089×841mm JPG图版，150dpi且不超5MB；另按官网模板提交单独的作品设计说明，并由学校汇总报送作品信息汇总表等材料。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P3",
+        "ID-R-P4"
+      ]
+    },
+    {
+      "section": "rubric",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。五项来自黑龙江同届标准；未声称这是Empty实际得分或所属赛区的获奖评语。",
+      "statementsRead": [
+        {
+          "text": "黑龙江省赛五项：作品表现、创造性、实用性、经济性、环保性；仅用作同届训练尺度，不追认原作获奖评分。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:rubric"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P5",
+        "ID-R-P6",
+        "ID-W-P44"
+      ]
+    },
+    {
+      "section": "skills",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。动作重建与家庭/个人需求对照能从展板追溯，问题为编辑反例；不伪造作者尺寸、重量或用户实验。",
+      "statementsRead": [
+        {
+          "text": "结构与动作：重建推箱、滑出冰箱、展桌与取灶的动作顺序。需要的经历证据：哪个部件需要先展开，是否产生干涉或倾倒？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-industrial-design:v2:deliverables"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "用户与成本：比较家庭和个人露营需求，列材料运输维护约束。需要的经历证据：多功能是否增加了使用者不愿承担的重量？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-industrial-design:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-W-P44",
+        "ID-R-P6"
+      ]
+    },
+    {
+      "section": "investment",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读三段；官方单位承担安排与第8页一致，并独立标official_fact。编辑预算核实和未知金额分开，首轮问题已解决。",
+      "statementsRead": [
+        {
+          "text": "2024 黑龙江赛区通知明确由参赛单位承担展板制作费。作品入围国赛后，模型寄送和收回费用也由参赛单位承担。",
+          "kind": "official_fact",
+          "factIds": [
+            "national-college-industrial-design:v2:investment"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "编辑建议四周每周4—6小时，仅做无燃料结构模型。展板及入围模型寄送的具体金额、学生是否垫付、学校如何报销及差旅安排，须向本校负责部门确认。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。"
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P8"
+      ]
+    },
+    {
+      "section": "difficulty",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读三段。纸模入门、干涉/重心/维护的完赛难点和获奖不确定性标为编辑判断，未诱导制作燃气实物。",
+      "statementsRead": [
+        {
+          "text": "入门：从纸板结构与简单尺寸关系开始；不要求制作真实灶具。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "完赛：难在机械干涉、重心、重量和清洁成本与视觉简洁之间做取舍。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "获奖：需结合所选赛道评审和同届作品比较；没有可靠数据，不给个人获奖概率。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-W-P44",
+        "ID-R-P6"
+      ]
+    },
+    {
+      "section": "benefits",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。收益被限定为读图/反例练习，渲染不等于燃烧或承重安全，有必要授权条件。",
+      "statementsRead": [
+        {
+          "text": "练习读完整工业设计图版，提出具体可测试的反例；渲染图不能证明燃烧或承重安全。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "national-college-industrial-design:v2:deliverables"
+          ],
+          "conditions": [
+            "已实际完成相应工作",
+            "公开展示已取得必要授权"
+          ]
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-W-P44"
+      ]
+    },
+    {
+      "section": "value",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。无学校、就业及升学保证；治理发布方在红头和主办信息中可核，partial合适。可以保留PDF落款日与未知网页发布日期的区别。",
+      "statementsRead": [
+        {
+          "text": "练习读完整工业设计图版，提出具体可测试的反例；渲染图不能证明燃烧或承重安全。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。"
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-R-P1",
+        "ID-R-P8",
+        "ID-W-P44"
+      ]
+    },
+    {
+      "section": "nextStep",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。四步动作图和纸模有可交产物，未知尺寸需标注；不是复刻原作后声称本人获奖。",
+      "statementsRead": [
+        {
+          "text": "根据Empty展板画出从运输到使用的四步动作并做纸模。完成标准：原作没给尺寸的地方标为未知，不补成作者事实。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ],
+      "currentRoundReread": true,
+      "priorSourceEvidenceIds": [
+        "ID-W-P44"
+      ]
+    }
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "checkRationale": {
+    "factualSupport": "12节现有正向官方事实均可支持，费用项的问题是把已知承担安排一并留在笼统未知中，并非发现虚构金额。",
+    "entityScope": "黑龙江省赛规则与沈阳理工大学全国公开作品分开，未宣称Empty属于黑龙江或取得其原始评分。",
+    "studentUsefulness": "24节复审中的本条12节已全读；费用承担与个人支出边界已清楚，可开始历史纸模练习。",
+    "temporalAccuracy": "2024规则和2025转载载体分开且均标为历史；PDF落款2024-07-02可读，网页首次发布时间仍未知不构成相反日期断言。"
+  },
+  "findings": [
+    {
+      "id": "content-a-industrial-known-cost-responsibility",
+      "severity": "minor",
+      "description": "首轮费用承担信息缺失已解决：新稿investment[0]及其fact准确列出单位承担展板制作费、入围国赛模型寄送和收回费，金额/垫付/报销和差旅另向本校核实。依据原PDF第8页。",
+      "resolved": true
+    }
+  ],
+  "governanceAndAnnotationObservations": [
+    "官方要求、编辑训练路线和未知个人效果总体分开；governance partial没有被当作全面治理认证。",
+    "工业规则2024-07-02可由PDF签发页支持；签发日与网页首次发布时刻仍应区分。"
+  ],
+  "studentImprovements": [
+    "按原展板先画取出灶具、冰箱侧滑、支架翻出和桌板展开的动作关系；所有未给尺寸标unknown。",
+    "只用无燃料纸模观察支撑和干涉；模型不证明热源、承重或材料可靠性。",
+    "做一张预算表，把展板和入围后模型寄返标为单位承担安排；金额、垫付和报销由本校组织方回答，出行仍记待核。",
+    "评读时同时标注广东工程图书馆转载载体、沈阳理工大学作品身份和黑龙江训练尺度，避免把本人纸模称为原获奖作品。"
+  ],
+  "readingCompletion": {
+    "sectionsRead": 12,
+    "expectedSections": 12,
+    "notAUIRenderingReview": true
+  },
+  "priorEvidenceArtifact": "artifacts/specialist-20261106/stage2-content-review-a/industrial-design-evidence.json",
+  "priorSourceReadingSameBytes": [
+    {
+      "sourceId": "b-industrial-rule",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+          "sha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026.txt",
+          "sha256": "61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026"
+        }
+      ],
+      "readingMode": "all 8 original PDF pages visually inspected; supplied text index read, including its missing last-page body limitation",
+      "scopeBoundary": "2024年第七届黑龙江省赛区通知；不是全国其他赛区或2026校内选拔规则。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "ID-R-P1",
+          "pdfPage": 1,
+          "printedPage": 1,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "红头、标题、主办/承办/协办：主办为黑龙江省普通高等学校创新创业教育指导委员会，哈尔滨工业大学承办。",
+          "relevantSections": [
+            "eligibility",
+            "track"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-1.png"
+        },
+        {
+          "evidenceId": "ID-R-P2",
+          "pdfPage": 2,
+          "printedPage": 2,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "普通高校全日制在校研究生、本科、高职高专；以院校集体报名；类别A-D及赛事主题。",
+          "relevantSections": [
+            "eligibility",
+            "track"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-2.png"
+        },
+        {
+          "evidenceId": "ID-R-P3",
+          "pdfPage": 3,
+          "printedPage": 3,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "类别E/F；6月22日至7月30日报名；第一作者作品不超3件；图版原文为纵向1089mm×841mm、JPG、150dpi、不超5M。保留原数值，不擅自改成常见A0尺寸。",
+          "relevantSections": [
+            "track",
+            "participation",
+            "deliverables"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-3.png"
+        },
+        {
+          "evidenceId": "ID-R-P4",
+          "pdfPage": 4,
+          "printedPage": 4,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "单独设计说明须用官网模板；曾推荐往届全国赛作品不得报名；学校汇总表；原创和单一申报主体；8—9月报送。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "deliverables"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-4.png"
+        },
+        {
+          "evidenceId": "ID-R-P5",
+          "pdfPage": 5,
+          "printedPage": 5,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "评选35件推荐全国复评；9—12月颁奖；五项评判标准，作品表现形式首先强调设计意图可表达。",
+          "relevantSections": [
+            "participation",
+            "rubric"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-5.png"
+        },
+        {
+          "evidenceId": "ID-R-P6",
+          "pdfPage": 6,
+          "printedPage": 6,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "创造性、实用性、经济性、环保性的具体解释；安全、维护、体验均在标准中；奖项名额备注可按实报数量调整。",
+          "relevantSections": [
+            "rubric",
+            "skills",
+            "difficulty"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-6.png"
+        },
+        {
+          "evidenceId": "ID-R-P7",
+          "pdfPage": 7,
+          "printedPage": 7,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "黑龙江联系方式、线下报送地址和全国秘书处引导；不能把联系人托管等同于全国规则。",
+          "relevantSections": [
+            "participation"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-7.png"
+        },
+        {
+          "evidenceId": "ID-R-P8",
+          "pdfPage": 8,
+          "printedPage": 8,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "七、其他事宜明确：展板制作费用由各参赛单位自行承担；若入围国赛，模型寄送和收回费用也由各参赛单位自行承担。落款可读为2024年7月2日。提供的TXT在[PAGE 8]之后无正文，因此这些结论来自原页图。",
+          "relevantSections": [
+            "investment",
+            "value"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-rule/page-8.png"
+        }
+      ]
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+          "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5.txt",
+          "sha256": "98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5"
+        }
+      ],
+      "readingMode": "relevant complete original pages 1,2,42,44 visually inspected; page 44 also rendered at higher resolution and read as a detail view",
+      "scopeBoundary": "广东工程职业技术学院图书馆《导读》2025年第1期转载的2024全国公开作品展板，只证明画面及转载说明，不证明原作实测或黑龙江归属。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "ID-W-P1",
+          "pdfPage": 1,
+          "printedPage": null,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "封面写广东工程职业技术学院图书馆主办、《导读》2025年第1期，总第55期；转载载体身份明确。",
+          "relevantSections": [
+            "task",
+            "track"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-work/page-01.png"
+        },
+        {
+          "evidenceId": "ID-W-P2",
+          "pdfPage": 2,
+          "printedPage": null,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "目录列全国大学生工业设计大赛优秀作品展，户外多功能灶具设计在印刷页42；银奖称谓只作为刊物转载说明，不当作取得原始评分。",
+          "relevantSections": [
+            "track",
+            "value"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-work/page-02.png"
+        },
+        {
+          "evidenceId": "ID-W-P42",
+          "pdfPage": 42,
+          "printedPage": 40,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "作品展栏目起始页确认该部分为全国工业设计大赛优秀作品展；未拿旁边作品的性能或专利移用于Empty。",
+          "relevantSections": [
+            "track"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-work/page-42.png"
+        },
+        {
+          "evidenceId": "ID-W-P44",
+          "pdfPage": 44,
+          "printedPage": 42,
+          "readingMode": "original_page_image_and_supplied_text_index",
+          "observedEvidence": "完整Empty展板：设计说明、灶具部分、形态转换、家庭/个人画像、配色和作品信息。形态转换写灶具可单独取出、冰箱侧滑/翻出支架及桌板。底栏为作品编号06B107796、沈阳理工大学及CUIDC 2024标识；未见制造尺寸、热源/承重实测数据。",
+          "relevantSections": [
+            "task",
+            "track",
+            "skills",
+            "difficulty",
+            "benefits",
+            "value",
+            "nextStep"
+          ],
+          "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-a/rendered/industrial-work/page-44.png"
+        }
+      ]
+    }
+  ],
+  "sourceRecheck": {
+    "inputFiles": [
+      {
+        "sourceId": "b-industrial-rule",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+        "sha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e"
+      },
+      {
+        "sourceId": "b-industrial-rule",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026.txt",
+        "sha256": "61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026"
+      },
+      {
+        "sourceId": "b-industrial-work",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+        "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928"
+      },
+      {
+        "sourceId": "b-industrial-work",
+        "path": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5.txt",
+        "sha256": "98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5"
+      }
+    ],
+    "all20SourceFileHashesVerified": true,
+    "sourceInventoryUnchanged": true,
+    "currentRoundPrimaryPages": {
+      "b-industrial-rule": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "b-industrial-work": [
+        44
+      ]
+    },
+    "currentRoundOriginalHtmlRecheck": [],
+    "readingBoundary": "本轮重读新稿全部12节和列出的主证据；同SHA原件的首轮完整来源背景仅继承本评审者自己的已封存阅读记录，不依赖B或作者变更说明。"
+  }
+}

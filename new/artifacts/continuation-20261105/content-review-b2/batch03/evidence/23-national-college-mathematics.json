@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-mathematics:2011-3:calculus-third-derivative:non-mathematics:zhejiang-zjut-preliminary-2011:v3",
+  "contentDigest": "806700d61fd214b641d28288eafe7655b70d88d6d00be6e7ced818a43882e6eb",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:34:33.155196+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "cmc-c5-paper",
+    "cmc-c5-answer",
+    "cmc-c5-zjut-rules"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "cmc-c5-paper",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846.pdf",
+      "sourceSha256": "97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/22-national-college-mathematics.json :: PDF pages 1 and 3; rendered/cmc-paper-p1.png and cmc-paper-p3.png",
+      "verification": "已视觉核：2011第三届非数学预赛、闭卷150分钟、100分与答卷要求；第3题15分及全部函数条件。仅这两页已读，不声称其余页。"
+    },
+    {
+      "sourceId": "cmc-c5-answer",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e.pdf",
+      "sourceSha256": "c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/22-national-college-mathematics.json :: PDF page 3; rendered/cmc-answer-p3.png",
+      "verification": "已视觉核该题完整解答：泰勒两端点、不同余项点、和为6、连续性介值及累计3/5/7/10/13/15分。其余题解未读。"
+    },
+    {
+      "sourceId": "cmc-c5-zjut-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/2df5b570123f404b60978d141b2e45d1d295b6d64a7c2c163b17417fc872134a.html",
+      "sourceSha256": "2df5b570123f404b60978d141b2e45d1d295b6d64a7c2c163b17417fc872134a",
+      "actualReadLocator": "batch02 freshly extracted HTML 23-03.txt lines 39–49；batch03对应原件SHA一致",
+      "verification": "完整报名正文读取：2011第三届浙江赛区150分钟、本科二年级及以上、数学不可报非数学、班级报名、本校9月21日/60元。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/22-national-college-mathematics.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "2011浙工大报名原HTML正文39–49新读，二年级以上、非数学组、60元及本校9月21日截止完全支持。原未冻结另一扫描件交叉阅读断言已删。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

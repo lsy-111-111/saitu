@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "future-designer-ncda:2026-14-yiwu:portable-brush:university-students:china-yiwu-9c1d:v3",
+  "contentDigest": "d87c349587bef0c604e3e91910801d50db2f32518f23767851c6ee07d6bf35a6",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:46:13.731241+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ncda-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ncda-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd.html",
+      "sourceSha256": "281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd",
+      "actualReadLocator": "fresh HTML text lines 10-137",
+      "verification": "完整网页任务、参与条件、作品提交、晋级、正式评审和知识产权已读；网页9C1D列管口16/12/7.3mm、手柄2—5元、多功能5—8元。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周及退出已读，成本口径与IP边界处理准确。",
+    "未将材料/打样成本当报名费，未从官方展示推荐权益推出个人就业保证。",
+    "企业素材包未读；不推测其中存在额外门槛，只记录无法确认完整性。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-27-01",
+      "severity": "major",
+      "description": "严格L3完整官方题的范围仍有缺口：网页第33行明确“设计要求详见素材下载”，第136—137行指向企业设计要求PPT及课件；冻结包没有这些资料，稿件也承认详细企业素材未完整读取。现有网页能支持所写事实和正式评审，但不足以证实所选9C1D完整任务要求已读。请补入该企业对应设计要求并核对，或保留较低内容层级。",
+      "resolved": false
+    }
+  ]
+}

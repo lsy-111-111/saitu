@@ -1,0 +1,354 @@
+{
+  "schemaVersion": "saitu.independent-content-source-recheck.v1",
+  "runId": "classics-recheck-b8",
+  "reviewerId": "/root/classics_recheck_b8",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T21:06:12.591816+00:00",
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "cf4d1de166aa1f09924d03bf25d5a831edf8c14dd9213e2ebce4f957cfb932fa",
+  "inputManifest": "artifacts/continuation-20261105/content/review-batch-08/manifest.json",
+  "inputManifestSha256": "339e0d2abb05b0f95e125c541aa4d546a916e08376e67c7b07b56f4e9e985cfd",
+  "recordsFileSha256": "e4bdd576250a95a433abc830a0f44225767a1f271b8ad0ce1e3e8c8845761bf3",
+  "contentDigestNote": "cf4d...为冻结条目声明的实质正文摘要，不是records.json文件SHA。已核验文件SHA与manifest一致，未读取src中的摘要算法。",
+  "independence": {
+    "authorAgentIds": [
+      "/root/research_b",
+      "/root/continue_catalog",
+      "/root/continue_catalog"
+    ],
+    "reviewerNotAuthor": true,
+    "otherReviewConclusionsRead": false,
+    "authorReadingLogsUsedAsEvidence": false,
+    "sourceAndLedgerModified": false,
+    "private800Read": false,
+    "paidAccess": false,
+    "networkUsed": false
+  },
+  "integrity": {
+    "fileCount": 16,
+    "dependencyCount": 14,
+    "allManifestHashesMatched": true,
+    "artifact": "artifacts/continuation-20261105/classics-recheck-b8/integrity.json"
+  },
+  "requiredSourceIds": [
+    "b-classics-local",
+    "b-classics-rules",
+    "b-classics-task",
+    "chinese-classics:legacy:source:2"
+  ],
+  "requiredSourceIdsDerivation": "冻结记录未显式提供requiredSourceIds；递归并集record内全部sourceIds（含facts和deepDive）得到4项，逐一复核。第5来源legacy:source:1无字节且未被正文引用，保留unknown。",
+  "sources": [
+    {
+      "sourceId": "chinese-classics:legacy:source:1",
+      "url": "https://www.moe.gov.cn/srcsite/A18/s3137/202605/t20260528_1437956.html",
+      "required": false,
+      "status": "unknown_unavailable",
+      "reason": "冻结包无原始字节；未将其作为事实批准依据，未重新联网。",
+      "referencedByContent": false
+    },
+    {
+      "sourceId": "chinese-classics:legacy:source:2",
+      "url": "https://www.cup.edu.cn/docs/2026-05/e6e258c803314bdfbd3f183fe944c111.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-08/dependencies/artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0.pdf",
+      "sourceByteSha256": "f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2.txt",
+      "status": "independently_read",
+      "pdfPages": 27,
+      "readRelevantPdfPages": [
+        8,
+        10,
+        13,
+        15,
+        18,
+        21,
+        24,
+        25
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        10,
+        15,
+        21,
+        25
+      ],
+      "pageNumberConvention": "PDF页码；对应印刷页码减1",
+      "observations": [
+        "第8、13、18、24页分别列诵读、讲解/演讲、书写、篆刻对象及组别，支持仅概括各赛项学生/教师/其他组别的跨赛项参考。",
+        "PDF第10页/印刷第9页：诵读每件作品指导教师不超过2人；第15页/印刷第14页：讲解/演讲每人限报1名；第21页/印刷第20页：书写每人限报1名；第25页/印刷第24页：篆刻每人限报1名且教师组不填写。",
+        "稿件两条legacy official fact已标entity=2026-national-8/multi-event-reference/source-defined-groups/china-national，导师正文亦明确不可套其他年份地方专项；2025地方identity未覆盖这两条fact。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-local",
+      "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-08/dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+      "sourceByteSha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-local.txt",
+      "status": "independently_read",
+      "readRelevantLocator": "赛项一的一、参赛对象；二、参赛要求；三、竞赛形式及内容；四、报名方法；文末附件1、附件2链接",
+      "observations": [
+        "独立HTML解析第90—100行支持本校全日制、2025毕业生不在选送范围、往届同赛项一二等奖同类别限制、脱稿一篇及三个能力维度。",
+        "原文“无需配乐，无需PPT”未写禁止，见B8-F01。",
+        "原页面标题及题库附件为第十三届/2025；正文一处仍写第十二届，报名截止写2024年4月15日，故不可推导报名日期有效。稿件已披露并维持historical。",
+        "原HTML附件1/2 href与冻结省赛规则和题库URL一致，完成通知到原件的来源链。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-08/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+      "sourceByteSha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules.txt",
+      "status": "independently_read",
+      "pdfPages": 25,
+      "readRelevantPdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "observations": [
+        "第4—5页区分个人/综合/留学生，列校选及参赛限制；第5—6页规定个人初赛古代、现当代各一篇朗读讲解及备稿演讲三个视频。",
+        "第9页全国推荐条款限定综合组和留学生组，不支持个人校选直接通国赛。",
+        "第9—10页个人初赛每人500元由学校承担、不得向学生收费，决赛参赛学生及带队教师差旅住宿学校承担。并不证明个人总费用为零。",
+        "第4、9页2025浙江诵读最多2名指导教师且须高校在职全职教师；这与2026全国一般专业能力要求不同，稿件未混用。"
+      ]
+    },
+    {
+      "sourceId": "b-classics-task",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+      "required": true,
+      "frozenOriginal": "artifacts/continuation-20261105/content/review-batch-08/dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+      "sourceByteSha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-task.txt",
+      "status": "independently_read",
+      "pdfPages": 9,
+      "readRelevantPdfPages": [
+        1
+      ],
+      "renderedAndVisuallyInspectedPages": [
+        1
+      ],
+      "observations": [
+        "第1页古代部分第3题为《庄子·秋水》（节选），从“秋水时至”至“吾长见笑于大方之家”。完整题目在同页，未截断。",
+        "题目包含河伯自喜、至北海不见水端、反思自身见闻；引语中套“野语”的层次可用于稿件的停连/重音/听众复述练习。题库本身不规定湖州校选只选一篇。"
+      ]
+    }
+  ],
+  "keyEvidence": [
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-local.txt",
+      "lineStart": 100,
+      "lineEnd": 102,
+      "text": "“中华经典朗诵”篇目范围见《浙江省第十三届大学生中华经典诵写讲大赛“典润之江”经典诵读竞赛（初赛）朗读题库（2025）》（附件2），主要考察选手对经典的阅读理解能力、艺术鉴赏能力和语言表达能力。要求选手自选古代或现当代作品1篇脱稿表演，无需配乐，无需PPT。\n四、报名方法\n报名时间："
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-task.txt",
+      "locator": "PDF第1页，古代部分第3题",
+      "text": "•秋水（节选）\n秋水时至，百川灌河。泾流之大，两涘渚崖之间不辩牛马。于是焉河伯欣然自喜，以天\n下之美为尽在己。顺流而东行，至于北海，东面而视，不见水端。于是焉河伯始旋其面目，\n望洋向若而叹曰：“野语有之曰：‘闻道百，以为莫己若’者，我之谓也。且夫(fú)我尝闻\n少(shǎo)仲尼之闻，而轻伯夷之义者，始吾弗信；今我睹子之难穷也，吾非至于子之门，则\n殆矣，吾长见笑于大方之家。”\n"
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2.txt",
+      "locator": "PDF第10、15、21、25页（印刷第9、14、20、24页）",
+      "renderArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p10.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p15.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p21.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/chinese-classics_legacy_source_2-p25.png"
+      ]
+    },
+    {
+      "artifact": "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules.txt",
+      "locator": "PDF第4—6、9—10页",
+      "renderArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p4.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p5.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p6.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p9.png",
+        "artifacts/continuation-20261105/classics-recheck-b8/b-classics-rules-p10.png"
+      ]
+    }
+  ],
+  "factChecks": [
+    {
+      "factId": "chinese-classics:legacy:fact:eligibility",
+      "sourceIds": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:team",
+      "sourceIds": [],
+      "result": "unknown_preserved"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:mentor",
+      "sourceIds": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:fee",
+      "sourceIds": [],
+      "result": "unknown_preserved"
+    },
+    {
+      "factId": "chinese-classics:v2:eligibility",
+      "sourceIds": [
+        "b-classics-local"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:track",
+      "sourceIds": [
+        "b-classics-task"
+      ],
+      "result": "citation_completion_requested"
+    },
+    {
+      "factId": "chinese-classics:v2:participation",
+      "sourceIds": [
+        "b-classics-rules"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:deliverables",
+      "sourceIds": [
+        "b-classics-local",
+        "b-classics-rules"
+      ],
+      "result": "correction_requested"
+    },
+    {
+      "factId": "chinese-classics:v2:rubric",
+      "sourceIds": [
+        "b-classics-local"
+      ],
+      "result": "supported_with_stated_scope"
+    },
+    {
+      "factId": "chinese-classics:v2:investment",
+      "sourceIds": [
+        "b-classics-rules"
+      ],
+      "result": "supported_with_stated_scope"
+    }
+  ],
+  "moduleChecks": [
+    {
+      "module": "task",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "eligibility",
+      "result": "supported_or_labeled_editorial",
+      "note": "2025湖州校选限制有来源，不扩大为2026全国资格。"
+    },
+    {
+      "module": "track",
+      "result": "citation_completion_requested",
+      "note": "题库证题号题名，但校选选一篇需补校通知，B8-F02。"
+    },
+    {
+      "module": "participation",
+      "result": "supported_or_labeled_editorial",
+      "note": "个人组与综合/留学生国赛推荐路径正确区分。"
+    },
+    {
+      "module": "deliverables",
+      "result": "wording_correction_requested",
+      "note": "区分校选单篇与省初赛三视频正确；无需改成无造成要求强化，B8-F01。"
+    },
+    {
+      "module": "rubric",
+      "result": "supported_or_labeled_editorial",
+      "note": "三个能力维度来自校通知；数字权重未读取，不补造权重。"
+    },
+    {
+      "module": "skills",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "investment",
+      "result": "supported_or_labeled_editorial",
+      "note": "500元及学校承担来源正确，个人总费用金额为null，未推断全程免费。"
+    },
+    {
+      "module": "difficulty",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "benefits",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "value",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    },
+    {
+      "module": "nextStep",
+      "result": "supported_or_labeled_editorial",
+      "note": "编辑建议、未知项和事实已区分；本模块未新增当届报名/获奖保证。"
+    }
+  ],
+  "studentUsefulness": {
+    "result": "pass_for_historical_learning",
+    "reason": "完整《秋水》指定节选可核对；文本理解—停连重音—录音复述—修订—脱稿的步骤可实际执行，有个人句读稿、原声、反馈与版本证据；四周计划和7日试做均清楚，练习不冒充官方答案，明确单篇不能满足省初赛全套交付。",
+    "notVerified": [
+      "数字评分权重",
+      "现代篇目及备稿演讲完整题库",
+      "当前届报名状态及个人资格",
+      "个人总成本",
+      "学校认定及获奖概率"
+    ]
+  },
+  "scopeNotes": [
+    "legacy team及fee仍是unknown，其文字scope留2026而entity为2025，元数据不一致；因它们不作肯定事实亦未被学习模块引用，本轮不据此认定跨届资格；后续宜统一未知项的归属。",
+    "仅审冻结单条历史L3学习稿；未检查产品运行时是否遵循fact级entity，不提供严格参赛覆盖或当届报名批准。"
+  ],
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B8-F01",
+      "severity": "medium",
+      "description": "chinese-classics:v2:deliverables及sections.deliverables把湖州校选的“无需配乐，无需PPT”写为“无配乐、无PPT”。原文是免于准备的要求，不能据此确定禁止使用；省赛个人视频的“不配乐”也不能反向覆盖湖州校选。请恢复“无需配乐、无需PPT”或明确这是编辑练习选择而非官方禁令。依据：独立提取b-classics-local.txt第100行，校通知赛项一/三、竞赛形式及内容。",
+      "resolved": false
+    },
+    {
+      "id": "B8-F02",
+      "severity": "low",
+      "description": "chinese-classics:v2:track同时断言“校选从2025指定题库选择一篇”和“第3题《庄子·秋水》”，但其sourceIds/sourceScopes仅列b-classics-task。题库第1页支持题名和序号，不含湖州校选一篇要求；请增加b-classics-local及2025湖州校选scope，或拆分事实，使sections.track和引用该fact的其他模块能追溯整句。校选通知第100行已在冻结包中，毋须新增外部来源。",
+      "resolved": false
+    }
+  ]
+}

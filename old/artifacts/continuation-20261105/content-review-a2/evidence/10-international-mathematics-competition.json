@@ -1,0 +1,67 @@
+{
+  "recordId": "international-mathematics-competition:2026-33:proofs:individual:bulgaria-2026:v3",
+  "name": "International Mathematics Competition for University Students",
+  "contentDigest": "fa5990e657eef26197b5da5a5868a1f0501325fa07308e40ef4ef60378b260ab",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "imc-2026-info",
+      "url": "https://imc-math.org.uk/?item=info&year=2026",
+      "readingLocation": "P1:L32-L61; 2026日期、资格、住宿、个人赛",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974.html",
+      "sha256": "4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974",
+      "bytes": 16728
+    },
+    {
+      "sourceId": "imc-2026-day1",
+      "url": "https://imc-math.org.uk/archive/problems/2026/IMC_2026_Day_1_Problems.pdf",
+      "readingLocation": "P1:L1-L3,L22完整第1题",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c.pdf",
+      "sha256": "5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c",
+      "bytes": 103325
+    },
+    {
+      "sourceId": "imc-2026-day1-marking",
+      "url": "https://imc-math.org.uk/archive/problems/2026/IMC_2026_Day_1_Marking_Schemes.pdf",
+      "readingLocation": "P1:L1-L59完整第1题三种评分解法",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb.pdf",
+      "sha256": "73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb",
+      "bytes": 93842
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "五项事实逐项支持；两个三角分支、整数周期排除和sqrt(2)<pi/2推导正确。12模块、个人证明轨迹、四周完成标准、基础/出境退出条件均具体。历史规则及未知总成本边界明确。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

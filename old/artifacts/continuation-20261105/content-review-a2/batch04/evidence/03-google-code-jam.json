@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "e208dc54431b3290d2ef8ef1645b2f71fbf07bf95905647aeeb1d9037ee4c4df",
+  "priorDigest": null,
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 3,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "完整官方2页3D Printing原题及1页官方分析已文字和图像实读。三台四维容量取逐色最小值、总量恰为100万、无解条件、多解校验和三个样例均准确；前向分配与官方削减法等价，个人证明/代码/反例、四周和退出具体。Google官方告别公告明确结束赛事并保留题库供学习。",
+  "qualificationDecision": "完整2022年龄、地域和雇佣关系资格仍未取得。此条明确只给停办系列的历史公开题学习，既无当前报名建议，也不声称读者曾合格参赛；因此该未知不阻止本条作为L3历史任务解析，但阻止任何历史/当前资格确认及正式参赛机会计数。不是把未知改成已核。",
+  "retainedUnknowns": [
+    "完整历史资格及个人正式费用未知；不推定免费或合格。",
+    "未取得题目分值；已有官方正确性判定与资源限制，不编造分数或官方通过成绩。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/statement.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "bytes": 76327,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1—2全文文字及两页视觉；输入、输出、限制与3样例",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/gcj-2022-3d-task.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gcj-2022-3d-task-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gcj-2022-3d-task-p2.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gcj-2022-3d-task-spread.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-analysis",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/analysis.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "bytes": 49406,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1全文文字及视觉；逐色最小值和削减构造",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/gcj-2022-3d-analysis.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gcj-2022-3d-analysis-p1.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML完整文章正文，L19—29结束赛事及保留历史题库供学习",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/google-competitions-farewell.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "gcj-2022-3d-analysis",
+    "gcj-2022-3d-task",
+    "google-competitions-farewell"
+  ],
+  "actualFrozenReadSourceIds": [
+    "gcj-2022-3d-task",
+    "gcj-2022-3d-analysis",
+    "google-competitions-farewell"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

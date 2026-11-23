@@ -1,0 +1,67 @@
+{
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "name": "D&AD New Blood Awards",
+  "contentDigest": "5cc4ecc5857ac503c7121cea9f263eb41fbcccf9057d73f6825ae6f21197ce97",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.100780+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/continue_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": null,
+    "previousContentDigest": null,
+    "excludeReviewers": [
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "newblood-2026-dad-brief",
+      "url": "https://media.dandad.org/documents/NBA2026-D-AD-220126.pdf",
+      "readingLocation": "原PDF第1—2页全文文字与视觉阅读；全部任务、Tips、Things to think about、identity exception、What and how to submit",
+      "semanticReadingBasis": "A3 fresh read",
+      "priorReadingArtifact": null,
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91.pdf",
+      "sha256": "cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91",
+      "bytes": 420366,
+      "captureKind": "original_download"
+    },
+    {
+      "sourceId": "newblood-2026-tutor-pack",
+      "url": "https://media.dandad.org/documents/New_Blood_Awards_2026_Tutor_Pack_UPDATED.pdf",
+      "readingLocation": "原PDF第3、30—31页文字；30—31页完整视觉；第36页5.1规则文字。其余页不声称已全部阅读。",
+      "semanticReadingBasis": "A3 fresh read",
+      "priorReadingArtifact": null,
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3.pdf",
+      "sha256": "a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3",
+      "bytes": 2896570,
+      "captureKind": "original_download"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "完整两页Share your passion命题已实际文字和视觉阅读：个人品牌、受众目标、长效平台、至少3条30秒视频或5幅静态、可混合及本题身份例外均支持。官方2026导师包30页资格、五人上限、15英镑/全员问卷券，31页三项评分已核；不虚构类别权重。12模块、个人贡献、四周验收及退出可执行，历史截止不当作当前可报名。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

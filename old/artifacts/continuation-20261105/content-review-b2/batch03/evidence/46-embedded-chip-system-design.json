@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "embedded-chip-system-design:2026:gowin-real-time-synth:nuaa-undergraduate-graduate:nuaa-gowin-fpga:v3",
+  "contentDigest": "cf12207cb6106bfecca452953b0209bd470e917632ca52f587976fb38b94c8bc",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.904654+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fpga-nuaa-2026-notice",
+    "fpga-gowin-2026-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fpga-nuaa-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e733142bcd1ec359e1dd4d5d8f6f40f12c2e7b52972705227c5d899b34039bd0.html",
+      "sourceSha256": "e733142bcd1ec359e1dd4d5d8f6f40f12c2e7b52972705227c5d899b34039bd0",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/45-embedded-chip-system-design.json :: fresh HTML text lines 163-190",
+      "verification": "南航2026完整相关通知已读：全日制电子电气相关本研、1至3学生、最多2导师、一人一队、报名/提交/决赛日期、指定平台与培训。"
+    },
+    {
+      "sourceId": "fpga-gowin-2026-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/bde2d4bfa3c705799a9dbc05fcbec6fcbd8b45bebba1ab899acdddec6e4204de.html",
+      "sourceSha256": "bde2d4bfa3c705799a9dbc05fcbec6fcbd8b45bebba1ab899acdddec6e4204de",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/45-embedded-chip-system-design.json :: fresh HTML text lines 140-203,249-277",
+      "verification": "选题二完整设计、基础、拓展、核心评分与板卡部分已读；两维、≥4声部、HDL逐样本、≤10ms、可闻独立振荡器×实际采样率、频谱和RTL均支持。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/45-embedded-chip-system-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "本轮只删除未获原件支持的第九届，并同步recordId/editionId/事实实体；原2026高云实时合成题完整技术要求、南航资格、评分及费用范围已实际核验，全部来源SHA与前轮相同。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

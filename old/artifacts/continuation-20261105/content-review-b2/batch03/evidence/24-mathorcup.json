@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "mathorcup:2026-16:d-three-dimensional-packing:undergraduate-d:china-spring-d-2026:v3",
+  "contentDigest": "cbecf87a950818117154b326cb0b01c2ded90a608c459096f47a278e4117cdd5",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.032532+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "mathorcup-c6-notice",
+    "mathorcup-c6-rules",
+    "mathorcup-c6-d",
+    "mathorcup-c6-correction",
+    "mathorcup-c6-ai"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "mathorcup-c6-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b.pdf",
+      "sourceSha256": "fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json :: PDF全部4页；rendered/mathor-0-1..4.png",
+      "verification": "2026第16届春季通知；同校至多3学生/1导师、最高学历分组，本科可D，4月16日报名17日至21日竞赛、200元/队及论文交付。"
+    },
+    {
+      "sourceId": "mathorcup-c6-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e.pdf",
+      "sourceSha256": "982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json :: PDF全部2页；rendered/mathor-1-1..2.png",
+      "verification": "完整章程资格和正式定性评阅要求。"
+    },
+    {
+      "sourceId": "mathorcup-c6-d",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a.zip",
+      "sourceSha256": "d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json :: ZIP内D题PDF全部3页 rendered/mathor-task-1..3.png；附件1.docx原始word/document.xml全部文本与表；仅改字体的展示副本 rendered/mathor-display/page-1..2.png 全部视觉核对",
+      "verification": "完整D题三问、两车型、五货物表及三类约束：420×210×220/6000/450与680×245×250/10000/700；800/1000/300/400/500；易碎件单层不可堆叠但可置标准件顶面，定向重心、500kg/平方米、顶部3cm；程序实测参与评分。"
+    },
+    {
+      "sourceId": "mathorcup-c6-correction",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a47903ce47327d56497cedd6d21db166a5402dd083dfd26e3ddfc0115024c494.html",
+      "sourceSha256": "a47903ce47327d56497cedd6d21db166a5402dd083dfd26e3ddfc0115024c494",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json :: fresh HTML lines 30–37",
+      "verification": "4月17日更正全文：满载改满容、体积与质量综合利用率、数量乘10。"
+    },
+    {
+      "sourceId": "mathorcup-c6-ai",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb.pdf",
+      "sourceSha256": "a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json :: PDF全部2页；rendered/mathor-4-1..2.png",
+      "verification": "AI使用与未使用均声明，核心自主、交互记录、采纳修改和代码标注要求。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/24-mathorcup.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/23-mathorcup.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

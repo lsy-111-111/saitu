@@ -1,0 +1,57 @@
+{
+  "recordId": "geographical-science-innovation:2026-9:human-geography:human-geography:china-preliminary:v3",
+  "name": "全国大学生地理科技创新大赛",
+  "contentDigest": "2e5e5a1362679056a6f45cd0277cb2b844d32993ed8e06a110c53fc6b85d6a2e",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "geography-2026-notice",
+      "url": "https://www.gsc.org.cn/gsc/xueshuDetail.html?contentId=2318&id=56",
+      "readingLocation": "本次原站HTML L87—123全文",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/geography-2026-notice-curl.html",
+      "sha256": "c2bea03bcfd75c65cdc84d347c041b84f09788d5cf3364f702807f37ce9414ac",
+      "bytes": 29876,
+      "retrievedAt": "2026-11-05T16:55:19.024135+00:00"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "初审范围、格式、函评和300元及决赛未知费用有证据，但只有开放主题与编辑通用练习。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-07-01",
+      "severity": "major",
+      "description": "补完整具体官方任务或完整公开作品及适用评分；地理分异主题本身不满足严格案例。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "lanqiao-c3-rules",
+      "url": "https://webadm.suse.edu.cn/_upload/article/files/db/ce/8c33934f4d00ac940f42f84d62f5/57a90821-ccb9-4ddb-955a-89a8e3a333b3.rar",
+      "title": "2019第十届蓝桥杯报名附件：通知、软件大纲、指南、费用",
+      "publisher": "大赛组委会／四川轻化工大学公开原件",
+      "scope": "2019个人软件赛资格、评分与报名费用",
+      "locator": "RAR内个人赛通知第2—3页、软件大纲第1—3页、报名指南第3/9页、费用第1页",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "bsdtar streamed official PDF members into pypdf without executing or unpacking archive paths; software rules pp1–3 and registration/fees read.",
+      "sha256": "bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531.rar"
+    },
+    {
+      "sourceId": "lanqiao-c3-h",
+      "url": "https://acm.ecnu.edu.cn/contest/515/statements/",
+      "title": "第十届蓝桥杯省赛C/C++大学A组试题",
+      "publisher": "蓝桥杯题面／华东师范大学公开题库",
+      "scope": "2019省赛A组H修改数组完整题与限制",
+      "locator": "PDF第1页作答须知、第12—13页H题全文、输入输出、20分及规模",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。",
+      "sha256": "5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95.pdf"
+    },
+    {
+      "sourceId": "putnam-c3-rules",
+      "url": "https://maa.org/wp-content/uploads/2026/08/2026-Putnam-Policies.pdf",
+      "title": "2026 Putnam Policies",
+      "publisher": "MAA",
+      "scope": "2026资格、提交、个人独立作答与评分",
+      "locator": "九页PDF第1—6页，规则更新2026-08-31",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。"
+    },
+    {
+      "sourceId": "putnam-c3-home",
+      "url": "https://maa.org/putnam-/",
+      "title": "MAA Putnam 2026及2025资料入口",
+      "publisher": "MAA",
+      "scope": "2026报名日期与2025官方题解来源关系",
+      "locator": "第87届、注册FAQ及第86届题解链接",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。"
+    },
+    {
+      "sourceId": "putnam-c3-a1",
+      "url": "https://maa.org/wp-content/uploads/2026/02/2025OfficialSolutions.pdf",
+      "title": "Putnam 2025 Solutions",
+      "publisher": "MAA",
+      "scope": "2025 A1完整题与官方证明，仅作历史训练",
+      "locator": "PDF第1页A1完整题与证明",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "Full official A1 proof read; 2025 historical training is explicitly separated from 2026 rules."
+    }
+  ]
+}

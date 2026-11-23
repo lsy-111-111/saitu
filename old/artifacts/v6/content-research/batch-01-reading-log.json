@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "swift-2026-policy",
+      "url": "https://developer.apple.com/swift-student-challenge/policy/",
+      "locator": "2026 Terms; lines 131-180",
+      "readScope": "资格、交付、AI披露、版权及评审正文",
+      "finding": "中国大陆最低年龄14；个人离线.swiftpm；评审不提供个人反馈。只用2026历史规则。"
+    },
+    {
+      "sourceId": "swift-playground-requirements",
+      "url": "https://developer.apple.com/swift-student-challenge/eligibility/",
+      "locator": "Building your app playground; lines 150-160",
+      "readScope": "作品格式与三分钟体验要求正文",
+      "finding": "资格页与2026正式条款并用，不推定下一届。"
+    },
+    {
+      "sourceId": "geography-2026-notice",
+      "url": "https://www.gsc.org.cn/gsc/xueshuDetail.html?contentId=2318&id=56",
+      "locator": "2026-03-31通知; lines 54-123",
+      "readScope": "更名连续性、主题、院系报名、初审作品、函评和费用正文",
+      "finding": "按人文地理初审建档；决赛细则、名额以及确认表细节不外推。"
+    },
+    {
+      "sourceId": "gogreen-2026-terms",
+      "url": "https://www.gogreencompetition.com/terms-conditions",
+      "locator": "II-IV; lines 73-220",
+      "readScope": "资格、第一阶段提案与四项评审；另读到决赛30分钟描述",
+      "finding": "首阶段2-4学生组队；与FAQ决赛时长冲突，仅采用第一阶段。"
+    },
+    {
+      "sourceId": "gogreen-2026-faq",
+      "url": "https://www.gogreencompetition.com/faq",
+      "locator": "lines 24-68",
+      "readScope": "费用、线上、首阶段期限和交付正文",
+      "finding": "免报名费不等于总成本为零；报名已关闭。"
+    }
+  ],
+  "excludedOrPending": [
+    {
+      "url": "https://www.uphysicsc.com/",
+      "reason": "正文夹有赌博推广；2025结果页日期自相矛盾，来源完整性需独立复核，未采用为新L2。"
+    },
+    {
+      "url": "https://servicedesignchallenge.com/official-rules",
+      "reason": "规则正文要求18岁，页面FAQ写无年龄限制；关键资格冲突，未采用为新L2。"
+    },
+    {
+      "url": "https://ieeextreme.org/rules/",
+      "reason": "403，未读到正文。"
+    },
+    {
+      "url": "https://hackmit.org/?lang=en",
+      "reason": "网页无可读正文，未采用。"
+    }
+  ]
+}

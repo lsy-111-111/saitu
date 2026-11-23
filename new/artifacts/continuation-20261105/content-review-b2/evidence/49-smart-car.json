@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "contentDigest": "51dbd5d3f40743b3aaae685030958f4d8c23ca488f5eaf447076ad7e464c79c1",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:47:01.080996+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "smartcar-2025-outdoor-ros"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "smartcar-2025-outdoor-ros",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e.pdf",
+      "sourceSha256": "ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e",
+      "actualReadLocator": "PDF all pages 1-14; rendered/smartcar-01..14.png",
+      "verification": "Full visual read: 2025 July 20th outdoor ROS higher-education, two laps and on-site barrier mapping, all course diagrams/dimensions, 80/20 score and penalties, manual 5 cases with 4-point rubric, students 2-5 full-time and mentors 1-2, online contingency video/source, designated versus recommended equipment discrepancy."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12 modules, roles/prerequisites/four-week subsystem practice and exit criteria checked. Formal score separated from editorial tests.",
+    "Actual external template/sample ZIP not read; no claim to have read it. Full self-contained task and score in 14-page original verified. Historical scope explicit, fees unknown not free."
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

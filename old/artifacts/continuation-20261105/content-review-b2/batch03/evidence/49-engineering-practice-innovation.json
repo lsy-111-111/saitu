@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "engineering-practice-innovation:2025-national:solar-mechanical-car:undergraduate:china-2025-solar:v3",
+  "contentDigest": "e23b9b16f3ff19d139c963f1a9694c7590266df2bd452b40b98628e486f83f52",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.056508+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "engineering-2025-notice",
+    "engineering-2025-solar-task",
+    "engineering-2025-solar-score"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "engineering-2025-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777.pdf",
+      "sourceSha256": "9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/48-engineering-practice-innovation.json :: PDF pages 2-3; rendered/solar-2-2.png and -3.png",
+      "verification": "Visually read general fulltime enrolled undergraduate, normally 3-4 students up to2 mentors, one event each, school/provincial/national route."
+    },
+    {
+      "sourceId": "engineering-2025-solar-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc.pdf",
+      "sourceSha256": "5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/48-engineering-practice-innovation.json :: PDF pages 1-9 of 16; rendered/solar-3-01.png through -09.png",
+      "verification": "Visually read complete solar section including dimensions, single motor/mechanical steering, UID/light/audio, energy meter wiring, 16-point diagram/table and preliminary10points, all onsite manufacture and replacement conditions. Pages10-16 concern other energy event and were not read."
+    },
+    {
+      "sourceId": "engineering-2025-solar-score",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f.pdf",
+      "sourceSha256": "a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/48-engineering-practice-innovation.json :: PDF all9pages; rendered/solar-4-1.png through -9.png",
+      "verification": "Visually read full published score: preliminary20/10/70 and30/20/20; final20/10/70 and40/10/20; distance diagrams and formulas, order errors, 20secondstop, 3minround, replacement/charging penalties, meanpower formula, onsite future subcriteria."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/49-engineering-practice-innovation.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/48-engineering-practice-innovation.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "url": "https://www.cnsoftbei.com/content-74-1250-1.html",
+      "title": "第十五届中国软件杯大赛通知",
+      "publisher": "大赛组委会",
+      "scope": "2026全国大赛组队、流程、费用",
+      "locator": "参赛资格、初赛作品要求及费用原文；curl读取正文",
+      "sha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+      "readMethod": "Public curl download; complete HTML body or pypdf pages identified by locator; no archive filesystem extraction",
+      "finding": "已读取定位所列正文，资格及流程只适用所列届次范围。"
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "url": "https://www.cnsoftbei.com/content-3-1286-1.html",
+      "title": "A3个性化资源生成与学习多智能体系统开发",
+      "publisher": "大赛组委会／科大讯飞",
+      "scope": "2026 A3完整题干、评分和交付",
+      "locator": "基本功能、非功能、实现条件、评分及初赛提交全文",
+      "sha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+      "readMethod": "Public curl download; complete HTML body or pypdf pages identified by locator; no archive filesystem extraction",
+      "finding": "完整A3：六维画像、五类资源、完整课程、35/45/10/10；工具例示与最终限制不能混同。"
+    },
+    {
+      "sourceId": "fwwb-c2-handbooks",
+      "url": "https://www.fwwb.org.cn/attached/file/20260304/20260304135453_573.zip",
+      "title": "第十七届服创参赛手册及A类赛题手册",
+      "publisher": "大赛组委会",
+      "scope": "2026 A类资格、交付与初赛评分",
+      "locator": "ZIP内01参赛手册PDF第12、28—30、37页；03赛题手册第176页",
+      "sha256": "db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8.zip",
+      "readMethod": "Public curl download; complete HTML body or pypdf pages identified by locator; no archive filesystem extraction",
+      "finding": "ZIP参赛手册第12页五人/跨校/毕业生资格，第28—30页交付；第37页与赛题手册末页A类20/30/30/20一致。"
+    },
+    {
+      "sourceId": "fwwb-c2-a11",
+      "url": "https://www.fwwb.org.cn/topic/show/a00d22f4-b2c3-4456-828a-b3dc18661b0b",
+      "title": "A11篮球持球人身份重识别算法开发",
+      "publisher": "大赛组委会／球秀科技",
+      "scope": "2026 A11完整任务与技术指标",
+      "locator": "问题、任务、提交、参考信息与评分指向全文",
+      "finding": "完整HTML任务；mAP/Rank1与参考4090时延、PyTorch、外部数据声明；企业数据未读取。"
+    },
+    {
+      "sourceId": "4c-c2-national",
+      "url": "https://jsjds.blcu.edu.cn/info/1042/2124.htm",
+      "title": "4C2026预通知",
+      "publisher": "全国组委会",
+      "scope": "2026本科资格与省赛上推路径",
+      "locator": "正文参赛对象、三级赛制与人工智能类别",
+      "finding": "已读取定位所列正文，资格及流程只适用所列届次范围。"
+    },
+    {
+      "sourceId": "4c-c2-industrial",
+      "url": "https://jsjds.exelab.cc/docs/C02v20260225.01.pdf",
+      "title": "智能工业视觉检测专项挑战赛V20260225.01",
+      "publisher": "大赛人工智能挑战赛组织方",
+      "scope": "2026专项公开任务、设备、现场测试与排名",
+      "locator": "完整PDF第1—11页；核心任务和评分第1—5页",
+      "sha256": "e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f.pdf",
+      "readMethod": "Public curl download; complete HTML body or pypdf pages identified by locator; no archive filesystem extraction",
+      "finding": "完整11页；25件五类、两轮取较优、存图覆盖零分、名次65/35；计数评分存在措辞歧义，未消除。"
+    }
+  ]
+}

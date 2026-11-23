@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+  "contentDigest": "fd3164547954795e14cdd79a61e22abfd835b95fda7e360a689471561fd1525d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:05:15.919688+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "teach-d3-2023-rules",
+    "teach-d3-children-rights-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "teach-d3-2023-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d.pdf",
+      "sourceSha256": "19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d",
+      "actualReadLocator": "PDF pages1–5,9；rendered/tw-0-01..05,09.png视觉阅读",
+      "verification": "特定师资生1–4人、师生不可混组、纸本3份及电子双提交、20页4课、匿名封面、30/40/30正式评分、2023截止和颁奖日期、赠书邮费边界。"
+    },
+    {
+      "sourceId": "teach-d3-children-rights-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176.pdf",
+      "sourceSha256": "1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176",
+      "actualReadLocator": "完整PDF全17页；rendered/tw-1-01..17.png逐页视觉阅读",
+      "verification": "四课、主题网和全部学习单/图像；p13表达意见无相应选项、p9书包情境、p15未经同意拿东西卡片及p16绘画记录支持分析。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周和退出已读；历史特定组、离线评读不等于原作者获奖或真实课堂效果。",
+    "原作概括某国女孩不能上学的故事未作为事实使用，已明确排除；获奖不替代教材核查。",
+    "规则只视觉阅读所列6页，其他附件仅抽取定位；不声称全22页视觉已读。外链绘本/视频未读，不作批准依据。费用及当前资格保留未知。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,70 @@
+{
+  "recordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+  "name": "全国大学生机械创新设计大赛",
+  "contentDigest": "0a4ebeec9ac1d9035cfecc0e146a23df4e32c0f58ce03e394fe27f5e23416593",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.213972+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+    "previousContentDigest": "a25fafc4e0e73e390890454ea2248aea240112e68f264960a3ca310e263d289c",
+    "excludeReviewers": [
+      "/root",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "mechanical-2026-notice",
+      "url": "https://12umic.hit.edu.cn/2025/0321/c20012a364782/page.htm",
+      "readingLocation": "A3 P1:L47—49经费",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395.html",
+      "sha256": "ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395",
+      "bytes": 31921,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "mechanical-2026-instructions",
+      "url": "https://jdxy.hsu.edu.cn/_upload/article/files/40/1f/feb2c7904f029972f37b54785c30/0a272ab2-669f-41ab-9f19-eb143648a954.pdf",
+      "readingLocation": "A3原PDF P2:L10—30综合评分、P3:L28学校费用",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3.pdf",
+      "sha256": "3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3",
+      "bytes": 623338,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核通知47—49行及参赛须知3页：赛区决定报名费，学校承担参赛费用且不得向个人收费；新增交叉引用与成本边界一致。叶菜完整题与适用综合评价（非蝴蝶60/40）、个人机构/试验路线仍成立。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

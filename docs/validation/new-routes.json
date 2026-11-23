@@ -1,0 +1,763 @@
+{
+  "version": "new",
+  "passed": true,
+  "paidAiCalls": 0,
+  "externalNetwork": "blocked",
+  "detailRoutes": 135,
+  "qrRoutes": 8,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 84147
+    },
+    {
+      "path": "/competitions",
+      "status": 200,
+      "bytes": 140246
+    },
+    {
+      "path": "/competitions/recommend",
+      "status": 200,
+      "bytes": 34811
+    },
+    {
+      "path": "/teams",
+      "status": 200,
+      "bytes": 27077
+    },
+    {
+      "path": "/community/emily.png",
+      "status": 200,
+      "bytes": 9940
+    },
+    {
+      "path": "/competitions/china-international-college-innovation",
+      "status": 200,
+      "bytes": 100662
+    },
+    {
+      "path": "/competitions/challenge-cup-academic-science",
+      "status": 200,
+      "bytes": 87369
+    },
+    {
+      "path": "/competitions/national-college-math-modeling",
+      "status": 200,
+      "bytes": 103420
+    },
+    {
+      "path": "/competitions/challenge-cup-entrepreneurship-plan",
+      "status": 200,
+      "bytes": 90774
+    },
+    {
+      "path": "/competitions/national-college-electronic-design",
+      "status": 200,
+      "bytes": 104201
+    },
+    {
+      "path": "/competitions/icpc-programming",
+      "status": 200,
+      "bytes": 101847
+    },
+    {
+      "path": "/competitions/market-research-analysis",
+      "status": 200,
+      "bytes": 99929
+    },
+    {
+      "path": "/competitions/understanding-contemporary-china-foreign-language",
+      "status": 200,
+      "bytes": 103690
+    },
+    {
+      "path": "/competitions/energy-conservation-emission-reduction",
+      "status": 200,
+      "bytes": 85242
+    },
+    {
+      "path": "/competitions/ecommerce-innovation-creativity-entrepreneurship",
+      "status": 200,
+      "bytes": 101571
+    },
+    {
+      "path": "/competitions/smart-car",
+      "status": 200,
+      "bytes": 104156
+    },
+    {
+      "path": "/competitions/china-college-computer-design",
+      "status": 200,
+      "bytes": 117045
+    },
+    {
+      "path": "/competitions/china-software-cup",
+      "status": 200,
+      "bytes": 110314
+    },
+    {
+      "path": "/competitions/career-planning",
+      "status": 200,
+      "bytes": 88673
+    },
+    {
+      "path": "/competitions/information-security",
+      "status": 200,
+      "bytes": 89363
+    },
+    {
+      "path": "/competitions/integrated-circuit-innovation",
+      "status": 200,
+      "bytes": 101696
+    },
+    {
+      "path": "/competitions/advanced-graphics-bim",
+      "status": 200,
+      "bytes": 83602
+    },
+    {
+      "path": "/competitions/national-college-industrial-design",
+      "status": 200,
+      "bytes": 105055
+    },
+    {
+      "path": "/competitions/future-designer-ncda",
+      "status": 200,
+      "bytes": 104543
+    },
+    {
+      "path": "/competitions/energy-economics-academic-creativity",
+      "status": 200,
+      "bytes": 92835
+    },
+    {
+      "path": "/competitions/business-elite-innovation",
+      "status": 200,
+      "bytes": 83493
+    },
+    {
+      "path": "/competitions/national-college-logistics-design",
+      "status": 200,
+      "bytes": 83786
+    },
+    {
+      "path": "/competitions/china-college-computer-contest",
+      "status": 200,
+      "bytes": 81816
+    },
+    {
+      "path": "/competitions/robocon",
+      "status": 200,
+      "bytes": 81573
+    },
+    {
+      "path": "/competitions/robocup-china",
+      "status": 200,
+      "bytes": 83347
+    },
+    {
+      "path": "/competitions/siemens-intelligent-manufacturing",
+      "status": 200,
+      "bytes": 82288
+    },
+    {
+      "path": "/competitions/lanqiao-cup",
+      "status": 200,
+      "bytes": 98169
+    },
+    {
+      "path": "/competitions/21st-century-english-speaking",
+      "status": 200,
+      "bytes": 82423
+    },
+    {
+      "path": "/competitions/icbc-fintech-innovation",
+      "status": 200,
+      "bytes": 81337
+    },
+    {
+      "path": "/competitions/digital-media-creative-tech",
+      "status": 200,
+      "bytes": 87673
+    },
+    {
+      "path": "/competitions/future-aircraft-design",
+      "status": 200,
+      "bytes": 82191
+    },
+    {
+      "path": "/competitions/vocational-innovation-entrepreneurship",
+      "status": 200,
+      "bytes": 85125
+    },
+    {
+      "path": "/competitions/iot-design",
+      "status": 200,
+      "bytes": 106557
+    },
+    {
+      "path": "/competitions/youth-tech-challenge",
+      "status": 200,
+      "bytes": 82218
+    },
+    {
+      "path": "/competitions/low-altitude-industry",
+      "status": 200,
+      "bytes": 84117
+    },
+    {
+      "path": "/competitions/ican-innovation-entrepreneurship",
+      "status": 200,
+      "bytes": 83068
+    },
+    {
+      "path": "/competitions/graduate-rural-revitalization-agritech",
+      "status": 200,
+      "bytes": 86293
+    },
+    {
+      "path": "/competitions/green-development",
+      "status": 200,
+      "bytes": 88083
+    },
+    {
+      "path": "/competitions/xuechuangbei-business-simulation",
+      "status": 200,
+      "bytes": 83900
+    },
+    {
+      "path": "/competitions/mechanical-innovation-design",
+      "status": 200,
+      "bytes": 104886
+    },
+    {
+      "path": "/competitions/3d-digital-innovation-design",
+      "status": 200,
+      "bytes": 84511
+    },
+    {
+      "path": "/competitions/graduate-cybersecurity-innovation",
+      "status": 200,
+      "bytes": 87654
+    },
+    {
+      "path": "/competitions/national-structural-design",
+      "status": 200,
+      "bytes": 100789
+    },
+    {
+      "path": "/competitions/national-advertising-art",
+      "status": 200,
+      "bytes": 113202
+    },
+    {
+      "path": "/competitions/engineering-practice-innovation",
+      "status": 200,
+      "bytes": 103893
+    },
+    {
+      "path": "/competitions/huacan-design-award",
+      "status": 200,
+      "bytes": 86001
+    },
+    {
+      "path": "/competitions/national-innovation-training-annual",
+      "status": 200,
+      "bytes": 87214
+    },
+    {
+      "path": "/competitions/chemical-engineering-design",
+      "status": 200,
+      "bytes": 100475
+    },
+    {
+      "path": "/competitions/service-outsourcing-innovation",
+      "status": 200,
+      "bytes": 100789
+    },
+    {
+      "path": "/competitions/milan-design-week-china",
+      "status": 200,
+      "bytes": 84518
+    },
+    {
+      "path": "/competitions/geology-skills",
+      "status": 200,
+      "bytes": 79378
+    },
+    {
+      "path": "/competitions/optoelectronic-design",
+      "status": 200,
+      "bytes": 82351
+    },
+    {
+      "path": "/competitions/metallographic-skills",
+      "status": 200,
+      "bytes": 84580
+    },
+    {
+      "path": "/competitions/zhou-peiyuan-mechanics",
+      "status": 200,
+      "bytes": 83761
+    },
+    {
+      "path": "/competitions/mechanical-engineering-innovation",
+      "status": 200,
+      "bytes": 83864
+    },
+    {
+      "path": "/competitions/china-us-young-maker",
+      "status": 200,
+      "bytes": 85398
+    },
+    {
+      "path": "/competitions/raicom-robot-developer",
+      "status": 200,
+      "bytes": 82623
+    },
+    {
+      "path": "/competitions/datang-ict",
+      "status": 200,
+      "bytes": 86509
+    },
+    {
+      "path": "/competitions/huawei-ict",
+      "status": 200,
+      "bytes": 81292
+    },
+    {
+      "path": "/competitions/embedded-chip-system-design",
+      "status": 200,
+      "bytes": 99937
+    },
+    {
+      "path": "/competitions/culsc-life-sciences",
+      "status": 200,
+      "bytes": 109778
+    },
+    {
+      "path": "/competitions/physics-experiment-innovation",
+      "status": 200,
+      "bytes": 113411
+    },
+    {
+      "path": "/competitions/bim-graduation-design",
+      "status": 200,
+      "bytes": 84373
+    },
+    {
+      "path": "/competitions/intelligent-robot-creativity",
+      "status": 200,
+      "bytes": 83496
+    },
+    {
+      "path": "/competitions/china-good-design",
+      "status": 200,
+      "bytes": 81528
+    },
+    {
+      "path": "/competitions/china-robot-ai",
+      "status": 200,
+      "bytes": 81826
+    },
+    {
+      "path": "/competitions/chinese-classics",
+      "status": 200,
+      "bytes": 100141
+    },
+    {
+      "path": "/competitions/intercultural-competence",
+      "status": 200,
+      "bytes": 98842
+    },
+    {
+      "path": "/competitions/baidu-star",
+      "status": 200,
+      "bytes": 83528
+    },
+    {
+      "path": "/competitions/water-innovation-design",
+      "status": 200,
+      "bytes": 79732
+    },
+    {
+      "path": "/competitions/chemical-engineering-experiment",
+      "status": 200,
+      "bytes": 83555
+    },
+    {
+      "path": "/competitions/chemistry-experiment-innovation",
+      "status": 200,
+      "bytes": 113940
+    },
+    {
+      "path": "/competitions/computer-system-ability",
+      "status": 200,
+      "bytes": 85331
+    },
+    {
+      "path": "/competitions/garden-design-build",
+      "status": 200,
+      "bytes": 84271
+    },
+    {
+      "path": "/competitions/information-security-confrontation",
+      "status": 200,
+      "bytes": 86522
+    },
+    {
+      "path": "/competitions/surveying-innovation",
+      "status": 200,
+      "bytes": 84689
+    },
+    {
+      "path": "/competitions/statistical-modeling",
+      "status": 200,
+      "bytes": 80563
+    },
+    {
+      "path": "/competitions/basic-medicine-innovation",
+      "status": 200,
+      "bytes": 85901
+    },
+    {
+      "path": "/competitions/tax-risk-case",
+      "status": 200,
+      "bytes": 83916
+    },
+    {
+      "path": "/competitions/enterprise-competition-simulation",
+      "status": 200,
+      "bytes": 87165
+    },
+    {
+      "path": "/competitions/digital-enterprise-sandbox",
+      "status": 200,
+      "bytes": 83886
+    },
+    {
+      "path": "/competitions/digital-building-innovation",
+      "status": 200,
+      "bytes": 89768
+    },
+    {
+      "path": "/competitions/global-campus-ai-algorithm",
+      "status": 200,
+      "bytes": 84180
+    },
+    {
+      "path": "/competitions/smart-agricultural-equipment",
+      "status": 200,
+      "bytes": 82073
+    },
+    {
+      "path": "/competitions/keyun-accounting",
+      "status": 200,
+      "bytes": 85314
+    },
+    {
+      "path": "/competitions/world-vocational-skills",
+      "status": 200,
+      "bytes": 84417
+    },
+    {
+      "path": "/competitions/robotac",
+      "status": 200,
+      "bytes": 82330
+    },
+    {
+      "path": "/competitions/worldskills",
+      "status": 200,
+      "bytes": 82360
+    },
+    {
+      "path": "/competitions/worldskills-china-selection",
+      "status": 200,
+      "bytes": 82161
+    },
+    {
+      "path": "/competitions/brics-skills",
+      "status": 200,
+      "bytes": 84666
+    },
+    {
+      "path": "/competitions/matiji-programming",
+      "status": 200,
+      "bytes": 84333
+    },
+    {
+      "path": "/competitions/national-college-mathematics",
+      "status": 200,
+      "bytes": 106196
+    },
+    {
+      "path": "/competitions/red-tourism-creative-planning",
+      "status": 200,
+      "bytes": 84979
+    },
+    {
+      "path": "/competitions/graduate-math-modeling",
+      "status": 200,
+      "bytes": 85473
+    },
+    {
+      "path": "/competitions/graduate-electronic-design",
+      "status": 200,
+      "bytes": 83774
+    },
+    {
+      "path": "/competitions/graduate-ai-innovation",
+      "status": 200,
+      "bytes": 87602
+    },
+    {
+      "path": "/competitions/graduate-public-management-case",
+      "status": 200,
+      "bytes": 84494
+    },
+    {
+      "path": "/competitions/graduate-culture-china",
+      "status": 200,
+      "bytes": 86198
+    },
+    {
+      "path": "/competitions/comap-mcm-icm",
+      "status": 200,
+      "bytes": 110641
+    },
+    {
+      "path": "/competitions/igem-collegiate",
+      "status": 200,
+      "bytes": 110566
+    },
+    {
+      "path": "/competitions/ccpc-collegiate",
+      "status": 200,
+      "bytes": 81493
+    },
+    {
+      "path": "/competitions/robomaster-university",
+      "status": 200,
+      "bytes": 101450
+    },
+    {
+      "path": "/competitions/asc-supercomputing",
+      "status": 200,
+      "bytes": 79669
+    },
+    {
+      "path": "/competitions/biomedical-engineering-design",
+      "status": 200,
+      "bytes": 84148
+    },
+    {
+      "path": "/competitions/pharmacy-student-forum",
+      "status": 200,
+      "bytes": 84795
+    },
+    {
+      "path": "/competitions/nactrans",
+      "status": 200,
+      "bytes": 85612
+    },
+    {
+      "path": "/competitions/concrete-material-design",
+      "status": 200,
+      "bytes": 79551
+    },
+    {
+      "path": "/competitions/collegiate-gis-skills",
+      "status": 200,
+      "bytes": 80600
+    },
+    {
+      "path": "/competitions/neccs",
+      "status": 200,
+      "bytes": 80604
+    },
+    {
+      "path": "/competitions/national-interpreting-english",
+      "status": 200,
+      "bytes": 80123
+    },
+    {
+      "path": "/competitions/jessup-international-law",
+      "status": 200,
+      "bytes": 85049
+    },
+    {
+      "path": "/competitions/vis-commercial-arbitration",
+      "status": 200,
+      "bytes": 84147
+    },
+    {
+      "path": "/competitions/icc-criminal-moot",
+      "status": 200,
+      "bytes": 80089
+    },
+    {
+      "path": "/competitions/cfa-research-challenge",
+      "status": 200,
+      "bytes": 100038
+    },
+    {
+      "path": "/competitions/ima-management-accounting",
+      "status": 200,
+      "bytes": 102339
+    },
+    {
+      "path": "/competitions/cgma-global-business",
+      "status": 200,
+      "bytes": 81933
+    },
+    {
+      "path": "/competitions/loreal-brandstorm",
+      "status": 200,
+      "bytes": 91529
+    },
+    {
+      "path": "/competitions/hult-prize",
+      "status": 200,
+      "bytes": 91365
+    },
+    {
+      "path": "/competitions/james-dyson-award",
+      "status": 200,
+      "bytes": 92349
+    },
+    {
+      "path": "/competitions/if-student-award",
+      "status": 200,
+      "bytes": 97462
+    },
+    {
+      "path": "/competitions/student-rural-revitalization",
+      "status": 200,
+      "bytes": 81661
+    },
+    {
+      "path": "/competitions/microsoft-imagine-cup",
+      "status": 200,
+      "bytes": 78400
+    },
+    {
+      "path": "/competitions/collegiate-chemistry-lab",
+      "status": 200,
+      "bytes": 81536
+    },
+    {
+      "path": "/competitions/pharmaceutical-process-design",
+      "status": 200,
+      "bytes": 81572
+    },
+    {
+      "path": "/competitions/cosmetics-innovation",
+      "status": 200,
+      "bytes": 85042
+    },
+    {
+      "path": "/competitions/lee-li-moot",
+      "status": 200,
+      "bytes": 81274
+    },
+    {
+      "path": "/competitions/red-cross-ihl-moot",
+      "status": 200,
+      "bytes": 79800
+    },
+    {
+      "path": "/competitions/student-public-relations",
+      "status": 200,
+      "bytes": 80470
+    },
+    {
+      "path": "/competitions/environmental-law-moot",
+      "status": 200,
+      "bytes": 81706
+    },
+    {
+      "path": "/competitions/national-student-arts",
+      "status": 200,
+      "bytes": 82779
+    },
+    {
+      "path": "/competitions/acca-job-hunting",
+      "status": 200,
+      "bytes": 81836
+    },
+    {
+      "path": "/competitions/formula-student-china",
+      "status": 200,
+      "bytes": 107549
+    },
+    {
+      "path": "/competitions/collegiate-welding",
+      "status": 200,
+      "bytes": 81535
+    },
+    {
+      "path": "/competitions/cryptography-math-challenge",
+      "status": 200,
+      "bytes": 80814
+    },
+    {
+      "path": "/competitions/exploration-geophysics",
+      "status": 200,
+      "bytes": 81563
+    },
+    {
+      "path": "/community/group-business-1-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 191477
+    },
+    {
+      "path": "/community/group-business-2-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 192580
+    },
+    {
+      "path": "/community/group-guochuang-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 187678
+    },
+    {
+      "path": "/community/group-icpc-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 188577
+    },
+    {
+      "path": "/community/group-market-research-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 181906
+    },
+    {
+      "path": "/community/group-electronic-design-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 193993
+    },
+    {
+      "path": "/community/group-challenge-academic-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 185570
+    },
+    {
+      "path": "/community/group-modeling-20261120.jpg",
+      "status": 200,
+      "expected": 200,
+      "bytes": 184929
+    },
+    {
+      "path": "/community/not-a-listed-group.jpg",
+      "status": 404,
+      "expected": 404
+    }
+  ]
+}

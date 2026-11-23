@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+  "contentDigest": "ab5a9332cd7c170ae6c8ff4e8ca0b2a85055299c28cfa11e34b0816ac2c1b6d9",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.888756+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ima-rules",
+    "b-ima-delivery",
+    "b-ima-case",
+    "b-ima-16-handbook",
+    "b-ima-fourth-reference-rubric"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ima-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee.html",
+      "sourceSha256": "637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/30-ima-management-accounting.json :: fresh HTML lines 91-155",
+      "verification": "2026参赛须知：同校3至5名在读本科研究生、专业不限、每校5区域赛名额，校内赛超过5队时组织，队长/队员锁定，分赛段语言与评审形式。"
+    },
+    {
+      "sourceId": "b-ima-delivery",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566.html",
+      "sourceSha256": "1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/30-ima-management-accounting.json :: fresh HTML lines 91-130",
+      "verification": "区域赛2027年1月1日至2月24日；全员英文视频20分钟、中文字幕、15MB PDF、学校背景匿名及格式扣分；决赛另规则。"
+    },
+    {
+      "sourceId": "b-ima-case",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7.pdf",
+      "sourceSha256": "8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/30-ima-management-accounting.json :: PDF all 6 pages (cover plus printed pages 1-5); rendered/ima-1.png through ima-6.png",
+      "verification": "完整虚构锂航案例、两方案十年成本残值排放补贴、营收变量税率折现率和固定碳价、三项问题、AI真实过程披露及人工审核已逐页视觉核验。"
+    },
+    {
+      "sourceId": "b-ima-16-handbook",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/9c4e624bc63ae1167992886dcf0d49893f718c46b73bbcc987a351a1394e6819.pdf",
+      "sourceSha256": "9c4e624bc63ae1167992886dcf0d49893f718c46b73bbcc987a351a1394e6819",
+      "actualReadLocator": "本轮PDF第5—6页渲染目读，rendered/ima16-5.png,-6.png",
+      "verification": "本科/研究生同校3—5人、流程及满5队表述，2026—27时间明确"
+    },
+    {
+      "sourceId": "b-ima-fourth-reference-rubric",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c3a7c470bebb3c8fdf3fe088a7d9675ae1808541abeee8b510147afcb6bdf1fe.pdf",
+      "sourceSha256": "c3a7c470bebb3c8fdf3fe088a7d9675ae1808541abeee8b510147afcb6bdf1fe",
+      "actualReadLocator": "本轮PDF第1及8页渲染目读，rendered/ima4-01.png,-08.png",
+      "verification": "封面2013—2014第四届；初赛案例分析70、演示文稿30，各项分值核对；非16届当前权重"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/30-ima-management-accounting.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "已核正文改写与来源绑定修复；第16届手册“满5队”对照已读网页“超过5队”的差异已明确，故不再视为确定事实错误。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-31-01",
+      "severity": "major",
+      "description": "第4届2013—2014手册第8页的70/30权重只能作为已标明的历史训练参考，不能核实第16届2026—2027区域赛正式内容评审。当前手册新增资格和流程资料未补该依据，严格L3仍应保留适用正式评分缺口。",
+      "resolved": false
+    }
+  ]
+}

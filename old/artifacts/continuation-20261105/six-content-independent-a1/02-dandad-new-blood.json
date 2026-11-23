@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "approved",
+    "contentDigest": "81b5c7d9683737ba602a106206a0a9563a466c38f4b32c81fb45988268469066",
+    "sourceIds": [
+      "newblood-2026-dad-brief",
+      "newblood-2026-tutor-pack"
+    ],
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": true
+    },
+    "findings": [],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/02-dandad-new-blood.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "newblood-2026-dad-brief",
+      "url": "https://media.dandad.org/documents/NBA2026-D-AD-220126.pdf",
+      "independentlyRead": "两页原题。p1主语是推广参赛者自己，须说明目标受众与更广受众、期望结果、互动及延续策略；至少3段各30秒视频或5静帧，可混用。这道题例外允许本人的姓名/影像。p2主材料选≤2分钟介绍视频或≤8 JPEG；选交互动作品，或依主件格式增交≤1分钟的动态材料/≤4 JPEG。两页均标2026-03-17 17:00 GMT。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91.pdf",
+          "sha256": "cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/e0030d1023bdfa52910ff2dc083be6867a330c206ee38e4d984c86c868ac87f1.txt",
+          "sha256": "e0030d1023bdfa52910ff2dc083be6867a330c206ee38e4d984c86c868ac87f1"
+        }
+      ]
+    },
+    {
+      "sourceId": "newblood-2026-tutor-pack",
+      "url": "https://media.dandad.org/documents/New_Blood_Awards_2026_Tutor_Pack_UPDATED.pdf",
+      "independentlyRead": "指南p2目录把此题列为Content Creation, Social Media；p3及p31有三个通用问题，Craft及Advertising优先次序有别，Games另例，未见这道题的明确权重。p26英文规则，p27格式。p30与34在认可课程、2026-01-01时点及团队≤5人一致；FAQ学生不限年龄；非学生 over 18 与18 and over、自由职业收入折算6个月与1年不一致。p34及第3条排除赛事关联、家庭及制裁情形；p30/34–35每件£15或各成员填写调查，不能把抵用券当总成本为零。原题和指南的相关页、版式表均已核。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3.pdf",
+          "sha256": "a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/ad9cda6247e960647d3ce098b95c6ea456676fcc3af042459aa4a56734fc930e.txt",
+          "sha256": "ad9cda6247e960647d3ce098b95c6ea456676fcc3af042459aa4a56734fc930e"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "目标个人传播持续系列",
+    "eligibility": "学生时点、团队及条款排除，未替非学生判定",
+    "track": "指定Share your passion",
+    "participation": "在线提交与本人身份例外界定清楚",
+    "deliverables": "区分创作件数量和评审主件",
+    "rubric": "三问题，未擅定Craft权重",
+    "skills": "五幅系列的本人贡献",
+    "investment": "£15/件或成员完成调查；时间另估",
+    "difficulty": "入门样稿、完赛格式、获奖无概率",
+    "benefits": "模拟提案不虚报投放",
+    "value": "没有真实反馈不声称验证",
+    "nextStep": "静态样稿路径有明确目的和完成判据"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

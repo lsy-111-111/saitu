@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+  "contentDigest": "eb36d5551df194b59f07216fcf3403c041a964b9fa44dc773b4b49442052727e",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.270688+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "aiaa-dbf-2026-rules"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "aiaa-dbf-2026-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917.pdf",
+      "sourceSha256": "cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/12-aiaa-design-build-fly.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/11-aiaa-design-build-fly.json :: PDF pages 1,5,8-20,26-29,32-34; rendered/dbf-{page}.png；本轮新增实际读取：PDF封面第1页；rendered/15-00-p1.png",
+      "verification": "Visual read 2025-26 eligibility/membership/pilot, 550 USD team fee, full Charter Flight incl payload compartments and propulsion limits, course diagram, ordered missions, net-income formula and relative score, report formats/proposal rubric and combined 15/85 score, FAQ configuration limits.；原件确为2025-26 DBF，不能推出2027任务；本稿已移除该断言。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/12-aiaa-design-build-fly.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "删除原未获支持的2027任务与报名断言，现仅保留2025-26完整正式任务和2027未知提示。前轮任务、计分、安全/队伍/费用证据相同。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

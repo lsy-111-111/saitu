@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+  "contentDigest": "06d7a541005f99446557a8f749bdab1f5bd5c04923508ceb2ef3382e22ab6f4d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:50:14.533545+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "igem-2026-registration",
+    "igem-2026-roster",
+    "igem-2026-special-prizes",
+    "igem-2026-deliverables",
+    "igem-2026-fees",
+    "igem-2025-hkust-model",
+    "igem-2025-judge-handbook"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "igem-2026-registration",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62.txt",
+      "sourceSha256": "e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62",
+      "actualReadLocator": "本人batch01同SHA原文实际已读，artifacts/continuation-20261105/content-review-b2/evidence/53-igem-collegiate.json :: frozen rendered DOM text lines 21-238",
+      "verification": "高校与高中分开，Primary PI资格、机构、组织类型、注册付费和名单同意书。"
+    },
+    {
+      "sourceId": "igem-2026-roster",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053.txt",
+      "sourceSha256": "ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053",
+      "actualReadLocator": "本人batch01同SHA原文实际已读，artifacts/continuation-20261105/content-review-b2/evidence/53-igem-collegiate.json :: frozen rendered DOM text lines 20-101",
+      "verification": "3月31日年龄门槛、Undergraduate/Overgraduate按年龄、PI名单管理与学生加入过程。"
+    },
+    {
+      "sourceId": "igem-2026-special-prizes",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8.txt",
+      "sourceSha256": "a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8",
+      "actualReadLocator": "本人batch01同SHA原文实际已读，artifacts/continuation-20261105/content-review-b2/evidence/53-igem-collegiate.json :: frozen rendered DOM text lines 20-116",
+      "verification": "公开1—6量表、逐问题描述未公开、Best Model四项评审及指定model路径。"
+    },
+    {
+      "sourceId": "igem-2026-deliverables",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc.txt",
+      "sourceSha256": "e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc",
+      "actualReadLocator": "本人batch01同SHA原文实际已读，artifacts/continuation-20261105/content-review-b2/evidence/53-igem-collegiate.json :: frozen rendered DOM text lines 20-86",
+      "verification": "交付目的、2026归属表仍提交但无需iframe、平台提交。"
+    },
+    {
+      "sourceId": "igem-2026-fees",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c.txt",
+      "sourceSha256": "3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c",
+      "actualReadLocator": "本人batch01同SHA原文实际已读，artifacts/continuation-20261105/content-review-b2/evidence/53-igem-collegiate.json :: frozen rendered DOM text lines 20-174",
+      "verification": "两阶段团队费、赴巴黎个人票与远程区别、欧元、支付期限机制；金额图表不存在，未读金额。"
+    },
+    {
+      "sourceId": "igem-2025-hkust-model",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/43ac4d99fdaf07521e20cae33dedee8f2ecae59100c1752c28c643e65388934d.html",
+      "sourceSha256": "43ac4d99fdaf07521e20cae33dedee8f2ecae59100c1752c28c643e65388934d",
+      "actualReadLocator": "本轮HTML完整正文extracted/54-07.txt 22—586行；Cycle0图1、3—19全部18图实际目读，图2 HTML表60—133行；后续28图实际目读清单igem-actual-image-reads.json",
+      "verification": "完整Cycle0筛选/六次EC20/锌替镉/置信度及MIB2反例；1A距离和6稳定性图不证明结合；1B融合结构误差；2阈值与消融表及生成架构；Biosensor人为参数表/曲线；KillSwitch比对不证明跨宿主功能。"
+    },
+    {
+      "sourceId": "igem-2025-judge-handbook",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/9dd7732b77065f9923a9375fd2f65ba3b1b9576d2b8e6673848ba96454479424.pdf",
+      "sourceSha256": "9dd7732b77065f9923a9375fd2f65ba3b1b9576d2b8e6673848ba96454479424",
+      "actualReadLocator": "本轮PDF封面第1页和Model第67—68页逐页渲染目读，rendered/igem-rubric-cover-01.png及igem-rubric-67.png,-68.png",
+      "verification": "封面确认为2025；四项正式定性评价及假设/数据/设计影响要求，与2025公开作品同届适用"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "完整12模块、角色、前置、7天/4周/退出及源边界已读；2026资格费用沿用本人已读同SHA证据，2025完整具体Cycle0作品与同届正式评审本轮新增原件目读。",
+    "同届完整作品评读不要求复现整队全部实验。本文明确保留作者未经独立验证的机制解释；没有把预测置信度、代用锌、曲线外观当成功实测，不采纳源文能量单位等疑似误解为事实。",
+    "实际图片46幅/全部资产115幅，不冒称全图已读。完整Cycle0已读，其他模块限于本文所述结论/局限与关键结果图表，未读完整运行日志、训练集或另链接论文全文。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,352 @@
+{
+  "authorAgentId": "/root/v7_catalog",
+  "checkedAt": "2026-11-08T16:45:10.734914+00:00",
+  "ordinaryIndependentReviewPerformed": false,
+  "newEntries": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "seriesId": "google-code-jam",
+      "verifiedUrl": "https://github.com/google/coding-competitions-archive",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/357a686683ffdd491adb.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "seriesId": "google-kick-start",
+      "verifiedUrl": "https://github.com/google/coding-competitions-archive",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/357a686683ffdd491adb.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "seriesId": "google-hash-code",
+      "verifiedUrl": "https://github.com/google/coding-competitions-archive",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/357a686683ffdd491adb.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "seriesId": "apple-swift-student-challenge",
+      "verifiedUrl": "https://developer.apple.com/swift-student-challenge/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/03e979347246ec9db1ab.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "international-mathematics-competition:2026-33:proofs:individual:bulgaria-2026:v3",
+      "seriesId": "international-mathematics-competition",
+      "verifiedUrl": "https://www.imc-math.org.uk/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/bc34d682ce5227f86e50.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+      "seriesId": "dandad-new-blood",
+      "verifiedUrl": "https://www.dandad.org/awards/new-blood-awards",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": null,
+      "sourceObservationArtifact": null,
+      "method": "agent_web_read",
+      "webReadBoundary": "页面标题New Blood Awards、2026 Winners与未来2027赛程；已区分往届与未来届次",
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+      "seriesId": "national-college-math-modeling",
+      "verifiedUrl": "https://www.mcm.edu.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/566823863eef6529c0f4.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "comap-mcm-icm:2026:mcm-a:undergraduate-or-below:global-2026-mcm-a:v3",
+      "seriesId": "comap-mcm-icm",
+      "verifiedUrl": "https://comap.org/contests/mcm-icm",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/432d31d7fae27b27e014.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+      "seriesId": "china-software-cup",
+      "verifiedUrl": "https://www.cnsoftbei.com/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/4d30a5a4fca645d4d7a3.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "china-college-computer-design:2026-19:ai-industrial-vision:full-time-undergraduate:china-ai-industrial-2026:v3",
+      "seriesId": "china-college-computer-design",
+      "verifiedUrl": "https://jsjds.blcu.edu.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/833effd6f1669b21b9d5.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+      "seriesId": "ccf-ccsp",
+      "verifiedUrl": "https://ccsp.ccf.org.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/618dbaa0a7f78c947faf.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "national-college-mathematics:2011-3:calculus-third-derivative:non-mathematics:zhejiang-zjut-preliminary-2011:v3",
+      "seriesId": "national-college-mathematics",
+      "verifiedUrl": "https://www.cmathc.org.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/890492cc55ba4f2b33c4.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "mathorcup:2026-16:d-three-dimensional-packing:undergraduate-d:china-spring-d-2026:v3",
+      "seriesId": "mathorcup",
+      "verifiedUrl": "https://www.mathorcup.org/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/1e674440538d5030597d.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "yau-college-mathematics:2026-17:algebra-non-simple-group:undergraduate-individual:global-2026-historical-training:v3",
+      "seriesId": "yau-college-mathematics",
+      "verifiedUrl": "https://www.yau-contest.com/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/d003f99a02dadef626de.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+      "seriesId": "atcoder-beginner-contest",
+      "verifiedUrl": "https://atcoder.jp/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/da59a389c25e24861c9b.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+      "seriesId": "intercultural-competence",
+      "verifiedUrl": "https://ict.sflep.com/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/db6abdedc19493c4207c.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+      "seriesId": "chongqing-rural-revitalization",
+      "verifiedUrl": "https://www.cqgjxh.com/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/8726ea916cb8d1ca1564.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "chemical-engineering-design:2026-20:clean-styrene-plant:undergraduate:china-styrene:v3",
+      "seriesId": "chemical-engineering-design",
+      "verifiedUrl": "https://iche.zju.edu.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/ca96c54ce8a1ae9848cc.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "embedded-chip-system-design:2026:gowin-real-time-synth:nuaa-undergraduate-graduate:nuaa-gowin-fpga:v3",
+      "seriesId": "embedded-chip-system-design",
+      "verifiedUrl": "https://www.socchina.net/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/08b801db6b4e253786a0.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+      "seriesId": "chemistry-experiment-innovation",
+      "verifiedUrl": "https://cid.nju.edu.cn/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/de2a4b5060213fa71089.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+      "seriesId": "smart-car",
+      "verifiedUrl": "https://www.smartcar.zone/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/39a0ce055a3817380032.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "robomaster-university:2026-rmuc:engineering-core-assembly:university:rmuc-2026-core-assembly:v3",
+      "seriesId": "robomaster-university",
+      "verifiedUrl": "https://www.robomaster.com/zh-CN",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/2fd5a46e810dc2145576.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "seriesId": "biomod",
+      "verifiedUrl": "https://biomod.net/",
+      "verificationScope": "仅验证主办方/赛事主页身份与入口；不宣称已完成当前报名或资格核验",
+      "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/3d34c9bc7098d9bae8ad.txt",
+      "sourceObservationArtifact": "artifacts/continuation-v7-20261109/catalog/landing-recheck/observations.json",
+      "method": "captured_official_page_read",
+      "webReadBoundary": null,
+      "independentReviewPerformed": false
+    }
+  ],
+  "historicalEventEvidenceNotes": {
+    "atcoder-beginner-contest": {
+      "edition": "AtCoder Beginner Contest 483",
+      "label": "最近已举办：ABC 483（2026年11月7日）",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "precision": "day",
+      "sourceUrl": "https://atcoder.jp/",
+      "scope": "主页Recent Contests中的ABC场次，不以AGC/AHC日期代替ABC"
+    },
+    "ccf-ccsp": {
+      "edition": "2026 CCF CCSP",
+      "label": "最近已举办：2026 CCF CCSP（10月21日至22日）",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-22",
+      "precision": "day",
+      "sourceUrl": "https://ccsp.ccf.org.cn/",
+      "scope": "官网10月21至22日举办安排与10月28日圆满落幕报道共同支持；非CSP认证时间"
+    },
+    "international-mathematics-competition": {
+      "edition": "33rd IMC 2026",
+      "label": "最近已举办：第33届IMC（2026年7月27日至8月3日）",
+      "startDate": "2026-07-27",
+      "endDate": "2026-08-03",
+      "precision": "day",
+      "sourceUrl": "https://imc-math.org.uk/?item=info&year=2026",
+      "scope": "2026归档页明确This year’s competition took place及日期，不采用2027未来赛程"
+    },
+    "national-college-math-modeling": {
+      "edition": "2026高教社杯全国大学生数学建模竞赛",
+      "label": "最近已举办：2026届（9月10日开始；结束日期本轮未补齐）",
+      "startDate": "2026-09-10",
+      "endDate": null,
+      "precision": "day",
+      "sourceUrl": "https://www.mcm.edu.cn/",
+      "scope": "主页2026开赛时刻及已发布赛题、2026获奖名单，结束日期留空"
+    },
+    "mathorcup": {
+      "edition": "2026第十六届MathorCup数学应用挑战赛",
+      "label": "最近已举办：2026第十六届（4月17日至21日）",
+      "startDate": "2026-04-17",
+      "endDate": "2026-04-21",
+      "precision": "day",
+      "sourceUrl": "https://www.mathorcup.org/",
+      "scope": "主页2026赛程；4月17日正式赛题和更正通知已公开。不同于11月大数据赛"
+    },
+    "apple-swift-student-challenge": {
+      "edition": "2026 Swift Student Challenge",
+      "label": "最近已核实举办届次：2026（具体比赛日期待补）",
+      "startDate": null,
+      "endDate": null,
+      "precision": "year",
+      "sourceUrl": "https://developer.apple.com/swift-student-challenge/",
+      "scope": "2026 Distinguished Winners及2026获奖者报道，不将WWDC日期当比赛日"
+    },
+    "china-software-cup": {
+      "edition": "2026第十五届中国软件杯",
+      "label": "最近已核实举办届次：2026第十五届（具体决赛日期待补）",
+      "startDate": null,
+      "endDate": null,
+      "precision": "year",
+      "sourceUrl": "https://www.cnsoftbei.com/",
+      "scope": "官网2026全国总决赛一二三等奖及获奖证书通知，未把公告发布日期当赛日"
+    },
+    "biomod": {
+      "edition": "BIOMOD 2025",
+      "label": "最近已核实获奖届次：2025（2026仍为筹备/报名公告，比赛日待补）",
+      "startDate": null,
+      "endDate": null,
+      "precision": "year",
+      "sourceUrl": "https://biomod.net/",
+      "scope": "主页2025 Winners与2026 Team Registration and Schedule；不把尚未证实举办的2026升级为已举办"
+    },
+    "chemical-engineering-design": {
+      "edition": "2026第二十届全国大学生化工设计竞赛",
+      "label": "最近已核实举办届次：2026第二十届（具体决赛日期待补）",
+      "startDate": null,
+      "endDate": null,
+      "precision": "year",
+      "sourceUrl": "https://iche.zju.edu.cn/",
+      "scope": "2026全国总决赛视频与2026授奖团队通知；不采纳网页1970占位日期"
+    },
+    "dandad-new-blood": {
+      "edition": "D&AD New Blood Awards 2026",
+      "label": "最近已核实获奖届次：2026（具体典礼日期待补）",
+      "startDate": null,
+      "endDate": null,
+      "precision": "year",
+      "sourceUrl": "https://www.dandad.org/awards/new-blood-awards",
+      "scope": "当前官网2026 Winners，页面主赛程属于2027未来届次，二者分开"
+    }
+  }
+}

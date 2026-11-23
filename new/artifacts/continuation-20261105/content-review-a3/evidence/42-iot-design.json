@@ -1,0 +1,70 @@
+{
+  "recordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+  "name": "全国大学生物联网设计竞赛",
+  "contentDigest": "1bdd0572c34b716d2b4063461a42d14466b9f0ba7a833e93d67d4e838fadc51d",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.174755+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+    "previousContentDigest": "1bdd0572c34b716d2b4063461a42d14466b9f0ba7a833e93d67d4e838fadc51d",
+    "excludeReviewers": [
+      "/root",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "iot-2026-charter",
+      "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260326/6391013243710844328303068.pdf",
+      "readingLocation": "PDF第2-5页赛期、资格、组队、费用与评审",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492.pdf",
+      "sha256": "65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492",
+      "bytes": 2204694,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "iot-2026-espressif",
+      "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260329/6391039317778793056390288.pdf",
+      "readingLocation": "PDF P1完整必备题，P2-P7资源与可选创新，P8-P12应用示例/支持边界",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30.pdf",
+      "sha256": "538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30",
+      "bytes": 4338232,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "必备项是下行或处理非音视频数据上行，正文未误写双向必需；三款主控、云服务、传感器和有限免费套件准确。不是纯通用主题，具有可验证技术约束。12模块、规则基线/故障注入个人路线和四周退出成立。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

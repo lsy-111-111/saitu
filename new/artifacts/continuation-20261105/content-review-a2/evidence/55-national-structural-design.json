@@ -1,0 +1,58 @@
+{
+  "recordId": "national-structural-design:2026-19-shanghai:lele-cart:undergraduate-junior-college:shanghai-division:v3",
+  "name": "全国大学生结构设计竞赛",
+  "contentDigest": "8f076fb59d3e8c0e2c30e37c1ab5531cb2150583e08d78a3ac5d7a3e6a649b2b",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "structure-shanghai-2026-notice",
+      "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/131fb335-fbb3-4ed9-bef3-3894867f2f46.pdf",
+      "readingLocation": "原PDF1—2页全文",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6.pdf",
+      "sha256": "dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6",
+      "bytes": 195116
+    },
+    {
+      "sourceId": "structure-shanghai-2026-task",
+      "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/2c4a1ed7-4d28-437b-83d2-57787b0de0bb.pdf",
+      "readingLocation": "原PDF1—13页全部视觉阅读，模型/材料/流程/判定/评分公式",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c.pdf",
+      "sha256": "734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c",
+      "bytes": 13044033
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "上海范围、3人、未毕业全日制本专科明确。具体勒勒车全题与5/10/5/80及30/10/40支持；个人载荷路径、纸模至试验、四周退出有效，费用未知保留。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

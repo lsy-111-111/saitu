@@ -1,0 +1,83 @@
+{
+  "recordId": "comap-mcm-icm:2026:mcm-a:undergraduate-or-below:global-2026-mcm-a:v3",
+  "name": "美国大学生数学建模竞赛MCM/ICM",
+  "contentDigest": "3561c057b72bf04ab2840b4e476b6dca7535c89c591231ba8229e5ec742a8ad5",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.105214+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "comap-mcm-icm:2026:mcm-a:undergraduate-or-below:global-2026-mcm-a:v3",
+    "previousContentDigest": "278aea0727fc9da526725be905952391a96ca529e16ce2863b4cb11dfb4dbf89",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "comap-c-2026-rules",
+      "url": "https://www2.scut.edu.cn/_upload/article/files/e5/f2/8871d9db4b7b8ea970516352c699/5b837653-8e0c-41dc-9238-97f734bcb90f.pdf",
+      "readingLocation": "A3原PDF P4:L28—30、P9:L28—31、P10:L8—10",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/0b69bcc27f8fc7d994ebb2d127b28ba6e6e4760bd5def691f0d19062e350d781.pdf",
+      "sha256": "0b69bcc27f8fc7d994ebb2d127b28ba6e6e4760bd5def691f0d19062e350d781",
+      "bytes": 454498,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "comap-c-2026-mirror",
+      "url": "https://www.comapmath.com/MCMICM/",
+      "readingLocation": "P1:L7-L36当届时间/在线提交",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7e345047549ae12385540ff54896ae94d00b3a27a14a5d0fb8f670fcf3bd668.html",
+      "sha256": "d7e345047549ae12385540ff54896ae94d00b3a27a14a5d0fb8f670fcf3bd668",
+      "bytes": 4920,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "comap-c-2026-a",
+      "url": "https://www.contest.comap.org/undergraduate/contests/mcm/contests/2026/problems/2026_MCM_Problem_A.pdf",
+      "readingLocation": "完整三页",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/1afb2971d364ae9467a0f63b5d5d1a9eebb609285c76888db9263f6195083744.pdf",
+      "sha256": "1afb2971d364ae9467a0f63b5d5d1a9eebb609285c76888db9263f6195083744",
+      "bytes": 214460,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核2026规则4页英文PDF与25页、9—10页AI附录额外页数；新加引用确实补足交付依据，保留旧邮件与当届在线提交流程冲突说明。完整A题及四周建模校验没有变动。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

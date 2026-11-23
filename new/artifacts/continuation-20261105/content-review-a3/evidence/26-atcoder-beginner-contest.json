@@ -1,0 +1,109 @@
+{
+  "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+  "name": "AtCoder Beginner Contest",
+  "contentDigest": "09237dc7243c5e8ae2044fad8feb165d39ac5343a413b3ecafbee4e83df5c1d7",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.151926+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+    "previousContentDigest": "ca5776889ac5f053249bc66fad705130216b44bfd390e23527212f606a04b5e2",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "abc-c7-home",
+      "url": "https://atcoder.jp/contests/abc427",
+      "readingLocation": "P1:L17-L36,L73-L102,L108-L132",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b.html",
+      "sha256": "42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b",
+      "bytes": 24610,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "abc-c7-rules",
+      "url": "https://atcoder.jp/contests/abc427/rules",
+      "readingLocation": "A3 P1:L889—898个人alone与计分，2026读取边界",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4.html",
+      "sha256": "5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4",
+      "bytes": 109288,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "abc-c7-task",
+      "url": "https://atcoder.jp/contests/abc427/tasks/abc427_d",
+      "readingLocation": "P1:L107-L179完整英文题及样例",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b.html",
+      "sha256": "1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b",
+      "bytes": 22129,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "abc-c7-editorial",
+      "url": "https://atcoder.jp/contests/abc427/editorial/14196",
+      "readingLocation": "P1:L30-L41完整日文原解",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c.html",
+      "sha256": "41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c",
+      "bytes": 15336,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "abc-c7-free",
+      "url": "https://info.atcoder.jp/overview/about/why-tada",
+      "readingLocation": "P1:L46-L55",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627.html",
+      "sha256": "c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627",
+      "bytes": 51173,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核AtCoder个人规则明确alone及不组队；正文明确这是2026读取的通用规则，不证明2025规则不变。2025 ABC任务及冻结日文14196官方解读、免费参赛引用与个人DP路线仍支持；移除未冻结译文背书恰当。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

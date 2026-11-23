@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+  "contentDigest": "16984576cf23cabb3fcf27a8a04f4a39086ff12fd9f6d8bb187e36a11df1cba0",
+  "priorDigest": null,
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 4,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "完整两页Speed Typing题与两页官方分析已读并视觉核公式。仅删除、保序、区分大小写；可行时删除数|P|-|I|，双指针和终止条件正确。四样例、长度至10万、两个测试集20/40秒与1GB匹配原题。个人证明、反例、四周及退出有具体完成证据。",
+  "qualificationDecision": "历史完整资格和费用未知且保持待核。原题可公开学习由Google官方归档及告别公告支持，正文明确已停办、不能当当前报名；本条L3的对象是完整历史题学习而非报名决策，因此未知不阻本限定用途。",
+  "retainedUnknowns": [
+    "历史年龄/地域/雇佣资格及费用未核，不能据公开读题推断。",
+    "未取得题目分值及复现旧判题环境，不计名次或官方通过。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "gks-2022-speed-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/kickstart/2022/round_a/speed_typing/statement.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2.pdf",
+      "sha256": "47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2",
+      "bytes": 78863,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1—2全文文字及视觉；4样例、两测试集限制",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/gks-2022-speed-task.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-task-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-task-p2.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-task-spread.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "gks-2022-speed-analysis",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/kickstart/2022/round_a/speed_typing/analysis.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239.pdf",
+      "sha256": "5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239",
+      "bytes": 80333,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1—2全文文字及视觉；双指针正确性和复杂度",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/gks-2022-speed-analysis.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-analysis-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-analysis-p2.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/gks-2022-speed-analysis-spread.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML完整文章正文，L19—29结束赛事及保留历史题库供学习",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/google-competitions-farewell.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "gks-2022-speed-analysis",
+    "gks-2022-speed-task",
+    "google-competitions-farewell"
+  ],
+  "actualFrozenReadSourceIds": [
+    "gks-2022-speed-task",
+    "gks-2022-speed-analysis",
+    "google-competitions-farewell"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

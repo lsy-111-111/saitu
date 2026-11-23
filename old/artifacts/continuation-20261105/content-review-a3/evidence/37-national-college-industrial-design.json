@@ -1,0 +1,76 @@
+{
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "name": "全国大学生工业设计大赛",
+  "contentDigest": "a83b1a62a9b07002d072be484c0d35ef1469082dea72eba984c310d9b1fd2e15",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.162145+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+    "previousContentDigest": "a83b1a62a9b07002d072be484c0d35ef1469082dea72eba984c310d9b1fd2e15",
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-industrial-rule",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/ee/e4/13a9400d4b9189d376c73be3b166/e8624474-d7df-46aa-9343-ad9ba91ff0bf.pdf",
+      "readingLocation": "规则全文抽取：参赛对象、报名、图版规格与五项评审",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "sha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e",
+      "bytes": 1748285,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "url": "https://www.gdep.edu.cn/__local/7/DB/0D/045B0FC787464C7A103EAE08495_1FD490AC_7AB15B.pdf",
+      "readingLocation": "原PDF44页/印刷42页完整Empty展板视觉阅读；A3再次视觉阅读同SHA原PDF44页/印刷42页完整展板",
+      "semanticReadingBasis": "A3 fresh visual recheck plus this reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+      "bytes": 8040795,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新审视完整Empty展板与黑龙江同届五项规则：正文明确仅作参考训练尺度，不追认原作的原赛区获奖评分。按本轮允许“同届正式或明确参考评分”的标准，这种有来源且清楚标注的参考映射可以支持独立评读；未公开制造/安全实测不是本稿声称的成果。12模块、无热源纸模、个人证据、四周及退出完整。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-37-resolved",
+      "severity": "major",
+      "description": "本人A2意见：补充该完整作品适用的原赛区/全国评审依据，或更换为具有相配官方评分的完整具体作品；不能仅用另一赛区五维训练尺度满足严格L3。 本轮处理依据：重新审视完整Empty展板与黑龙江同届五项规则：正文明确仅作参考训练尺度，不追认原作的原赛区获奖评分。按本轮允许“同届正式或明确参考评分”的标准，这种有来源且清楚标注的参考映射可以支持独立评读；未公开制造/安全实测不是本稿声称的成果。12模块、无热源纸模、个人证据、四周及退出完整。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

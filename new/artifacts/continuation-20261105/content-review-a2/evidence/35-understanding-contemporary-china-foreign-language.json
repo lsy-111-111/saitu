@@ -1,0 +1,65 @@
+{
+  "recordId": "understanding-contemporary-china-foreign-language:2026-english-video:china-through-data:fulltime-undergraduate-masters:china-ahnu-local:v3",
+  "name": "外研社·国才杯理解当代中国全国大学生外语能力大赛",
+  "contentDigest": "e8fdc87420ed9cc9bc15cebbaa884d968f4c00c5442aba4efb6e60eb0de3024d",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "b-fltrp-rules",
+      "url": "https://ucc.fltrp.com/c/2026-04-15/517928.shtml",
+      "readingLocation": "P1:L38-L42,L752-L777完整短视频要求",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c.html",
+      "sha256": "49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c",
+      "bytes": 681413
+    },
+    {
+      "sourceId": "b-fltrp-local",
+      "url": "https://flc.ahnu.edu.cn/info/1090/50391.htm",
+      "readingLocation": "P1:L27-L97完整校赛两赛道通知",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba.html",
+      "sha256": "1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba",
+      "bytes": 26189
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "50/30/20和短视频对象、真实配音、AI画面标注有据。但把四新赛道的核心创作AIGC禁令混入短视频退出条件，短视频原文允许明确标注的AI画面。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": false,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-35-01",
+      "severity": "major",
+      "description": "删除或明确为编辑个人学习要求的“不得用生成核心创作替代本人工作”；勿将local L79四新报告禁令当短视频官方限制。短视频应按L54的AI画面标注、版权/原创与L57真实配音分别说明。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

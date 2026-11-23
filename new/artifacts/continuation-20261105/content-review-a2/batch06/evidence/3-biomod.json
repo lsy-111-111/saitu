@@ -1,0 +1,198 @@
+{
+  "runId": "a2-batch06-20261105T201748Z-7df37711",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:17:48.696704+00:00",
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "contentDigest": "9888d74a231d694f9056409431eace58b3ff86c04ad594ab4ca88f6e9360c39c",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-06/records.json",
+  "recordIndex": 3,
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "scopeOfApproval": "限定历史公开学习型L3内容审查；不是历史或当前正式报名资格、总费用或严格参赛覆盖批准",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b06-fact-type",
+      "severity": "major",
+      "description": "资格知识缺口已拆成kind/status unknown、空sourceIds/sourceScopes、checkedAt与lastVerifiedAt null，并保留requires_confirmation；解决的是类型混淆，未解决未知资格本身。",
+      "resolved": true
+    },
+    {
+      "id": "a2-b06-biomod-scope",
+      "severity": "major",
+      "description": "group/scope/registration限定2023公开作品学习；原Requirements标requires_recheck，新增仅网页文字与2023费用来源绑定同原HTML、不同scope，未把2023资格适用性关闭；同届评分独立保留。",
+      "resolved": true
+    }
+  ],
+  "taskAssessment": "完整三页公开作品的组件目标、设计和实验相连。Design Fig11是TMSD代理；实验Fig6标30nt、Fig7标34nt，当前稿把结果归为作者对组件条带的解释，没有当光响应或气体交换。Table7实图标题20%，正文16%，保留冲突。",
+  "depthAndStudentPathAssessment": "同届Quick Guide实读P4/10—12，50/25/25及网站20/20/10、金级前50%有据；两角色均为公开资料证据分析/科学沟通，四周追踪失败修改及引用，正式项目缺导师/资源/费用就退出。",
+  "recordReading": "当前record全部实质字段、六条或七条facts、十二模块、角色、价值、结构化资格和完整deepDive逐项实际读取；不是只检查字段存在或沿用旧批准。",
+  "unknownEligibilityFact": {
+    "id": "biomod:v2:eligibility.mentor-title",
+    "field": "eligibility.mentor-title",
+    "text": "Requirements的团队及导师条件在2023的适用性尚未消歧：该页有2023费用，也有旧UCSF场地FAQ，与2023 Quick Guide的东京会场不同。不能确认具体导师职衔或以任意教师推定资格满足。",
+    "kind": "unknown",
+    "status": "unknown",
+    "sourceIds": [],
+    "sourceScopes": [],
+    "scope": "2023团队及导师资格适用性尚未证实；公开作品分析不确认正式参赛资格",
+    "checkedAt": null,
+    "supersedes": [],
+    "conflictsWith": [],
+    "entity": {
+      "editionId": "2023",
+      "trackId": "biomolecular-design",
+      "groupId": "undergraduate",
+      "scopeId": "biomod-2023"
+    },
+    "validFrom": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "validUntil": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "retrievedAt": null,
+    "lastVerifiedAt": null,
+    "reviewStatus": "pending_review"
+  },
+  "retainedUnknowns": [
+    "团队/导师条款2023适用性未知，不能凭任意教师判合格",
+    "2023个人Jamboree费TBD且不含住宿；下一届规则及费用另核",
+    "作品具体奖项、额外原始数据、实验复现和整机功能未核",
+    "本轮仅4张静图实际视觉；43附件核字节并全帧解码，不冒称全部图像/动画语义阅读"
+  ],
+  "strictParticipationCoverageIncrement": 0,
+  "currentRegistrationConfirmed": false,
+  "historicalEligibilityConfirmed": false,
+  "sources": [
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-2023-requirements",
+      "url": "https://biomod.net/requirements/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "bytes": 18173,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML全文L1—125；费用L13—19；团队L24—32；FAQ职衔L65—66、旧场地L85—86；只确认网页记录，不能确认所有条款2023有效",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-2023-requirements.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "混合年代网页：费用明确标2023，团队/导师及FAQ在2023适用性待核；旧UCSF场地不沿用"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-2023-rubric",
+      "url": "https://biomod.net/jamboree/BIOMOD2023-QuickGuide.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "bytes": 4346686,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P4/P10/P11/P12完整文字和实际视觉；东京场地/展示/50-25-25/20-20-10/金级前50%；没有声称本轮读完PDF其余页",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-2023-rubric.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/biomod-2023-rubric-p10.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/biomod-2023-rubric-p11.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/biomod-2023-rubric-p12.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/biomod-2023-rubric-p4.png"
+      ],
+      "sourceScope": "2023 Jamboree评分及展示"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-2023-sendai-project",
+      "url": "https://teamsendai2023.github.io/project.html",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "bytes": 23878,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML完整正文L29—94（含L74单独补读）；目标、困难、组件目标和可行性；不是实证认证",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-2023-sendai-project.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "作者公开作品的动机与目标，不代表功能已全部实现"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-2023-sendai-design",
+      "url": "https://teamsendai2023.github.io/design.html",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "bytes": 16195,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML完整正文L29—80；核心L31—63结构、TMSD代理和NUPACK；本轮实际看Fig11原静图",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-2023-sendai-design.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch04/biomod-assets/design-15.png"
+      ],
+      "sourceScope": "作者公开的结构设计与模拟"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-2023-sendai-experiment",
+      "url": "https://teamsendai2023.github.io/experiment.html",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "bytes": 23924,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML完整正文L29—136；核心L84—96失败/30nt改34nt及作者解释；本轮实际看Table7、Fig6、Fig7原静图；未访问额外Drive数据",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-2023-sendai-experiment.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch04/biomod-assets/experiment-12.png",
+        "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch04/biomod-assets/experiment-14.png",
+        "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch04/biomod-assets/experiment-15.png"
+      ],
+      "sourceScope": "作者公开的组件实验、失败与修改，不等于完整气体阀已验证"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-requirements-observed-text",
+      "url": "https://biomod.net/requirements/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "bytes": 18173,
+      "freshSemanticRead": true,
+      "readingLocation": "同一原HTML L22—49团队/流程/交付、L65—66职衔；是所见文字事实，未确认2023资格适用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-requirements-observed-text.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "仅核对Team structure、Project Timeline、Project Deliverables及FAQ实际文字；不证明这些未标届次条款在2023有效"
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "sourceId": "biomod-requirements-fees-2023",
+      "url": "https://biomod.net/requirements/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "bytes": 18173,
+      "freshSemanticRead": true,
+      "readingLocation": "同一原HTML L11—21，2023明确日期的30000JPY团队费、个人TBD及不含住宿",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/biomod-requirements-fees-2023.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "仅Registration fees明确标2023的团队费30000JPY及个人Jamboree费TBD，不包括历史资格或个人总成本"
+    }
+  ],
+  "commonStandardArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/standard-inputs.json",
+  "helperCheckArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/helper-check.json",
+  "helperBoundary": "实际调用helper验证unknown输出checkedAt null且拒绝伪挂来源；这不是未知资格获证。eligibility.ts仅读代码确认不支持的facts保持unknown，本轮未运行整产品推荐。",
+  "independence": "独立AI审核。读过root授权最终中立裁决（其总结双方争议），不宣称双盲；未读B审查产物/新稿意见或包外作者交接，不与另一审者交流。共享FS，仅流程独立。",
+  "networkAcquisitions": [],
+  "assetByteArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/asset-byte-check.json",
+  "mixedEraDecision": "同一网页多scope是对原字节实际段落的分开引用，不是新增独立来源或伪造历史资格证明。正式资格保持unknown；此裁决仅允许学习路径。"
+}

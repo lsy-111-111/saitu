@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+  "contentDigest": "fd3164547954795e14cdd79a61e22abfd835b95fda7e360a689471561fd1525d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.018226+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "teach-d3-2023-rules",
+    "teach-d3-children-rights-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "teach-d3-2023-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d.pdf",
+      "sourceSha256": "19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/03-taiwan-child-rights-lesson-contest.json :: PDF pages1–5,9；rendered/tw-0-01..05,09.png视觉阅读",
+      "verification": "特定师资生1–4人、师生不可混组、纸本3份及电子双提交、20页4课、匿名封面、30/40/30正式评分、2023截止和颁奖日期、赠书邮费边界。"
+    },
+    {
+      "sourceId": "teach-d3-children-rights-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176.pdf",
+      "sourceSha256": "1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/03-taiwan-child-rights-lesson-contest.json :: 完整PDF全17页；rendered/tw-1-01..17.png逐页视觉阅读",
+      "verification": "四课、主题网和全部学习单/图像；p13表达意见无相应选项、p9书包情境、p15未经同意拿东西卡片及p16绘画记录支持分析。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/03-taiwan-child-rights-lesson-contest.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/03-taiwan-child-rights-lesson-contest.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

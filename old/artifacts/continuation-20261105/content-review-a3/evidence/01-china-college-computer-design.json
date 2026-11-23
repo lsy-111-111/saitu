@@ -1,0 +1,76 @@
+{
+  "recordId": "china-college-computer-design:edition-b8257354f41e:software-development:group-78fd9199138e:scope-3497779db6c7:v3",
+  "name": "中国大学生计算机设计大赛",
+  "contentDigest": "32e8dcbe61c1556fe2d905844e2d879246b32b6862cc3d6bd140ff93bae78029",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.090774+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "catalog-author-v6",
+    "currentRecordAuthorAgentId": "catalog-author-v6",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "china-college-computer-design:edition-b8257354f41e:software-development:group-78fd9199138e:scope-3497779db6c7:v3",
+    "previousContentDigest": "32e8dcbe61c1556fe2d905844e2d879246b32b6862cc3d6bd140ff93bae78029",
+    "excludeReviewers": [
+      "catalog-author-v6"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "4c-rules-2026",
+      "url": "https://jsjds.blcu.edu.cn/gyds1/csyq.htm",
+      "readingLocation": "本次原站HTML L30—50完整规则",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/b07a0de3980ba4da9efb6813a969cbfd614b1763dad0499f2d639935e27993a0.html",
+      "sha256": "b07a0de3980ba4da9efb6813a969cbfd614b1763dad0499f2d639935e27993a0",
+      "bytes": 25477,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "4c-submission-2026",
+      "url": "https://jsjds.blcu.edu.cn/info/1045/2013.htm",
+      "readingLocation": "本次原站HTML L25—31正文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/e3f819300678bb5142fb57274802f0384542f12ca2a13c6cacba70bfa5b8e16a.html",
+      "sha256": "e3f819300678bb5142fb57274802f0384542f12ca2a13c6cacba70bfa5b8e16a",
+      "bytes": 15285,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "两份主站资料支持通用资格/交付，AI专项仍未取得原始正文和模板，缺具体完整任务与评分。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-01-01",
+      "severity": "major",
+      "description": "取得AI专项完整正文、模板及适用评分；统一正文大类和具体专项范围，不能以搜索缓存节选批准。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

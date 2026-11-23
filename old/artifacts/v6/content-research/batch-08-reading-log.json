@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_body_read; gdhyxh and myunion via direct public HTTP body",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "marine15-national",
+      "url": "https://www.hunan.gov.cn/zqt/zcsd/202506/t20250611_33706249.html",
+      "title": "关于开展第15届全国海洋知识竞赛活动的通知",
+      "publisher": "自然资源部等（湖南省政府转载）",
+      "scope": "全国系列及大学生选拔安排",
+      "locator": "自然资办函〔2025〕1316号正文"
+    },
+    {
+      "sourceId": "marine15-gd-eligibility",
+      "url": "https://www.hualixy.edu.cn/youth/txzx/ggtz/content_74013",
+      "title": "第15届海洋知识竞赛广东选拔通知",
+      "publisher": "广州华立学院团委转发广东赛事规程",
+      "scope": "广东大学生组资格；本校10月27日截止不推广到全省",
+      "locator": "三、竞赛规程"
+    },
+    {
+      "sourceId": "marine15-gd-semifinal",
+      "url": "https://www.gdhyxh.org/NewsView.asp?id=1580",
+      "title": "广东赛区大学生选拔赛相关事宜通知",
+      "publisher": "广东海洋协会",
+      "scope": "广东2025半决赛及省决赛",
+      "locator": "半决赛与决赛正文（直接HTTP读取）"
+    },
+    {
+      "sourceId": "networkculture8-notice",
+      "url": "https://xsc.btbu.edu.cn/xxtz/938492522cec43ba88f0f69dd96c678b.htm",
+      "title": "组织参加第八届全国大学生网络文化节通知",
+      "publisher": "北京工商大学学生工作部转载全国通知",
+      "scope": "全国活动学生身份、征集与写作要求",
+      "locator": "三、四（四）、五"
+    },
+    {
+      "sourceId": "networkculture8-plan",
+      "url": "https://dxs.moe.gov.cn/zx/a/sy_xzsd/250606/2009024.shtml",
+      "title": "第八届全国大学生网络文化节工作方案",
+      "publisher": "中国大学生在线",
+      "scope": "网语青年说及作品提交规则",
+      "locator": "一（四）、二、三"
+    },
+    {
+      "sourceId": "networkculture8-faq",
+      "url": "https://dxs.moe.gov.cn/zx/a/hd_wlwhj_cjwt/250618/2009776.shtml",
+      "title": "第八届全国大学生网络文化节常见问题解答",
+      "publisher": "中国大学生在线",
+      "scope": "提交、导师、费用与原创素材",
+      "locator": "一、二、三、五、八、九"
+    }
+  ],
+  "limitations": [
+    "作者阅读记录不等于独立双审。",
+    "未读取的附件与具体赛题明确列为缺口；来源时间范围不能自动变为现行。"
+  ]
+}

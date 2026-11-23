@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "saitu.primary-source-archive-reading.v1",
+  "author": "/root",
+  "readAt": "2026-11-06T01:08:14.085146+00:00",
+  "scope": "2025年全国大学生电子设计竞赛本科组C题，仅历史命题；不证明任何当届报名。",
+  "publisher": "全国大学生电子设计竞赛上海赛区发布全国统一赛题",
+  "listingUrl": "https://nuedc-sh.sjtu.edu.cn/post_detail.php?id=44",
+  "listingPath": "artifacts/continuation-20261105/electronics-c-primary-source-01/shanghai-notice.html",
+  "listingSha256": "6cc8e71dc5694b0f48fd820b1f7aa8684166967a3a1c22b3443348157e507167",
+  "archiveUrl": "https://nuedc-sh.sjtu.edu.cn/storage/seiee/project/nuedc/article/2025/07/ae91eea2c584a04d97e0414dcaa5af10.rar",
+  "archiveHttpStatus": 200,
+  "archiveBytes": 5829714,
+  "archiveSha256": "bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847",
+  "archivePath": "artifacts/continuation-20261105/electronics-c-primary-source-01/shanghai-undergraduate.rar",
+  "archiveMember": "C题_基于单目视觉的目标物测量装置.pdf",
+  "memberBytes": 796463,
+  "memberSha256": "388c204bf489abc6f15976e9526cbaeccb8e4eb678250cb28d0ac46edaa3e722",
+  "memberPath": "artifacts/continuation-20261105/electronics-c-primary-source-01/2025-C.pdf",
+  "bodyPath": "artifacts/continuation-20261105/electronics-c-primary-source-01/2025-C.txt",
+  "bodySha256": "fa6dcf3eba2bd527efcbddfb6ec338cb71f3c3eca16e722ffc2798bab5cf5377",
+  "method": "HTTPS GET of public regional committee website; bsdtar extracted only named PDF via stdout; pdftotext -layout plus pdftoppm original page renders. Old training page images not read.",
+  "independentReview": false,
+  "pages": [
+    {
+      "page": 1,
+      "file": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-1.png",
+      "sha256": "2a8e5d44a7128c60836f50124e6e36f8d4af87ca21d3f47fd018f930908c5017",
+      "reading": "注意事项列学籍、组别、三人、竞赛时段和封存登记表/报告/实物；图1说明目标D和尺寸x；图2给摄像头、显示与真实电流测量链。"
+    },
+    {
+      "page": 2,
+      "file": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-2.png",
+      "sha256": "d10e25b78eb8b1b35f7d69fa8fe49b440032a27f0e10d508a0fe28d48dd3aef5",
+      "reading": "三个基本目标物分别测D/x，工作时测整机供电电流且相对误差绝对值≤5%；发挥题含编号正方形、倾斜目标、功耗；限制PC、非视觉测距、商品测距改装和商品电流测量模块。"
+    },
+    {
+      "page": 3,
+      "file": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-3.png",
+      "sha256": "db4302e06a31c0aea87fca142b4df6d1fc701161bcbbf2dc7e115a5d36d56099",
+      "reading": "相机固定，距离100—200厘米；测试不能联网，不改变摄像头位置/高度；指定编号项可先输入编号；启动到显示≤5秒；基本距离/尺寸绝对误差≤5/1厘米，发挥≤2/0.5厘米。"
+    },
+    {
+      "page": 4,
+      "file": "artifacts/continuation-20261105/electronics-c-primary-source-01/page-4.png",
+      "sha256": "4e34ec230b202878cf7b4c965b9ce54cc96e72c6d387b7b3f36103e46903fdcf",
+      "reading": "评分表：报告4+6+4+4+2=20；基本12+12+12+14=50；发挥8+8+9+10+10+5=50；总120。"
+    }
+  ],
+  "uncertainties": [
+    "原培训网页六张图片未读，不能追认旧声明。",
+    "不凭规则断言学校报销个人全部费用。",
+    "新修订稿须重新进行双审；原500两位审者的 unknown 均保留。"
+  ]
+}

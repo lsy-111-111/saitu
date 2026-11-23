@@ -1,0 +1,96 @@
+{
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "name": "全国大学生工业设计大赛",
+  "contentDigest": "a44fda68e147c35da6205b35c4e2495fb7166df87b903ebc0509b1c3eedc6bb1",
+  "priorOwnA3ContentDigest": "a83b1a62a9b07002d072be484c0d35ef1469082dea72eba984c310d9b1fd2e15",
+  "runId": "a4-gpt6astra-20261105T182253Z-981b858ce5be",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T18:22:53.587012+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+    "previousContentDigest": "a83b1a62a9b07002d072be484c0d35ef1469082dea72eba984c310d9b1fd2e15",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "sourceReads": [
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "sourceId": "b-industrial-rule",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/ee/e4/13a9400d4b9189d376c73be3b166/e8624474-d7df-46aa-9343-ad9ba91ff0bf.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "sha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e",
+      "bytes": 1748285,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "规则全文抽取：参赛对象、报名、图版规格与五项评审",
+      "readingLocation": "本轮PDF1—8页全文抽取阅读；P1届次赛区、P2资格、P3规格、P5—6五项评审",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-industrial-rule.txt",
+      "visuallyReadArtifacts": []
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "sourceId": "b-industrial-work",
+      "url": "https://www.gdep.edu.cn/__local/7/DB/0D/045B0FC787464C7A103EAE08495_1FD490AC_7AB15B.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+      "bytes": 8040795,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "原PDF44页/印刷42页完整Empty展板视觉阅读；A3再次视觉阅读同SHA原PDF44页/印刷42页完整展板",
+      "readingLocation": "原PDF44页/印刷42页完整Empty展板视觉阅读；A3再次视觉阅读同SHA原PDF44页/印刷42页完整展板",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    }
+  ],
+  "assessment": "重新阅读2024黑龙江赛区8页规则，确认参赛对象、学校报名、图版要求及表现/创造/实用/经济/环保五项标准。Empty完整公开展板的原PDF第44页与本人A2/A3实际视觉阅读是相同SHA，现稿只作同届跨赛区参考评读，不把原作归入黑龙江参赛名单。新增边界清楚保留未有尺寸、制造、安全实测和实际获奖评分；无热源纸模与观察训练不声称工程性能。清除缺口列表不改变证据边界，可继续批准。",
+  "retainedUnknowns": [
+    "未取得原作真实获奖评分、制造尺寸、热源和安全实测；纸模不能证明燃气安全或实物性能。",
+    "黑龙江规则是2024赛区范围，不是2026全国规则；旧2026资格和费用项未升级为已核。"
+  ],
+  "scopeReviewed": [
+    "当前冻结摘要与所有差异",
+    "12决策模块及具体任务",
+    "完整原题/公开原作与正式或明确参考评分",
+    "个人路线和贡献证据",
+    "四周完成条件与退出条件",
+    "费用、资格、届次及赛区范围"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A4-37-01",
+      "severity": "minor",
+      "description": "边界已明确为同届跨赛区参考评读；不要求用未主张的工程实测或原作获奖分数冒充现有证据。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "priorOwnEvidenceArtifact": "artifacts/continuation-20261105/content-review-a3/evidence/37-national-college-industrial-design.json",
+  "readingLocationConvention": "A4 HTML为本人自冻结原件抽取L序号；PDF为原件物理页，P#:L#在抽取文件可定位；图像阅读单列。",
+  "limitations": [
+    "本批准只针对当前contentDigest的L3准备内容，不是当前报名资格、得分、中奖或安全性能保证。",
+    "保留pending/unknown事实，不把requires_confirmation占位或validator通过当作事实已核。",
+    "AI独立阅读；未进行人审。流程独立共享文件系统，不宣称技术权限隔离。"
+  ]
+}

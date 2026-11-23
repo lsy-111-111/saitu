@@ -1,0 +1,76 @@
+{
+  "recordId": "schneider-go-green:2026:energy-proposal:student-team:global-phase-one:v3",
+  "name": "Schneider Go Green",
+  "contentDigest": "5276730b7ca6b3c948f79c5a2215c6c8c79fef1b987503d6f3a8238e7825e6ec",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.097215+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "schneider-go-green:2026:energy-proposal:student-team:global-phase-one:v3",
+    "previousContentDigest": "5276730b7ca6b3c948f79c5a2215c6c8c79fef1b987503d6f3a8238e7825e6ec",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "gogreen-2026-terms",
+      "url": "https://www.gogreencompetition.com/terms-conditions",
+      "readingLocation": "抽取P1:L26—119主题、资格、首阶段提交与选择标准",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/cd242c8b349fd9c8ff279ee588f5f6dc651b39c80d8023ea6ff00822e12c8492.html",
+      "sha256": "cd242c8b349fd9c8ff279ee588f5f6dc651b39c80d8023ea6ff00822e12c8492",
+      "bytes": 683895,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "gogreen-2026-faq",
+      "url": "https://www.gogreencompetition.com/faq",
+      "readingLocation": "抽取P1:L21—86报名截止、费用、线上与阶段交付",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/72180866e73299dd385051fba20ece21d5dd3028871dfad199006255cde83ba5.html",
+      "sha256": "72180866e73299dd385051fba20ece21d5dd3028871dfad199006255cde83ba5",
+      "bytes": 1084107,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "事实、时间、成本分界明确；只有开放能源主题与自选社区，没有足够具体的完整案例，稿也自认不计严格L3。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-08-01",
+      "severity": "major",
+      "description": "补具有具体输入/情境/约束的完整官方题或完整公开项目，并配适用评审；不以通用社区能源练习替代。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

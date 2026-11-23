@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "saitu.catalog-full-source-recheck.v1",
+  "candidate": "v762",
+  "reviewer": "E",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "reviewedAt": "2026-11-11T22:14:46.044Z",
+  "input": {
+    "path": "artifacts/step8-first-20261111/C/v762-cupt-source-review-input-r3.safe.json",
+    "sha256": "132dad3d185384fba1a152b4b41f8cb0f69220c8a2658cd0092f1c66b2fdbfc6"
+  },
+  "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+  "scope": "Historical 2020 CUPT rules and IYPT2020 official question 6, keeping the 2026 regional notice separate.",
+  "canonicalReview": {
+    "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+    "review": {
+      "reviewerId": "/root/e_resume",
+      "runId": "v762-cupt-full-source-review-e-20261112",
+      "model": "gpt-6",
+      "reviewedAt": "2026-11-11T22:14:46.044Z",
+      "contentDigest": "94c304065bc63acefce50ab557ee082e51e5bf8e6684eeb04547202494d73b3d",
+      "method": "independent_source_recheck",
+      "sourceIds": [
+        "cupt-2020-rules",
+        "iypt-2020-problem6",
+        "cupt-2026-north-notice"
+      ],
+      "evidenceArtifact": "artifacts/step8-first-20261111/E/v762-cupt-catalog-full-review.E.safe.json",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "outcome": "approved",
+      "findings": []
+    }
+  },
+  "metadataReview": null,
+  "retainedOfficialEntry": {
+    "url": "https://pt.nankai.edu.cn/cupt/",
+    "matchingCoreDigest": "f764d92a970b87677cb575dd2be8515fed36667027166c4918da5b6b475ef47d",
+    "metadataDigest": "f69211d55697ee451ddea22dba4a3cae4d978094659446dca7f8f53754c0ad75",
+    "reason": "Exact existing independently reviewed entry and binding."
+  },
+  "immutableProposedBinding": {
+    "proposedRecordSha256": "454a581d300af2fe5c8245d273f3ddc446d9bafa610134dba9c690ff8deb9ff9",
+    "fullDigest": "94c304065bc63acefce50ab557ee082e51e5bf8e6684eeb04547202494d73b3d",
+    "coreDigest": "f764d92a970b87677cb575dd2be8515fed36667027166c4918da5b6b475ef47d",
+    "metadataDigest": "f69211d55697ee451ddea22dba4a3cae4d978094659446dca7f8f53754c0ad75"
+  },
+  "sources": [
+    {
+      "id": "cupt-2020-rules",
+      "raw": {
+        "path": "artifacts/v6/content-research/source-byte-snapshots/4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be.pdf",
+        "sha256": "4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be"
+      },
+      "body": {
+        "path": "artifacts/v6/content-research/frozen-source-text/441eb1a1cb3ffe4a919ccecbe3be305744f2d58e169cace23ef9b2341fe8eee4.txt",
+        "sha256": "441eb1a1cb3ffe4a919ccecbe3be305744f2d58e169cace23ef9b2341fe8eee4"
+      },
+      "locator": "PDF第3页§3.1；冻文87–91",
+      "role": "CUPT2020采用2020 IYPT全17题"
+    },
+    {
+      "id": "iypt-2020-problem6",
+      "raw": {
+        "path": "artifacts/v6/content-research/source-byte-snapshots/7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2.html",
+        "sha256": "7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2"
+      },
+      "body": {
+        "path": "artifacts/v6/content-research/frozen-source-text/e11d8b1aa036bc1d74795c9a5212e2200bcbfcb5a00aef342ae2286f084c6ed5.txt",
+        "sha256": "e11d8b1aa036bc1d74795c9a5212e2200bcbfcb5a00aef342ae2286f084c6ed5"
+      },
+      "locator": "IYPT IOC官网题集；冻文48–51、62–63，页面把签章PDF列为权威版，当前核的是冻网页题干",
+      "role": "第6题标题、所给对象、沉没时间问题"
+    },
+    {
+      "id": "cupt-2026-north-notice",
+      "raw": {
+        "path": "artifacts/continuation-v7-20261109/catalog/source-recheck/397149a61200cfc6a682.bytes",
+        "sha256": "687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf"
+      },
+      "body": {
+        "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/dd40373e0ca2d0db0dda44f816807ee5cfb3531542f059b70b575ec61bfe50e4.txt",
+        "sha256": "dd40373e0ca2d0db0dda44f816807ee5cfb3531542f059b70b575ec61bfe50e4"
+      },
+      "locator": "2026年6月2日第三轮通知正文，约99–106行",
+      "role": "单独证明2026华北赛区及当届题/规另有来源；不当作2020资质或第6题证据"
+    }
+  ],
+  "independentCompiledEvidence": {
+    "mode": "positive",
+    "otherRecordsExact": 44,
+    "orderedRecords": 45,
+    "roles": 81,
+    "newFactId": "china-undergraduate-physics-tournament:v2:task",
+    "sourceVerified": [
+      "cupt-2020-rules",
+      "iypt-2020-problem6"
+    ],
+    "fullDigest": "94c304065bc63acefce50ab557ee082e51e5bf8e6684eeb04547202494d73b3d",
+    "coreDigest": "f764d92a970b87677cb575dd2be8515fed36667027166c4918da5b6b475ef47d",
+    "metadataDigest": "f69211d55697ee451ddea22dba4a3cae4d978094659446dca7f8f53754c0ad75",
+    "exactProposedCanonical": "6e37426af330d18a3b8b96d47cf4d1b26fe1f41c04d4bf8b39e87c3f07abc712",
+    "roleBindings": [
+      [
+        "china-undergraduate-physics-tournament:v2:deliverables"
+      ],
+      [
+        "china-undergraduate-physics-tournament:v2:deliverables"
+      ]
+    ],
+    "rankFact": true,
+    "explainFact": true,
+    "network": 0,
+    "actualPreApprovalCanonical": "6e37426af330d18a3b8b96d47cf4d1b26fe1f41c04d4bf8b39e87c3f07abc712",
+    "proposalCanonicalDifference": "Proposal omits the four archived review rows to blind reviewers. Actual loader retains them. Full substantive digest is identical.",
+    "explicitMissingFailsClosed": true
+  },
+  "scopeFindings": [
+    "全国旧规则§3.1证明2020采用IYPT2020共17题；§3.2–3.6的学校、资格、轮次、报告、质疑及角色权重只按2020历史。2026华北通知是单独时期与范围。",
+    "IYPT组织者冻结网页第6题仅给底孔碗置水下沉与研究时间决定因素。该网页提示签章PDF为权威，当前核实的证据是网页题干本身。新事实不声称特定变量表、计时步骤或实测结论。",
+    "新可选锚定真实题对象和沉没时间；原两角色与skills的deliverables事实绑定逐字保留。原角色的控制、预测、讨论可以作为未来编辑操作，题6不证明官方辩论规则。",
+    "其它44条快照逐条原值，有序45记录和81原角色未变。实际两个运行投影均带独立task，原入场、官方入口和core未变。"
+  ],
+  "paidCallsByE": 0,
+  "formalAcceptanceCredit": false
+}

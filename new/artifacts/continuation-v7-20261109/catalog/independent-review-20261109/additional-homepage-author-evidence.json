@@ -1,0 +1,1864 @@
+{
+  "schemaVersion": "saitu.v7.homepage-author-evidence.v1",
+  "authorAgentId": "/root/v7_catalog_review",
+  "createdAt": "2026-11-08T17:15:04.828Z",
+  "scope": "22 added official entries only; ordinary independent review pending; no changes to original core reviews or new dates.",
+  "rows": [
+    {
+      "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+      "seriesId": "taiwan-child-rights-lesson-contest",
+      "metadataDigest": "8418ab08f311f047250e6cff7c775b026bbb97132ec010dc910749c484a9df10",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办单位主页；非独立赛事报名页。",
+      "currentEntryCapture": {
+        "url": "https://littletree.ndhu.edu.tw/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://littletree.ndhu.edu.tw/",
+        "retrievedAt": "2026-11-08T17:08:55.270160+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/417d7211e5e4c4118921.bytes",
+        "sourceByteSha256": "e16257140b36b9cb92bffef4bdef7fcde82fea41830c8f025eeb6d7c8e0db744",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/417d7211e5e4c4118921.txt",
+        "bodySha256": "35ee47715417e0737aca388ecdfee3466ebf7c393150691bce3f8b8dd6fbce4d",
+        "bodyCharacters": 1146,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://tgeea.org.tw/event/29295/",
+          "status": "parsed_body_available",
+          "effectiveUrl": "https://tgeea.org.tw/event/29295/",
+          "retrievedAt": "2026-11-08T17:08:55.757695+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/405580b68717ec6d3723.bytes",
+          "sourceByteSha256": "830bdb922dd2d9e0558a2f2d280b3b3125fb7e62ae8062e0edfa41276757dda0",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/405580b68717ec6d3723.txt",
+          "bodySha256": "23654e0b5306a2fb5e1fe50c1573e3451513bcdb72ad1d426fa3a9889f26a4b9",
+          "bodyCharacters": 5434,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "teach-d3-2023-rules",
+          "url": "https://dcc.npust.edu.tw/wp-content/uploads/2023/03/%E7%AC%AC%E4%B8%80%E5%B1%86%E8%87%BA%E7%81%A3%E5%A9%A6%E5%A5%B3%E3%80%81%E5%85%92%E7%AB%A5%E4%BA%BA%E6%AC%8A%E6%95%99%E6%A1%88%E7%AB%B6%E8%B3%BD%E8%AA%AA%E6%98%8E.pdf",
+          "locator": "PDF全22页；第1—5页资格、交付、30/40/30评分及4月10日截止，附件为完整形式审查与格式",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d3-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8e66418735df68f6325a.bytes",
+            "sourceByteSha256": "19f76fb4b06a106ed1ff8373bd8853686cce4dba9d0a4db94e5dcee494b8201d",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8e66418735df68f6325a.txt",
+            "bodySha256": "aca10a57afecd6dc0facfa98556cc96a204f24127df7d09795baa46c3f9db57d"
+          }
+        },
+        {
+          "sourceId": "teach-d3-children-rights-work",
+          "url": "https://tgeea.org.tw/wp-content/uploads/2023/10/%E5%B9%BC%E6%95%99%E5%B8%AB%E8%B3%87%E7%94%9F%E7%B5%84_%E5%82%91%E5%87%BA%E7%8D%8E_%E5%85%92%E7%AB%A5%E6%AC%8A%E5%88%A9%E4%BD%A0%E6%88%91%E4%BB%96_2023%E5%B9%B4%E7%AC%AC%E4%B8%80%E5%B1%86%E8%87%BA%E7%81%A3%E5%A9%A6%E5%A5%B3%E3%80%81%E5%85%92%E7%AB%A5%E4%BA%BA%E6%AC%8A%E6%95%99%E6%A1%88%E8%A8%AD%E8%A8%88%E7%AB%B6%E8%B3%BD.pdf",
+          "locator": "17页全部文字；第2页主题网及第13—17页全部图像附件视觉核对；重点第8—9页第三课和第15—16页评价材料",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d3-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/a21e7808df7c36156db8.bytes",
+            "sourceByteSha256": "1fcf305bb4ad82477e8a755d2eef96ae1ac4077792dba14ac5674bbb6e5f2176",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/a21e7808df7c36156db8.txt",
+            "bodySha256": "280e3dc8ab5dc9c0a672b83eebddfacc68c510e9858499859e95596689d2a200"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+      "seriesId": "ncyu-special-education-demonstration",
+      "metadataDigest": "b46930179d56728837189d74c3d3e6cb99670c48d1fff7cfc2918ae82c25157b",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办单位主页，历史演示竞赛材料另见原记录。",
+      "currentEntryCapture": {
+        "url": "https://www.ncyu.edu.tw/cset/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://www.ncyu.edu.tw/cset/",
+        "retrievedAt": "2026-11-08T17:05:51.646862+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.bytes",
+        "sourceByteSha256": "74f9ae9cfbe1d62e11413f43f3f74587d244fc7a089c69f149d757375575d437",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.txt",
+        "bodySha256": "4416f5d8996ff9ccac1418d5091d2fdaaec3c97e1ab65e4c33a958d6a22fa415",
+        "bodyCharacters": 5546,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "teach-d2-2017-rules",
+          "url": "https://www.mchps.kh.edu.tw/upload/149/101_6710/%E7%B0%A1%E7%AB%A0_5.pdf",
+          "locator": "3页全文，资格、交付、评分、2017年3月24日截止及5月20日决赛",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d2-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/cec97e3a0e07d6cc25ba.bytes",
+            "sourceByteSha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/cec97e3a0e07d6cc25ba.txt",
+            "bodySha256": "cf3dc59db599b084254eb68b7dbf8921bfaae263c8acd7541387ce25ffdff890"
+          }
+        },
+        {
+          "sourceId": "teach-d2-official-work",
+          "url": "https://www.ncyu.edu.tw/cset/Contents?nodeId=50587",
+          "locator": "正文作品名称与PDF附件；网站2024更新时间不当作品年份",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d2-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2e4454a77e72269a84cc.bytes",
+            "sourceByteSha256": "7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2e4454a77e72269a84cc.txt",
+            "bodySha256": "eb1dd8983b360e0eab2f96e15a7b27290dd80fd0d46bd2c71ded4b60ce44653e"
+          }
+        },
+        {
+          "sourceId": "teach-d2-roaming-lesson",
+          "url": "https://www.ncyu.edu.tw/cset/ServerFile/Get/76a7da0c-2c2c-4706-8577-4a828b139328?nodeId=50587&sId=102478",
+          "locator": "PDF全21页文字；第16页活动表视觉核对，第三节40分钟完整方案与第20页反思",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d2-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e5a6017221edeb9bc4aa.bytes",
+            "sourceByteSha256": "6b20496d5ebcb08b929a8d51673ee91bf1167f11d275521c65a6371716220554",
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false,
+      "revisionNote": "依独立审者复读105简章第1页，教育部主办、嘉义中心承办，更正kind为official_host_website。"
+    },
+    {
+      "recordId": "acm-student-research:2025-chi:hci-education-research:undergraduate:chi-2025-undergrad:v3",
+      "seriesId": "acm-student-research",
+      "metadataDigest": "a6f7e038bf403e9f38e2ae91e68cd2d70c50aad5864e08c209a04a5c5521765a",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "2025官方承办会议的竞赛主页，明确为历史届次；SRC主站当前返回403。",
+      "currentEntryCapture": {
+        "url": "https://chi2025.acm.org/for-authors/student-research-competition/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://chi2025.acm.org/for-authors/student-research-competition/",
+        "retrievedAt": "2026-11-08T17:08:51.817511+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/23a08ac0c7a98799568b.bytes",
+        "sourceByteSha256": "84428d5ec8e9c291f95bdd03bed793cf062c5dfc4bc389f438cf642796cd8c56",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/23a08ac0c7a98799568b.txt",
+        "bodySha256": "4b6cb56fa6cf626ff2ae9d520039ed619a5268beea6e3359cb2de48e80058bcd",
+        "bodyCharacters": 21311,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "chi-d1-2025-rules",
+          "url": "https://chi2025.acm.org/for-authors/student-research-competition/",
+          "locator": "Eligibility、Preparing、Selection Process、At the Conference、Winners；历史届次",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d1-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/23a08ac0c7a98799568b.bytes",
+            "sourceByteSha256": "45507df568c3930bae288c5ef2114a65950e7efa262b5ca83cf55d2dd18a506f",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/23a08ac0c7a98799568b.txt",
+            "bodySha256": "4b6cb56fa6cf626ff2ae9d520039ed619a5268beea6e3359cb2de48e80058bcd"
+          }
+        },
+        {
+          "sourceId": "chi-d1-chemlab-work",
+          "url": "https://kimsieun.com/pdfs/chemlabplanner.pdf",
+          "locator": "第1—6页全文，表1及图1—8；第5页图7/8已渲染视觉核对",
+          "evidenceArtifact": "artifacts/v6/content-research/learning-d1-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/6779ed3f47644f6e7aa8.bytes",
+            "sourceByteSha256": "6066cdee5ba2e318d5041ce98014f11c3d528c9f3e05a8e0f1303b418fb9072a",
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+      "seriesId": "aiaa-design-build-fly",
+      "metadataDigest": "9236dd826f9f45364955705c843ad321fa1fcb1bed4d39f88d5bcc370a59b5b2",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "web工具读取主页正文；本机curl返回403，二者单独记录。未来2027赛程不作历史日期。",
+      "currentEntryCapture": null,
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "aiaa-dbf-2026-rules",
+          "url": "https://aiaa.org/wp-content/uploads/2025/08/2026-DBF-Rules.pdf",
+          "locator": "PDF第5、8—9、19—20、26—29、32—34页",
+          "evidenceArtifact": "artifacts/v6/content-research/batch-06-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/9adcfc0c3285b3c681c4.bytes",
+            "sourceByteSha256": "00ebfca9254e7c9494f1b57171e7011cba942d8d36343b7b59c489cae128c498",
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+      "seriesId": "china-undergraduate-physics-tournament",
+      "metadataDigest": "f69211d55697ee451ddea22dba4a3cae4d978094659446dca7f8f53754c0ad75",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "大学维护的CUPT专用门户；明确历史资料，不把cupt-iypt.com未明身份站点当全国组委会官网。",
+      "currentEntryCapture": {
+        "url": "https://pt.nankai.edu.cn/cupt/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://pt.nankai.edu.cn/cupt/",
+        "retrievedAt": "2026-11-08T17:08:49.642258+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/27b98b5a60d5ca9f52a6.bytes",
+        "sourceByteSha256": "432140f6737286160210a5bd12fed88538dd296b985673d2a4d6e85f09fbfe0e",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/27b98b5a60d5ca9f52a6.txt",
+        "bodySha256": "e0f23aa4390aafce3a1178ec8f65f69c2ef23012592edd57b12b5c647cd7ca5d",
+        "bodyCharacters": 1358,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "cupt-2020-rules",
+          "url": "https://jwc.ecust.edu.cn/_upload/article/files/37/7f/056b829b414e9ee2268c1beb2775/6f94229e-2725-47d6-a854-79d2997a269b.pdf",
+          "locator": "PDF第3—8页资格、角色与评分",
+          "evidenceArtifact": "artifacts/v6/content-research/batch-07-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7feccadbd237384e194f.bytes",
+            "sourceByteSha256": "4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7feccadbd237384e194f.txt",
+            "bodySha256": "a62c2b1f0cce0a93a66a5915c9155352106ae92c554a439475616d29e92dd642"
+          }
+        },
+        {
+          "sourceId": "iypt-2020-problem6",
+          "url": "https://iypt.org/problems/iypt-2020-problems/",
+          "locator": "第6题完整题干",
+          "evidenceArtifact": "artifacts/v6/content-research/batch-07-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/54d8ece296f0a9e55dde.bytes",
+            "sourceByteSha256": "67a5bb6e56137c34b526e5c237ba2787677fdbba343d5bbef246734fb93f763b",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/54d8ece296f0a9e55dde.txt",
+            "bodySha256": "42cb306c4f2946fb45f74756a869399da88554f260919f42c662acc98c54dbac"
+          }
+        },
+        {
+          "sourceId": "cupt-2026-north-notice",
+          "url": "https://ss.imust.edu.cn/info/1053/4852.htm",
+          "locator": "赛事题目、队伍与2026年6月5—7日安排",
+          "evidenceArtifact": "artifacts/v6/content-research/batch-07-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/397149a61200cfc6a682.bytes",
+            "sourceByteSha256": "687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/397149a61200cfc6a682.txt",
+            "bodySha256": "dd40373e0ca2d0db0dda44f816807ee5cfb3531542f059b70b575ec61bfe50e4"
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+      "seriesId": "icpc-programming",
+      "metadataDigest": "a18e79678dd7430fdcfb34aa69309ba3551a7961a5cbd8c795f76a5b029b0224",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "HTTP200动态主页，OG描述及官方同域brochure支持身份；未声称已读动态赛程。",
+      "currentEntryCapture": {
+        "url": "https://icpc.global/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://icpc.global/",
+        "retrievedAt": "2026-11-08T17:10:19.737671+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/6c1e0864313d2ee299ab.bytes",
+        "sourceByteSha256": "f8bebae1037a46cc73a59cd5199bb2fe79ca645b8dfb0121e02e95588a04a328",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/6c1e0864313d2ee299ab.txt",
+        "bodySha256": "86b709670f27b964f55f7c25e073e04a3e636ebc02aeb5be23a500bfb4f6e54e",
+        "bodyCharacters": 53,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "icpc-programming:legacy:source:1",
+          "url": "https://icpc.pku.edu.cn/tzgg/",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "icpc-programming:legacy:source:2",
+          "url": "https://pjxqtw.dlut.edu.cn/info/1059/15928.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "icpc-c-2025-rules",
+          "url": "https://icpc.global/community/history/brochures/world-finals-2025-brochure.pdf",
+          "locator": "PDF第24—27页原文；本地pypdf读取，sha见日志",
+          "evidenceArtifact": "artifacts/v6/content-research/software-math-c-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "icpc-c-2025-d",
+          "url": "https://worldfinals.icpc.global/problems/2025/finals/problems/problemset.pdf",
+          "locator": "PDF第7—8页（D题）",
+          "evidenceArtifact": "artifacts/v6/content-research/software-math-c-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c6ae18532ff156056d7e.bytes",
+            "sourceByteSha256": "bf34c8660c6c432473442894132f68e5da1ce123531c89a327d856468a6aba02",
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "lanqiao-cup:2019-10:cpp-array-successor:cpp-a:china-provincial-cpp-a-2019:v3",
+      "seriesId": "lanqiao-cup",
+      "metadataDigest": "ade8f545fa31e649acb7e425fea40a2c0a4c80da027ac9647dcc7166ada52b6f",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "HTTP200动态主页；标题及meta description与官方简章明确网站相互绑定。",
+      "currentEntryCapture": {
+        "url": "https://dasai.lanqiao.cn/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://dasai.lanqiao.cn/",
+        "retrievedAt": "2026-11-08T17:05:47.913533+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/73d63b84ea9aced1a352.bytes",
+        "sourceByteSha256": "8de1c8323d099094fc9f0cdcffd52f2c063b50822fb3cf262d2dbbedd563fe3f",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/73d63b84ea9aced1a352.txt",
+        "bodySha256": "c5e5d39b13556bc0970448f2b49442fd4df40143b42c7b9988c151b552f19bce",
+        "bodyCharacters": 20,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "lanqiao-cup:legacy:source:1",
+          "url": "https://dasai.lanqiao.cn/pages/v7/dasai/competition/individual_competition.html",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/995a1026874251c9a30b.bytes",
+            "sourceByteSha256": "6271344cbd87bb3596fdf5caa01862d2be4670712837738966f10c22bdc2ec3b",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/995a1026874251c9a30b.txt",
+            "bodySha256": "1865ed6adfb184c89ad5ee93d059ebc66aa9b0e48803ec9630958d3defd0084f"
+          }
+        },
+        {
+          "sourceId": "lanqiao-cup:legacy:source:2",
+          "url": "https://www.lncu.edu.cn/cxcyxy/29096.html",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "lanqiao-c3-rules",
+          "url": "https://webadm.suse.edu.cn/_upload/article/files/db/ce/8c33934f4d00ac940f42f84d62f5/57a90821-ccb9-4ddb-955a-89a8e3a333b3.rar",
+          "locator": "RAR内个人赛通知第2—3页、软件大纲第1—3页、报名指南第3/9页、费用第1页",
+          "evidenceArtifact": "artifacts/v6/content-research/software-math-c3-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2d555e75ecff51fec93a.bytes",
+            "sourceByteSha256": "bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2d555e75ecff51fec93a.txt",
+            "bodySha256": "01847bedcadb693f592c429e15db251879386aa41332bb97e0101f8ad690a98e"
+          }
+        },
+        {
+          "sourceId": "lanqiao-c3-h",
+          "url": "https://acm.ecnu.edu.cn/contest/515/statements/",
+          "locator": "PDF第1页作答须知、第12—13页H题全文、输入输出、20分及规模",
+          "evidenceArtifact": "artifacts/v6/content-research/software-math-c3-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/632f2eb6217ca1427c0f.bytes",
+            "sourceByteSha256": "5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/632f2eb6217ca1427c0f.txt",
+            "bodySha256": "7d2b3ae1f483b7f4710adb0c4818097cfca2e323518f7f4c6b781cf4a074024a"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false,
+      "revisionNote": "依独立审者复读第17届官方通知，以本届大赛组委会为入口发布主体；不改变2019历史记录主办字段。"
+    },
+    {
+      "recordId": "loreal-brandstorm:2026-luxe:future-fragrance:18-30-team:global-local-entry:v3",
+      "seriesId": "loreal-brandstorm",
+      "metadataDigest": "6334e9d9db2c8d6074733c3adc485ee31e3f3f33724b46b7d8ed8519457babf2",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办方企业官网的专用Brandstorm栏目，优先于失效通用报名入口。",
+      "currentEntryCapture": {
+        "url": "https://www.loreal.com/en/brandstorm/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://www.loreal.com/en/brandstorm/",
+        "retrievedAt": "2026-11-08T17:08:50.835297+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/291f1b372ce10e791b4e.bytes",
+        "sourceByteSha256": "365f90420b03abea8363a6a0f0c4a6e9b54b764575127bdf1a28542edca3e041",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/291f1b372ce10e791b4e.txt",
+        "bodySha256": "a2adcca9a552e26d24455d82189457c1ac4709ef6982df0c1dbd8cbc4719148b",
+        "bodyCharacters": 6321,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://brandstorm2026.loreal.com/en",
+          "status": "parsed_body_available",
+          "effectiveUrl": "https://brandstorm2026.loreal.com/en",
+          "retrievedAt": "2026-11-08T17:08:52.823745+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/89cf2ef13aeb2c9158bb.bytes",
+          "sourceByteSha256": "a68c96c107bde42a9d8dba1ba1f89d64576f59069a20a97e14ffb7bdc7c0eab6",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/89cf2ef13aeb2c9158bb.txt",
+          "bodySha256": "2f28ef247aeb468142b4ca8e1d6a39373778b7c3b7e35c939a265a164c4c155a",
+          "bodyCharacters": 3634,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "loreal-brandstorm:legacy:source:1",
+          "url": "https://www.loreal.com/en/brandstorm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "loreal-brandstorm:legacy:source:2",
+          "url": "https://brandstorm2026.loreal.com/en",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/89cf2ef13aeb2c9158bb.bytes",
+            "sourceByteSha256": "427b56731b6e3b444e281a71769516be93687f53eef7eb4f5fb697477f6fe9f8",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/89cf2ef13aeb2c9158bb.txt",
+            "bodySha256": "2f28ef247aeb468142b4ca8e1d6a39373778b7c3b7e35c939a265a164c4c155a"
+          }
+        },
+        {
+          "sourceId": "b-loreal-entry",
+          "url": "https://brandstorm2026.loreal.com/en",
+          "locator": "参加条件、How it works",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/89cf2ef13aeb2c9158bb.bytes",
+            "sourceByteSha256": "427b56731b6e3b444e281a71769516be93687f53eef7eb4f5fb697477f6fe9f8",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/89cf2ef13aeb2c9158bb.txt",
+            "bodySha256": "2f28ef247aeb468142b4ca8e1d6a39373778b7c3b7e35c939a265a164c4c155a"
+          }
+        },
+        {
+          "sourceId": "b-loreal-brief",
+          "url": "https://d32gkk464bsqbe.cloudfront.net/activities/o/BRANDSTORM_2026_MISSION_DOCUMENT.pdf?v=6.8.13",
+          "locator": "Mission；Submission；Evaluation criteria",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e2ba7f65db58517efdd2.bytes",
+            "sourceByteSha256": "706dfaa000191bffa6fde2f05a9020e2b68d199904316f6a9cf638f129fc5c43",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e2ba7f65db58517efdd2.txt",
+            "bodySha256": "cfcb0676dbcd02cd3adef9f9cf72aa877994f4767fabb16d46be6a493f182e65"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+      "seriesId": "if-student-award",
+      "metadataDigest": "020e96c2a7a4b6c3eae5f945b2e5c37bd1d81dff97ba266de2e6c911df86f3c5",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "检索工具可读取官方URL完整正文，直接open/curl403；只申请身份/入口复审，不判当前报名。",
+      "currentEntryCapture": null,
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "if-student-award:legacy:source:1",
+          "url": "https://ifdesign.com/en/if-design-student-award-faqs",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "if-student-award:legacy:source:2",
+          "url": "https://ifdesign.com/en/if-design-student-award",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "b-if-guide",
+          "url": "https://assets.ctfassets.net/9el74s703hin/mEuiHUwteSLEZbLDQT7VR/c2ca102a428805da3c6d37fdf411d845/iF_DESIGN_STUDENT_AWARD_2025_Entry_Guide_Spanish.pdf",
+          "locator": "资格、投稿说明、Evaluation criteria及第5页示范海报",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/61826d2743b3a3d4e63d.bytes",
+            "sourceByteSha256": "36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/61826d2743b3a3d4e63d.txt",
+            "bodySha256": "94c359c32f89db3b95a9c63e0b113bc733c0b101e178822186a693f854ab0f87"
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "cfa-research-challenge:2024-2025-historical:equity-research:university-team:global-2024-2025-report:v3",
+      "seriesId": "cfa-research-challenge",
+      "metadataDigest": "e630c71a1a493986518b66b7d5f88ccc69b343feee5419e34e94fdd153a5de83",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办方官网专用赛事栏目；不把当前2027赛程混入2024–25历史任务。",
+      "currentEntryCapture": {
+        "url": "https://www.cfainstitute.org/insights/events/research-challenge",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://www.cfainstitute.org/insights/events/research-challenge",
+        "retrievedAt": "2026-11-08T17:12:00.933520+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/791b37600e48dc71e3fb.bytes",
+        "sourceByteSha256": "1b5007befa4d32752b15fe1909e401ee095daebdabbe1e6f8ee5d16b8671eb78",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/791b37600e48dc71e3fb.txt",
+        "bodySha256": "3adeb255c71667999025cfb8c3131636fd5845d7dd25a2f2f860a17e573d5688",
+        "bodyCharacters": 7966,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "cfa-research-challenge:legacy:source:1",
+          "url": "https://www.cfainstitute.org/insights/events/research-challenge",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "b-cfa-2025-rules",
+          "url": "https://www.unive.it/web/fileadmin/user_upload/cdl_cdlm/area-economica/research-challenge-official-rules.pdf",
+          "locator": "第1—8页总则资格研究与报告、第15页报告格式、第17—18页评分；PDF封面明确2024–2025",
+          "evidenceArtifact": "artifacts/v6/content-research/gap-repair-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2f015cc5a01757e4215e.bytes",
+            "sourceByteSha256": "c9a1a5e61a251e4db5550636a3ef2af5ccf77b0160c28ebe86676df41886e35a",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/2f015cc5a01757e4215e.txt",
+            "bodySha256": "2d4c796c0cdc69730c8a758e8261143a447e72a488d5253aa1656bcd906b3dbd"
+          }
+        },
+        {
+          "sourceId": "b-cfa-report",
+          "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2025-winning-written-report-kozminski-university.pdf",
+          "locator": "投资摘要、估值、风险、敏感性及附录",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+      "seriesId": "market-research-analysis",
+      "metadataDigest": "79cfb478d34728071a4acaac93812072f41a1ea16562cbd81fbc8e7bff03269d",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办学会主页明确列第十五至十七届市调专题；与本条农大校赛具体提交范围分开。",
+      "currentEntryCapture": {
+        "url": "http://www.china-cssc.org/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "http://www.china-cssc.org/",
+        "retrievedAt": "2026-11-08T17:08:50.248837+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/09e5a2df85d3deb365dd.bytes",
+        "sourceByteSha256": "3d190dc40e50481ad0165a0ca0145b18f7648fe96884023c22b0f2e594613d90",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/09e5a2df85d3deb365dd.txt",
+        "bodySha256": "9990a8cef62f94e9f97d94d11a4526f64db09ca0a2ffb5416fa77e1489ac337f",
+        "bodyCharacters": 3493,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "market-research-analysis:legacy:source:1",
+          "url": "https://news.gufe.edu.cn/info/1016/19351.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "b-market-rules",
+          "url": "https://youth.cau.edu.cn/art/2025/1/9/art_45078_1051289.html",
+          "locator": "参赛对象、材料、企业命题安排",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/6fca674663736337ebf3.bytes",
+            "sourceByteSha256": "a3f1ba7654971be43a3fe9addae92a8faac0ef7fdb13d14c92de008df3bbbc1b",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/6fca674663736337ebf3.txt",
+            "bodySha256": "ed7f28b77593883e87b1cb86cba497907ffd42f9248bcc6ba02ff9582e685def"
+          }
+        },
+        {
+          "sourceId": "b-market-task",
+          "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=87f59d4d9434466aaf043a159b3c445f.xlsx",
+          "locator": "问卷网-全国范围题工作表B3:H3",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "b-market-score",
+          "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=382685a6abf7412497e458faab6c562b.docx",
+          "locator": "本科组报告打分表及逐项说明",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/1765d072a19f631ed720.bytes",
+            "sourceByteSha256": "12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/1765d072a19f631ed720.txt",
+            "bodySha256": "a7024f7012becc5d3b578c28c511dbe7bc12757a1be960d20781077655e9ac74"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "seriesId": "national-college-industrial-design",
+      "metadataDigest": "26fb6e30f7330f5ee7d4bd7662c81883c618ed5ebf2f1d1c76bcf6305693d63b",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "HTTP200动态主页标题匹配；2024组委会盖章原件第8页视觉核实明确cuidc.net，2026校方通知亦明确该域名。",
+      "currentEntryCapture": {
+        "url": "https://www.cuidc.net/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://www.cuidc.net/",
+        "retrievedAt": "2026-11-08T17:12:44.875131+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/0a72066ad3442ca523a9.bytes",
+        "sourceByteSha256": "fc0fc65fcbad91384522be04e115a2a6f33c919bc31687d56653b5abebf7b0d5",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/0a72066ad3442ca523a9.txt",
+        "bodySha256": "5a8d9d23cacba50bea6eabb29f563f7fa2b4a9f26c2d9cea371705540918eee3",
+        "bodyCharacters": 11,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://www.guit.edu.cn/cysj/info/1002/6850.htm",
+          "status": "parsed_body_available",
+          "effectiveUrl": "https://www.guit.edu.cn/cysj/info/1002/6850.htm",
+          "retrievedAt": "2026-11-08T17:12:44.555170+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/fa7dd88381b2e8ce518c.bytes",
+          "sourceByteSha256": "657de5be037997fcc2e906897308a3cad40a611839968eb5071b50ad81f1c2bc",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/fa7dd88381b2e8ce518c.txt",
+          "bodySha256": "e8f20a32527b4d9f955dfdf1dd45097bb3bfaa00a60e8b5b525e52f778611e8b",
+          "bodyCharacters": 1807,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "national-college-industrial-design:legacy:source:1",
+          "url": "https://www.cuidc.net/default.aspx",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "national-college-industrial-design:legacy:source:2",
+          "url": "https://art.zafu.edu.cn/info/1003/2861.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "b-industrial-rule",
+          "url": "https://arch.hit.edu.cn/_upload/article/files/ee/e4/13a9400d4b9189d376c73be3b166/e8624474-d7df-46aa-9343-ad9ba91ff0bf.pdf",
+          "locator": "参赛对象、作品提交、五项评审标准",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch03/reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/42ea8dd04667b3034f1c.bytes",
+            "sourceByteSha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/42ea8dd04667b3034f1c.txt",
+            "bodySha256": "f45c95967a9a1076b5b6d37a70dffd7240186a96dffae418a997c006c2f25b73"
+          }
+        },
+        {
+          "sourceId": "b-industrial-work",
+          "url": "https://www.gdep.edu.cn/__local/7/DB/0D/045B0FC787464C7A103EAE08495_1FD490AC_7AB15B.pdf",
+          "locator": "PDF第44页（印刷页42），Empty完整展板",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch03/reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0012acb599966f204969.bytes",
+            "sourceByteSha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0012acb599966f204969.txt",
+            "bodySha256": "022bc232ed395be8a7bf9506d7c974c08c83e4e4382053f78ada4cc6d366d111"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/industrial-official-contact-page.png",
+          "sha256": "d31535e18ffbae263e647f65ee599df3ee2d65a0f9df027bd892f02cc8ba84bb"
+        }
+      ],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "ecommerce-innovation-creativity-entrepreneurship:2025-15-rural:rural-commerce:university-3-5:china-rural-practical:v3",
+      "seriesId": "ecommerce-innovation-creativity-entrepreneurship",
+      "metadataDigest": "d3ecc266c3eec35e521520695c50f0ad2b370d89e2b54a59e458f29fa275b43d",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "HTTP200动态主页；官方实战赛指南正文明确官网www.3chuang.net。",
+      "currentEntryCapture": {
+        "url": "https://www.3chuang.net/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://www.3chuang.net/",
+        "retrievedAt": "2026-11-08T17:05:49.151277+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/449fa75fb9b01ecf93ec.bytes",
+        "sourceByteSha256": "e892706a70cf4593138f4c4a8de0ec8f840292503ba6006b2963f1ba1249d426",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/449fa75fb9b01ecf93ec.txt",
+        "bodySha256": "07391048d81293b6d274b0bad0ce9b3a9708dc24c30fe8c218b3926ea28d5d37",
+        "bodyCharacters": 3,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "ecommerce-innovation-creativity-entrepreneurship:legacy:source:1",
+          "url": "https://www.3chuang.net/",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "ecommerce-innovation-creativity-entrepreneurship:legacy:source:2",
+          "url": "https://ggxy.ahut.edu.cn/info/1083/11364.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c679ca4faa5a2b74dd3f.bytes",
+            "sourceByteSha256": "b62c508cec224f9304669bcee87c05f4bffc3bacae9ff1da7268ffdd393c82e1",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c679ca4faa5a2b74dd3f.txt",
+            "bodySha256": "5f8c5f4df29640786a7cc1288ecdd158f706678dd5f96974b524f08e1772f153"
+          }
+        },
+        {
+          "sourceId": "b-ecommerce-plan",
+          "url": "https://cxcyxy.zbnc.edu.cn/info/1024/1171.htm",
+          "locator": "实施流程、参赛要求、创业实战评价",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/09af1803d01e36efbd9f.bytes",
+            "sourceByteSha256": "c68669bd75f650b7539a5ff3a688e1a2a05517c55f992ec16f9ebc738d57f369",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/09af1803d01e36efbd9f.txt",
+            "bodySha256": "fbd553beefa9a6be60679cad73c6ba4685b9cebe90bf6988619fbda9c75a779d"
+          }
+        },
+        {
+          "sourceId": "b-ecommerce-full-guide",
+          "url": "https://3chuang.oss-cn-hangzhou.aliyuncs.com/uploads/file/2024/10/23/a013307e0ca9d6e87fa972b550de2463.pdf",
+          "locator": "PDF全14页；第8页平台账号与交付，第9—12页完整100分评分及6+4+4周数据要求",
+          "evidenceArtifact": "artifacts/v6/content-research/gap-repair-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/1216ce248e5a01671ebf.bytes",
+            "sourceByteSha256": "229f65811f497e44c53f351118d037b3fe95f6a39f2ecaac391c4a9e6b66056d",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/1216ce248e5a01671ebf.txt",
+            "bodySha256": "b21734d2661e7f96f41495c258662061d3c4c391bc4bfc12db89f1d8b38b0cdd"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+      "seriesId": "chinese-classics",
+      "metadataDigest": "72758fe47dcd8cdf2ca0e440a79601b168f9246c9c0b1983747fe7a6aacb9770",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "教育部正式通知明确大赛官网jdsxj.eduyun.cn；HTTP200平台动态壳，不沿用已失效的jingdiansxj.cn。",
+      "currentEntryCapture": {
+        "url": "https://jdsxj.eduyun.cn/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://jdsxj.eduyun.cn/",
+        "retrievedAt": "2026-11-08T17:10:19.676523+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/2a30f5f9bbf20cdacaa4.bytes",
+        "sourceByteSha256": "1a4ae798edbee11e365295d40a70a611c48b181ea8c021771288b4c2a1aebe79",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-final-captures/2a30f5f9bbf20cdacaa4.txt",
+        "bodySha256": "2ff46fa8ab1fe18b6bd6ca2b1d4b7eb35e11cf52b947ca74925a5e7179fad1e1",
+        "bodyCharacters": 10,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://www.moe.gov.cn/srcsite/A18/s3137/202404/t20240418_1126276.html",
+          "status": "parsed_body_available",
+          "effectiveUrl": "http://www.moe.gov.cn/srcsite/A18/s3137/202404/t20240418_1126276.html",
+          "retrievedAt": "2026-11-08T17:12:00.122189+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/e057f923132f2013329d.bytes",
+          "sourceByteSha256": "b7b4775f9c41951fa8274b503ca0922fe616b0f10b5731ec1b09de705a9619dd",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/e057f923132f2013329d.txt",
+          "bodySha256": "6003a88d129c25395ee7242ae20380044420e222eb0b19d4b97f14a1f20ba3d9",
+          "bodyCharacters": 2521,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "chinese-classics:legacy:source:1",
+          "url": "https://www.moe.gov.cn/srcsite/A18/s3137/202605/t20260528_1437956.html",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "chinese-classics:legacy:source:2",
+          "url": "https://www.cup.edu.cn/docs/2026-05/e6e258c803314bdfbd3f183fe944c111.pdf",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0e4a6336e228b953695e.bytes",
+            "sourceByteSha256": "f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0e4a6336e228b953695e.txt",
+            "bodySha256": "b538033b0709cade8349beae1a01de38e872ba66913281d06ced7744101688d7"
+          }
+        },
+        {
+          "sourceId": "b-classics-local",
+          "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+          "locator": "赛项一参赛要求、竞赛内容；附件列表",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/786f0f939fdaed2a1a2a.bytes",
+            "sourceByteSha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/786f0f939fdaed2a1a2a.txt",
+            "bodySha256": "dbb5dfc0296c944aebc3db66efa23235872871619ab19fa46e97c198452652be"
+          }
+        },
+        {
+          "sourceId": "b-classics-rules",
+          "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+          "locator": "附件1第4—10页",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/18897b2d76defad1ea6a.bytes",
+            "sourceByteSha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/18897b2d76defad1ea6a.txt",
+            "bodySha256": "c6261737b4893532f78450c75f9df3d96b45f88e44e15e83d566421910747abd"
+          }
+        },
+        {
+          "sourceId": "b-classics-task",
+          "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+          "locator": "古代部分第3题，第1页",
+          "evidenceArtifact": "artifacts/v6/content-research/arts-business-b-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8e6853a26a528e1d911a.bytes",
+            "sourceByteSha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8e6853a26a528e1d911a.txt",
+            "bodySha256": "3d92ebbeee57c4d8bf30a6c7cf743229e9b8b0f32bbe0cf7deca47a60b9be467"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+      "seriesId": "iot-design",
+      "metadataDigest": "699e4093145838b6b04efd0e8abaca49f70b4d1dc47867a0f376716f74addac6",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "根路径meta refresh实际转到Default.aspx；该页正文及组委会版权可读。",
+      "currentEntryCapture": {
+        "url": "https://iot.sjtu.edu.cn/Default.aspx",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://iot.sjtu.edu.cn/Default.aspx",
+        "retrievedAt": "2026-11-08T17:08:51.257172+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/3bb7161e21370ca57314.bytes",
+        "sourceByteSha256": "d2ed43c2da783fdffef5307a215768c698b520913067eacb6fc914ccad6c9d3d",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/3bb7161e21370ca57314.txt",
+        "bodySha256": "322b8c806fbbb5e75e534a2de55d0c182048190e66c07c0c98dd238b9a75876a",
+        "bodyCharacters": 696,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "iot-design:legacy:source:1",
+          "url": "https://ieetc.shiep.edu.cn/35/0f/c6747a275727/page.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "iot-design:legacy:source:2",
+          "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260326/6391013243710844328303068.pdf",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7795cdbc61a295f545dc.bytes",
+            "sourceByteSha256": "65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7795cdbc61a295f545dc.txt",
+            "bodySha256": "13743cb90f090ea786c726f82cb3d5abc09c445985121bab92514d2988d9c7b9"
+          }
+        },
+        {
+          "sourceId": "iot-2026-charter",
+          "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260326/6391013243710844328303068.pdf",
+          "locator": "PDF第2—6页",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7795cdbc61a295f545dc.bytes",
+            "sourceByteSha256": "65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/7795cdbc61a295f545dc.txt",
+            "bodySha256": "13743cb90f090ea786c726f82cb3d5abc09c445985121bab92514d2988d9c7b9"
+          }
+        },
+        {
+          "sourceId": "iot-2026-espressif",
+          "url": "https://iot.sjtu.edu.cn/ueditor/net/upload/file/20260329/6391039317778793056390288.pdf",
+          "locator": "PDF第1—3页必备要求、第8—11页示例、第12页条件性支持",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/97a064be948be333e669.bytes",
+            "sourceByteSha256": "538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/97a064be948be333e669.txt",
+            "bodySha256": "69555573ce6591e697aab0142406c17b2aec93c048bce6be72bcea3275743053"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "physics-experiment-innovation:2026-12:ice-metal-friction:assigned-domestic:china-ice-metal:v3",
+      "seriesId": "physics-experiment-innovation",
+      "metadataDigest": "f09d0a9585109751b4ca83c5a70c2a55c30c683c1c178ce5a8563c920e7bc26f",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "2026全国组委会第一轮通知明确哈工大承办；采用同域官方学院主页，未将moocollege通用动态壳冒称已读取赛事身份。",
+      "currentEntryCapture": {
+        "url": "https://physics.hit.edu.cn/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://physics.hit.edu.cn/",
+        "retrievedAt": "2026-11-08T17:12:44.653412+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/a17c0bdfa30c0ec5d66d.bytes",
+        "sourceByteSha256": "4e504130ece9650354c7ff24801157cdddb5f3c77744a6badf39a913b8e216b7",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/host-proof-captures/a17c0bdfa30c0ec5d66d.txt",
+        "bodySha256": "8d304d103e4c06ecce7306012fdfbaa1f9e504742b7a3f1fd6e216d458c0ba6e",
+        "bodyCharacters": 1939,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "physics-experiment-innovation:legacy:source:1",
+          "url": "https://wlsycx.moocollege.com/",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "physics-experiment-innovation:legacy:source:2",
+          "url": "https://xxgk.czu.cn/2026/0327/c5469a171577/page.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "physics-2026-notice-task",
+          "url": "https://physics.hit.edu.cn/_upload/article/files/2a/4b/3bb6b5634e5e96ee685875bf0541/c046329a-3efa-4ea2-9fab-5c265fc16d24.pdf",
+          "locator": "PDF第2—3页资格费用，第5页规范，第6页题1，第8页考核",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/fbef389edd5b2634b918.bytes",
+            "sourceByteSha256": "38bbd5afbc5adf0154e492ecbc66cc12a204d027d469d169308be5a4a7db3095",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/fbef389edd5b2634b918.txt",
+            "bodySha256": "c38f2a2cc2deca8dd8a65470cff4152234ac29777619fb07caf88575c091d5d9"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+      "seriesId": "national-college-electronic-design",
+      "metadataDigest": "8ede1d41f964624016e0b8ef31cd797a69ac97042c24cb8280392e3b0aad0238",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主页页脚明确全国竞赛组织委员会版权所有；标题保留培训平台身份，不将nuedc.com.cn仅含脚本的地址当可读官网。",
+      "currentEntryCapture": {
+        "url": "https://www.nuedc-training.com.cn/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://www.nuedc-training.com.cn/",
+        "retrievedAt": "2026-11-08T17:08:51.742948+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/f89764cc8cf9f861de4f.bytes",
+        "sourceByteSha256": "09ac61d95eca8266ab9a172d60bc9de6d7425bfb0c3ac81ddcf1b05511f24cde",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/f89764cc8cf9f861de4f.txt",
+        "bodySha256": "62fa5c7d48e3b4a18eab5acd41a177ab72ac1a10fd4e159e3c3efd532de0edd4",
+        "bodyCharacters": 5690,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "national-college-electronic-design:legacy:source:1",
+          "url": "https://www.qdhhc.edu.cn/mb/4/p_detail.aspx?id=63561&wsId=63",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "national-college-electronic-design:legacy:source:2",
+          "url": "https://www.nuedc-training.com.cn/index/news/details/new_id/333",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c45a5d1004fcb102f2a5.bytes",
+            "sourceByteSha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c45a5d1004fcb102f2a5.txt",
+            "bodySha256": "f6842f8e56896bbbaa5d8e87b2d12ef105c199a09f538ca8a78d55b132e9e81d"
+          }
+        },
+        {
+          "sourceId": "electronics-2025-main-notice",
+          "url": "https://hnedc.hnie.edu.cn/__local/0/0D/80/FD1C067B95F5F7BF3968A58D3D5_331E6B71_D7CEE.pdf",
+          "locator": "PDF第3—6页，第四、六、七、八节",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8372cfc6409c199efb79.bytes",
+            "sourceByteSha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/8372cfc6409c199efb79.txt",
+            "bodySha256": "c3944a61ac89196dc9463fb587909864a2d942326b923eaf7e69311c2784d12c"
+          }
+        },
+        {
+          "sourceId": "electronics-2025-c-task-shanghai-rar",
+          "url": "https://nuedc-sh.sjtu.edu.cn/storage/seiee/project/nuedc/article/2025/07/ae91eea2c584a04d97e0414dcaa5af10.rar",
+          "locator": "本科RAR内C题PDF共4页：第1页任务及框图，第2—3页基本与发挥、误差和限制，第4页评分表",
+          "evidenceArtifact": "artifacts/continuation-20261105/electronics-c-primary-source-01/author-reading.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/9d73918795a7f3ee897a.bytes",
+            "sourceByteSha256": "bc68f44d5599ac25b9b0494e4fc97b8fdea0b2d56c919b0a3d6072740ddab847",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/9d73918795a7f3ee897a.txt",
+            "bodySha256": "ad7c135e192cf900eb4da08e774bf9579346a2d58c9f1703357137df38cc6530"
+          }
+        },
+        {
+          "sourceId": "electronics-2025-national-process",
+          "url": "https://www.nuedc-training.com.cn/index/news/details/new_id/333",
+          "locator": "一、竞赛组织与规则；三、关于评审工作，综合测评对象及全国初评后复测",
+          "evidenceArtifact": "artifacts/continuation-20261105/electronics-c-content-correction-01/process-source-reading.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c45a5d1004fcb102f2a5.bytes",
+            "sourceByteSha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/c45a5d1004fcb102f2a5.txt",
+            "bodySha256": "f6842f8e56896bbbaa5d8e87b2d12ef105c199a09f538ca8a78d55b132e9e81d"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "engineering-practice-innovation:2025-national:solar-mechanical-car:undergraduate:china-2025-solar:v3",
+      "seriesId": "engineering-practice-innovation",
+      "metadataDigest": "d33524d61e4548607b0b3ffd012e8e066fb4b37a7392ac9f9f20c6fb56b6ca91",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "HTTP正文和页脚组委会版权可读；HTTPS连接失败故保留实际可用的官方HTTP入口。",
+      "currentEntryCapture": {
+        "url": "http://gcxl.edu.cn/new/index.html",
+        "status": "parsed_body_available",
+        "effectiveUrl": "http://gcxl.edu.cn/new/index.html",
+        "retrievedAt": "2026-11-08T17:08:50.662646+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/e0feec3bafe6a92ee844.bytes",
+        "sourceByteSha256": "9f3409a5b6224ef21eb966f177fe9aaafb1d2a8831b781ec3cd355143dba9586",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/e0feec3bafe6a92ee844.txt",
+        "bodySha256": "faca34a3a1809412d9b177b72af4b1294a2c162393bf5b7bb62f0159e716b4c1",
+        "bodyCharacters": 884,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "engineering-practice-innovation:legacy:source:1",
+          "url": "https://mec.xjtu.edu.cn/info/1056/12418.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "engineering-practice-innovation:legacy:source:2",
+          "url": "https://gxzx.cug.edu.cn/info/1151/1191.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "engineering-2025-notice",
+          "url": "https://metc.ahpu.edu.cn/_upload/article/files/92/8a/5ddb18124a64b313f7c8b5b9c79f/7c26b85c-f310-4d89-aada-3dea0dadfe36.pdf",
+          "locator": "PDF第2—3页第五节",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/a7781cccbd2b8aa15837.bytes",
+            "sourceByteSha256": "9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/a7781cccbd2b8aa15837.txt",
+            "bodySha256": "6f39486baed5e66db185cce5485a22516a8c6ca409adf3da1a7369d38766ddd3"
+          }
+        },
+        {
+          "sourceId": "engineering-2025-solar-task",
+          "url": "https://aao.nuaa.edu.cn/_upload/article/files/02/ff/a4420c074e5999e610a8c98ccc5d/0ed54600-6b11-44ce-8486-44f64040253b.pdf",
+          "locator": "PDF第1—9页完整太阳能赛项",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/66ed6d2704275ce5f0a5.bytes",
+            "sourceByteSha256": "5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/66ed6d2704275ce5f0a5.txt",
+            "bodySha256": "556354ba30d1371708db380fbc57269a779720a14f7704ca2cfecc40db860c27"
+          }
+        },
+        {
+          "sourceId": "engineering-2025-solar-score",
+          "url": "https://metc.ahpu.edu.cn/_upload/article/files/92/8a/5ddb18124a64b313f7c8b5b9c79f/e49d9f67-b295-4053-87eb-23330c932a78.pdf",
+          "locator": "PDF完整9页，初赛与决赛分开计算",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/dfac8be0c9b546a17990.bytes",
+            "sourceByteSha256": "a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/dfac8be0c9b546a17990.txt",
+            "bodySha256": "1a0d92b5f82316d92dc7771027c534a760cc447fe5a41eafc38f4f3db612cce9"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+      "seriesId": "formula-student-china",
+      "metadataDigest": "0656f0504ea666a5d9d65ec779a5939552895ee4beb79b523bfdf4cd91856780",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "主办学会当年官网导航直链www.formulastudent.cn，实际跳转site.formulastudent.cn的HTTP200动态门户；旧com.cn失败单记。",
+      "currentEntryCapture": {
+        "url": "https://www.formulastudent.cn/",
+        "status": "insufficient_text",
+        "effectiveUrl": "https://www.formulastudent.cn/",
+        "retrievedAt": "2026-11-08T17:08:51.062678+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/19d946cb2532d6cbb4c2.bytes",
+        "sourceByteSha256": "c7309a47b4396792743ec14832e6651a8a3b3c0ddcc4e67b1400c0fa48486aae",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/19d946cb2532d6cbb4c2.txt",
+        "bodySha256": "9ee2d4dac375301993ab30bca5e22d144e561a64d2e3a769c93543786108c769",
+        "bodyCharacters": 12,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://www.sae-china.org/news/notices/202601/7200.html",
+          "status": "parsed_body_available",
+          "effectiveUrl": "https://www.sae-china.org/news/notices/202601/7200.html",
+          "retrievedAt": "2026-11-08T17:08:53.320856+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/b84b52545c59ef9a3788.bytes",
+          "sourceByteSha256": "fa804d3519eb45c8f5ed286667953c298a30be5e1cbc5ff012f5b061315d41cd",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/b84b52545c59ef9a3788.txt",
+          "bodySha256": "0038732329f79b9d440639d26db1ab1abe33aa36a77648d7c264d798c15d73cd",
+          "bodyCharacters": 3113,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "formula-student-china:legacy:source:1",
+          "url": "https://img.sae-china.org/web/2026/02/%E5%85%B3%E4%BA%8E%E5%90%AF%E5%8A%A82026%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%96%B9%E7%A8%8B%E5%BC%8F%E7%B3%BB%E5%88%97%E8%B5%9B%E4%BA%8B%E9%94%A6%E6%A0%87%E8%B5%9B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "fsc-2026-rules-cost",
+          "url": "https://img.sae-china.org/web/2026/04/2026%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%96%B9%E7%A8%8B%E5%BC%8F%E7%B3%BB%E5%88%97%E8%B5%9B%E4%BA%8B%E8%A7%84%E5%88%99%EF%BC%88%E6%9C%80%E7%BB%88%E7%89%88%EF%BC%89.pdf",
+          "locator": "PDF第13—14、17—18、138—142页；A4/A5/A7/A8及S4",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/80a5b4f80c4a2e63fe83.bytes",
+            "sourceByteSha256": "7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/80a5b4f80c4a2e63fe83.txt",
+            "bodySha256": "4bae3130bf28a61cb7d2a5569930c113593ec7aa9b7f061e9d96f15c9bb715cd"
+          }
+        },
+        {
+          "sourceId": "fsc-2026-cost-case",
+          "url": "https://img.sae-china.org/web/2026/02/FSC_2026_%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90%E9%A2%98%E7%9B%AE.pdf",
+          "locator": "完整4页，中文题目与六条提示",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e18e4c5294358e2680d7.bytes",
+            "sourceByteSha256": "d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e18e4c5294358e2680d7.txt",
+            "bodySha256": "4c0fe441f8544e485a8500ad4a21a3533df51572ee5c875c8b1f0d668a8664d2"
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+      "seriesId": "igem-collegiate",
+      "metadataDigest": "d23bfe1b7b2fce035d5d093c646e303bf55d9872bc9622e0a6710380fe4ccd69",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "web工具可取得HTTP页面及检索到的官方正文；直接curlTLS失败，动态页面不作为比赛日期证据。",
+      "currentEntryCapture": null,
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "igem-collegiate:legacy:source:1",
+          "url": "https://competition.igem.org/?page=10",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "igem-collegiate:legacy:source:2",
+          "url": "https://jiaowu.nwpu.edu.cn/info/1164/26568.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "igem-2026-registration",
+          "url": "https://competition.igem.org/registration/overview",
+          "locator": "Competition Types、Primary PI、Institutions、Organizer Type、Payment Order",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2026-roster",
+          "url": "https://competition.igem.org/registration/team-roster",
+          "locator": "Rules & Requirements、Team Roles、Team Sections",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2026-special-prizes",
+          "url": "https://competition.igem.org/judging/special-prizes",
+          "locator": "Scoring Rubric、Best Model及其四项Ballot Questions",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2026-deliverables",
+          "url": "https://competition.igem.org/deliverables",
+          "locator": "What are Deliverables、New in 2026、How to Submit",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2026-fees",
+          "url": "https://competition.igem.org/registration/fees",
+          "locator": "Registration Stages、What’s new in 2026；未读取图形中的具体金额",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2025-hkust-model",
+          "url": "https://2025.igem.wiki/hkust/model",
+          "locator": "完整Model页面：MT Cycle0、1A、1B、2、Biosensor及Kill Switch；原HTML及全部模型图像单独冻结",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        },
+        {
+          "sourceId": "igem-2025-judge-handbook",
+          "url": "https://static.igem.org/websites/competition/2025/judging/2025judgehandbook.pdf",
+          "locator": "PDF第67—68页Model：开发记录、假设、数据、设计作用及四项评审",
+          "evidenceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch02/reading-log.json",
+          "currentCapture": {
+            "status": "unavailable",
+            "rawArtifact": null,
+            "sourceByteSha256": null,
+            "bodyArtifact": null,
+            "bodySha256": null
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+      "seriesId": "mechanical-innovation-design",
+      "metadataDigest": "eff6be7724054bbddc1f6bb5069c6a02d6ea69675654fa43c69641be6d24c5fd",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "全国组委会第1号通知明确本届官方承办网站；首页有赛事文件及历次通知。通用moocollege主站另有动态壳，不混称已读。",
+      "currentEntryCapture": {
+        "url": "https://12umic.hit.edu.cn/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://12umic.hit.edu.cn/",
+        "retrievedAt": "2026-11-08T17:08:51.763604+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/e2c294c1e514b0260a59.bytes",
+        "sourceByteSha256": "4b5ce0661e7e9bf42ec5f2d91903f32b8467fa3630cf64d553861756e735af67",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/e2c294c1e514b0260a59.txt",
+        "bodySha256": "074f3a966e97c4e11663fc953ed3951d26e39951482d5c1441d8ac8da130d36c",
+        "bodyCharacters": 939,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "mechanical-innovation-design:legacy:source:1",
+          "url": "https://ft.moocollege.com/",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "mechanical-innovation-design:legacy:source:2",
+          "url": "https://me.wtu.edu.cn/info/1050/15444.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "mechanical-innovation-design:legacy:source:3",
+          "url": "https://jwc.tiangong.edu.cn/2026/0316/c1328a113150/page.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "mechanical-2026-notice",
+          "url": "https://12umic.hit.edu.cn/2025/0321/c20012a364782/page.htm",
+          "locator": "第四节条件方式、第六节评奖、第七节经费",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/af69268dd2f79af1db5e.bytes",
+            "sourceByteSha256": "ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/af69268dd2f79af1db5e.txt",
+            "bodySha256": "fac6edd6c6eec56f14c8352dd661ad6da2ba8b6ea8f926e96a892450b45875c6"
+          }
+        },
+        {
+          "sourceId": "mechanical-2026-instructions",
+          "url": "https://jdxy.hsu.edu.cn/_upload/article/files/40/1f/feb2c7904f029972f37b54785c30/0a272ab2-669f-41ab-9f19-eb143648a954.pdf",
+          "locator": "PDF第1页叶菜任务、第2页评审、第3页图纸及学校费用承担",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e89aac813dc4383fbcb3.bytes",
+            "sourceByteSha256": "3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/e89aac813dc4383fbcb3.txt",
+            "bodySha256": "53433f0603aafd20d1489f055c546509b321d3672f7d3bcc2f80ca6213fdb8a7"
+          }
+        }
+      ],
+      "toolSourceProofs": [],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    },
+    {
+      "recordId": "national-structural-design:2026-19-shanghai:lele-cart:undergraduate-junior-college:shanghai-division:v3",
+      "seriesId": "national-structural-design",
+      "metadataDigest": "d6b22307d7f8893ad1f94e0472ce341b9a426d4b519e8d4d7d1c9391e5b20d29",
+      "authorAgentId": "/root/v7_catalog_review",
+      "readScope": "原记录就是上海分区赛。承办学院自发2026赛事报道明确主办、承办身份；全国旧ZJU栏目已失效，structurecontest仅通用动态壳，均不冒充最新专站。",
+      "currentEntryCapture": {
+        "url": "https://env.dhu.edu.cn/",
+        "status": "parsed_body_available",
+        "effectiveUrl": "https://env.dhu.edu.cn/",
+        "retrievedAt": "2026-11-08T17:12:00.052791+00:00",
+        "httpStatus": 200,
+        "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/observations.json",
+        "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/97b87200ba9309981180.bytes",
+        "sourceByteSha256": "af1a7c243ce9c0fe2e2f0d8cc63f3373ecc54850d05629c3a552fac65d4b53a5",
+        "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/97b87200ba9309981180.txt",
+        "bodySha256": "4386b428a9d828fc374a50fe863756ed83affcd716f6a6ac97f019c8d53dad19",
+        "bodyCharacters": 1298,
+        "factualApprovalClaimed": false
+      },
+      "officialIdentitySupportingCaptures": [
+        {
+          "url": "https://env.dhu.edu.cn/2026/0714/c19493a378480/page.htm",
+          "status": "parsed_body_available",
+          "effectiveUrl": "https://env.dhu.edu.cn/2026/0714/c19493a378480/page.htm",
+          "retrievedAt": "2026-11-08T17:12:00.019922+00:00",
+          "httpStatus": 200,
+          "observationArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/observations.json",
+          "rawArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/6eeed50fbba3ac9b1b68.bytes",
+          "sourceByteSha256": "0c72b0a24722eb3d287b6294d88f5cc997a1d8c0eb18924d7822d97b4f736275",
+          "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-proof-captures/6eeed50fbba3ac9b1b68.txt",
+          "bodySha256": "2b6e2e663ec8a92880a570c365478e67361c80d7e61196fb486bed24721ab888",
+          "bodyCharacters": 1281,
+          "factualApprovalClaimed": false
+        }
+      ],
+      "priorCoreSourceEvidence": [
+        {
+          "sourceId": "national-structural-design:legacy:source:1",
+          "url": "https://tj.haut.edu.cn/info/1092/23133.htm",
+          "locator": "旧版事实表的来源序号；原文定位待本轮复核",
+          "evidenceArtifact": null,
+          "currentCapture": null
+        },
+        {
+          "sourceId": "structure-shanghai-2026-notice",
+          "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/131fb335-fbb3-4ed9-bef3-3894867f2f46.pdf",
+          "locator": "PDF第2页参赛条件和时间",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/6666bbef64549f92d343.bytes",
+            "sourceByteSha256": "dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/6666bbef64549f92d343.txt",
+            "bodySha256": "579fe24e4b3182ad73c1666ce7ea5b32a2fc709f188f98eb975e49d27715755e"
+          }
+        },
+        {
+          "sourceId": "structure-shanghai-2026-task",
+          "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/2c4a1ed7-4d28-437b-83d2-57787b0de0bb.pdf",
+          "locator": "PDF第1—3页任务，第5—7页材料与制作，第10—13页判定及评分",
+          "evidenceArtifact": "artifacts/v6/content-research/engineering-a-reading-log.json",
+          "currentCapture": {
+            "status": "parsed_body_available",
+            "rawArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0c86ad3a8c95725b04f1.bytes",
+            "sourceByteSha256": "734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c",
+            "bodyArtifact": "artifacts/continuation-v7-20261109/catalog/source-recheck/0c86ad3a8c95725b04f1.txt",
+            "bodySha256": "2bd7a21d51e27d4888738cd7100f4891fc14ed8e6b330020a8550ef600b839c2"
+          }
+        }
+      ],
+      "toolSourceProofs": [
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-a.txt",
+          "sha256": "9018602abd3c32450f73e5920e97b5b94b908035e436d445ebbaa7b25613e829"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-b.txt",
+          "sha256": "0ab43c021026f7fcd8e971f0020221437141c8ac7990ecf16b0af8b0a13550ee"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-c.txt",
+          "sha256": "aa8da7abb78191e2ae74cae2564d3bafe63308e14fa9198cce409fee10396f4d"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-e.txt",
+          "sha256": "391e196f480d355d2567478eb7b6ca2cdd12bf41cf48b7a424f9b9cc8d24ba7f"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-identity-search-f.txt",
+          "sha256": "52f363f2e850f0ec0dcb712aabf79eb97bf8d8cfc0dee5e92d9ca3c0fe347b6c"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-batch-g.txt",
+          "sha256": "294e9536e1956fda89d3aab12c944fb427e7091d186de4d20483dc2010fe978a"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-primary-search-h.txt",
+          "sha256": "7835f86423c84d2dc24ecbf527aebbcf80121931ca372635714967f3946b1512"
+        },
+        {
+          "artifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/home-web-structure-host.txt",
+          "sha256": "2e599fbee3c9e9e607bd1e4f1a113bec7d90e5292cfdf2fe182cf691f47a7505"
+        }
+      ],
+      "additionalVisualEvidence": [],
+      "currentRegistrationReviewed": false,
+      "lastHeldDateReviewed": false,
+      "independentReviewPerformed": false
+    }
+  ]
+}

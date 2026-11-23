@@ -1,0 +1,67 @@
+{
+  "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+  "name": "嘉义大学特殊教育教学演示竞赛",
+  "contentDigest": "d301539e1d828e6209065a975a8337c3e5acf8415ba51b0f062549ba85029843",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "teach-d2-2017-rules",
+      "url": "https://www.mchps.kh.edu.tw/upload/149/101_6710/%E7%B0%A1%E7%AB%A0_5.pdf",
+      "readingLocation": "三页全文",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152.pdf",
+      "sha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+      "bytes": 118682
+    },
+    {
+      "sourceId": "teach-d2-official-work",
+      "url": "https://www.ncyu.edu.tw/cset/Contents?nodeId=50587",
+      "readingLocation": "P1:L305-L312作品名/届次/附件",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024.html",
+      "sha256": "7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024",
+      "bytes": 102863
+    },
+    {
+      "sourceId": "teach-d2-roaming-lesson",
+      "url": "https://www.ncyu.edu.tw/cset/ServerFile/Get/76a7da0c-2c2c-4706-8577-4a828b139328?nodeId=50587&sId=102478",
+      "readingLocation": "P14-P21完整第三节教案、评价与反思，P16活动表视觉核验",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe.pdf",
+      "sha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe",
+      "bytes": 1945304
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "40分钟5+30+5与12分钟决赛、10/30/40/20对应原文。只对完整第三节做评读不冒充四节详案或因果效果，未复制儿童个体数据。个人目标对齐/评价证据、四周和退出有效。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

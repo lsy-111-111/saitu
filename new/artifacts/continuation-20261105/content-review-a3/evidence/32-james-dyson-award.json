@@ -1,0 +1,62 @@
+{
+  "recordId": "james-dyson-award:2025-global:engineering-design:students-recent-graduates:2025-national-review:v3",
+  "name": "James Dyson Award",
+  "contentDigest": "448a5becbb7fd9a5cd1be0e0a5258c32dad9b0abd35c5d466ded27d19e3aa209",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.155853+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "james-dyson-award:2025-global:engineering-design:students-recent-graduates:2025-national-review:v3",
+    "previousContentDigest": "448a5becbb7fd9a5cd1be0e0a5258c32dad9b0abd35c5d466ded27d19e3aa209",
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-dyson-rule",
+      "url": "https://www.dyson.co.uk/discover/sustainability/james-dyson-award/2025-james-dyson-award-open-for-entries",
+      "readingLocation": "官方web L116—140，当年征集、7月16截止及国家四维评审",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "prior_official_web_tool_transcription_only",
+      "path": null,
+      "sha256": null,
+      "bytes": null,
+      "notOriginalBytes": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "官方公告支持基本类别、截止和四维评分；完整bloc作品原站403，未能独立重读其VR/陶土过程。学生路线及历史范围合理，但不能基于作者描述批准作品事实。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-32-01",
+      "severity": "major",
+      "description": "提供bloc完整原页字节及作品图/过程可读记录，并补入2025完整资格与上传条款后再审；本次只读官方征集公告，不把403作品计为已读。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "saitu.catalog-full-source-recheck.v1",
+  "candidate": "v758",
+  "reviewer": "E",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "reviewedAt": "2026-11-11T19:03:51.742Z",
+  "scope": "complete corrected Formula Student 2026 combustion-team cost/manufacturing record",
+  "input": {
+    "path": "artifacts/step8-first-20261111/C/v758-catalog-source-review-input.safe.json",
+    "sha256": "f4ca934b78656d7b0957254c5e1fe83f36185b651c46a0b89e44275b6e54a894"
+  },
+  "candidateSource": {
+    "path": "[private local path omitted]",
+    "sha256": "49ccbdfe0ba0a1fcc7e7e3ec115614f5138bf45d2dbe1af742cb82a8f0f718a6"
+  },
+  "frozenPriorCatalog": {
+    "path": "artifacts/step8-first-20261111/D/v757-repair-04/catalog.snapshot.json",
+    "sha256": "8be2224350eedb51ae721a8008ed31ce122f7948ff2570683b3008fa8370cc4c"
+  },
+  "primarySources": [
+    {
+      "path": "artifacts/v6/content-research/source-byte-snapshots/7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece.pdf",
+      "sha256": "7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece",
+      "sourceId": "fsc-2026-rules-cost",
+      "locators": [
+        "物理PDF13–14、17–18页资格、组队、费用与参赛",
+        "物理PDF138–142页S4.1–S4.9，尤其140页S4.5.1、141页表7.2、S4.6与S4.7"
+      ]
+    },
+    {
+      "path": "artifacts/v6/content-research/source-byte-snapshots/d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed.pdf",
+      "sha256": "d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed",
+      "sourceId": "fsc-2026-cost-case",
+      "locators": [
+        "PDF第1页题干、采购表、汇报事项、提示5；第2页提示6；第3–4页对应英语"
+      ]
+    }
+  ],
+  "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+  "canonicalReview": {
+    "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+    "review": {
+      "reviewerId": "/root/e_resume",
+      "runId": "v758-formula-full-source-review-e-20261112",
+      "model": "gpt-6",
+      "reviewedAt": "2026-11-11T19:03:51.742Z",
+      "contentDigest": "fe5b85e637163beaa393be9b818a2b114fe1df47e40f6196cd045eb35ca492fe",
+      "method": "independent_source_recheck",
+      "sourceIds": [
+        "fsc-2026-rules-cost",
+        "fsc-2026-cost-case"
+      ],
+      "evidenceArtifact": "artifacts/step8-first-20261111/E/v758-formula-catalog-full-review.E.safe.json",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "outcome": "approved",
+      "findings": []
+    }
+  },
+  "verifiedBinding": {
+    "proposedRecordSha256": "1695795a866a171690cb220464040c334f6973752bc3dc1ba196131e37a122bb",
+    "fullDigest": "fe5b85e637163beaa393be9b818a2b114fe1df47e40f6196cd045eb35ca492fe",
+    "priorFullDigest": "820b74545c6d2e5f4fb794a76d1cd504df04ebacbda10bb140ba0b871fc6d59b",
+    "coreDigest": "05248d6f581d219729f0247ae6754d77518872700e6bde518767489270d7b516",
+    "currentAuthoredFullAndCoreMatch": true,
+    "reviewHistoryOmittedInProposalOnly": true
+  },
+  "findings": [
+    {
+      "locations": "赛事规则原PDF第13–14页 A4.1–A4.5、A5.1.1",
+      "judgement": "全日制本科/研究生、7个月毕业例外、研究生不超过3、低年级本科至少3、校会员及两个月期限、年满18与教师1–5成立；驾照限司机。电车特例不作燃油组通行规则。"
+    },
+    {
+      "locations": "赛事规则第17–18页 A7.3–A7.5、A8.1–A8.4",
+      "judgement": "学校车队注册及同校同类型范围、截止文件及团队报名费5000元或800美元不退有据；个人花费没有被写成确定。"
+    },
+    {
+      "locations": "赛事规则原PDF第138–142页 S4.3、S4.5.1、S4.7.1、S4.8；表7.2及式7-1",
+      "judgement": "正式成本报告的BOM、实际制造工艺、辅助材料和现场评审，20/40/40项目和组委会另发案例都有对应来源。常规成本标准表是年产1000，排除研发、基础设施建设。评分条目删除了原先误作规则的扩产内容。"
+    },
+    {
+      "locations": "成本案例原PDF第1页订单表/董事会汇报事项1–3/提示5、第2页提示6",
+      "judgement": "三年订单、成本利润、性能正优化及设计变更必要性、谈判目标，以及扩产新增设备、厂房和人员均归于题设。该题按题设公司的产量解释标准表，与正式报告口径分开。"
+    },
+    {
+      "locations": "目录任务、角色、难度与四周计划",
+      "judgement": "任务/角色训练为可观察的纸面分析，现行注册不作推断，训练时长和费用边界清楚。track保留规则及案例双源，rubric只绑定规则且不用于正向推荐锚。"
+    }
+  ],
+  "beforeCanonicalImport": {
+    "orderedMatchingCount": 45,
+    "orderedMatchingRecordIdsSha256": "0485625f7cacf01c7acb5640dd0f607f1828449ecd093b6717e05a3fd23921b6",
+    "exactDetailRouteResolves": true,
+    "visibleDeepDiveStatus": "draft",
+    "reviewedCaseBadgeRequiresL3": true
+  },
+  "acceptedOnlyAsOneIndependentCatalogReview": true,
+  "paidCallsByE": 0,
+  "formalAcceptanceCredit": false
+}

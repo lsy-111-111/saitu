@@ -1,0 +1,77 @@
+{
+  "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+  "name": "中国大学生方程式系列赛事",
+  "contentDigest": "820b74545c6d2e5f4fb794a76d1cd504df04ebacbda10bb140ba0b871fc6d59b",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.207226+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+    "previousContentDigest": "5639b0ba4c8cf8020c5b5c38b2a43ecc3fe0b41e11d6eafa1972120e2fb39ddb",
+    "excludeReviewers": [
+      "/root",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "fsc-2026-rules-cost",
+      "url": "https://img.sae-china.org/web/2026/04/2026%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%96%B9%E7%A8%8B%E5%BC%8F%E7%B3%BB%E5%88%97%E8%B5%9B%E4%BA%8B%E8%A7%84%E5%88%99%EF%BC%88%E6%9C%80%E7%BB%88%E7%89%88%EF%BC%89.pdf",
+      "readingLocation": "A3原PDF P13:L14—25资格；其余完整成本题/评分沿用本人A2同字节阅读",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece.pdf",
+      "sha256": "7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece",
+      "bytes": 10162024,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "fsc-2026-cost-case",
+      "url": "https://img.sae-china.org/web/2026/02/FSC_2026_%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90%E9%A2%98%E7%9B%AE.pdf",
+      "readingLocation": "PDF P1-P4中英文完整实际案例",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed.pdf",
+      "sha256": "d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed",
+      "bytes": 188692,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "原2026规则13页A4.1.1与A4.2.1重读：全日制限制同时覆盖本科，修订正文与结构化fullTime一致。完整四页成本任务、三年报价及20/40/40评分、个人成本模型/四周与退出仍有证据。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-53-resolved",
+      "severity": "major",
+      "description": "本人A2意见：A4.1.1规定只限全日制高等院校学生；将资格中本科生也明确限定全日制，并在结构化规则核对fullTime，避免只限制研究生。 本轮处理依据：原2026规则13页A4.1.1与A4.2.1重读：全日制限制同时覆盖本科，修订正文与结构化fullTime一致。完整四页成本任务、三年报价及20/40/40评分、个人成本模型/四周与退出仍有证据。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

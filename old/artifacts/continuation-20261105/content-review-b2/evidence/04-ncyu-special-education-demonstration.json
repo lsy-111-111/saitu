@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+  "contentDigest": "d301539e1d828e6209065a975a8337c3e5acf8415ba51b0f062549ba85029843",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:06:54.929426+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "teach-d2-2017-rules",
+    "teach-d2-official-work",
+    "teach-d2-roaming-lesson"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "teach-d2-2017-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152.pdf",
+      "sourceSha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+      "actualReadLocator": "完整PDF3页；rendered/ncyu-0-1..3.png逐页视觉",
+      "verification": "105学年师资生资格4人；40分钟教案15分钟影片4份匿名纸本/CD，初选6件决赛12分钟，10/30/40/20正式评分，2017日期和自备教具条件交通补助。"
+    },
+    {
+      "sourceId": "teach-d2-official-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024.html",
+      "sourceSha256": "7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024",
+      "actualReadLocator": "fresh HTML text lines299–327",
+      "verification": "官方105学年师资生第二名漫游古都及PDF链接，2024只是网页最后更新时间。"
+    },
+    {
+      "sourceId": "teach-d2-roaming-lesson",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe.pdf",
+      "sourceSha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe",
+      "actualReadLocator": "PDF pages1,10,12–21；rendered/ncyu-2对应页均视觉阅读",
+      "verification": "第三课完整40分钟方案与教材、字卡、目标活动评价、结果反思；5+30+5支持。四课总框架与本文件第三课区分清楚，结果不足因果推断。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周和退出已读；离线评读不等于儿童诊断/教师资格/原作者奖项。",
+    "作品第2–9、11页未视觉阅读，不声称全21页读完；本次完整核对的是第三课方案及其完整材料与评价结果，足够支持本稿任务边界。",
+    "不将个体测评转写进证据日志；稿件没有外推普遍效果。费用保留未知，历史组别清楚。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

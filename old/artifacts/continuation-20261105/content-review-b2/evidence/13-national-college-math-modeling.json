@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+  "contentDigest": "f26edd72ce4a684fe6bc64a2c00519043a245085a944c58bdbcd8c88a13cd60b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:08:46.024428+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "cumcm-c-charter",
+    "cumcm-c-format",
+    "cumcm-c-rules",
+    "cumcm-c-problem-a"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "cumcm-c-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923.html",
+      "sourceSha256": "f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923",
+      "actualReadLocator": "fresh HTML text20–59",
+      "verification": "章程完整相关正文，最多3人同校本科/高职、研究生不可、指导限赛前；四项正式定性评分。"
+    },
+    {
+      "sourceId": "cumcm-c-format",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a.html",
+      "sourceSha256": "2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a",
+      "actualReadLocator": "fresh HTML text20–39",
+      "verification": "2026格式完整正文30页，论文与支撑各20MB，可运行代码、匿名和纸电一致。"
+    },
+    {
+      "sourceId": "cumcm-c-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd.html",
+      "sourceSha256": "30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd",
+      "actualReadLocator": "fresh HTML text20–55",
+      "verification": "2026规则完整正文，队外讨论/浏览限制与AI辅助需另守专规。"
+    },
+    {
+      "sourceId": "cumcm-c-problem-a",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241.zip",
+      "sourceSha256": "a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241",
+      "actualReadLocator": "ZIP内A题PDF完整4页；rendered/cumcm-1..4.png逐页视觉阅读",
+      "verification": "全部四问、六表、附录1–4、输出密度和单位已核对；第一问D依赖含水率C，并非所有物性常数。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周、退出已读；没有编造数值答案或把案例当医学疗效。",
+    "已完整读4页题面；ZIP内Excel环境数据、半径数据和模板尚未逐单元格审读，仅核题面给出的附件说明，因此不声称完整数据计算或运行复现。",
+    "2026AI专规全文未在所列原件中读取，稿件已保留需另核边界；费用未知未推免费。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-13-01",
+      "severity": "minor",
+      "description": "workedExample步骤1把第一问概括为“常参数预热”不准确：原题附录2中扩散系数D=7×10^-9 exp(-0.89/C)仍随含水率变化。七日试学明确标注的常系数简化可以保留，但四问原题拆解须区分固定热物性与变扩散系数，避免把简化当原题。",
+      "resolved": false
+    }
+  ]
+}

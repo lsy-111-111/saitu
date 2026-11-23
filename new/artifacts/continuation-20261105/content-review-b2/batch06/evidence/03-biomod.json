@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "contentDigest": "9888d74a231d694f9056409431eace58b3ff86c04ad594ab4ca88f6e9360c39c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch06-20261106-2ba54f74",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:24:04.857570+00:00",
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "manifestVerification": {
+    "expectedFiles": 150,
+    "verifiedFiles": 150,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "biomod-2023-requirements",
+    "biomod-2023-rubric",
+    "biomod-2023-sendai-project",
+    "biomod-2023-sendai-design",
+    "biomod-2023-sendai-experiment",
+    "biomod-requirements-observed-text",
+    "biomod-requirements-fees-2023"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "biomod-2023-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "extracted/03-00.txt L9–65，本轮全文L1–103",
+      "verification": "Requirements费用明确2023；团队正文与FAQ仅作观测文字，FAQ UCSF/San Francisco与2023东京不同，不能确认整页2023适用性。"
+    },
+    {
+      "sourceId": "biomod-2023-rubric",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sourceSha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "actualReadLocator": "rendered/03-01-4.png、03-01-10.png至03-01-12.png；本轮目读对应4页",
+      "verification": "p4东京会场、20分钟含10分钟演示约7分钟问答；p10网站50=目标20文档20执行10；p11视频25/演示25和3分钟；p12银级须组件工作，金级须银级且总分前50%。未宣称读完无关全部PDF页面。"
+    },
+    {
+      "sourceId": "biomod-2023-sendai-project",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sourceSha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "actualReadLocator": "extracted/03-02.txt L29–203，本轮全文L1–237",
+      "verification": "NanoStoma背景/挑战/方案/可行性为完整公开作品页面；L151–173明确目标是组件基础证据，完整集成须后续工作，未把设计承诺作实证。"
+    },
+    {
+      "sourceId": "biomod-2023-sendai-design",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sourceSha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "actualReadLocator": "extracted/03-03.txt L29–90，本轮全文L1–94；design-15.png本轮目读；image-read-index.json同SHA本人B04图像证据",
+      "verification": "五层/236staples、建模、形状互补、光控设计；L76明确TMSD为azobenzene proxy。图中是置换链不是已证实光控气体系统。"
+    },
+    {
+      "sourceId": "biomod-2023-sendai-experiment",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sourceSha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "actualReadLocator": "extracted/03-04.txt L29–234本轮全文；experiment-12/14/15.png本轮目读；其余图同SHA本人B04读图记录见image-read-index.json",
+      "verification": "48条件、AFM/堆叠、TMSD、胆固醇和气泡组件证据。L135正文16% vs Table7图20%不一致保留。Fig6第二链30nt预期四链结构未成；Fig7改34nt后作者以四链高位条带/加第五链两条带解释锁开关，不能推定量成功率或整机气体交换。"
+    },
+    {
+      "sourceId": "biomod-requirements-observed-text",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "同一原件extracted/03-00.txt L15–30、L35–45、L65，本轮实读",
+      "verification": "新source仅证明网页实际文字，scope不认证2023适用；原总页integrity=requires_recheck与unknown条款保留，未遮蔽faculty advisor/tenure-track差异。"
+    },
+    {
+      "sourceId": "biomod-requirements-fees-2023",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "同一原件extracted/03-00.txt L11–14，本轮实读",
+      "verification": "仅2023团队注册30000 JPY，个人Jamboree TBD且不含住宿；新fee source scope仅限明确标年段落，不认证历史资格或总费用。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "按已授权中立裁决独立判断：历史公开学习L3允许有理由未知；unknown不等于官方资格已证实。B04旧结论保留，本次只批准新摘要的历史学习范围。",
+    "12模块、六维价值、三层难度、角色个人交付/可学前置、四周验收与退出条件均逐项读过。正式资格/完整费用仍未核，strictParticipationCoverage=false，currentRegistrationOpportunity=false，严格36/40增量0。",
+    "未读取A或其他审者意见，未依赖作者读取声明。新稿完整正文已实际阅读；PDF本轮重新渲染并目读，网页实际正文按行核对。",
+    "BIOMOD group/scope/registration均明确2023公开作品学习，不确认正式资格；导师/团队2023适用性unknown的kind/status为空证据，requires_confirmation仍保留。结构化本科/人数条款仅能在上述观测范围理解，不得单独用于严格参赛通过。",
+    "设计/实验43图全部本轮核SHA并透明引用本人B04实读；其中4关键PNG本轮重读，另39图未重复声称本轮读完。六GIF旧证据只首/中/末抽帧，不称逐帧全读。外链补充原始数据未读取，不宣称实验可完整复现；与学习任务主动标缺口一致。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

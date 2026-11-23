@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "contentDigest": "17ff9e0fada6ed08c5e18f0fdaf5174b25012bcecbf97167e05546b0bca0caef",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:45:49.707890+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-hult-guide"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-hult-guide",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sourceSha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "actualReadLocator": "PDF pages 1-5 and 22-24; rendered/hult-01..05.png,hult-22..24.png",
+      "verification": "Visual read: 2023 apparel/footwear for-profit SDG challenge, value-chain diagram, 3-5 campus students, MVP/business model/finance, five qualitative judge expectations and four stages."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周与退出已读；历史范围与费用未知表达清楚。",
+    "Guide pages 6-21 and 25-27 not visually read; external videos and detailed scorecard not provided/read. The partial source recheck does not claim the entire guide was read."
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-39-01",
+      "severity": "major",
+      "description": "严格L3缺具体完整题目或完整公开作品的拆解。当前workedExample仍是开放的可持续时尚主题与通用商业策划流程；第23页五项关注点不是所缺的详细评分卡。请增加可复核的完整具体案例并区分正式评分与参考意见，或保持低层级。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "saitu.author-source-reading.v2",
+  "authorAgentId": "/root/continue_catalog",
+  "independentReview": false,
+  "createdAt": "2026-11-05T19:48:19.681024+00:00",
+  "sourceReadings": [
+    {
+      "sourceId": "swift-accessibility-2025-full",
+      "url": "https://github.com/phnagy/ssc2025/tree/960b72301329ff8dd5f67801eca8d9a8240fabe7",
+      "finalUrl": "https://github.com/phnagy/ssc2025/tree/960b72301329ff8dd5f67801eca8d9a8240fabe7",
+      "retrievedAt": "2026-11-05T18:59:35.093683+00:00",
+      "sourceArtifact": "artifacts/v6/content-research/source-byte-snapshots/4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04.zip",
+      "sourceByteSha256": "4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04",
+      "bodyArtifact": "artifacts/v6/content-research/frozen-source-text/311426ec11e718e5a64e6d84bccacda427756d13c4fadeaf5db26327303cf23b.txt",
+      "bodySha256": "311426ec11e718e5a64e6d84bccacda427756d13c4fadeaf5db26327303cf23b",
+      "characters": 95371,
+      "extractionMethod": "HTML text extraction or repository source concatenation",
+      "captureKind": "original_http_bytes",
+      "status": "body_available_not_verified",
+      "independentReview": false,
+      "readAt": "2026-11-05T19:48:19.681024+00:00",
+      "captureIndex": "artifacts/continuation-20261105/content/source-rechecks-batch05/reading-log.json",
+      "actualReading": "重新直接查看4000×2250原始JPEG（工具展示缩为2048×1152），可见蓝色海水、礁石、海岸植被及建筑；不是苹果图。Contents.json绑定该JPEG；源码Image(VoiceOver-1)用模糊覆盖，并在容器标注Apples hanging from a tree，输入只接受lowercased==apple。确认素材/标签/问题/答案的语义冲突，未运行iOS或VoiceOver。"
+    }
+  ],
+  "dependencies": [
+    {
+      "sourceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch04/swift-source/ssc2025-960b72301329ff8dd5f67801eca8d9a8240fabe7/AccessibilityEscape.swiftpm/Assets.xcassets/Images/VoiceOver-1.imageset/Contents.json",
+      "sha256": "4d4b43e78c6131edcc028941c2f939ebc9fee59fd4d22ca73fba96b5278a60e5",
+      "bytes": 207
+    },
+    {
+      "sourceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch04/swift-source/ssc2025-960b72301329ff8dd5f67801eca8d9a8240fabe7/AccessibilityEscape.swiftpm/Assets.xcassets/Images/VoiceOver-1.imageset/dji_fly_20230404_140934_839_1680594234129_photo_optimized.jpg",
+      "sha256": "0ce1a42f138c8cd5a549e65a80ba0bd5aed24bf34807e8eb3a32df84fe06b09a",
+      "bytes": 7578378
+    },
+    {
+      "sourceArtifact": "artifacts/continuation-20261105/content/source-rechecks-batch04/swift-source/ssc2025-960b72301329ff8dd5f67801eca8d9a8240fabe7/AccessibilityEscape.swiftpm/Level Subsystem/Levels/LevelVoiceOverView.swift",
+      "sha256": "dea86398606e2de13f3738df5183c9ed9ff9bbe002b6798458b197ed5fc61d2c",
+      "bytes": 2397
+    }
+  ],
+  "boundary": "Author re-read of the same immutable commit. No independent review decisions included. No original source bytes modified."
+}

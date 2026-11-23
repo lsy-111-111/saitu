@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "contentDigest": "33b7f7d0c78dfdb9ddc2133de64899ea5ad6c7170baf448257a8b2d7a91f01ec",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.268525+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "newblood-2026-dad-brief",
+    "newblood-2026-tutor-pack"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "newblood-2026-dad-brief",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91.pdf",
+      "sourceSha256": "cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/11-dandad-new-blood.json :: 本轮完整2页逐页渲染目读，rendered/dad-task-1.png和-2.png",
+      "verification": "Share your passion具体命题、受众及持续互动，至少3视频各30秒或5静态；主/选材料分开；身份例外仅本题"
+    },
+    {
+      "sourceId": "newblood-2026-tutor-pack",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3.pdf",
+      "sourceSha256": "a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/11-dandad-new-blood.json :: 本轮PDF实际渲染目读第3、26—27、30—31、34—36页，rendered/dad-guide-*.png；本轮新增实际读取：PDF第30、34页渲染逐栏目读；rendered/14-01-p30.png,p34.png",
+      "verification": "2026共同三项评审、格式、团队至多5人、15英镑或调查抵用、原创；发现FAQ与条款非学生年龄及自由职业折算矛盾；学生条款在两处相容；非学生矛盾被移出已核适用分支，未批准其资格。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/11-dandad-new-blood.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "学生分支明确限定：2026-01-01认可院校全/兼职FE/HE，不把FAQ非学生over18/6个月与条款18及以上/自由职业1年冲突强行消歧。Microsoft brief非酒类；不适用Tuborg/Suntory饮酒年龄例外。费用15英镑/有效问卷voucher与队伍<=5已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

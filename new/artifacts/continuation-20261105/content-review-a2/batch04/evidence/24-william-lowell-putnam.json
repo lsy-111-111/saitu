@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "william-lowell-putnam:2026-87:proof-mathematics:eligible-undergraduates:us-ca-mx-2026:v3",
+  "contentDigest": "51c800723c5528a071c3f9b41dfd7084be3af772e2d3fb7d9937f4844b894d09",
+  "priorDigest": "dac7396a02fa773b1bf250154ba32aa767ee01350f7db41250de0ba6259e3cda",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 24,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "当前15条复审中此记录仍无MAA三份原始PDF/HTML字节，包内来源状态unavailable。本人A2/A3曾读官方网页转写，但它不能提供当前冻结原件哈希。当前稿如实保留原件缺口，不能据作者或旧审核的转述批准。",
+  "qualificationDecision": "2026资格与赛制为近期可报名决策，原始证据缺失仍是实质阻断；历史题学习不能替代当届规则证据。",
+  "retainedUnknowns": [
+    "三份MAA原件未冻结；本轮没有重取网络原件。",
+    "报名费未核，不能填免费。"
+  ],
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "a2-b04-24-l3-gap",
+      "severity": "major",
+      "description": "补可复核的2026规则/主页和2025完整A1题解原件字节及获取来源；在此之前保持L3阻断。",
+      "resolved": false
+    }
+  ],
+  "sources": [],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [
+    {
+      "sourceId": "putnam-c3-rules",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "readingLocation": "官方web读取原PDF第1—6页/工具L0—173，资格/四场/提交/评分",
+      "frozenOriginalBytes": false,
+      "freshRead": false
+    },
+    {
+      "sourceId": "putnam-c3-home",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "readingLocation": "官方web正文L100—126，2026时间/注册/四场与2025题解链接",
+      "frozenOriginalBytes": false,
+      "freshRead": false
+    },
+    {
+      "sourceId": "putnam-c3-a1",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "readingLocation": "官方web PDF第1页L0—31，完整A1和证明",
+      "frozenOriginalBytes": false,
+      "freshRead": false
+    }
+  ],
+  "requiredSourceIds": [
+    "putnam-c3-a1",
+    "putnam-c3-home",
+    "putnam-c3-rules"
+  ],
+  "actualFrozenReadSourceIds": [],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

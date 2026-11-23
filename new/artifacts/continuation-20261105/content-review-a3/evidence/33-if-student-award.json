@@ -1,0 +1,64 @@
+{
+  "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+  "name": "iF DESIGN STUDENT AWARD",
+  "contentDigest": "40000eb9e58b822f2fbfc0326e4dbeab15628ae4fe2d022b9b3edcb215178b8f",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.156354+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+    "previousContentDigest": "ba7f40c58ac3bf61302faa3833782b91e0123d99ee0ff9d712cc68de31f35383",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-if-guide",
+      "url": "https://assets.ctfassets.net/9el74s703hin/mEuiHUwteSLEZbLDQT7VR/c2ca102a428805da3c6d37fdf411d845/iF_DESIGN_STUDENT_AWARD_2025_Entry_Guide_Spanish.pdf",
+      "readingLocation": "A3原PDF5页完整海报视觉；资格/格式/五维标准沿用本人A2同字节阅读",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29.pdf",
+      "sha256": "36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29",
+      "bytes": 787774,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新视觉阅读2025指南5页MASHAV完整海报，修订两件式裙装与通风风帽符合原作，三种气流模式和无实测温降声明准确；五维参考评分、资格/免费报名与制作支出分离、个人机制评读和四周均充分。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-33-resolved",
+      "severity": "major",
+      "description": "本人A2意见：将机制角色、deepDive步骤里的“双层服装/双层衣物”改为原海报明确的“两件式服装（裙装与通风风帽）”，避免把两件部件误读成双层织物或夹层气道；其余已读事实、个人路线及评分可保留。 本轮处理依据：重新视觉阅读2025指南5页MASHAV完整海报，修订两件式裙装与通风风帽符合原作，三种气流模式和无实测温降声明准确；五维参考评分、资格/免费报名与制作支出分离、个人机制评读和四周均充分。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

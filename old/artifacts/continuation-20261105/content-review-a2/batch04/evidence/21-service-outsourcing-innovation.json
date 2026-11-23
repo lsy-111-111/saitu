@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+  "contentDigest": "d047b2f0d152e762e9145b3ffad39b64bae0be77ce48e3d1bcad4b7de039209a",
+  "priorDigest": "fd871bb9225f2c0de0c7780ab338529a0d554036e33c4d3da12ad45289237e84",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 21,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "A11完整具体题和技术阈值有原件，个人实验路线可用；但两手册初赛20/30/30/20均为参考，未获得该题该阶段最终适用评分的证据。重新查看01手册P37与A类手册P176以及目录的仅供参考限定。当前稿准确保留缺口，不能用mAP/Rank-1门槛填补其余评审依据。",
+  "qualificationDecision": "已取得历史参赛资格；这里的L3阻断是评分适用性，不是默认资格不合格。",
+  "retainedUnknowns": [
+    "最终适用评分未核；企业数据与实际达标测试未取得。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "a2-b04-21-l3-gap",
+      "severity": "major",
+      "description": "保留L3阻断：补该届A11适用的正式评审依据或正式确认参考表适用的原件。现有参考分值可作为学习建议，不能当最终评分已核。",
+      "resolved": false
+    }
+  ],
+  "sources": [
+    {
+      "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+      "sourceId": "fwwb-c2-handbooks",
+      "url": "https://www.fwwb.org.cn/attached/file/20260304/20260304135453_573.zip",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8.zip",
+      "sha256": "db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8",
+      "bytes": 6395335,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "ZIP中01参赛手册P37参考评分；03 A类手册P176评分及P3目录仅供参考标记；其他资格保留本人旧阅读",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "ZIP内01参赛手册 PDF P12,P28-P30,P37，成员SHA256 f56fdaccb944367fdc853facc32f44fbe8718d06692b2df4022270832e901dbb",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": null,
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+      "sourceId": "fwwb-c2-a11",
+      "url": "https://www.fwwb.org.cn/topic/show/a00d22f4-b2c3-4456-828a-b3dc18661b0b",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e.html",
+      "sha256": "9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e",
+      "bytes": 28449,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "HTML P1:L16-L71完整命题与达标要求",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "HTML P1:L16-L71完整命题与达标要求",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/fwwb-c2-a11.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "fwwb-c2-a11",
+    "fwwb-c2-handbooks"
+  ],
+  "actualFrozenReadSourceIds": [
+    "fwwb-c2-handbooks",
+    "fwwb-c2-a11"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

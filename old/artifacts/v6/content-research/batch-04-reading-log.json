@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "hackharvard-2026-overview",
+      "url": "https://hackharvard2026.devpost.com/",
+      "locator": "Who can participate、Requirements、Digital Trust和Judging Criteria",
+      "finding": "2026本人现场、公开仓库、四项等权；完整rules403缺口保留"
+    },
+    {
+      "sourceId": "acm-src-chi2026",
+      "url": "https://chi2026.acm.org/authors/student-research-competition/",
+      "locator": "Eligibility、Preparing、Selection、At the Conference、Funding",
+      "finding": "CHI2026本科组、五页稿、三轮独立评分；不混用ASSETS篇幅"
+    },
+    {
+      "sourceId": "smdc-2026-rules",
+      "url": "https://namrc.sme.org/competitions/student-manufacturing-design-competition/",
+      "locator": "Requirements、Process、Judging、Eligibility、Conference Registration",
+      "finding": "2026报告与评审；资格2024春日期口径明确保留待确认"
+    }
+  ]
+}

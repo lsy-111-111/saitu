@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "schneider-go-green:2026:energy-proposal:student-team:global-phase-one:v3",
+  "contentDigest": "5276730b7ca6b3c948f79c5a2215c6c8c79fef1b987503d6f3a8238e7825e6ec",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.021172+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "gogreen-2026-terms",
+    "gogreen-2026-faq"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "gogreen-2026-terms",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/cd242c8b349fd9c8ff279ee588f5f6dc651b39c80d8023ea6ff00822e12c8492.html",
+      "sourceSha256": "cd242c8b349fd9c8ff279ee588f5f6dc651b39c80d8023ea6ff00822e12c8492",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/08-schneider-go-green.json :: fresh HTML lines 26-118,120-182,189-234",
+      "verification": "相关规则原文已读：18至30岁、本研全/非全在读、同学习国家2至4人、个人注册后组队、原创英语及AI边界、首阶段四项标准和前十、无就业商业承诺；PhaseIII30+30分钟与FAQ20分钟不同。"
+    },
+    {
+      "sourceId": "gogreen-2026-faq",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/72180866e73299dd385051fba20ece21d5dd3028871dfad199006255cde83ba5.html",
+      "sourceSha256": "72180866e73299dd385051fba20ece21d5dd3028871dfad199006255cde83ba5",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/08-schneider-go-green.json :: fresh HTML lines 10-106",
+      "verification": "FAQ正文已读，免费报名/全线上、2026年8月28日23:59UTC、首阶段问题/方案/环境社会影响和20分钟决赛。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/08-schneider-go-green.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/08-schneider-go-green.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-08-01",
+      "severity": "major",
+      "description": "严格L3仍仅有开放主题和通用提案要求，workedExample未确定真实社区的完整官方题或可核完整作品；missingForPublication已记录相同缺口。需补足具体案例，不能以通用研究路线替代。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "saitu.independent-content-review.v1",
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "contentDigest": "7977019f221ae6f13863df6337eee5f013a56aabc0554dd10037c041b93c61aa",
+  "originalAuthorAgentId": "/root/continue_catalog",
+  "revisionAuthor": "/root",
+  "reviewerId": "/root/content_corrections_review_a",
+  "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+  "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "verifiedAs": "spawn configuration confirmed by parent; no hidden runtime version claimed"
+  },
+  "humanReadableVerdict": "approved",
+  "contractOutcome": "approved",
+  "completeCandidateRead": true,
+  "readBoundary": "All candidate record fields, not only revisions. All active official facts, historical scope, editorial learning suggestions, unknown boundaries, and worked examples compared with required sources. Imported pending legacy facts explicitly not promoted.",
+  "requiredSourceIds": [
+    "softcup-c2-notice",
+    "softcup-c2-a3"
+  ],
+  "allRequiredSourcesRead": true,
+  "sourceReadingLog": "artifacts/continuation-20261105/content-corrections-independent-a1/source-reading-log.json",
+  "sevenCategoryEvidence": {
+    "task": "官方A3全题支持课程资料、画像、生成、规划闭环；学习效果不凭生成流畅度推定。",
+    "eligibility": "通知二(一)(二)与A3组类支持全日制、本科/研究生/高职、队长+<=2队员+导师、跨校及导师归属/指导组说明。",
+    "track": "A3要求六维画像、五类资源、至少完整一门课程输入；讯飞其他AI工具限制已明确。",
+    "participation": "通知二/三支持网上报名企业题与后续评审；队长限一队。",
+    "deliverables": "A3初赛六项支持PPT、运行代码/数据/配置、<=7min视频、文档、AI Coding及工具协议声明。",
+    "rubric": "A3四项约占35/45/10/10；辅导和效果评估确为可选加分项。",
+    "investment": "通知七全程不收参赛费，决赛食宿自理；A3硬件不限制不等同模型或总费用为零。"
+  },
+  "factAudit": [
+    {
+      "factId": "china-software-cup:legacy:fact:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "china-software-cup:legacy:source:1"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "china-software-cup:legacy:fact:team",
+      "field": "team",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "china-software-cup:legacy:source:1"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "china-software-cup:legacy:fact:mentor",
+      "field": "mentor",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "china-software-cup:legacy:source:1"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "china-software-cup:legacy:fact:fee",
+      "field": "fee",
+      "candidateStatus": "unknown",
+      "assessment": "unknown_retained",
+      "sourceIds": [],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "china-software-cup:v2:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-notice",
+        "softcup-c2-a3"
+      ],
+      "basis": "通知二(一)(二)与A3组类支持全日制、本科/研究生/高职、队长+<=2队员+导师、跨校及导师归属/指导组说明。"
+    },
+    {
+      "factId": "china-software-cup:v2:track",
+      "field": "track",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-a3"
+      ],
+      "basis": "A3要求六维画像、五类资源、至少完整一门课程输入；讯飞其他AI工具限制已明确。"
+    },
+    {
+      "factId": "china-software-cup:v2:participation",
+      "field": "participation",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-notice"
+      ],
+      "basis": "通知二/三支持网上报名企业题与后续评审；队长限一队。"
+    },
+    {
+      "factId": "china-software-cup:v2:deliverables",
+      "field": "deliverables",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-a3"
+      ],
+      "basis": "A3初赛六项支持PPT、运行代码/数据/配置、<=7min视频、文档、AI Coding及工具协议声明。"
+    },
+    {
+      "factId": "china-software-cup:v2:rubric",
+      "field": "rubric",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-a3"
+      ],
+      "basis": "A3四项约占35/45/10/10；辅导和效果评估确为可选加分项。"
+    },
+    {
+      "factId": "china-software-cup:v2:investment",
+      "field": "investment",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "softcup-c2-notice",
+        "softcup-c2-a3"
+      ],
+      "basis": "通知七全程不收参赛费，决赛食宿自理；A3硬件不限制不等同模型或总费用为零。"
+    }
+  ],
+  "deepDiveReview": {
+    "assessed": [
+      "representativeTask",
+      "workedExample.title/origin/sourceBoundary/steps/reviewQuestions",
+      "rubricMapping",
+      "rolePaths",
+      "fourWeekPlan",
+      "exitConditions",
+      "missingForPublication"
+    ],
+    "verdict": "supported as explicitly bounded editorial practice, not official answer, measured success or award promise"
+  },
+  "legacyBoundary": {
+    "pendingLegacyFactIds": [
+      "china-software-cup:legacy:fact:eligibility",
+      "china-software-cup:legacy:fact:team",
+      "china-software-cup:legacy:fact:mentor"
+    ],
+    "notValidated": true,
+    "noActiveEligibilityRuleUsesLegacyFacts": true,
+    "note": "Archived source metadata may remain. Pending old facts are not current/scoped eligibility authority; no approval inheritance or promotion is authorized."
+  },
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "observations": [
+    "All supplied official current/historical facts are historical here; new/current edition eligibility, window and costs still require fresh review.",
+    "Time estimates, personal benefits, roles and trial plans are editorial, with outcomes/recognition not guaranteed."
+  ],
+  "vote": {
+    "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+    "reviewerId": "/root/content_corrections_review_a",
+    "model": "gpt-6-astra",
+    "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+    "contentDigest": "7977019f221ae6f13863df6337eee5f013a56aabc0554dd10037c041b93c61aa",
+    "method": "independent_source_recheck",
+    "sourceIds": [
+      "softcup-c2-notice",
+      "softcup-c2-a3"
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/content-corrections-independent-a1/china-software-cup-review.json",
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": true
+    },
+    "outcome": "approved",
+    "findings": []
+  },
+  "acceptanceBoundary": "Not a 500-atomic formal acceptance, not an unseen challenge result, not publication authorization or canonical ledger mutation."
+}

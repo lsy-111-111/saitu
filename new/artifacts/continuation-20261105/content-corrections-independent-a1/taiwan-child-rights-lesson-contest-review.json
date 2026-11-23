@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "saitu.independent-content-review.v1",
+  "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+  "contentDigest": "510af2a86347c9ff3e1882c3504f648ea7fcba41b72b08d6799c4a783509c57b",
+  "originalAuthorAgentId": "/root/audit_catalog",
+  "revisionAuthor": "/root",
+  "reviewerId": "/root/content_corrections_review_a",
+  "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+  "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "verifiedAs": "spawn configuration confirmed by parent; no hidden runtime version claimed"
+  },
+  "humanReadableVerdict": "needs_revision",
+  "contractOutcome": "changes_requested",
+  "completeCandidateRead": true,
+  "readBoundary": "All candidate record fields, not only revisions. All active official facts, historical scope, editorial learning suggestions, unknown boundaries, and worked examples compared with required sources. Imported pending legacy facts explicitly not promoted.",
+  "requiredSourceIds": [
+    "teach-d3-2023-rules",
+    "teach-d3-children-rights-work"
+  ],
+  "allRequiredSourcesRead": true,
+  "sourceReadingLog": "artifacts/continuation-20261105/content-corrections-independent-a1/source-reading-log.json",
+  "sevenCategoryEvidence": {
+    "task": "第三课教学目标—活动—评价桌面评读有原作品依据；不把获奖等同有效性。",
+    "eligibility": "简章p1、18：台湾幼教学程师资生，1–4人，教师/学生不混；当前资格未知。",
+    "track": "简章p4：完整主题原则4节课；选公开幼教作品而非统一命题。",
+    "participation": "简章p2、5：专家审查且纸本与电子档均须送；历史4/10截止。",
+    "deliverables": "简章p2、4、9–19：幼教主题网+详案、20页、封面及作品材料3份、签署及身份证明；小学架构图未混入。",
+    "rubric": "简章p2–3：内容理念30、教学创新40、评价30，形成/总结及目标相关。",
+    "investment": "简章未列报名费/总成本；p3赠书邮资不能推广。四周2–4小时仅编辑离线读例估计。"
+  },
+  "factAudit": [
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章p1、18：台湾幼教学程师资生，1–4人，教师/学生不混；当前资格未知。"
+    },
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:track",
+      "field": "track",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章p4：完整主题原则4节课；选公开幼教作品而非统一命题。"
+    },
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:participation",
+      "field": "participation",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章p2、5：专家审查且纸本与电子档均须送；历史4/10截止。"
+    },
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:deliverables",
+      "field": "deliverables",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章p2、4、9–19：幼教主题网+详案、20页、封面及作品材料3份、签署及身份证明；小学架构图未混入。"
+    },
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:rubric",
+      "field": "rubric",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章p2–3：内容理念30、教学创新40、评价30，形成/总结及目标相关。"
+    },
+    {
+      "factId": "taiwan-child-rights-lesson-contest:v2:investment",
+      "field": "investment",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "teach-d3-2023-rules"
+      ],
+      "basis": "简章未列报名费/总成本；p3赠书邮资不能推广。四周2–4小时仅编辑离线读例估计。"
+    }
+  ],
+  "deepDiveReview": {
+    "assessed": [
+      "representativeTask",
+      "workedExample.title/origin/sourceBoundary/steps/reviewQuestions",
+      "rubricMapping",
+      "rolePaths",
+      "fourWeekPlan",
+      "exitConditions",
+      "missingForPublication"
+    ],
+    "verdict": "source locator needs correction; pedagogic limitations and no real teaching claims are otherwise sound"
+  },
+  "legacyBoundary": {
+    "pendingLegacyFactIds": [],
+    "notValidated": true,
+    "noActiveEligibilityRuleUsesLegacyFacts": true,
+    "note": "Archived source metadata may remain. Pending old facts are not current/scoped eligibility authority; no approval inheritance or promotion is authorized."
+  },
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": false
+  },
+  "findings": [
+    {
+      "id": "A1-PRESCHOOL-LOCATOR",
+      "severity": "minor",
+      "description": "sevenDayTrial.action 与 sections.nextStep 称只分析第15—16页“查看书包”的情境卡；实际第15页卡牌文字是“未經同意拿別人東西”，第16页只是抽卡绘画记录纸。“打开小华书包来看”的情境在第9页正文。应将练习定位改为第9页情境并对照15—16页评价材料，或使用第15页真实卡牌文字，避免把改编/相近情境说成原卡内容。",
+      "resolved": false
+    },
+    {
+      "id": "A1-PRESCHOOL-VERSION-HISTORY",
+      "severity": "minor",
+      "description": "registration.note称“3月发布”且“早期通知有不同时间”。已读22页PDF给出4月10日截止、5月21日颁奖，路径含2023/03，但没有可核验的正文发布日期或较早通知版本；补充读取的协办方历史页面也只印证这组日期。本轮无法为该版本沿革陈述背书，应补充并核读早期原件/发布日期依据，或删去沿革说法，仅保留已核的历史日期。",
+      "resolved": false
+    }
+  ],
+  "observations": [
+    "All supplied official current/historical facts are historical here; new/current edition eligibility, window and costs still require fresh review.",
+    "Time estimates, personal benefits, roles and trial plans are editorial, with outcomes/recognition not guaranteed.",
+    "Candidate early-notice-different-dates assertion remains uncorroborated by the supplied version and the supplementary current historical page; remove it or provide/read the earlier version. It does not alter the verified 2023-04-10 deadline."
+  ],
+  "vote": {
+    "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+    "reviewerId": "/root/content_corrections_review_a",
+    "model": "gpt-6-astra",
+    "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+    "contentDigest": "510af2a86347c9ff3e1882c3504f648ea7fcba41b72b08d6799c4a783509c57b",
+    "method": "independent_source_recheck",
+    "sourceIds": [
+      "teach-d3-2023-rules",
+      "teach-d3-children-rights-work"
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/content-corrections-independent-a1/taiwan-child-rights-lesson-contest-review.json",
+    "checks": {
+      "factualSupport": false,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": false
+    },
+    "outcome": "changes_requested",
+    "findings": [
+      {
+        "id": "A1-PRESCHOOL-LOCATOR",
+        "severity": "minor",
+        "description": "sevenDayTrial.action 与 sections.nextStep 称只分析第15—16页“查看书包”的情境卡；实际第15页卡牌文字是“未經同意拿別人東西”，第16页只是抽卡绘画记录纸。“打开小华书包来看”的情境在第9页正文。应将练习定位改为第9页情境并对照15—16页评价材料，或使用第15页真实卡牌文字，避免把改编/相近情境说成原卡内容。",
+        "resolved": false
+      },
+      {
+        "id": "A1-PRESCHOOL-VERSION-HISTORY",
+        "severity": "minor",
+        "description": "registration.note称“3月发布”且“早期通知有不同时间”。已读22页PDF给出4月10日截止、5月21日颁奖，路径含2023/03，但没有可核验的正文发布日期或较早通知版本；补充读取的协办方历史页面也只印证这组日期。本轮无法为该版本沿革陈述背书，应补充并核读早期原件/发布日期依据，或删去沿革说法，仅保留已核的历史日期。",
+        "resolved": false
+      }
+    ]
+  },
+  "acceptanceBoundary": "Not a 500-atomic formal acceptance, not an unseen challenge result, not publication authorization or canonical ledger mutation."
+}

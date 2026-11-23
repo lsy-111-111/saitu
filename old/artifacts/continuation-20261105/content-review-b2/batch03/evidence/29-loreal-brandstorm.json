@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "loreal-brandstorm:2026-luxe:future-fragrance:18-30-team:global-local-entry:v3",
+  "contentDigest": "5ea291022708c126c2170ed741781381cac1628a383bfd66671043176cf644c0",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.036966+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-loreal-entry",
+    "b-loreal-brief"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-loreal-entry",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/88c1415a72cb7beea741d55d4382d3ab761dfb9950dbd638aadef07fb164a786.html",
+      "sourceSha256": "88c1415a72cb7beea741d55d4382d3ab761dfb9950dbd638aadef07fb164a786",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/28-loreal-brandstorm.json :: fresh HTML text lines 14-75,95,110,135",
+      "verification": "18—30岁无专业经验要求、三人队、报名提交到地区和国际选拔、按居住或学习地选择赛区，期限因地区不同。"
+    },
+    {
+      "sourceId": "b-loreal-brief",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/706dfaa000191bffa6fde2f05a9020e2b68d199904316f6a9cf638f129fc5c43.pdf",
+      "sourceSha256": "706dfaa000191bffa6fde2f05a9020e2b68d199904316f6a9cf638f129fc5c43",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/28-loreal-brandstorm.json :: PDF pages 2-9; rendered/loreal-p2.png through p9.png",
+      "verification": "完整Mission及其四领域示例、全部Deliverables/Framework和Evaluation已视觉读；3页50MB与3分钟MP4另50MB；项目5项各5分与团队5项5/2/0。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/29-loreal-brandstorm.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/28-loreal-brandstorm.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

@@ -1,0 +1,108 @@
+{
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "name": "BIOMOD国际生物分子设计竞赛",
+  "contentDigest": "992ed11ac2c94ba0ba263dc95e80c6ff22c36fec72bedf6a00bd09838ef20b46",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.203217+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+    "previousContentDigest": "992ed11ac2c94ba0ba263dc95e80c6ff22c36fec72bedf6a00bd09838ef20b46",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "biomod-2023-requirements",
+      "url": "https://biomod.net/requirements/",
+      "readingLocation": "HTML P1:L10-L60团队、费用、交付及诚信",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "bytes": 18173,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "biomod-2023-rubric",
+      "url": "https://biomod.net/jamboree/BIOMOD2023-QuickGuide.pdf",
+      "readingLocation": "PDF P4,P10-P12当届展示和完整评分",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "bytes": 4346686,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "biomod-2023-sendai-project",
+      "url": "https://teamsendai2023.github.io/project.html",
+      "readingLocation": "HTML P1:L31-L203背景至可行性完整正文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "bytes": 23878,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "biomod-2023-sendai-design",
+      "url": "https://teamsendai2023.github.io/design.html",
+      "readingLocation": "HTML P1:L31-L80全部设计正文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "bytes": 16195,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "biomod-2023-sendai-experiment",
+      "url": "https://teamsendai2023.github.io/experiment.html",
+      "readingLocation": "HTML P1:L31-L205实验与讨论全部正文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "bytes": 23924,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "同届完整作品三页面与适用评分支持；替代TMSD锁机制与最终光控功能分清，未把作者推断当独立验证。费用TBD与当届未知边界诚实，12模块、个人证据图、四周/退出充分。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

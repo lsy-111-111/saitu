@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "e208dc54431b3290d2ef8ef1645b2f71fbf07bf95905647aeeb1d9037ee4c4df",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:44:06.190958+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "gcj-2022-3d-task",
+    "gcj-2022-3d-analysis",
+    "google-competitions-farewell"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "gcj-2022-3d-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sourceSha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "actualReadLocator": "PDF全部页面逐页视觉核读：1-2；rendered/03-00-*.png",
+      "verification": "完整正式题面、输入输出、限制、样例及正式判定/评分核对。"
+    },
+    {
+      "sourceId": "gcj-2022-3d-analysis",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sourceSha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "actualReadLocator": "PDF全部页面逐页视觉核读：1；rendered/03-01-*.png",
+      "verification": "官方分析与案例步骤一致；Code Jam列最小值约束/削减，Kick Start子序列双指针。"
+    },
+    {
+      "sourceId": "google-competitions-farewell",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sourceSha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "actualReadLocator": "HTML lines 20-26; extracted/03-02.txt (same SHA shared farewell source)",
+      "verification": "官方2023结束三项系列，历史学习与当前报名明确分离。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置技能、4周路线与退出条件已实际阅读。历史结束状态未误当当届。",
+    "官方解法与编辑拆解未混同参赛成绩。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-03-01",
+      "severity": "major",
+      "description": "完整正式历史任务已核实，但2022适用资格（年龄/地区等）与费用仍未取得原届规则；正文明确未知，不构成错误，却未满足严格L3的资格/投入完整性。补原届规则或保留历史题目学习层级，不因新增系列数量放宽。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Secrets, data, tools and generated output in either snapshot.
+.DS_Store
+._*
+.local/
+.runtime/
+node_modules/
+.next*/
+dist/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
+coverage/
+*.pem
+*.key
+*.p12
+*.pfx
+.cloudbase/
+project.private.config.json
+project.config.json
+# Do not add original archives or database backups.
+*.tar.gz
+*.sql.gz
+*.dump

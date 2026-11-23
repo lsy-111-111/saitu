@@ -1,0 +1,69 @@
+{
+  "recordId": "acm-student-research:2025-chi:hci-education-research:undergraduate:chi-2025-undergrad:v3",
+  "name": "ACM Student Research Competition",
+  "contentDigest": "4428f0dd70aa239dbd8068f41493baec686990309cc0ed999321c4dd32244a74",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.095203+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "acm-student-research:2025-chi:hci-education-research:undergraduate:chi-2025-undergrad:v3",
+    "previousContentDigest": "4428f0dd70aa239dbd8068f41493baec686990309cc0ed999321c4dd32244a74",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "chi-d1-2025-rules",
+      "url": "https://chi2025.acm.org/for-authors/student-research-competition/",
+      "readingLocation": "P1:L93-L205获奖、资格、阶段、交付及评分",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc.html",
+      "sha256": "5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc",
+      "bytes": 73856,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "chi-d1-chemlab-work",
+      "url": "https://kimsieun.com/pdfs/chemlabplanner.pdf",
+      "readingLocation": "6页论文全文文字，P5图7/8视觉阅读",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01.pdf",
+      "sha256": "5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01",
+      "bytes": 2454139,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "62调查、5追访、3试用样本关系和韩国来源准确；三阶段分数不相加，完整原作品有适用官方评分。12模块及四周离线证据分析可执行，不冒称因果/招募/获奖。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

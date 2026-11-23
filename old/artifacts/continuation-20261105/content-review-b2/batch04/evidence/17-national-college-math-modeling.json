@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+  "contentDigest": "0258b9074ee6ffc1ebb36b22a474beff6733a2fc46eff983c8a73a6bf731580a",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.274132+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "cumcm-c-charter",
+    "cumcm-c-format",
+    "cumcm-c-rules",
+    "cumcm-c-problem-a"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "cumcm-c-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923.html",
+      "sourceSha256": "f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/14-national-college-math-modeling.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/13-national-college-math-modeling.json :: fresh HTML text20–59",
+      "verification": "章程完整相关正文，最多3人同校本科/高职、研究生不可、指导限赛前；四项正式定性评分。"
+    },
+    {
+      "sourceId": "cumcm-c-format",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a.html",
+      "sourceSha256": "2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/14-national-college-math-modeling.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/13-national-college-math-modeling.json :: fresh HTML text20–39",
+      "verification": "2026格式完整正文30页，论文与支撑各20MB，可运行代码、匿名和纸电一致。"
+    },
+    {
+      "sourceId": "cumcm-c-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd.html",
+      "sourceSha256": "30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/14-national-college-math-modeling.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/13-national-college-math-modeling.json :: fresh HTML text20–55",
+      "verification": "2026规则完整正文，队外讨论/浏览限制与AI辅助需另守专规。"
+    },
+    {
+      "sourceId": "cumcm-c-problem-a",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241.zip",
+      "sourceSha256": "a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/14-national-college-math-modeling.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/13-national-college-math-modeling.json :: ZIP内A题PDF完整4页；rendered/cumcm-1..4.png逐页视觉阅读；本轮新增实际读取：ZIP内A╠Γ/A╠Γ.pdf全部4页视觉核读；rendered/17-05-p1.png至p4.png",
+      "verification": "全部四问、六表、附录1–4、输出密度和单位已核对；第一问D依赖含水率C，并非所有物性常数。；p3附录2 rho820 cp2600 k.36为常数，D=7e-9exp(-.89/C)变量；p4问题2-4变参数；4问及result1-4交付边界核对。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/14-national-college-math-modeling.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "新步1已区分固定热物性与随含水率变化的扩散系数，常D被标为编辑预练习，原事实误述已修正。附件数据/格式沿用本人已读同SHA记录，本轮不声称再次逐格阅读。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

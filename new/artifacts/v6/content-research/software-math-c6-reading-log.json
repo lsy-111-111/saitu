@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "mathorcup-c6-notice",
+      "url": "https://publicqn.saikr.com/2026/01/23/contest/372f8beb2c317551514ddec3ecf85f011769165504521.pdf",
+      "title": "第十六届MathorCup报名通知原件",
+      "scope": "2026春季资格、组队、费用和提交",
+      "locator": "四页扫描原件全部逐页视觉读取；第1页同校至多3人、第2页200元/队与组别、第3页交付",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "4 scanned pages visually read via view_image; text extraction alone is empty",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed.",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b.pdf",
+      "sha256": "fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b"
+    },
+    {
+      "sourceId": "mathorcup-c6-rules",
+      "url": "https://publicqn.saikr.com/2026/02/04/contest/4fe02d5fa102b54d7afd4ecc5d8ae09b1770173060028.pdf",
+      "title": "2026年执行MathorCup竞赛章程",
+      "scope": "2026春季规则与定性评审标准",
+      "locator": "完整PDF第1—2页，第二条评审与第三条纪律；不是2024旧章程",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed.",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e.pdf",
+      "sha256": "982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e"
+    },
+    {
+      "sourceId": "mathorcup-c6-d",
+      "url": "https://www.mathorcup.org/uploads/files/20260417/1776438403640865.zip",
+      "title": "2026 D题更正版及附件",
+      "scope": "2026春季D题完整题干与更正后附件1",
+      "locator": "ZIP内D题PDF全部两页；附件1.docx全表和约束已读，附件2未做求解或测试",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Complete corrected 2-page D task and docx attachment 1 read. Counts 800/1000/300/400/500; dimensions, loads, direction, support, 3cm headroom, vehicle fees all read. No solver run and no claims about attachment2 performance.",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a.zip",
+      "sha256": "d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a"
+    },
+    {
+      "sourceId": "mathorcup-c6-correction",
+      "url": "https://www.mathorcup.org/detail/2488",
+      "title": "D赛题信息修改通知",
+      "scope": "2026 D题目标和数量更正",
+      "locator": "正文三处更正及更正版附件链接",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "mathorcup-c6-ai",
+      "url": "https://publicqn.saikr.com/2026/02/04/contest/4fe02d5fa102b54d7afd4ecc5d8ae09b1770173065606.pdf",
+      "title": "人工智能工具使用规定（试行）",
+      "scope": "2026春季AI辅助和独立完成声明",
+      "locator": "PDF全文，二至六部分使用与支撑材料要求",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed.",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb.pdf",
+      "sha256": "a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb"
+    },
+    {
+      "sourceId": "yau-c6-rules",
+      "url": "https://www.yau-contest.com/page-rule.html",
+      "title": "2026参赛规则",
+      "scope": "2026全球本科资格、个人与团体规则",
+      "locator": "2026规则、报名方式、日程和考点正文全部已读",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "yau-c6-assessment",
+      "url": "https://www.yau-contest.com/page-assessment.html",
+      "title": "考核方式",
+      "scope": "当前笔试、复核与面试流程；不倒填2011",
+      "locator": "笔试、申诉、面试三节全文",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "yau-c6-2011",
+      "url": "https://www.yau-contest.com/index/reldown?id=9",
+      "title": "2010—2026历年笔试真题官方包",
+      "scope": "2011代数个人赛第6题与作答要求",
+      "locator": "ZIP内2010-2026历年笔试真题/2011/4.Algebra-Individual-2011.pdf完整两页；第1页无证明不计分，第2页第6题",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official body read; original PDF/archive members inspected with pypdf or XML in memory",
+      "finding": "Complete 2011 Algebra paper pp1–2 read. Q6 is order150 not simple. No-proof-no-credit appears on p1. Proof in catalog is editor derived, not claimed official solution.",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d.zip",
+      "sha256": "f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d"
+    }
+  ]
+}

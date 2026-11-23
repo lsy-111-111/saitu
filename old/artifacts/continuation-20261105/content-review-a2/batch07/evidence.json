@@ -1,0 +1,148 @@
+{
+  "runId": "a2-batch07-20261105T203530Z-b504cf63",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:35:30.116141+00:00",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "1fdceafabc295f6511e92b50f9c9a4c938fbc72187dd5e4688fdf9425d2f13de",
+  "authorAgentId": "/root",
+  "manifestSha256": "1a31dd6b87f9ea8cf6b13e18845f0647d73fea975734459e41ca6bf8ab0d7cc9",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-07/records.json",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b07-week3-specificity",
+      "severity": "major",
+      "description": "第三周完成标准由泛化的所有断言可复算改为三官方样例、零容量、总上限恰差1、多解与失败反例，明确可核验产物；属于编辑学习验收，不宣称官方新增评分或已经通过官方评测。",
+      "resolved": true
+    }
+  ],
+  "reviewScope": "独立窄复审；机械完整比较确认仅authorAgentId和第三周completionCheck变化。当前四周全部行动/标准实际读过，原题/分析及官方告别原件本轮重读；其余已实际读过的相同正文依据本人的batch06阅读保留，不冒称本轮重新全文阅读全部模块。",
+  "priorOwnReadingEvidence": "artifacts/continuation-20261105/content-review-a2/batch06/evidence/0-google-code-jam.json",
+  "priorApprovalInherited": false,
+  "contentDifferenceArtifact": "artifacts/continuation-20261105/content-review-a2/batch07/content-diff.json",
+  "assessment": "新第三周标准不只是凑长度，明确输入集合、逐约束断言、多解判定和失败证据。原题P2已有共同上限999999的无解例、多个合法第三例输出和总量过大的反例，0容量也是合法输入；因此标准与官方规则一致且是编辑提出的练习验收。四周依旧先读输入再证明构造、校验、独立重写，步骤衔接合理。",
+  "sources": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/statement.pdf",
+      "path": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "bytes": 76327,
+      "origin": "frozen_batch_07",
+      "freshSemanticRead": true,
+      "readingLocation": "本轮原PDF P1—2全文文字与视觉；P1非负/逐台上界/恰100万/多解；P2三个原例、0容量合法与反例",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch07/extractions/gcj-2022-3d-task.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch07/visual/gcj-2022-3d-task-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch07/visual/gcj-2022-3d-task-p2.png"
+      ],
+      "sameBytesAsOwnBatch06Reading": true
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-analysis",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/analysis.pdf",
+      "path": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "bytes": 49406,
+      "origin": "frozen_batch_07",
+      "freshSemanticRead": true,
+      "readingLocation": "本轮原PDF P1全文文字与视觉；逐色min、总上限不足无解、足够时削减不变量",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch07/extractions/gcj-2022-3d-analysis.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch07/visual/gcj-2022-3d-analysis-p1.png"
+      ],
+      "sameBytesAsOwnBatch06Reading": true
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "path": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "origin": "frozen_batch_07",
+      "freshSemanticRead": true,
+      "readingLocation": "本轮原HTML L19—30文章正文，结束赛事和持续归档供题目学习",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch07/extractions/google-competitions-farewell.txt",
+      "visualArtifactsActuallyRead": [],
+      "sameBytesAsOwnBatch06Reading": true
+    }
+  ],
+  "sampleBoundaryArtifact": "artifacts/continuation-20261105/content-review-a2/batch07/sample-boundary-check.json",
+  "completionCheckLengths": [
+    {
+      "week": 1,
+      "length": 15,
+      "atLeast8": true
+    },
+    {
+      "week": 2,
+      "length": 10,
+      "atLeast8": true
+    },
+    {
+      "week": 3,
+      "length": 42,
+      "atLeast8": true
+    },
+    {
+      "week": 4,
+      "length": 14,
+      "atLeast8": true
+    }
+  ],
+  "approvalScope": "仅历史公开学习型L3；完整历史资格/费用、当前报名与官方成绩均未确认",
+  "retainedUnknownEligibility": {
+    "id": "google-code-jam:v2:eligibility.historical-rules",
+    "field": "eligibility.historical-rules",
+    "text": "2022年龄、地域及雇佣关系等完整资格条款未取得；公开读题不证明历史或当前参赛资格。",
+    "kind": "unknown",
+    "status": "unknown",
+    "sourceIds": [],
+    "sourceScopes": [],
+    "scope": "2022历史报名资格资料缺口；仅供公开题学习，不确认历史或当前报名条件",
+    "checkedAt": null,
+    "supersedes": [],
+    "conflictsWith": [],
+    "entity": {
+      "editionId": "2022",
+      "trackId": "qualification-3d-printing",
+      "groupId": "historical-public-task",
+      "scopeId": "qualification-3d-printing-2022"
+    },
+    "validFrom": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "validUntil": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "retrievedAt": null,
+    "lastVerifiedAt": null,
+    "reviewStatus": "pending_review"
+  },
+  "strictParticipationCoverageIncrement": 0,
+  "currentRegistrationConfirmed": false,
+  "limitations": [
+    "未执行学生代码或官方旧判题环境；本地算术核验不是官方通过。",
+    "原资格、历史费用和分值未知保持未知；没有新增报名资格。",
+    "未读取B意见、作者包外修复说明或私有题；root是本次作者，我独立审核。共享FS仅流程独立。"
+  ],
+  "productOrLedgerModified": false,
+  "networkAcquisitions": []
+}

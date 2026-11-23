@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+  "contentDigest": "6620bbf6c76d756d5d3e2084baff7cad0babb8736b16a6b7154aff3f16db0784",
+  "priorDigest": "03f846a46a4755dc986400c2b51d078ac289b0875b1aeb3beefbc7b8056c0694",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 43,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "2023完整官方指南及P23五项定性关注点真实；新稿并未新增具体项目原作。复核P4/P22—23及现有四步后，案例仍是选价值链、访谈、商业/影响模型和路演的通用流程，没有完整具体项目的约束、决策与结果链。本人A4把开放挑战指南本身视作足够具体，按严格案例要求重新判断该接受过宽；不修改旧记录，本摘要保留阻断。",
+  "qualificationDecision": "2023指南3—5校园学生组队不足以证明完整历史法律资格；本稿也没有当前报名用途。主要L3阻断为具体案例缺失，未知资格不被本审查升级。",
+  "retainedUnknowns": [
+    "具体完整项目/作品、数字评分卡及正式上传条件未取得。",
+    "完整资格与费用未知，不视为免费或可报名。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "a2-b04-43-l3-gap",
+      "severity": "major",
+      "description": "补一个完整公开具体项目/作品或足够具体的完整命题拆解，逐项连接方案选择、验证证据和适用定性评分；通用商业策划步骤不能充作完整案例。",
+      "resolved": false
+    }
+  ],
+  "sources": [
+    {
+      "recordId": "hult-prize:2023-fashion:sustainable-fashion:campus-3-5:global-2023-guide:v3",
+      "sourceId": "b-hult-guide",
+      "url": "https://a.storyblok.com/f/133195/x/c87070884e/2023-hult-prize-challenge.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32.pdf",
+      "sha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+      "bytes": 12789453,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P4、P22—23任务与五项定性关注点文字重新对读；完整指南保留本人旧阅读",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a4/reading-log.json",
+      "priorReadingLocation": "本轮重读PDF P23五项定性评委关注点并实际视觉核验；完整任务P1—23沿用本人同SHA的A2/A3阅读",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/b-hult-guide.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": [
+        "artifacts/continuation-20261105/content-review-a4/b-hult-guide-p23.png"
+      ]
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "b-hult-guide"
+  ],
+  "actualFrozenReadSourceIds": [
+    "b-hult-guide"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

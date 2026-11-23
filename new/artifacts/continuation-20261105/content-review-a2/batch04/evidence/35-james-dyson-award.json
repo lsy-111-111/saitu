@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "james-dyson-award:2025-global:engineering-design:students-recent-graduates:2025-national-review:v3",
+  "contentDigest": "76907f2ade5b7a3fdf40bb920f07b7624319adea8e93b9db709cd363642355a1",
+  "priorDigest": "448a5becbb7fd9a5cd1be0e0a5258c32dad9b0abd35c5d466ded27d19e3aa209",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 35,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "冻结包仍无bloc完整原作页面/图像或2025完整资格与上传条款，来源标unavailable。本人旧官方公告阅读仅支持基本方向、截止和评审维度，不能独立支撑作品完整过程。新稿如实增加缺口，不能据此视为补证完成。",
+  "qualificationDecision": "即便只作历史学习，当前条目缺完整具体作品，且正式资格/上传范围未知，不能批准严格L3。",
+  "retainedUnknowns": [
+    "原作事实、完整资格和上传限制原件缺失。",
+    "报名费用和个人总投入未知。"
+  ],
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "a2-b04-35-l3-gap",
+      "severity": "major",
+      "description": "取得bloc完整原作图文及2025完整资格、提交规格原件并重审；保留L3阻断，不把学校简介或作者断言当完整作品。",
+      "resolved": false
+    }
+  ],
+  "sources": [],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [
+    {
+      "sourceId": "b-dyson-rule",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "readingLocation": "官方web L116—140，当年征集、7月16截止及国家四维评审",
+      "frozenOriginalBytes": false,
+      "freshRead": false
+    }
+  ],
+  "requiredSourceIds": [
+    "b-dyson-bloc",
+    "b-dyson-rule"
+  ],
+  "actualFrozenReadSourceIds": [],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

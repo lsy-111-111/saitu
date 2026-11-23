@@ -1,0 +1,58 @@
+{
+  "recordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+  "name": "全国大学生机械创新设计大赛",
+  "contentDigest": "a25fafc4e0e73e390890454ea2248aea240112e68f264960a3ca310e263d289c",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "mechanical-2026-notice",
+      "url": "https://12umic.hit.edu.cn/2025/0321/c20012a364782/page.htm",
+      "readingLocation": "P1:L30-L49资格、交付、赛期、赛区报名费",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395.html",
+      "sha256": "ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395",
+      "bytes": 31921
+    },
+    {
+      "sourceId": "mechanical-2026-instructions",
+      "url": "https://jdxy.hsu.edu.cn/_upload/article/files/40/1f/feb2c7904f029972f37b54785c30/0a272ab2-669f-41ab-9f19-eb143648a954.pdf",
+      "readingLocation": "P1:L7-L24完整叶菜题；P2:L10-L30适用综合评分；P3-P5条件、费用、赛制、图纸、样机",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3.pdf",
+      "sha256": "3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3",
+      "bytes": 623338
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "严格区分叶菜与家庭厨房/根茎花、蝴蝶60/40评分；批量清理称重包装的具体任务、综合评价原文充分。12模块与个人机构/试验证据、四周及资源退出均可操作。verified_current限定2026文档，registration明确关闭且不外推2027；未知个人总成本未写零。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

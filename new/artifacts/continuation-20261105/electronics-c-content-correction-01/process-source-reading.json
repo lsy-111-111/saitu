@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.researched-source-reading.v1",
+  "author": "/root",
+  "readAt": "2026-11-06T01:13:36.432831+00:00",
+  "independentReview": false,
+  "source": {
+    "sourceId": "electronics-2025-national-process",
+    "url": "https://www.nuedc-training.com.cn/index/news/details/new_id/333",
+    "finalUrl": "https://www.nuedc-training.com.cn/index/news/details/new_id/333",
+    "retrievedAt": "2026-11-05T20:14:07.412819+00:00",
+    "captureKind": "original_document_bytes",
+    "sourceArtifact": "artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6.html",
+    "sourceByteSha256": "475d1535735e13bb89bf4c67d7e5e1efbc6d7882f6e7fc69822dde4a5f0937d6",
+    "bodyArtifact": "artifacts/v6/content-research/frozen-source-text/legacy-original-20261106/83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50.txt",
+    "bodySha256": "83955ebea94d69485a219828fc25cead6c30ceb34cb79103066359ccf0d8db50",
+    "characters": 10270,
+    "extractionMethod": "existing verified raw HTML and decoded text of national organizing process; no synthetic edits",
+    "status": "body_available_not_verified",
+    "independentReview": false
+  },
+  "notes": [
+    "阅读全文核2025学校统一组织、三人及全程规则、封存清单、赛区和全国复测流程；综合测评对象为被赛区推荐全国评奖队伍，不是所有参赛队。",
+    "当届全国说明所列指定发题网站包括上海、陕西赛区。",
+    "原旧库来源字段保留待核状态；来源相同不使错误的2026元数据或C题专属范围成立。"
+  ]
+}

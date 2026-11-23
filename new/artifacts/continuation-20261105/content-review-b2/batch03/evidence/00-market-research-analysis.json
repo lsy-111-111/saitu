@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "market-research-analysis:edition-d1b2c1bf1daf:undergraduate-practice:group-78fd9199138e:scope-8e1db2092033:v3",
+  "contentDigest": "9f031289a1583cb8cd9eb61236240db7fe94fdbfa87c32cf5bb5497ac6fbc99c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:34:33.157681+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "market-czu-2027"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "market-czu-2027",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/45f2d01e9e699b86447489e9913220c1ad1b576a387709b529b037d47dcbbec7.html",
+      "sourceSha256": "45f2d01e9e699b86447489e9913220c1ad1b576a387709b529b037d47dcbbec7",
+      "actualReadLocator": "batch02 freshly extracted HTML 00-01.txt lines 53–134；batch03同SHA",
+      "verification": "完整常州工学院2026–2027第17届通知已读，同校3–5全日制/知识赛门槛、校10月25日与全国10月31日区分、网考30元、实践流程与待后续细则。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块/角色/四周/退出沿用本人batch01阅读；新增全日制与新原件独立核对。未知不视为通过，不要求作者臆造资料。"
+  ],
+  "incompleteSources": [
+    "market-cau-case-2026"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-00-01",
+      "severity": "major",
+      "description": "原理与流程已有原件，但market-cau-case-2026仍无对应原始字节；并且仅公开摘要，缺完整报告/调查资料及本届实践评分，严格L3不通过。",
+      "resolved": false
+    }
+  ]
+}

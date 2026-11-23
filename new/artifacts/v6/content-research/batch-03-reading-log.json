@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "method": "actual_web_tool_body_read",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "imc-2026-info",
+      "url": "https://imc-math.org.uk/?item=info&year=2026",
+      "locator": "Overview正文36—45行",
+      "finding": "2026在读学年与现场限制；只采用历史届次"
+    },
+    {
+      "sourceId": "imc-2026-day1",
+      "url": "https://imc-math.org.uk/archive/problems/2026/IMC_2026_Day_1_Problems.pdf",
+      "locator": "PDF第1页第1题及文末数学公式",
+      "finding": "实际题目cos(cos x)=sin(sin x)无实根"
+    },
+    {
+      "sourceId": "imc-2026-day1-marking",
+      "url": "https://imc-math.org.uk/archive/problems/2026/IMC_2026_Day_1_Marking_Schemes.pdf",
+      "locator": "PDF第1页Problem 1三种解法及分步给分",
+      "finding": "已读第1题完整分步评分与三种证明路线"
+    },
+    {
+      "sourceId": "newblood-2027-essential",
+      "url": "https://media.dandad.org/documents/NBA27-essential-info-271026.pdf",
+      "locator": "PDF第1页资格与团队；第2页Craft judging",
+      "finding": "2027学生资格、五人团队与Craft评分优先级"
+    },
+    {
+      "sourceId": "newblood-2027-submission",
+      "url": "https://media.dandad.org/documents/NBA27-preparing-your-entries-271026.pdf",
+      "locator": "PDF第1页Title、Main vs optional、匿名；第2页文件规格",
+      "finding": "2027主材料、匿名与文件要求；具体brief需另核"
+    },
+    {
+      "sourceId": "newblood-2027-faq",
+      "url": "https://www.dandad.org/awards/new-blood-awards/faqs",
+      "locator": "Eligibility、entry、teams、judging；70—173行",
+      "finding": "费用与准备阶段；公开典礼日期不一致不采用"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "engineering-practice-innovation:2025-national:solar-mechanical-car:undergraduate:china-2025-solar:v3",
+  "contentDigest": "e23b9b16f3ff19d139c963f1a9694c7590266df2bd452b40b98628e486f83f52",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:37:01.527302+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "engineering-2025-notice",
+    "engineering-2025-solar-task",
+    "engineering-2025-solar-score"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "engineering-2025-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777.pdf",
+      "sourceSha256": "9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777",
+      "actualReadLocator": "PDF pages 2-3; rendered/solar-2-2.png and -3.png",
+      "verification": "Visually read general fulltime enrolled undergraduate, normally 3-4 students up to2 mentors, one event each, school/provincial/national route."
+    },
+    {
+      "sourceId": "engineering-2025-solar-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc.pdf",
+      "sourceSha256": "5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc",
+      "actualReadLocator": "PDF pages 1-9 of 16; rendered/solar-3-01.png through -09.png",
+      "verification": "Visually read complete solar section including dimensions, single motor/mechanical steering, UID/light/audio, energy meter wiring, 16-point diagram/table and preliminary10points, all onsite manufacture and replacement conditions. Pages10-16 concern other energy event and were not read."
+    },
+    {
+      "sourceId": "engineering-2025-solar-score",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f.pdf",
+      "sourceSha256": "a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f",
+      "actualReadLocator": "PDF all9pages; rendered/solar-4-1.png through -9.png",
+      "verification": "Visually read full published score: preliminary20/10/70 and30/20/20; final20/10/70 and40/10/20; distance diagrams and formulas, order errors, 20secondstop, 3minround, replacement/charging penalties, meanpower formula, onsite future subcriteria."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "All12 modules, individualroles, prerequisites, fourweek and exit reviewed. Complete official engineering task and formal stage scoring support learning route.",
+    "UID pass-through does not require deliberate stopping; manuscript correctly avoids invented stopping condition. Energy exercise compares equal work rather than suggesting less travel wins.",
+    "Future onsite detail and innovation subcriteria explicitly unknown, early notice not proof of actual schedule; fees/individual responsibility not invented.",
+    "No physical build or experiment performed by reviewer; approval concerns evidence-backed historical content only."
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

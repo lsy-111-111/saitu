@@ -1,0 +1,112 @@
+{
+  "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+  "name": "全国大学生电子设计竞赛",
+  "contentDigest": "8786b33e50b62846e1da5588624f516d0c3485ab520779b6c536e5c9fa8f981c",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.190464+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+    "previousContentDigest": "8786b33e50b62846e1da5588624f516d0c3485ab520779b6c536e5c9fa8f981c",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "electronics-2025-main-notice",
+      "url": "https://hnedc.hnie.edu.cn/__local/0/0D/80/FD1C067B95F5F7BF3968A58D3D5_331E6B71_D7CEE.pdf",
+      "readingLocation": "PDF P2-P6设备、报名、队伍、评审与费用全文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+      "sha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69",
+      "bytes": 883950,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "electronics-2025-c-task",
+      "url": "https://res.nuedc-training.com.cn/topic/2025/topic_122.html",
+      "readingLocation": "HTML标题及六幅原题图全文：任务、基本/发挥、限制、误差/5秒及报告20+基本50+发挥50；详见additionalArtifacts",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94.html",
+      "sha256": "8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94",
+      "bytes": 39404,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507301945.png",
+      "sha256": "80147a5b6cfce8594fbaa36e82b01a714bfec3a4bcefe382549b957f3baf787a",
+      "bytes": 135349,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507302336.png",
+      "sha256": "1c3c481d52523634430d6752daf0bb6830252bde66a12ac1ed5460ff4c41622e",
+      "bytes": 126967,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507302774.png",
+      "sha256": "6ce280f315fa9225e746a60758199338fabf545b969a7a82aff65c47bc8400e0",
+      "bytes": 93843,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507303262.png",
+      "sha256": "d7225ca6e1771e4a049929ca0a9377e2a60ce6bee0f1f6be3475ca917c247b59",
+      "bytes": 85951,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507306564.png",
+      "sha256": "9ae2dfb121e24f65a097c5827f963ee66a440473c01d14a50a9bf67c1e95b621",
+      "bytes": 222858,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/tmp/research-sources/topic_202507309022.png",
+      "sha256": "f6067888b003e0ca32c8c9637b94dd08c9cef41b55d724b8332aa7c4be776b50",
+      "bytes": 124047,
+      "read": "完整视觉阅读",
+      "semanticReadingBasis": "Own A2 complete visual reading retained; frozen bytes revalidated in batch02"
+    }
+  ],
+  "assessment": "六图补读确认120分、固定单目、电流测量、禁PC/成品模块、误差和时间限制；历史赛期和学校费用支持。12模块、个人测量证据及四周退出具体。原先未读图像缺口已由本次实际重读解除。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

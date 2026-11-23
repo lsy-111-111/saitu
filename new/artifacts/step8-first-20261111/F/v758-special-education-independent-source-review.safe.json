@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "saitu.catalog.independent-source-recheck.v1",
+  "candidate": "v758",
+  "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+  "recordAuthor": "/root/audit_catalog",
+  "reviewerId": "/root/f_resume",
+  "runId": "codex-v758-f-special-education-source-90fef876a419",
+  "reviewedAt": "2026-11-11T19:07:03.181Z",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "outcome": "approved",
+  "contentDigest": "90fef876a419307024b5d79f63035164f17be8f55684eff9413c4222245339b5",
+  "canonicalRecordSha256": "c80790245c557a1b266d3204bc269be733e9e377b8cbae4ce2b9927f1f293635",
+  "matchingCoreDigest": "2f85ab5669b35abdd4fa0ea05d43786de4f893fc82dec5aa7afca53d52edd022",
+  "recordSnapshot": {
+    "path": "artifacts/step8-first-20261111/C/v758-catalog-source-review-input-r2.safe.json",
+    "sha256": "f7e3ba4866fcfac02d3d739bfd4fe3809c7b5e3b097d663e16f04a8e5f016778",
+    "pointer": "/specialEducation/record"
+  },
+  "sources": [
+    {
+      "sourceId": "teach-d2-2017-rules",
+      "path": "artifacts/v6/content-research/source-byte-snapshots/b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152.pdf",
+      "sha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+      "scope": "105学年度简章",
+      "locators": [
+        "PDF全3页",
+        "第1页甄选说明，普通教育课纲调整及特殊需求主题范围"
+      ]
+    },
+    {
+      "sourceId": "teach-d2-official-work",
+      "path": "artifacts/v6/content-research/frozen-source-text/31e51fb403e5a1291ffc6a56de748f3cbe730623a8b25263b0f36465f0dbbc39.txt",
+      "sha256": "31e51fb403e5a1291ffc6a56de748f3cbe730623a8b25263b0f36465f0dbbc39",
+      "locators": [
+        "第303–305行105学年度师资生组归档身份"
+      ]
+    },
+    {
+      "sourceId": "teach-d2-roaming-lesson",
+      "path": "artifacts/v6/content-research/source-byte-snapshots/253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe.pdf",
+      "sha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe",
+      "scope": "完整公开作者教案",
+      "locators": [
+        "PDF第14–17页第三节教学准备、识字与阅读目标、活动及评量；仅核对教案结构，不摘录个体测评"
+      ]
+    }
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "scopeFindings": [
+    {
+      "fields": [
+        "track.name",
+        "facts.v2:track",
+        "sections.track",
+        "summary",
+        "deepDive.workedExample.sourceBoundary"
+      ],
+      "sourceIds": [
+        "teach-d2-2017-rules",
+        "teach-d2-official-work",
+        "teach-d2-roaming-lesson"
+      ],
+      "locator": "简章物理PDF第1页甄选说明，承办方同届师资生组归档第303–305行，教案物理PDF第14–17页。已查看简章第1页及教案活动表第16页版面",
+      "finding": "简章规定普通教育课纲调整和特殊需求活动范围。阅读与识字是公开历史作品《漫游古都》的教案主题。新目录名明确这项区别，规则事实只引简章，作者案例分别归档与原件，原track.id与recordId保留。"
+    },
+    {
+      "fields": [
+        "eligibilityRules",
+        "facts.v2:eligibility",
+        "facts.v2:participation",
+        "facts.v2:deliverables",
+        "facts.v2:rubric",
+        "facts.v2:investment",
+        "registration"
+      ],
+      "sourceIds": [
+        "teach-d2-2017-rules"
+      ],
+      "locator": "简章物理PDF第1–3页，已逐页查看",
+      "finding": "师资生组为指定特教类科或学程，每件最多4人。初赛教案40分钟、视频15分钟，匿名纸本与装有Word/PDF和视频的光盘分别四份，原则上每组6件入决赛，现场演示12分钟。四评分项10/30/40/20，参赛者自备教具耗材，交通补助视经费。2017日期按该届简章，未给当前资格、时间或费用承诺。"
+    },
+    {
+      "fields": [
+        "deepDive.representativeTask",
+        "deepDive.workedExample",
+        "deepDive.rubricMapping",
+        "deepDive.rolePaths",
+        "deepDive.fourWeekPlan",
+        "sections.benefits",
+        "sevenDayTrial",
+        "suitability"
+      ],
+      "sourceIds": [
+        "teach-d2-2017-rules",
+        "teach-d2-official-work",
+        "teach-d2-roaming-lesson"
+      ],
+      "locator": "官方作品归档师资生组第二名，作者教案第14–17页第三节，简章第2页评分表",
+      "finding": "第三节学习目标和活动、口头/实作/纸笔评量均有原件，第三节40分钟方案与四节框架区分。提示下表现、独立掌握、观察反馈和推断效果分开。四周评读属于编辑建议，不转述儿童个体测评、执行真人教学或声称因果疗效。正式资格和收益由原规则及适用条件判断。"
+    }
+  ],
+  "metadata": {
+    "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+    "coreDigest": "2f85ab5669b35abdd4fa0ea05d43786de4f893fc82dec5aa7afca53d52edd022",
+    "metadataDigest": "c5396152401082e0546788f654178ef7f8b407a8f070e4339ae19920f3e64176",
+    "officialEntry": {
+      "url": "https://www.ncyu.edu.tw/cset/",
+      "title": "國立嘉義大學特殊教育教學研究中心官方主页",
+      "publisher": "國立嘉義大學特殊教育教學研究中心",
+      "checkedAt": "2026-11-08",
+      "sourceId": "v7-landing:ncyu-special-education-demonstration",
+      "kind": "official_host_website",
+      "evidenceArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/additional-homepage-author-evidence.json"
+    },
+    "sourceEvidence": {
+      "raw": {
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.bytes",
+        "sha256": "74f9ae9cfbe1d62e11413f43f3f74587d244fc7a089c69f149d757375575d437"
+      },
+      "body": {
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-captures/dd3c87a6802ac73c8329.txt",
+        "sha256": "4416f5d8996ff9ccac1418d5091d2fdaaec3c97e1ab65e4c33a958d6a22fa415"
+      },
+      "url": "https://www.ncyu.edu.tw/cset/",
+      "ownerIdentitySource": "teach-d2-2017-rules PDF第1页主办／承办机构"
+    },
+    "review": {
+      "reviewerId": "/root/f_resume",
+      "runId": "codex-v758-f-special-education-homepage-c53961524010",
+      "reviewedAt": "2026-11-11T19:07:03.181Z",
+      "metadataDigest": "c5396152401082e0546788f654178ef7f8b407a8f070e4339ae19920f3e64176",
+      "evidenceArtifact": "artifacts/step8-first-20261111/F/v758-special-education-independent-source-review.safe.json",
+      "outcome": "approved"
+    },
+    "finding": "网页快照标题与正文均为國立嘉義大學特殊教育教學研究中心。同一单位在简章第1页为承办者，公开主页可作入口。没有据主页新增可报名、目前届次或稳定学段。"
+  },
+  "verifiedSourceSnapshotCount": 3,
+  "paidProviderCalls": 0,
+  "ledgerWrite": false
+}

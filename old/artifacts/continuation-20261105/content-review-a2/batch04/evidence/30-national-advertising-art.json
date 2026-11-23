@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+  "contentDigest": "bd469e0ef1bf56a98b1e07421c6c9d4c5f341f80f01e25f0613720e59e194639",
+  "priorDigest": "557af1582406dffd971536ca1c6d8a45d2e0b7d7ea452d3a427d73eaefeb537b",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 30,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "完整阿里云命题与全国投稿规则有据，邵阳2026校赛P4的30/30/30/10真实，但其P1范围是该校，不能证明全国阿里云平面路径适用的正式评审。当前稿保留该全国评分缺口。本人A4曾接受明确参考评分作为L3；本轮重新对所标全国路径的适用性核查，认为该接受过宽，应保留严格L3阻断，旧A4记录不修改。",
+  "qualificationDecision": "全国平面资格和人数规则有原件；邵阳校赛资格不外推全国或其他学校。",
+  "retainedUnknowns": [
+    "全国评分及读者所在学校适用评分未知。",
+    "工具、制作及其他支出不等于免费。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "a2-b04-30-l3-gap",
+      "severity": "major",
+      "description": "补全国阿里云平面路径适用评审原件，或将正文与实体范围实质限定到有适用评分的路径后重新冻结；邵阳校赛参考不得关闭全国评分缺口。",
+      "resolved": false
+    }
+  ],
+  "sources": [
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-rules",
+      "url": "https://www.sun-ada.net/home/about_intrs2.html",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "bytes": 90038,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "A3 P1:L185—213投稿人数及奖项；未发现实际评分",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a4/reading-log.json",
+      "priorReadingLocation": "A3 P1:L185—213投稿人数及奖项；未发现实际评分",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/b-ad-rules.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-task",
+      "url": "https://www.sun-ada.net/home/zt_xqs3026.html",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "bytes": 64469,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "本人A2完整命题沿用，A3核任务要求与评分缺口",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a4/reading-log.json",
+      "priorReadingLocation": "本人A2完整命题沿用，A3核任务要求与评分缺口",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/b-ad-task.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-shaoyang-2026-reference",
+      "url": "https://www.syzyedu.com/Uploads/202606/6a338bf15e345.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb.pdf",
+      "sha256": "7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb",
+      "bytes": 164339,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "本轮PDF1—5页全文抽取阅读；P1校赛和本校范围，P4四项权重实际视觉阅读，P5日期/AIGC要求",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a4/reading-log.json",
+      "priorReadingLocation": "本轮PDF1—5页全文抽取阅读；P1校赛和本校范围，P4四项权重实际视觉阅读，P5日期/AIGC要求",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/b-ad-shaoyang-2026-reference.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": [
+        "artifacts/continuation-20261105/content-review-a4/b-ad-shaoyang-2026-reference-p4.png"
+      ]
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "b-ad-rules",
+    "b-ad-shaoyang-2026-reference",
+    "b-ad-task"
+  ],
+  "actualFrozenReadSourceIds": [
+    "b-ad-rules",
+    "b-ad-task",
+    "b-ad-shaoyang-2026-reference"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

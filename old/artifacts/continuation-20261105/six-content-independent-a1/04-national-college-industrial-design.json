@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "changes_requested",
+    "contentDigest": "59596e5ef139d7d43d9e16e8d07d8aa82a720f5321ce5fcca72e0a37740d30f3",
+    "sourceIds": [
+      "b-industrial-rule",
+      "b-industrial-work"
+    ],
+    "checks": {
+      "factualSupport": false,
+      "entityScope": false,
+      "studentUsefulness": false,
+      "temporalAccuracy": true
+    },
+    "findings": [
+      {
+        "id": "A-ID-01",
+        "severity": "major",
+        "description": "范围/重要遗漏；track.name、sections.track 和 facts.track。现将“产品与使用系统设计”列成赛道名，只告知Empty是学习展板、不认定黑龙江参赛。省赛通知p2–3实际分类含B服务与系统、D时尚与生活等，并没有这个题名；图仅能证明作品和作者。请明确该名字为编辑学习主题，另交代省赛实际分类，不代原作认定其正式类别。",
+        "resolved": false
+      },
+      {
+        "id": "A-ID-02",
+        "severity": "major",
+        "description": "依据绑定错误；valueDimensions.governance.assessment.factIds指向v2:track，其唯一来源为b-industrial-work全国作品转载，却将该链接说明为黑龙江规则发布单位；应链接b-industrial-rule支持的事实（如eligibility或rubric），组织名称以PDF封面“黑龙江省普通高等学校创新创业教育指导委员会”为准。",
+        "resolved": false
+      }
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/04-national-college-industrial-design.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "b-industrial-rule",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/ee/e4/13a9400d4b9189d376c73be3b166/e8624474-d7df-46aa-9343-ad9ba91ff0bf.pdf",
+      "independentlyRead": "省赛通知p1–2组织单位、全日制对象及以学校为单位集体报名；p2–3的 A智慧与体验、B服务与系统、C文化与社会、D时尚与生活、E健康与环保、F专项赛是文件分类。p3–4网上报名、作者上传、纵向1089×841毫米JPG/150dpi/≤5M、单独说明、学校汇总；p4有曾推荐往届全国赛作品不准再报。p5–6有35件推荐与表现形式、创造性、实用性、经济性、环保性五维，无数值配比。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+          "sha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026.txt",
+          "sha256": "61ba7a0943df39d14209c2dfd3ba59e318da0a6b3168cdffaff7442bd5bb4026"
+        }
+      ]
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "url": "https://www.gdep.edu.cn/__local/7/DB/0D/045B0FC787464C7A103EAE08495_1FD490AC_7AB15B.pdf",
+      "independentlyRead": "《导读》PDF第44页/印刷42目检完整银奖展板及放大细节：Empty、作品号06B107796、沈阳理工大学；可抽出灶部，滑动冰箱、展开下部支架与侧桌板，画面为设计展示。下方有人物画像、不同配色。不能从转载图推断黑龙江区参赛、评分、已点火、尺寸、重量或实测性能。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+          "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5.txt",
+          "sha256": "98179d27f796aced3a91bb6b1ce81970266f7dcd94d53d16ff351800bba8cbe5"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "以图版检验结构与维护",
+    "eligibility": "全日制、按校组织",
+    "track": "讲的是作品与练习，未标清学习标签与正式类别见发现",
+    "participation": "网上报名、个人上传及学校汇总",
+    "deliverables": "纵向JPG、另交说明，符合p3–4",
+    "rubric": "五维只作跨区评读，不认定原作成绩",
+    "skills": "纸模运动和重心可检查",
+    "investment": "非燃料模型工时估计，费未核",
+    "difficulty": "区分视觉概念与工程测试",
+    "benefits": "不把渲染验证为安全",
+    "value": "治理来源绑定错误见发现；作品价值有界",
+    "nextStep": "四步动作图/纸模，尺寸未知明确保留"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

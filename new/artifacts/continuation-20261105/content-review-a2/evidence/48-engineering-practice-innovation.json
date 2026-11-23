@@ -1,0 +1,68 @@
+{
+  "recordId": "engineering-practice-innovation:2025-national:solar-mechanical-car:undergraduate:china-2025-solar:v3",
+  "name": "中国大学生工程实践与创新能力大赛",
+  "contentDigest": "e23b9b16f3ff19d139c963f1a9694c7590266df2bd452b40b98628e486f83f52",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "engineering-2025-notice",
+      "url": "https://metc.ahpu.edu.cn/_upload/article/files/92/8a/5ddb18124a64b313f7c8b5b9c79f/7c26b85c-f310-4d89-aada-3dea0dadfe36.pdf",
+      "readingLocation": "PDF P1-P3预通知及资格三级赛制",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777.pdf",
+      "sha256": "9a44d1778ba5924c3560061905e5e1ff3a1249a8d382a9a62ce5a1b5b183b777",
+      "bytes": 845654
+    },
+    {
+      "sourceId": "engineering-2025-solar-task",
+      "url": "https://aao.nuaa.edu.cn/_upload/article/files/02/ff/a4420c074e5999e610a8c98ccc5d/0ed54600-6b11-44ce-8486-44f64040253b.pdf",
+      "readingLocation": "PDF P1-P9太阳能赛项全文",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc.pdf",
+      "sha256": "5d09e00391ffa987440eb869866b48fb0ffc6fe7d1f38a78fa094c7a7af76cdc",
+      "bytes": 491536
+    },
+    {
+      "sourceId": "engineering-2025-solar-score",
+      "url": "https://metc.ahpu.edu.cn/_upload/article/files/92/8a/5ddb18124a64b313f7c8b5b9c79f/e49d9f67-b295-4053-87eb-23330c932a78.pdf",
+      "readingLocation": "PDF P1-P9完整评分规则",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f.pdf",
+      "sha256": "a12a16d77d474b2787064ac8e5c534ac1d94811e914a96cb4b2ce9e045a7461f",
+      "bytes": 394210
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "具体机械转向/单驱动/UID任务完整，初决赛20/10/70及运行分项准确，现场替换明确。未把预通知预计时间写实际；12模块、个人重复轨迹与同工况比较、四周退出可执行。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

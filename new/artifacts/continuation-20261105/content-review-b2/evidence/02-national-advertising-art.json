@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-advertising-art:edition-8a08b7777f9d:graphic:group-78fd9199138e:scope-6e32b3157c92:v3",
+  "contentDigest": "24a8288d2ecde205c51fa1238aeceb8a233ad75ab1f844f2511085e1778dcb63",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:39:49.212118+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "advertising-guide-2026",
+    "advertising-aliyun-brief-2026"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "advertising-guide-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sourceSha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "actualReadLocator": "same-URL frozen original as record26 source2; extracted/26-02.txt lines57-88,155-212",
+      "verification": "旧sourceId与b-ad-rules URL完全相同，使用本冻结包该原件实际复读资格、平面规格、通道、匿名和收费；不是继承其作者/审者结论。"
+    },
+    {
+      "sourceId": "advertising-aliyun-brief-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sourceSha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "actualReadLocator": "same-URL frozen original as record26 source3; extracted/26-03.txt lines50-143",
+      "verification": "旧sourceId与b-ad-task URL完全相同；具体阿里云命题、受众、AI工具、自拟口号、A3竖版均复读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周、退出已读。",
+    "更正初步原件库存判断：本条独立sources条目未附原件，但通过同URL跨记录查找找到冻结原件，现已实际读完相关正文，因此不再以缺原件拒绝。",
+    "未读素材网盘；没有对字体、图像素材许可给出已核验结论。",
+    "对官方要求和编辑建议的区分正确；费用/当前报名未知保持未知。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-02-01",
+      "severity": "major",
+      "description": "rubric模块仍明确unknown，deepDive.rubricMapping只有编辑建议、requirementMapping为命题约束，尚无适用正式评审依据。不能把已读完整命题或创作要求当已完成正式评分核验，需补相应依据后再审严格L3。",
+      "resolved": false
+    }
+  ]
+}

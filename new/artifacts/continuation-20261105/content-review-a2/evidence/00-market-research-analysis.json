@@ -1,0 +1,57 @@
+{
+  "recordId": "market-research-analysis:edition-d1b2c1bf1daf:undergraduate-practice:group-78fd9199138e:scope-8e1db2092033:v3",
+  "name": "全国大学生市场调查与分析大赛",
+  "contentDigest": "96f15c13625d1890a62face808c9bdc006c75fee3fd6501783e1a448e2c5327b",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "catalog-author-v6",
+    "currentRecordAuthorAgentId": "catalog-author-v6",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "catalog-author-v6"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "market-czu-2027",
+      "url": "https://www.czu.cn/2026/1008/c6a178011/page.htm",
+      "readingLocation": "本次原站HTML L53—135全文",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/market-czu-2027.html",
+      "sha256": "45f2d01e9e699b86447489e9913220c1ad1b576a387709b529b037d47dcbbec7",
+      "bytes": 48570,
+      "retrievedAt": "2026-11-05T16:48:25.632451+00:00"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "本科知识赛及同校3—5人、流程支持；原文全日制限制未明确带入正文。案例仅摘要，缺原报告和评分，尚不能实质核验深度内容。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-00-01",
+      "severity": "major",
+      "description": "补充完整报告及适用评分，并补全全日制条件；学校摘要不能替代完整作品。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

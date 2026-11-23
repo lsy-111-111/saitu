@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "contentDigest": "51dbd5d3f40743b3aaae685030958f4d8c23ca488f5eaf447076ad7e464c79c1",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.057999+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "smartcar-2025-outdoor-ros"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "smartcar-2025-outdoor-ros",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e.pdf",
+      "sourceSha256": "ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/49-smart-car.json :: PDF all pages 1-14; rendered/smartcar-01..14.png",
+      "verification": "Full visual read: 2025 July 20th outdoor ROS higher-education, two laps and on-site barrier mapping, all course diagrams/dimensions, 80/20 score and penalties, manual 5 cases with 4-point rubric, students 2-5 full-time and mentors 1-2, online contingency video/source, designated versus recommended equipment discrepancy."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/50-smart-car.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/49-smart-car.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

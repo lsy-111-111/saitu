@@ -1,0 +1,157 @@
+{
+  "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+  "name": "IMA校园管理会计案例大赛",
+  "contentDigest": "ab5a9332cd7c170ae6c8ff4e8ca0b2a85055299c28cfa11e34b0816ac2c1b6d9",
+  "priorOwnA3ContentDigest": "0249cc89916b37fd097e1629821a3cedbf01ba00df3dd1ee113a6dad777a3601",
+  "runId": "a4-gpt6astra-20261105T182253Z-981b858ce5be",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T18:22:53.582097+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+    "previousContentDigest": "0249cc89916b37fd097e1629821a3cedbf01ba00df3dd1ee113a6dad777a3601",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "sourceReads": [
+    {
+      "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+      "sourceId": "b-ima-rules",
+      "url": "https://casecompetition.imachina.org.cn/details/100.html",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee.html",
+      "sha256": "637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee",
+      "bytes": 56672,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3 P1:L94—140资格及超过5队校内选拔",
+      "readingLocation": "本轮自原HTML抽取L103—181；L105—108资格，L118/125超过5队，L152—156校内选拔",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-ima-rules.txt",
+      "visuallyReadArtifacts": []
+    },
+    {
+      "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+      "sourceId": "b-ima-delivery",
+      "url": "https://casecompetition.imachina.org.cn/details/102.html",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566.html",
+      "sha256": "1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566",
+      "bytes": 56223,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "P1:L94-L131区域赛上传和扣分规则",
+      "readingLocation": "本轮自原HTML抽取L103—196；L124日期，L126—161全员/20分钟/15MB/匿名及处罚",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-ima-delivery.txt",
+      "visuallyReadArtifacts": []
+    },
+    {
+      "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+      "sourceId": "b-ima-case",
+      "url": "https://casecompetition.imachina.org.cn/Uploads/Picture/2026/10/27/u6ae04e27dbd7d.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7.pdf",
+      "sha256": "8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7",
+      "bytes": 718653,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "PDF六页完整案例、数据与三个问题",
+      "readingLocation": "PDF六页完整案例、数据与三个问题",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    },
+    {
+      "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+      "sourceId": "b-ima-16-handbook",
+      "url": "https://casecompetition.imachina.org.cn/details/136.html",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/9c4e624bc63ae1167992886dcf0d49893f718c46b73bbcc987a351a1394e6819.pdf",
+      "sha256": "9c4e624bc63ae1167992886dcf0d49893f718c46b73bbcc987a351a1394e6819",
+      "bytes": 27549641,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": false,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "readingLocation": "本轮PDF1—9页抽取阅读；P5/P6实际视觉核数字与日期，P6满足5支与网页超过5支差异",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-ima-16-handbook.txt",
+      "visuallyReadArtifacts": [
+        "artifacts/continuation-20261105/content-review-a4/b-ima-16-handbook-p5.png",
+        "artifacts/continuation-20261105/content-review-a4/b-ima-16-handbook-p6.png"
+      ]
+    },
+    {
+      "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+      "sourceId": "b-ima-fourth-reference-rubric",
+      "url": "https://ck.zjgsu.edu.cn/_upload/article/files/27/da/d1ca938a4887a39eca6f400d13a0/4f89c4a4-e777-4a9e-86c8-3fdf5451bbe1.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c3a7c470bebb3c8fdf3fe088a7d9675ae1808541abeee8b510147afcb6bdf1fe.pdf",
+      "sha256": "c3a7c470bebb3c8fdf3fe088a7d9675ae1808541abeee8b510147afcb6bdf1fe",
+      "bytes": 3597524,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": false,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "readingLocation": "本轮只语义阅读PDF P1/P7/P8/P9；P1/P8实际视觉确认2013—2014第四届及初赛70/30分表；未宣称读完22页",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-ima-fourth-reference-rubric.txt",
+      "visuallyReadArtifacts": [
+        "artifacts/continuation-20261105/content-review-a4/b-ima-fourth-reference-rubric-p1.png",
+        "artifacts/continuation-20261105/content-review-a4/b-ima-fourth-reference-rubric-p8.png"
+      ]
+    }
+  ],
+  "assessment": "原六页第十六届碳投资案例、现行参赛规则与提交要求的原字节全部保持一致；本轮重读规则网页和提交要求，并阅读第十六届手册9页，图像确认3—5同校组队、每校5名额、日期和校内选拔。官网写超过5队，手册写满足5队，当前稿保留恰好5队边界未知。新增第四届2013—2014官方手册P8初赛案例分析70与文稿30分，已视觉核实P1届次及P8评分表。当前稿明确跨届历史初赛参考，不把旧提交格式、会员要求或权重套入第十六届。财务公式核验、AI审查、个人贡献、四周及退出均具体，满足有真实完整任务和明确参考评分的L3。",
+  "retainedUnknowns": [
+    "第十六届正式内容评分权重和具体合规扣分值仍未取得，第四届初赛70/30仅用于训练。",
+    "同校恰好5队是否必须校内赛存在原文差异；读者本校区域赛推荐资格仍待确认。",
+    "本轮读到手册免费参赛，但现稿旧费用事实仍pending；不能推定交通、工具等总投入为零。"
+  ],
+  "scopeReviewed": [
+    "当前冻结摘要与所有差异",
+    "12决策模块及具体任务",
+    "完整原题/公开原作与正式或明确参考评分",
+    "个人路线和贡献证据",
+    "四周完成条件与退出条件",
+    "费用、资格、届次及赛区范围"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A4-31-01",
+      "severity": "major",
+      "description": "原缺可用内容评分尺度的缺口已补第四届初赛参考，并明确年份/阶段；恰好5队冲突已保留为待确认，不作已核资格硬条件。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "priorOwnEvidenceArtifact": "artifacts/continuation-20261105/content-review-a3/evidence/31-ima-management-accounting.json",
+  "readingLocationConvention": "A4 HTML为本人自冻结原件抽取L序号；PDF为原件物理页，P#:L#在抽取文件可定位；图像阅读单列。",
+  "limitations": [
+    "本批准只针对当前contentDigest的L3准备内容，不是当前报名资格、得分、中奖或安全性能保证。",
+    "保留pending/unknown事实，不把requires_confirmation占位或validator通过当作事实已核。",
+    "AI独立阅读；未进行人审。流程独立共享文件系统，不宣称技术权限隔离。"
+  ]
+}

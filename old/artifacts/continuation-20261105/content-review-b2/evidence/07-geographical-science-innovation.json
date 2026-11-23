@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "geographical-science-innovation:2026-9:human-geography:human-geography:china-preliminary:v3",
+  "contentDigest": "2e5e5a1362679056a6f45cd0277cb2b844d32993ed8e06a110c53fc6b85d6a2e",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:34:13.802158+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [],
+  "sourceEvidence": [],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、空间调查与科学展示两角色、资源及前置、四周验收、退出内容已读。",
+    "费用明确是每件300元且决赛另计，语义边界谨慎；但原件未提供，不能确认支持。"
+  ],
+  "incompleteSources": [
+    "geography-2026-notice"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-07-01",
+      "severity": "major",
+      "description": "geography-2026-notice没有冻结sourceArtifact/frozenIndex；本次无法独立核验本科院系资格、件数、300元初审费、时间及匿名视频要求。应提供原件，不接受作者body_read标签替代。",
+      "resolved": false
+    },
+    {
+      "id": "B2-07-02",
+      "severity": "major",
+      "description": "严格L3具体案例缺失：仅开放主题“地理分异与因地制宜”及编辑选题流程，没有具体完整官方题或完整公开作品。",
+      "resolved": false
+    }
+  ]
+}

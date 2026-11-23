@@ -1,0 +1,90 @@
+{
+  "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+  "name": "CCF大学生计算机系统与程序设计竞赛",
+  "contentDigest": "ae6daaaa46df44a0041f9e957282882098ac088b1a7d3228bb8f0203496d5e44",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.143612+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+    "previousContentDigest": "7031fd5649d2f80ea96e147907d48932cf71b1c2d32255d72c608e7d542c5b01",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "ccsp-c4-notice",
+      "url": "https://ccsp.ccf.org.cn/ccsp/Bulletin/2025-09-15/848571.shtml",
+      "readingLocation": "A3 P1:L62—115竞赛方式、个人登记、CSP资格及收费；未找到独立作答明示条款",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d.html",
+      "sha256": "edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d",
+      "bytes": 98513,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "ccsp-c4-archive",
+      "url": "https://ccsp.ccf.org.cn/ccsp/bkzq/zlxz/",
+      "readingLocation": "2025下载与版权原段",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723.html",
+      "sha256": "55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723",
+      "bytes": 56811,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "ccsp-c4-xor",
+      "url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=F43386642EF7A3E5563DD082AC261ED3E17E72083F2FC299A3BD8AB50C7B6EC4",
+      "readingLocation": "原ZIP内题面PDF P1-P3，innerSHA=8be3b9a9a92224c2d4281cbd3272b0bf3b281b03000ace8ccb553852494404c6",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6.zip",
+      "sha256": "dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6",
+      "bytes": 63732368,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "2025通知的个人登记、个人排名、机考与CSP条件重新核实；新事实明示独立作答条款仍待核，但结构化teamSize=1仍作eq硬条件并引用该pending事实，证据与决策强度不一致。完整XOR题、算法说明与训练路线其余成立。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-22-01",
+      "severity": "major",
+      "description": "为teamSize=1/独立作答补明确当届原规则；未取得前将硬筛选降为requires_confirmation，避免用pending事实作已确认排除条件。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+  "contentDigest": "8786b33e50b62846e1da5588624f516d0c3485ab520779b6c536e5c9fa8f981c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.054924+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "electronics-2025-main-notice",
+    "electronics-2025-c-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "electronics-2025-main-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+      "sourceSha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/47-national-college-electronic-design.json :: PDF pages 2-6; rendered/electronics-notice-p2.png through p6.png",
+      "verification": "已视觉读：正式学籍全日制本专科、三人队、本科题跨组选题、7月30日至8月2日、封存脱机、禁止队外交流、综合测评和赛区费由学校支付。"
+    },
+    {
+      "sourceId": "electronics-2025-c-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94.html",
+      "sourceSha256": "8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/47-national-college-electronic-design.json :: HTML lines 40-45 + all six original task PNGs topic_202507301945/3262/2336/6564/9022/2774.png",
+      "verification": "已视觉读全部六图：系统结构与单目任务、基本三图形及电流5%误差、发挥复杂目标/编号/角度/功耗、设备与场地限制、5秒和两档误差、正式评分报告20基本50发挥50。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/48-national-college-electronic-design.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/47-national-college-electronic-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

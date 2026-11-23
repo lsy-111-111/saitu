@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "approved",
+    "contentDigest": "fd38a8e7cf3a2ef2162520425adbe6e15226333a887aa439f2eeca09f5f4b212",
+    "sourceIds": [
+      "smartcar-2025-outdoor-ros"
+    ],
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": true
+    },
+    "findings": [],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/06-smart-car.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "smartcar-2025-outdoor-ros",
+      "url": "https://www.smartcar.zone/upload/files/2025/9/%E8%B5%9B%E9%A1%B9%E4%B8%80-%E5%AE%A4%E5%A4%96ROS%E6%97%A0%E4%BA%BA%E8%BD%A6%E8%B5%9B%EF%BC%88%E9%AB%98%E6%95%99%E7%BB%84%EF%BC%89%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99.pdf",
+      "independentlyRead": "14页规则封面明确2025年7月第二十届室外ROS高教组。p2–6图1–8：两圈，红灯区两圈均停3秒，第二圈按A/B停车，五处现场随机挡板须上地图。p7–8表及公式：80分相对有效用时转换，不等于绝对秒数得分；有效用时首圈30%+次圈70%+罚时；停车失败+20s、未现场建图+50s、停超10s本次失败、ROS1罚100s。手册20，至少5例，超5择优；复现性这个评分子项满分1。p8–12全日制专/本/研，2–5人、1–2导师，线下每队提交一次源码和手册，线上另加三视角和赛道测量视频，p10–12测量图核实。p9 §3.2统一指定，p13 §4.3统一推荐HW-autocar，p13–14配置表见ROS2 Humble等；不能推出任意兼容设备可用，也不能据此强制购买。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e.pdf",
+          "sha256": "ec9874d1f3dca0f0e4b8514ddf9608bc3712b8e77d0c4073dff09deba23a638e"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/855483e03addded6e6bdde21f4036eba53e6d91c65fb1ad19bfa4ae1a6035014.txt",
+          "sha256": "855483e03addded6e6bdde21f4036eba53e6d91c65fb1ad19bfa4ae1a6035014"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "两圈状态机与地图闭环",
+    "eligibility": "学生、导师界限准确",
+    "track": "首圈新建图、次圈识别停车",
+    "participation": "线下自主、线上材料区分",
+    "deliverables": "源码与手册，提交次数、ROS2有据",
+    "rubric": "80/20与罚时/任务失败区分",
+    "skills": "定位和视觉测试产物可重做",
+    "investment": "设备型号的原文冲突在不确定性明确披露，整体费用未核",
+    "difficulty": "不把未停车等同取消资格",
+    "benefits": "以日志与复现表现个人工程能力",
+    "value": "无学校和录取承诺",
+    "nextStep": "换障碍位置验证地图，仿真独立标注"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

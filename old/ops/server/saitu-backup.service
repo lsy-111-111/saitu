@@ -1,0 +1,10 @@
+[Unit]
+Description=Saitu daily local database and configuration backup
+After=postgresql.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/resume-ai/current/scripts/server/backup.sh
+UMask=0077
+PrivateTmp=true
+ProtectHome=true

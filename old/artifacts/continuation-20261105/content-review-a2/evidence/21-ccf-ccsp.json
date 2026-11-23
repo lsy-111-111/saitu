@@ -1,0 +1,68 @@
+{
+  "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+  "name": "CCF大学生计算机系统与程序设计竞赛",
+  "contentDigest": "7031fd5649d2f80ea96e147907d48932cf71b1c2d32255d72c608e7d542c5b01",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "ccsp-c4-notice",
+      "url": "https://ccsp.ccf.org.cn/ccsp/Bulletin/2025-09-15/848571.shtml",
+      "readingLocation": "P1:L62-L113",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d.html",
+      "sha256": "edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d",
+      "bytes": 98513
+    },
+    {
+      "sourceId": "ccsp-c4-archive",
+      "url": "https://ccsp.ccf.org.cn/ccsp/bkzq/zlxz/",
+      "readingLocation": "2025下载与版权原段",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723.html",
+      "sha256": "55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723",
+      "bytes": 56811
+    },
+    {
+      "sourceId": "ccsp-c4-xor",
+      "url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=F43386642EF7A3E5563DD082AC261ED3E17E72083F2FC299A3BD8AB50C7B6EC4",
+      "readingLocation": "原ZIP内题面PDF P1-P3，innerSHA=8be3b9a9a92224c2d4281cbd3272b0bf3b281b03000ace8ccb553852494404c6",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6.zip",
+      "sha256": "dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6",
+      "bytes": 63732368
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "递增对目标、31位、稳定分组与平局0均正确；CSP33-39/200分不保证名额及不退款精确。12模块、独立个人训练四周及退出完整。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

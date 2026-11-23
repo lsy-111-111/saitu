@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "future-designer-ncda:2026-14-yiwu:portable-brush:university-students:china-yiwu-9c1d:v3",
+  "contentDigest": "5a20488a5e14c032932fe9e64f966436ee4f4dea9944b47f93926191ac20315a",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.035880+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ncda-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ncda-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd.html",
+      "sourceSha256": "281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/27-future-designer-ncda.json :: fresh HTML text lines 10-137",
+      "verification": "完整网页任务、参与条件、作品提交、晋级、正式评审和知识产权已读；网页9C1D列管口16/12/7.3mm、手柄2—5元、多功能5—8元。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/28-future-designer-ncda.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/27-future-designer-ncda.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "作者明确新增完整企业PPT缺失，原缺口仍未解决，维持严格L3不通过。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-28-01",
+      "severity": "major",
+      "description": "严格L3完整官方题的范围仍有缺口：网页第33行明确“设计要求详见素材下载”，第136—137行指向企业设计要求PPT及课件；冻结包没有这些资料，稿件也承认详细企业素材未完整读取。现有网页能支持所写事实和正式评审，但不足以证实所选9C1D完整任务要求已读。请补入该企业对应设计要求并核对，或保留较低内容层级。",
+      "resolved": false
+    }
+  ]
+}

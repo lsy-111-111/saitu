@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "saitu.independent-content-review.v1",
+  "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+  "contentDigest": "86f051b573e13a0a93a1045a86acf5c8b4a1134517f5687239fbb4ae447855bf",
+  "originalAuthorAgentId": "/root",
+  "revisionAuthor": "/root",
+  "reviewerId": "/root/content_corrections_review_a",
+  "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+  "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "verifiedAs": "spawn configuration confirmed by parent; no hidden runtime version claimed"
+  },
+  "humanReadableVerdict": "approved",
+  "contractOutcome": "approved",
+  "completeCandidateRead": true,
+  "readBoundary": "All candidate record fields, not only revisions. All active official facts, historical scope, editorial learning suggestions, unknown boundaries, and worked examples compared with required sources. Imported pending legacy facts explicitly not promoted.",
+  "requiredSourceIds": [
+    "smartcar-2025-outdoor-ros"
+  ],
+  "allRequiredSourcesRead": true,
+  "sourceReadingLog": "artifacts/continuation-20261105/content-corrections-independent-a1/source-reading-log.json",
+  "sevenCategoryEvidence": {
+    "task": "p2–6两圈建图/导航、随机板、停车牌与每次红灯3秒相符；仿真/实测分开。",
+    "eligibility": "p8–9全日制专科本科研究生，2–5学生、1–2导师；线下不同队不得同设备。",
+    "track": "2025第二十届室外ROS高教组，与室内/职教/下一届区分。",
+    "participation": "p9线下自主运行并展示地图；p10–12只有无法线下时线上且额外三机位和测量视频。",
+    "deliverables": "p9线下仍提交源码+手册ZIP至指定网盘且一次；p7至少五案例、p8 ROS2/ROS1罚100秒均支持。",
+    "rubric": "p7–8运行80/手册20、T=0.3第一圈+0.7第二圈+罚时、案例四项每项1分与最多4分支持。",
+    "investment": "p9指定与p13推荐措辞冲突确实存在；型号替代/整套设备/报名及差旅未知保留，不承诺低成本。"
+  },
+  "factAudit": [
+    {
+      "factId": "smart-car:legacy:fact:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "smart-car:legacy:source:2"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "smart-car:legacy:fact:team",
+      "field": "team",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "smart-car:legacy:source:2"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "smart-car:legacy:fact:mentor",
+      "field": "mentor",
+      "candidateStatus": "pending_review",
+      "assessment": "not_approved_legacy_pending",
+      "sourceIds": [
+        "smart-car:legacy:source:2"
+      ],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "smart-car:legacy:fact:fee",
+      "field": "fee",
+      "candidateStatus": "unknown",
+      "assessment": "unknown_retained",
+      "sourceIds": [],
+      "basis": "Legacy pending historical residue was read in candidate but its source was not rechecked and it is not used by this record’s active sections or eligibility rules. It must remain quarantined; this approval is not a backfill of it."
+    },
+    {
+      "factId": "smart-car:v2:eligibility",
+      "field": "eligibility",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "basis": "p8–9全日制专科本科研究生，2–5学生、1–2导师；线下不同队不得同设备。"
+    },
+    {
+      "factId": "smart-car:v2:track",
+      "field": "track",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "basis": "2025第二十届室外ROS高教组，与室内/职教/下一届区分。"
+    },
+    {
+      "factId": "smart-car:v2:participation",
+      "field": "participation",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "basis": "p9线下自主运行并展示地图；p10–12只有无法线下时线上且额外三机位和测量视频。"
+    },
+    {
+      "factId": "smart-car:v2:deliverables",
+      "field": "deliverables",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "basis": "p9线下仍提交源码+手册ZIP至指定网盘且一次；p7至少五案例、p8 ROS2/ROS1罚100秒均支持。"
+    },
+    {
+      "factId": "smart-car:v2:rubric",
+      "field": "rubric",
+      "candidateStatus": "historical",
+      "assessment": "supported",
+      "sourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "basis": "p7–8运行80/手册20、T=0.3第一圈+0.7第二圈+罚时、案例四项每项1分与最多4分支持。"
+    }
+  ],
+  "deepDiveReview": {
+    "assessed": [
+      "representativeTask",
+      "workedExample.title/origin/sourceBoundary/steps/reviewQuestions",
+      "rubricMapping",
+      "rolePaths",
+      "fourWeekPlan",
+      "exitConditions",
+      "missingForPublication"
+    ],
+    "verdict": "supported as explicitly bounded editorial practice, not official answer, measured success or award promise"
+  },
+  "legacyBoundary": {
+    "pendingLegacyFactIds": [
+      "smart-car:legacy:fact:eligibility",
+      "smart-car:legacy:fact:team",
+      "smart-car:legacy:fact:mentor"
+    ],
+    "notValidated": true,
+    "noActiveEligibilityRuleUsesLegacyFacts": true,
+    "note": "Archived source metadata may remain. Pending old facts are not current/scoped eligibility authority; no approval inheritance or promotion is authorized."
+  },
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "observations": [
+    "All supplied official current/historical facts are historical here; new/current edition eligibility, window and costs still require fresh review.",
+    "Time estimates, personal benefits, roles and trial plans are editorial, with outcomes/recognition not guaranteed."
+  ],
+  "vote": {
+    "runId": "content-corrections-independent-a1-2026-11-06-00068ab6-1eea-4202-b550-648da3565557",
+    "reviewerId": "/root/content_corrections_review_a",
+    "model": "gpt-6-astra",
+    "reviewedAt": "2026-11-06T00:48:00.109094+00:00",
+    "contentDigest": "86f051b573e13a0a93a1045a86acf5c8b4a1134517f5687239fbb4ae447855bf",
+    "method": "independent_source_recheck",
+    "sourceIds": [
+      "smartcar-2025-outdoor-ros"
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/content-corrections-independent-a1/smart-car-review.json",
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": true,
+      "temporalAccuracy": true
+    },
+    "outcome": "approved",
+    "findings": []
+  },
+  "acceptanceBoundary": "Not a 500-atomic formal acceptance, not an unseen challenge result, not publication authorization or canonical ledger mutation."
+}

@@ -1,0 +1,63 @@
+{
+  "recordId": "geographical-science-innovation:2026-9:human-geography:human-geography:china-preliminary:v3",
+  "name": "全国大学生地理科技创新大赛",
+  "contentDigest": "2e5e5a1362679056a6f45cd0277cb2b844d32993ed8e06a110c53fc6b85d6a2e",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.096119+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "geographical-science-innovation:2026-9:human-geography:human-geography:china-preliminary:v3",
+    "previousContentDigest": "2e5e5a1362679056a6f45cd0277cb2b844d32993ed8e06a110c53fc6b85d6a2e",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "geography-2026-notice",
+      "url": "https://www.gsc.org.cn/gsc/xueshuDetail.html?contentId=2318&id=56",
+      "readingLocation": "本次原站HTML L87—123全文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/c2bea03bcfd75c65cdc84d347c041b84f09788d5cf3364f702807f37ce9414ac.html",
+      "sha256": "c2bea03bcfd75c65cdc84d347c041b84f09788d5cf3364f702807f37ce9414ac",
+      "bytes": 29876,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "初审范围、格式、函评和300元及决赛未知费用有证据，但只有开放主题与编辑通用练习。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-07-01",
+      "severity": "major",
+      "description": "补完整具体官方任务或完整公开作品及适用评分；地理分异主题本身不满足严格案例。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

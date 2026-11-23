@@ -1,0 +1,85 @@
+{
+  "recordId": "mathorcup:2026-16:d-three-dimensional-packing:undergraduate-d:china-spring-d-2026:v3",
+  "name": "MathorCup数学应用挑战赛",
+  "contentDigest": "cbecf87a950818117154b326cb0b01c2ded90a608c459096f47a278e4117cdd5",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "mathorcup-c6-notice",
+      "url": "https://publicqn.saikr.com/2026/01/23/contest/372f8beb2c317551514ddec3ecf85f011769165504521.pdf",
+      "readingLocation": "扫描原件4页全部视觉阅读，mathorcup-notice-1/2/3/4.png",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b.pdf",
+      "sha256": "fa0f98e05373260c7a3beae0637ff73c0f24fe5ec1dafecae4c220cadb1b656b",
+      "bytes": 477431
+    },
+    {
+      "sourceId": "mathorcup-c6-rules",
+      "url": "https://publicqn.saikr.com/2026/02/04/contest/4fe02d5fa102b54d7afd4ecc5d8ae09b1770173060028.pdf",
+      "readingLocation": "PDF两页全部",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e.pdf",
+      "sha256": "982c9c62cbf5f7e2b7ca0c390fc804ac8629a7f91400bffbd177c62245d9060e",
+      "bytes": 157945
+    },
+    {
+      "sourceId": "mathorcup-c6-d",
+      "url": "https://www.mathorcup.org/uploads/files/20260417/1776438403640865.zip",
+      "readingLocation": "ZIP内D题PDF三页完整（SHA=33a0cabb68a4318cb77006f72053a57c4c3805a812905d4ee8125abb8c67094d）；附件1 DOCX全约束和表（SHA=c5043af544588fe5183a1785364b5c69dfda4d9d7706444d0375263f631115d0）",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a.zip",
+      "sha256": "d417f99dd790d576b89f9c7b8b0fd7ba22ff324414884f801c07431b0e2a039a",
+      "bytes": 156307
+    },
+    {
+      "sourceId": "mathorcup-c6-correction",
+      "url": "https://www.mathorcup.org/detail/2488",
+      "readingLocation": "P1:L31-L38三处正式更正",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a47903ce47327d56497cedd6d21db166a5402dd083dfd26e3ddfc0115024c494.html",
+      "sha256": "a47903ce47327d56497cedd6d21db166a5402dd083dfd26e3ddfc0115024c494",
+      "bytes": 20773
+    },
+    {
+      "sourceId": "mathorcup-c6-ai",
+      "url": "https://publicqn.saikr.com/2026/02/04/contest/4fe02d5fa102b54d7afd4ecc5d8ae09b1770173065606.pdf",
+      "readingLocation": "PDF两页完整使用规定",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb.pdf",
+      "sha256": "a67a8a1c6be3f85db8928558b8670ffe1d8f94b8439fc3c96ab7987724a802bb",
+      "bytes": 122648
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "本科D题、同校最多3人/导师1人、每队200、AI声明有据；更正版双利用率、货量十倍和车辆/费用参数对应。独立验证、权衡说明、不可声称最优与未跑大数据边界清楚；个人贡献/四周/退出能执行。原稿locator写D题两页但实际三页，审查定位以本记录为准，正文已包括第三页的程序与技术报告要求。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "contentDigest": "33b7f7d0c78dfdb9ddc2133de64899ea5ad6c7170baf448257a8b2d7a91f01ec",
+  "priorDigest": "5cc4ecc5857ac503c7121cea9f263eb41fbcccf9057d73f6825ae6f21197ce97",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 14,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "2026Tutor Pack P30 FAQ与P34正式条款已实际视觉对读：学生分支同为1月1日在认可课程就读；正式条款还排除赛事关联人员/家属。非学生over18与18and over、自由职业6个月与一年确有差异，现稿收窄学生分支并保留冲突，未选择性确认非学生资格。完整两页个人社交传播命题、至少3条30秒视频或5幅静态与提交介绍格式、当届共同三项评审及15英镑/问卷券仍由同SHA原件支持。",
+  "qualificationDecision": "仅批准已界定的学生分支历史解析；非学生分支不能用于资格确认。该分支排除已在正文体现，未解决的另一分支不阻止本范围L3。",
+  "retainedUnknowns": [
+    "非学生年龄/自由职业门槛冲突仍未消歧。",
+    "正式费用减免不等于设备制作授权总成本为零。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+      "sourceId": "newblood-2026-dad-brief",
+      "url": "https://media.dandad.org/documents/NBA2026-D-AD-220126.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91.pdf",
+      "sha256": "cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91",
+      "bytes": 420366,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "原PDF第1—2页全文文字与视觉阅读；全部任务、Tips、Things to think about、identity exception、What and how to submit",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "原PDF第1—2页全文文字与视觉阅读；全部任务、Tips、Things to think about、identity exception、What and how to submit",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/newblood-2026-dad-brief.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+      "sourceId": "newblood-2026-tutor-pack",
+      "url": "https://media.dandad.org/documents/New_Blood_Awards_2026_Tutor_Pack_UPDATED.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3.pdf",
+      "sha256": "a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3",
+      "bytes": 2896570,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P30与P34完整视觉对读学生/非学生分支冲突；P31三项评审文字；其余原有阅读保留",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "原PDF第3、30—31页文字；30—31页完整视觉；第36页5.1规则文字。其余页不声称已全部阅读。",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/newblood-2026-tutor-pack.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/newblood-2026-tutor-pack-p30.png",
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/newblood-2026-tutor-pack-p34.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "newblood-2026-dad-brief",
+    "newblood-2026-tutor-pack"
+  ],
+  "actualFrozenReadSourceIds": [
+    "newblood-2026-dad-brief",
+    "newblood-2026-tutor-pack"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

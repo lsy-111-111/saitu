@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Saitu retention maintenance every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Persistent=true
+AccuracySec=5
+
+[Install]
+WantedBy=timers.target

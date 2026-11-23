@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch05-20261105T195247Z-8ed2c6b2",
+  "reviewedAt": "2026-11-05T19:52:47.369510+00:00",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+  "contentDigest": "0ebe4265bc5c1fb71c91ff71d8849d51f38ae3f30a5ce8af74870c6fa4a822d2",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-05/records.json",
+  "recordIndex": 0,
+  "manifestSha256": "4047b9792cf541eba7df288f513dc3808f5189756b021fc8165cf6080e9627b2",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b05-image-label-mismatch-explained",
+      "severity": "major",
+      "description": "原JPEG确为海岸而非苹果；关卡ZStack标签为Apples hanging from a tree，输入仅apple匹配。当前文本明确以语义冲突作案例，已经修正成功案例叙述。修复的是解读正文，不是原作品代码。",
+      "resolved": true
+    }
+  ],
+  "claims": [
+    {
+      "claim": "资源内容与标签",
+      "locators": [
+        "Contents.json L4",
+        "LevelVoiceOverView.swift L21—31",
+        "原JPEG整图"
+      ],
+      "assessment": "图中是海水、礁石、沙岸与植被；不是苹果。Contents唯一universal文件映射及原包独立复制均与ZIP同SHA。当前描述准确。"
+    },
+    {
+      "claim": "问题、输入分支与延迟",
+      "locators": [
+        "LevelVoiceOverView.swift L41—55"
+      ],
+      "assessment": "问题要求水果；apple/APPLE触发延迟500ms后true，apples/空白走false分支。未实机执行；已有待执行任务或状态变化的时序行为不能由四个孤立分支预测保证。正文没有宣称运行通过。"
+    },
+    {
+      "claim": "共享完成状态",
+      "locators": [
+        "LevelViewModifier.swift L73—80",
+        "Model.swift L31—32",
+        "Level.swift L44—45"
+      ],
+      "assessment": "onChange无true保护，直接把level.solve设true。正文称待复现风险准确，不应当成已运行测试。"
+    },
+    {
+      "claim": "指南与关卡须区分",
+      "locators": [
+        "GuideVoiceOverView.swift L48—74",
+        "Localization/LEVEL_5.swift L42—52"
+      ],
+      "assessment": "指南同图的LEVEL_5_GUIDE_3为Drone view of a sandy beach with palm trees and ocean waves，与原图相符；指南标签L70本身不随开关变化，开关改变代码展示/字幕/点击语音。当前正文只让比较标签学习目标，并未声称该开关切换真实VoiceOver标签，因此未发现新误述。"
+    },
+    {
+      "claim": "五关与系统偏好",
+      "locators": [
+        "Model.swift L22—28",
+        "Levels.swift L13—56",
+        "五个Level视图全文",
+        "LevelsView.swift L16—18",
+        "Motion L23—26和L49—54"
+      ],
+      "assessment": "五关、辅助大字号单列、减弱动态停止运动与Escape逻辑准确；正文没有认证全作品可访问性。"
+    },
+    {
+      "claim": "2025作品与2026规则范围",
+      "locators": [
+        "README.md L1—3",
+        "Package.swift L13",
+        "AccessibilityEscape.swift L3",
+        "policy L115—178"
+      ],
+      "assessment": "2025作者自述，不能认证获奖/原始提交版。2026技术、创意、书面回答作明确跨年学习比较；iOS16与18边界、离线25MB及原创/AI说明正确，不认证2026可提交。"
+    },
+    {
+      "claim": "完整当前文字及个人路线",
+      "locators": [
+        "records.json唯一record：sections全部12模块、roles、sevenDayTrial、eligibilityRules、deepDive全部"
+      ],
+      "assessment": "已全文读当前记录。四周定义目标→独立离线功能→两项失败修复→英文/许可/打包复现；无设备先基础练习、无法解释代码则缩小重做，均具体可执行。当前案例要求对照素材/标签/答案；学习路线没有依赖错误的苹果图成功叙述。费用未知明确不认免费，个人资格仍需核验。"
+    }
+  ],
+  "sources": [
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-2026-policy",
+      "url": "https://developer.apple.com/swift-student-challenge/policy/",
+      "origin": "frozen_batch_05",
+      "path": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb.html",
+      "sha256": "afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb",
+      "bytes": 117108,
+      "freshSemanticRead": true,
+      "readingLocation": "本轮自冻结原HTML抽取，L115—181逐行实读；L118截止，L122—138资格，L140—163提交，L166—178判断与取消资格",
+      "memberReadingArtifact": null,
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch05/extractions/swift-2026-policy.txt",
+      "priorApprovalReused": false
+    },
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-playground-requirements",
+      "url": "https://developer.apple.com/swift-student-challenge/eligibility/",
+      "origin": "frozen_batch_05",
+      "path": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235.html",
+      "sha256": "cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235",
+      "bytes": 107448,
+      "freshSemanticRead": true,
+      "readingLocation": "本轮自冻结原HTML抽取，L115—144逐行实读；含3分钟、资格分支、离线/英文/个人/工具",
+      "memberReadingArtifact": null,
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch05/extractions/swift-playground-requirements.txt",
+      "priorApprovalReused": false
+    },
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-accessibility-2025-full",
+      "url": "https://github.com/phnagy/ssc2025/tree/960b72301329ff8dd5f67801eca8d9a8240fabe7",
+      "origin": "frozen_batch_05",
+      "path": "artifacts/continuation-20261105/content/review-batch-05/dependencies/artifacts/v6/content-research/source-byte-snapshots/4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04.zip",
+      "sha256": "4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04",
+      "bytes": 8890582,
+      "freshSemanticRead": true,
+      "readingLocation": "本轮ZIP重新解包；实际全文阅读16个文本成员、视觉阅读4张原图，见member-reading-log.json；全部成员哈希仅作机械完整性，不冒称全部文件语义阅读",
+      "memberReadingArtifact": "artifacts/continuation-20261105/content-review-a2/batch05/member-reading-log.json",
+      "extractionArtifact": null,
+      "priorApprovalReused": false
+    }
+  ],
+  "memberReadingArtifact": "artifacts/continuation-20261105/content-review-a2/batch05/member-reading-log.json",
+  "assetMappingArtifact": "artifacts/continuation-20261105/content-review-a2/batch05/asset-mapping-byte-check.json",
+  "priorOwnReviewCorrection": "本人batch04旧审查只看带模糊材质的作者截图，未视觉核原JPEG，漏掉素材与标签冲突；本轮直接阅读实际JPEG、映射和源码后重新判断。旧批准不构成本轮批准理由，旧记录原样保留。",
+  "retainedUnknowns": [
+    "未构建/运行iOS程序，未测试实际VoiceOver播报、状态竞态或用户理解。",
+    "无明确开源许可，公开可读不授予复制参赛权。",
+    "不认证原作获奖、实际2025提交版本或2026合规。",
+    "本条仅历史作品学习；2027规则/窗口及个人具体资格和设备/总费用未核。"
+  ],
+  "independence": "流程独立AI来源复审；共享FS，不宣称权限隔离或人审；未读取B结论或包外作者交接。",
+  "networkAcquisitions": []
+}

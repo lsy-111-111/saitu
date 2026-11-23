@@ -1,0 +1,77 @@
+{
+  "recordId": "national-advertising-art:edition-8a08b7777f9d:graphic:group-78fd9199138e:scope-6e32b3157c92:v3",
+  "name": "全国大学生广告艺术大赛",
+  "contentDigest": "55d8f72aaee49ded1824e90321760ca5564d8ab74f88eb90d9dc7833ffc517ec",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.091145+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "catalog-author-v6",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "national-advertising-art:edition-8a08b7777f9d:graphic:group-78fd9199138e:scope-6e32b3157c92:v3",
+    "previousContentDigest": "24a8288d2ecde205c51fa1238aeceb8a233ad75ab1f844f2511085e1778dcb63",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "catalog-author-v6"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "advertising-guide-2026",
+      "url": "https://www.sun-ada.net/home/about_intrs2.html",
+      "readingLocation": "A3抽取P1:L58—89、L197—213；作者/导师/禁跨校条款",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "bytes": 90038,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "advertising-aliyun-brief-2026",
+      "url": "https://www.sun-ada.net/home/zt_xqs3026.html",
+      "readingLocation": "本人A2完整题阅读沿用，原字节匹配；A3核创作约束和未列评分",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "bytes": 64469,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "平面至多2作者、1指导及禁跨校已补并原文核实；千问命题完整可读，但依然缺可适用官方评分依据。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-02-01",
+      "severity": "major",
+      "description": "补适用于该平面命题的正式或明确参考评分，再填实rubric与证据映射。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

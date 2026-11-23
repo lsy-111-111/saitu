@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+  "contentDigest": "5cc4ecc5857ac503c7121cea9f263eb41fbcccf9057d73f6825ae6f21197ce97",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.884042+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "newblood-2026-dad-brief",
+    "newblood-2026-tutor-pack"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "newblood-2026-dad-brief",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91.pdf",
+      "sourceSha256": "cfe478e3b77958c473c7f5173eb02b5abbe6dd5f30f3e463ad9df0b900d1ce91",
+      "actualReadLocator": "本轮完整2页逐页渲染目读，rendered/dad-task-1.png和-2.png",
+      "verification": "Share your passion具体命题、受众及持续互动，至少3视频各30秒或5静态；主/选材料分开；身份例外仅本题"
+    },
+    {
+      "sourceId": "newblood-2026-tutor-pack",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3.pdf",
+      "sourceSha256": "a38902a9d2093661aab6d311c9968805ddf31a8266aaa612da1f30d7101af2c3",
+      "actualReadLocator": "本轮PDF实际渲染目读第3、26—27、30—31、34—36页，rendered/dad-guide-*.png",
+      "verification": "2026共同三项评审、格式、团队至多5人、15英镑或调查抵用、原创；发现FAQ与条款非学生年龄及自由职业折算矛盾"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "完整12模块/roles/难度/七天/四周/退出已审。定性正式评分已充分，不因无数值权重否定；具体自我推广brief完整；未阅读无关其他brief页，不冒称36页全部读完。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-11-01",
+      "severity": "major",
+      "description": "资格事实将非学生统一写“超过18岁、未满6个月含自由职业折算”，但同一2026 Tutor Pack第30页FAQ写over 18、自由职业6个月，第34页正式条款写2026-01-01 aged 18 and over、自由职业一年。须明确记录同文件差异及适用优先依据，不能将有冲突的门槛写成已确定事实；学生分支与5人上限本身已支持。",
+      "resolved": false
+    }
+  ]
+}

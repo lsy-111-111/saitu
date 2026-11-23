@@ -1,0 +1,67 @@
+{
+  "recordId": "china-college-computer-design:edition-b8257354f41e:software-development:group-78fd9199138e:scope-3497779db6c7:v3",
+  "name": "中国大学生计算机设计大赛",
+  "contentDigest": "32e8dcbe61c1556fe2d905844e2d879246b32b6862cc3d6bd140ff93bae78029",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "catalog-author-v6",
+    "currentRecordAuthorAgentId": "catalog-author-v6",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "catalog-author-v6"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "4c-rules-2026",
+      "url": "https://jsjds.blcu.edu.cn/gyds1/csyq.htm",
+      "readingLocation": "本次原站HTML L30—50完整规则",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/4c-rules-2026-curl.html",
+      "sha256": "b07a0de3980ba4da9efb6813a969cbfd614b1763dad0499f2d639935e27993a0",
+      "bytes": 25477,
+      "retrievedAt": "2026-11-05T16:55:19.771507+00:00"
+    },
+    {
+      "sourceId": "4c-submission-2026",
+      "url": "https://jsjds.blcu.edu.cn/info/1045/2013.htm",
+      "readingLocation": "本次原站HTML L25—31正文",
+      "origin": "independently_retrieved_original",
+      "path": "artifacts/continuation-20261105/content-review-a2/live-originals/4c-submission-2026-curl.html",
+      "sha256": "e3f819300678bb5142fb57274802f0384542f12ca2a13c6cacba70bfa5b8e16a",
+      "bytes": 15285,
+      "retrievedAt": "2026-11-05T16:55:19.771832+00:00"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "两份主站资料支持通用资格/交付，AI专项仍未取得原始正文和模板，缺具体完整任务与评分。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-01-01",
+      "severity": "major",
+      "description": "取得AI专项完整正文、模板及适用评分；统一正文大类和具体专项范围，不能以搜索缓存节选批准。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

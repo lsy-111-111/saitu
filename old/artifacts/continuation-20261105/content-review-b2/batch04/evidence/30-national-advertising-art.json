@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+  "contentDigest": "bd469e0ef1bf56a98b1e07421c6c9d4c5f341f80f01e25f0613720e59e194639",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.280114+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ad-rules",
+    "b-ad-task",
+    "b-ad-shaoyang-2026-reference"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ad-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sourceSha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/27-national-advertising-art.json :: 与本轮02-03同SHA HTML，已实际阅读全文57-233行",
+      "verification": "全国2026指南、平面规范、资格/费用/提交流程"
+    },
+    {
+      "sourceId": "b-ad-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sourceSha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/27-national-advertising-art.json :: 与本轮02-04同SHA HTML，已实际阅读全文50-143行",
+      "verification": "完整阿里云平面任务与特定A3竖版限制，绑定已修正"
+    },
+    {
+      "sourceId": "b-ad-shaoyang-2026-reference",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb.pdf",
+      "sourceSha256": "7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/27-national-advertising-art.json :: 本轮PDF第1、4、5页逐页渲染目读，rendered/ad-ref-1.png,-4.png,-5.png；本轮新增实际读取：校赛PDF第4页视觉核读；rendered/30-04-p4.png",
+      "verification": "2026邵阳职业技术学院校赛，30/30/30/10正式校赛权重，仅适用于该校赛；七、校赛评审明确2026-06-15校内委员会与30/30/30/10。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/27-national-advertising-art.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-30-01",
+      "severity": "major",
+      "description": "全国阿里云平面路径仍缺适用正式评审依据；邵阳校赛30/30/30/10已正确限定为训练参考，恢复缺口合理，但不能据此批准严格L3。",
+      "resolved": false
+    }
+  ]
+}

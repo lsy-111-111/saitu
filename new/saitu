@@ -1,0 +1,10 @@
+#!/bin/zsh
+set -eu
+saitu_root="${0:A:h}"
+cd "$saitu_root"
+case "${1:-}" in
+  deploy|server-status|rollback)
+    exec "$saitu_root/.runtime/node/bin/node" "$saitu_root/scripts/server/client.mjs" "$@"
+    ;;
+esac
+exec "$saitu_root/.runtime/node/bin/node" "$saitu_root/scripts/local/control.mjs" "$@"

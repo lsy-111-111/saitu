@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "1fdceafabc295f6511e92b50f9c9a4c938fbc72187dd5e4688fdf9425d2f13de",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch07-20261106-1a31dd6b",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:36:42.440238+00:00",
+  "manifestSha256": "1a31dd6b87f9ea8cf6b13e18845f0647d73fea975734459e41ca6bf8ab0d7cc9",
+  "manifestVerification": {
+    "expectedFiles": 101,
+    "verifiedFiles": 101,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "gcj-2022-3d-task",
+    "gcj-2022-3d-analysis",
+    "google-competitions-farewell"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "gcj-2022-3d-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sourceSha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "actualReadLocator": "本轮重新渲染并目读rendered/00-00-1.png、00-00-2.png，官方题全2页",
+      "verification": "原题允许每色容量0至100万；输出非负整数且各台容量均足、和恰100万，多解可任一。p2三个样例分别唯一可行、上限和999999不可行、多解可行；实际复算见boundary-verification.json。"
+    },
+    {
+      "sourceId": "gcj-2022-3d-analysis",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sourceSha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "actualReadLocator": "本轮重新渲染并目读rendered/00-01-1.png，官方分析全1页",
+      "verification": "逐色取三台最小值，总和不足100万无解，否则逐色调减构造；新第3周零容量/总上限差1的边界检查有明确任务依据，未假造官方分值。"
+    },
+    {
+      "sourceId": "google-competitions-farewell",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-07/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sourceSha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "actualReadLocator": "本人batch06/evidence/00-google-code-jam.json 与 batch06/extracted/00-02.txt L20–26；本轮逐字节SHA核对相同原件，未声称本轮重读网页",
+      "verification": "透明沿用本人B06实际全文阅读：Google系列结束、2023告别轮和公开存档。范围/资格/费用正文与B06完全相同，历史学习不确认参赛资格。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "窄复审：完整JSON差异已核，仅review.authorAgentId由/root/continue_catalog变/root，以及fourWeekPlan[week=3].completionCheck具体化；其余正文/来源与本人已全读B06相同。12模块沿用本人B06独立实读，不伪称本轮全部重读。",
+    "新完成标准已逐字实读，与week3写多解校验和边界对拍动作一致，包含三个官方样例、零容量、容量和差1、逐项断言、多解结果和失败反例；为学习计划验收，不是官方评分项目，也不声称学生已经完成。",
+    "本轮复看原题2页+分析1页，并复算三个官方样例、多解4种合法答案、题示错误总和反例，以及审者自行构造5个边界；自造边界明确不冒充官方样例。",
+    "基于授权中立范围，只批准历史公开学习L3；历史完整资格、参赛总费用仍未知，strictParticipationCoverage=false，currentRegistrationOpportunity=false，严格覆盖增量0。",
+    "作者为/root，reviewer为/root/content_review_b2，独立性成立；不读A，旧B06保持不变。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

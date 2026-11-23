@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+  "contentDigest": "8786b33e50b62846e1da5588624f516d0c3485ab520779b6c536e5c9fa8f981c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:47:22.707027+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "electronics-2025-main-notice",
+    "electronics-2025-c-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "electronics-2025-main-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69.pdf",
+      "sourceSha256": "edcca8268356e283e8a04d3e6c6260604ee44916290e4435a88fd55488c93b69",
+      "actualReadLocator": "PDF pages 2-6; rendered/electronics-notice-p2.png through p6.png",
+      "verification": "已视觉读：正式学籍全日制本专科、三人队、本科题跨组选题、7月30日至8月2日、封存脱机、禁止队外交流、综合测评和赛区费由学校支付。"
+    },
+    {
+      "sourceId": "electronics-2025-c-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94.html",
+      "sourceSha256": "8a524264754248019a98194d3fdd2bb78667385039fafa06fd8004ff4e060a94",
+      "actualReadLocator": "HTML lines 40-45 + all six original task PNGs topic_202507301945/3262/2336/6564/9022/2774.png",
+      "verification": "已视觉读全部六图：系统结构与单目任务、基本三图形及电流5%误差、发挥复杂目标/编号/角度/功耗、设备与场地限制、5秒和两档误差、正式评分报告20基本50发挥50。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周及退出已读；电脑训练原型与脱机参赛装置区别清楚。",
+    "2025全国主赛明确历史，不外推2026地方赛或未来费用。",
+    "六幅原图均在冻结包dependencies/tmp/research-sources/，HTML相同文件名远程src已核对，附图SHA另存。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

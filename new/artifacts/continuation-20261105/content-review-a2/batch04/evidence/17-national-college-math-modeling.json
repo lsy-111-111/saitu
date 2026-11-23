@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+  "contentDigest": "0258b9074ee6ffc1ebb36b22a474beff6733a2fc46eff983c8a73a6bf731580a",
+  "priorDigest": "f26edd72ce4a684fe6bc64a2c00519043a245085a944c58bdbcd8c88a13cd60b",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 17,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "重新读取ZIP内A题四页及附录2公式，第一问密度/比热/导热固定，但D=7×10^-9 exp(-0.89/C)随含水率变化；新表述精确修正常参数歧义。四问、全空间0.15阈值与收缩边界分清，常扩散系数只可另标简化。完整规则、论文格式及定性评审沿用同SHA本人原件阅读。个人单位核查、数值收敛与四周/退出均具体。",
+  "qualificationDecision": "同校最多3人、研究生不参赛、队外交流限制有规则支持；本条赛后历史学习，不认定未来届次资格。",
+  "retainedUnknowns": [
+    "本轮未分析附件Excel全部数据或实际求解，不宣称产生官方结果表。",
+    "个人学校费用未知；不据来源缺价格推定免费。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+      "sourceId": "cumcm-c-charter",
+      "url": "https://www.mcm.edu.cn/html_cn/block/44e92058f537729c6b6a62a3662ee417.html",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923.html",
+      "sha256": "f6c4919203835b9f56188062a9c42e04cc56f8ba9214f41274d54dfaf5f49923",
+      "bytes": 14138,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "P1:L21-L54",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "P1:L21-L54",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/cumcm-c-charter.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+      "sourceId": "cumcm-c-format",
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a.html",
+      "sha256": "2aa27a6c74ddc0385c924f29fac1d91ab1511f15a01042cdc2ee8a6d49293e8a",
+      "bytes": 12619,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "P1:L21-L40",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "P1:L21-L40",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/cumcm-c-format.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+      "sourceId": "cumcm-c-rules",
+      "url": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd.html",
+      "sha256": "30184d8062ad4f6a7c3575fd7da89f99c78b9312e1fed58037a07982b6bfe4cd",
+      "bytes": 11359,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "P1:L21-L56",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "P1:L21-L56",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/cumcm-c-rules.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "national-college-math-modeling:2026:undergraduate-group:undergraduate:china-2026-a:v3",
+      "sourceId": "cumcm-c-problem-a",
+      "url": "https://www.mcm.edu.cn/upload_cn/CUMCM2026Problems.zip",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241.zip",
+      "sha256": "a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241",
+      "bytes": 4362100,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "ZIP内A题/A题.pdf四页文字；P3附录2实际视觉，D=7e-9 exp(-0.89/C)；本轮未分析Excel全部数据或求解",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "ZIP内A题/A题.pdf完整4页，内层SHA256=052d8014bff5727c019b72e44fdffaf5c145ce04050dd938baaf3527db331736",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": null,
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/cumcm-a-p3.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "cumcm-c-charter",
+    "cumcm-c-format",
+    "cumcm-c-problem-a",
+    "cumcm-c-rules"
+  ],
+  "actualFrozenReadSourceIds": [
+    "cumcm-c-charter",
+    "cumcm-c-format",
+    "cumcm-c-rules",
+    "cumcm-c-problem-a"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

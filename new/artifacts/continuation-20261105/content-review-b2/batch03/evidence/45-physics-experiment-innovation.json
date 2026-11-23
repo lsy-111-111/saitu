@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "physics-experiment-innovation:2026-12:ice-metal-friction:assigned-domestic:china-ice-metal:v3",
+  "contentDigest": "31afca33504a8b05dd03c45469fb4cc35acd9f0ff761013e133d025696ac4bd6",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.052064+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "physics-2026-notice-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "physics-2026-notice-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/38bbd5afbc5adf0154e492ecbc66cc12a204d027d469d169308be5a4a7db3095.pdf",
+      "sourceSha256": "38bbd5afbc5adf0154e492ecbc66cc12a204d027d469d169308be5a4a7db3095",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/44-physics-experiment-innovation.json :: PDF pages 1,2,3,5,6,8; rendered/physics-p1.png etc.",
+      "verification": "逐页视觉已核：第十二届2026；国内学历/人数/奖项历史限制和校额；1000元仅网评及远程答辩；学校组织和9月报名；匿名引用AI规范；题1完整目的和要求；题1—4实际考核规范及装置条件。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/45-physics-experiment-innovation.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/44-physics-experiment-innovation.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

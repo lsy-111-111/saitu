@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "william-lowell-putnam:2026-87:proof-mathematics:eligible-undergraduates:us-ca-mx-2026:v3",
+  "contentDigest": "dac7396a02fa773b1bf250154ba32aa767ee01350f7db41250de0ba6259e3cda",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.031434+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [],
+  "sourceEvidence": [],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/21-william-lowell-putnam.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/20-william-lowell-putnam.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "新增独立作答事实仍pending，规则、主页、题解原始字节仍未补；未读源保持空。"
+  ],
+  "incompleteSources": [
+    "putnam-c3-rules",
+    "putnam-c3-home",
+    "putnam-c3-a1"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-21-01",
+      "severity": "major",
+      "description": "putnam-c3-rules、putnam-c3-home、putnam-c3-a1均没有冻结原件，跨记录同URL及冻结HTML/TXT检索也未找到可代替来源。无法核实2026四场90分钟等规则、当前报名日期和完整2025 A1官方题，须补原件后重审。",
+      "resolved": false
+    }
+  ]
+}

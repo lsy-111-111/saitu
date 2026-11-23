@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+  "contentDigest": "a25fafc4e0e73e390890454ea2248aea240112e68f264960a3ca310e263d289c",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:03:42.934258+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "mechanical-2026-notice",
+    "mechanical-2026-instructions"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "mechanical-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395.html",
+      "sourceSha256": "ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395",
+      "actualReadLocator": "fresh HTML lines 12-67",
+      "verification": "2026常规赛/2027挑战赛区分、个人或5学生2导师、本专科及2026毕业生、学校推荐、图纸样机3分钟视频、2026时间节点、赛区报名费自定。"
+    },
+    {
+      "sourceId": "mechanical-2026-instructions",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3.pdf",
+      "sourceSha256": "3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3",
+      "actualReadLocator": "PDF all 5 pages; rendered/mechanical-1.png through mechanical-5.png",
+      "verification": "叶菜批量去根黄叶泥土归一化及按重量包装完整任务，排除根茎花/家庭厨房；同方向四类正式评价，图纸淘汰、学校承担不向个人收费、不可跨区、样机体积与展示条件均逐页视觉核验。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、前置、四周/退出完整读过；单工序教学模型与正式连续工程样机边界明确，完整具体叶菜任务符合案例要求。",
+    "正式评分为适用叶菜的定性观测点，不要求捏造数值权重；没有借用仿生蝴蝶60/40。",
+    "学校承担规则没有被解释成总成本零；2026已过时段和2027另赛季区分正确。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-54-01",
+      "severity": "minor",
+      "description": "investment事实称赛区可规定报名费，但仅绑定mechanical-2026-instructions；该PDF只说明学校承担。赛区报名费由组委会决定的原文在mechanical-2026-notice第47行，应将该来源一并绑定该事实。两个原件的费用内容本身无冲突。",
+      "resolved": false
+    }
+  ]
+}

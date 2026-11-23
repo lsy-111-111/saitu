@@ -1,0 +1,133 @@
+{
+  "runId": "a2-batch06-20261105T201748Z-7df37711",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:17:48.696704+00:00",
+  "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+  "contentDigest": "fccf9e048308064cc5b0a79df12944abfaabfb11d5007c81a82bd04b460234ed",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-06/records.json",
+  "recordIndex": 2,
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "scopeOfApproval": "限定历史公开学习型L3内容审查；不是历史或当前正式报名资格、总费用或严格参赛覆盖批准",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b06-fact-type",
+      "severity": "major",
+      "description": "资格知识缺口已拆成kind/status unknown、空sourceIds/sourceScopes、checkedAt与lastVerifiedAt null，并保留requires_confirmation；解决的是类型混淆，未解决未知资格本身。",
+      "resolved": true
+    },
+    {
+      "id": "a2-b06-hash-parallel",
+      "severity": "major",
+      "description": "七日体验、nextStep、learningFeedback均明确Anna/Logging与Maria-Bob/WebChat，无贡献者可同时参与两项目；P8—9原图与正文支持。",
+      "resolved": true
+    }
+  ],
+  "taskAssessment": "完整9页任务及同届事件文章。题内导师差一级须同项目另一角色，完成后才升级。第7天Anna执行Logging至第12天，Maria/Bob执行WebChat至第17天；项目可并行但无同人并行。WebServer10+Logging3+WebChat20=33。三处新说明与deepDive一致。",
+  "depthAndStudentPathAssessment": "正式有效性/迟到/跨数据集最佳汇总正确。验证器作者与优化实验者贡献区分；四周先正确评分再比较策略，样例错误就暂停优化；不把启发式称最优。",
+  "recordReading": "当前record全部实质字段、六条或七条facts、十二模块、角色、价值、结构化资格和完整deepDive逐项实际读取；不是只检查字段存在或沿用旧批准。",
+  "unknownEligibilityFact": {
+    "id": "google-hash-code:v2:eligibility.historical-rules",
+    "field": "eligibility.historical-rules",
+    "text": "2022年龄、地域及雇佣关系等完整资格条款未取得；公开读题不证明历史或当前参赛资格。",
+    "kind": "unknown",
+    "status": "unknown",
+    "sourceIds": [],
+    "sourceScopes": [],
+    "scope": "2022历史报名资格资料缺口；仅供公开题学习，不确认历史或当前报名条件",
+    "checkedAt": null,
+    "supersedes": [],
+    "conflictsWith": [],
+    "entity": {
+      "editionId": "2022",
+      "trackId": "qualification-mentorship",
+      "groupId": "historical-public-task",
+      "scopeId": "qualification-mentorship-2022"
+    },
+    "validFrom": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "validUntil": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "retrievedAt": null,
+    "lastVerifiedAt": null,
+    "reviewStatus": "pending_review"
+  },
+  "retainedUnknowns": [
+    "已核现实队2—4不补出其他历史资格",
+    "历史费用未知",
+    "大数据和排行榜未复现；原PDF P5—6右栏裁切未恢复"
+  ],
+  "strictParticipationCoverageIncrement": 0,
+  "currentRegistrationConfirmed": false,
+  "historicalEligibilityConfirmed": false,
+  "sources": [
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "ghc-2022-mentorship-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/hashcode/hashcode_2022_qualification_round.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8.pdf",
+      "sha256": "4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8",
+      "bytes": 662954,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P1—9全文文字；本轮视觉P3/P8/P9。P5—6右栏裁切仍存在，不假称恢复；完整输入列可读，角色/时间线/33分相互验证",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/ghc-2022-mentorship-task.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/ghc-2022-mentorship-task-p3.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/ghc-2022-mentorship-task-p8.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/ghc-2022-mentorship-task-p9.png"
+      ],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "ghc-2022-event",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/hash-code-2022-returns-new-look/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408.html",
+      "sha256": "ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408",
+      "bytes": 335106,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML正文L231—258；L243多次提交、L248现实队2—4、L255—258日期",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/ghc-2022-event.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML正文L19—30完整文章，停办、最后活动和持续官方归档",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/google-competitions-farewell.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    }
+  ],
+  "commonStandardArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/standard-inputs.json",
+  "helperCheckArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/helper-check.json",
+  "helperBoundary": "实际调用helper验证unknown输出checkedAt null且拒绝伪挂来源；这不是未知资格获证。eligibility.ts仅读代码确认不支持的facts保持unknown，本轮未运行整产品推荐。",
+  "independence": "独立AI审核。读过root授权最终中立裁决（其总结双方争议），不宣称双盲；未读B审查产物/新稿意见或包外作者交接，不与另一审者交流。共享FS，仅流程独立。",
+  "networkAcquisitions": [],
+  "nonblockingEditorialAdvice": "获奖难度模板仍可改写为该系列已停办、当前学习不产生获奖机会；现有edition/registration/收益/退出已明确，不构成当前获奖承诺或本轮阻断。"
+}

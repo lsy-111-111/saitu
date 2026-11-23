@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "teach-d2-2017-rules",
+      "url": "https://www.mchps.kh.edu.tw/upload/149/101_6710/%E7%B0%A1%E7%AB%A0_5.pdf",
+      "locator": "3页全文，105学年度简章实际2017日期和10/30/40/20评分",
+      "readMethod": "Actual PDF/HTML body read; rendered table inspected where named",
+      "independentReview": false
+    },
+    {
+      "sourceId": "teach-d2-official-work",
+      "url": "https://www.ncyu.edu.tw/cset/Contents?nodeId=50587",
+      "locator": "作品归档及附件链接，2024网站更新时间非参赛日期",
+      "readMethod": "Actual PDF/HTML body read; rendered table inspected where named",
+      "independentReview": false
+    },
+    {
+      "sourceId": "teach-d2-roaming-lesson",
+      "url": "https://www.ncyu.edu.tw/cset/ServerFile/Get/76a7da0c-2c2c-4706-8577-4a828b139328?nodeId=50587&sId=102478",
+      "locator": "21页全部正文，第三节完整40分钟设计，第16页表格视觉核对；个体测评不转述进目录",
+      "readMethod": "Actual PDF/HTML body read; rendered table inspected where named",
+      "independentReview": false,
+      "sourceByteSha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe"
+    },
+    {
+      "sourceId": "b-rural-task",
+      "url": "https://xtw.swupl.edu.cn/docs/2025-09/d9f9b43ef5ca415588bc637e066aae32.pdf",
+      "locator": "两页全文复读，常规赛明确需分析地方资源并定位客群；只做调查问题设计，不宣称已访谈",
+      "readMethod": "Actual PDF/HTML body read; rendered table inspected where named",
+      "independentReview": false
+    }
+  ]
+}

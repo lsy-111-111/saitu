@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+  "contentDigest": "7c3a58e7672e21b053416e2769fe6229b035e81375a50ceca5f8dd9ac848dd47",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.045323+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-rural-rules",
+    "b-rural-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-rural-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383.pdf",
+      "sourceSha256": "22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/38-chongqing-rural-revitalization.json :: PDF pages 1,3-8,16-17; rendered/rural-0-p*.png for those pages",
+      "verification": "视觉核对第五届2025、跨地区在校及2020年6月后毕业、人数导师与负责件数、10月31日12时初稿、校/市阶段、匿名及文本摘要、常规初复赛60/30/10正式表；决赛另表未混用。"
+    },
+    {
+      "sourceId": "b-rural-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7.pdf",
+      "sourceSha256": "014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/38-chongqing-rural-revitalization.json :: PDF pages 1-2 complete; rendered/rural-1-p1.png and p2.png",
+      "verification": "已视觉读全部题目指南；324亩山岭坡地及建设目标、完整常规农文旅策划和针对性推广任务，区分专项电商。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/39-chongqing-rural-revitalization.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/38-chongqing-rural-revitalization.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

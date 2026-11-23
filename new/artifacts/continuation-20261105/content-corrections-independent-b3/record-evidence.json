@@ -1,0 +1,399 @@
+{
+  "schemaVersion": "saitu.independent-content-review-evidence.v1",
+  "reviewerId": "/root/content_corrections_review_b",
+  "runId": "content-corrections-independent-b3-2026-11-06T01:25:20.696Z",
+  "reviewedAt": "2026-11-06T01:25:20.696Z",
+  "inputSha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c",
+  "sourceManifestSha256": "7485130a8f63b44efaa5d8ca61c7633c783e0e10f4fad35e5afeafa13494125d",
+  "provenanceArtifact": "artifacts/continuation-20261105/content-corrections-independent-b3/provenance.json",
+  "records": [
+    {
+      "recordId": "national-college-electronic-design:2025-national:monocular-measurement:undergraduate-task:china-2025-c:v3",
+      "contentDigest": "e4a58d1267b250682723b1a5f17f92535c14c47ff754115d0bf3edf127a358b1",
+      "actualRevisionAuthor": "/root",
+      "originalAuthorAgentId": "/root",
+      "summary": "2025全国本科C题和选择该本科题的高职高专资格成立，组队、收费、封存、综合测评与复测范围受两份全国文件支持。C题原图、原表支持单固定相机、D/x、时限、电流、两档误差和120分构成。算法电脑练习和正式脱机整机明确区分，独立位置检查、误差和功耗实测为可操作的编辑训练。",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "outcome": "approved",
+      "issues": [],
+      "requiredSourceIds": [
+        "electronics-2025-c-task-shanghai-rar",
+        "electronics-2025-main-notice",
+        "electronics-2025-national-process"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b3/source-reading-evidence.json",
+      "aliases": [
+        "全国大学生电子设计竞赛"
+      ],
+      "scope": "2025全国主赛C题；不外推2026地方赛或下一届",
+      "identity": {
+        "editionId": "2025-national",
+        "trackId": "monocular-measurement",
+        "groupId": "undergraduate-task",
+        "scopeId": "china-2025-c",
+        "stageIds": [],
+        "supersedesRecordIds": [],
+        "legacyRecordIds": []
+      },
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "2025主赛已经结束；用于提前准备和任务体验，当前报名须核对新通知。"
+      },
+      "officialFacts": [
+        {
+          "id": "national-college-electronic-design:v2:eligibility",
+          "text": "2025普通高校正式学籍全日制本科、高职高专学生三人组队，由学校报名。本科生只能选本科题；高职高专学生也可选本科题。三人均须全程参赛和评审。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国主赛资格、组织及收费",
+          "sourceIds": [
+            "electronics-2025-main-notice"
+          ],
+          "locator": "全国组织通知第3、5页，C题第1页互证",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "national-college-electronic-design:v2:track",
+          "text": "C题只用一个固定摄像头测量目标距离和图形尺寸；基本测距范围100—200厘米，一键结果需在5秒内给出，还须测量整机供电电流。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国本科C题命题、限制及评分；不适用其他题或届次",
+          "sourceIds": [
+            "electronics-2025-c-task-shanghai-rar"
+          ],
+          "locator": "C题第1页图1/2、第2至3页",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "national-college-electronic-design:v2:participation",
+          "text": "2025制作时段为7月30日8时至8月2日20时；学校组织参赛，完赛后封存交件；被赛区推荐全国评奖的队伍全员参加综合测评，全国初评后，一等奖候选队及有关抽调队参加复测。比赛期间禁止与队外人员讨论，教师须回避。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国主赛资格、组织及收费；2025全国主赛的赛场、封存及全国评审组织方式",
+          "sourceIds": [
+            "electronics-2025-main-notice",
+            "electronics-2025-national-process"
+          ],
+          "locator": "全国组织通知第3至5页，实施过程说明I、II、III.5–6及附件一",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "national-college-electronic-design:v2:deliverables",
+          "text": "完赛时提交设计报告、制作实物和登记表。实物须可脱机测评。C题不得用PC、成品视觉测距产品或非视觉测距传感器；电流测量电路不得直接使用商品模块。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国主赛资格、组织及收费；2025全国本科C题命题、限制及评分；不适用其他题或届次",
+          "sourceIds": [
+            "electronics-2025-main-notice",
+            "electronics-2025-c-task-shanghai-rar"
+          ],
+          "locator": "全国组织通知第2、5页，C题第1至3页",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "national-college-electronic-design:v2:rubric",
+          "text": "C题共120分：设计报告20、基本要求50、发挥部分50。报告检查方案、理论、电路程序、测试及规范；发挥要求进一步测复杂图形、倾斜目标和功耗。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国本科C题命题、限制及评分；不适用其他题或届次",
+          "sourceIds": [
+            "electronics-2025-c-task-shanghai-rar"
+          ],
+          "locator": "C题第2至4页，尤其第4页原始评分表",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "national-college-electronic-design:v2:investment",
+          "text": "2025报名费可由各赛区按实际情况确定，由学校支付；学校原则上提供场地、仪器及元件。个人垫付、耗材和差旅是否报销仍需问本校，不能认定总费用为零。",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "monocular-measurement",
+            "groupId": "undergraduate-task",
+            "scopeId": "china-2025-c"
+          },
+          "scope": "2025全国主赛资格、组织及收费",
+          "sourceIds": [
+            "electronics-2025-main-notice"
+          ],
+          "locator": "全国组织通知第3页第四节、第6页第八节",
+          "review": "supported within named source scope"
+        }
+      ],
+      "legacyFacts": [
+        {
+          "id": "national-college-electronic-design:legacy:fact:eligibility",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "national-process-reference",
+            "groupId": "undergraduate-and-vocational",
+            "scopeId": "china-2025-process"
+          },
+          "candidateScope": "旧库引用2025全国主赛实施过程说明，属于本科及高职高专的通用组织背景，不是C题细则；保留原待核状态。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "national-college-electronic-design:legacy:fact:team",
+          "kind": "unknown",
+          "status": "unknown",
+          "entity": {
+            "editionId": "2025-national",
+            "trackId": "national-process-reference",
+            "groupId": "undergraduate-and-vocational",
+            "scopeId": "china-2025-process"
+          },
+          "candidateScope": "旧库引用2025全国主赛实施过程说明，属于本科及高职高专的通用组织背景，不是C题细则；保留原待核状态。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "national-college-electronic-design:legacy:fact:mentor",
+          "kind": "unknown",
+          "status": "unknown",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "candidateScope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "national-college-electronic-design:legacy:fact:fee",
+          "kind": "unknown",
+          "status": "unknown",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "candidateScope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        }
+      ],
+      "noArchivalFactInDecisionField": true
+    },
+    {
+      "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+      "contentDigest": "fd38a8e7cf3a2ef2162520425adbe6e15226333a887aa439f2eeca09f5f4b212",
+      "actualRevisionAuthor": "/root",
+      "originalAuthorAgentId": "/root",
+      "summary": "2025室外ROS高教组各项事实与14页原规则相符。训练目标、两种罚时与任务失败已区分。评分映射只剩运行与手册两项，ROS2及现场建图进入单独要求并引用正确事实。2026校内选拔保留为待核档案，学生的仿真结果、设备成本和未来资格均有边界。",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "outcome": "approved",
+      "issues": [
+        {
+          "id": "b2-smartcar-completion-penalty",
+          "severity": "major",
+          "description": "已在新摘要两处完赛训练表述核实：两圈、建图、停车是练习目标；第二圈停车失败和未现场建图分别加罚20/50秒，赛道中停止运行超过10秒属任务失败。与规则第8页一致。",
+          "resolved": true
+        },
+        {
+          "id": "b2-smartcar-rubric-trace",
+          "severity": "minor",
+          "description": "新摘要将ROS2和现场建图移至requirementMapping，分别引用deliverables、track及rubric；正式计分映射只列运行与技术手册。原规则第2–3、7–9页支持。",
+          "resolved": true
+        }
+      ],
+      "requiredSourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b3/source-reading-evidence.json",
+      "aliases": [
+        "全国大学生智能汽车竞赛"
+      ],
+      "scope": "2025室外ROS高教组完整规则",
+      "identity": {
+        "editionId": "2025-20-outdoor",
+        "trackId": "outdoor-ros-mapping",
+        "groupId": "higher-education",
+        "scopeId": "china-2025-outdoor-ros",
+        "stageIds": [],
+        "supersedesRecordIds": [],
+        "legacyRecordIds": []
+      },
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "2025规则作为历史准备任务；下一届赛道、设备和资格需重新核对。"
+      },
+      "officialFacts": [
+        {
+          "id": "smart-car:v2:eligibility",
+          "text": "2025该赛项面向全日制在校专科、本科及研究生，每队2—5名学生、1—2名指导教师；线下赛不同队伍不能共用同一设备。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "scope": "2025室外ROS高教组，不套用室内竞速和职教组",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "locator": "规则第8至9页§3.1",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "smart-car:v2:track",
+          "text": "首圈探索并构建二维地图，次圈依据该地图导航、识别停车牌并停入相应区域。现场随机挡板必须出现在地图中；红灯区域须停车3秒。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "scope": "2025室外ROS高教组，不套用室内竞速和职教组",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "locator": "规则第2至6页§2.1–2.2",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "smart-car:v2:participation",
+          "text": "按室外赛安排报名并提交资料，线下自主运行和展示地图；若改为线上，另需三机位运行视频与赛道测量视频，不得遥控或伪造记录。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "scope": "2025室外ROS高教组，不套用室内竞速和职教组",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "locator": "规则第8至12页§2.4.2、3.3–3.5",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "smart-car:v2:deliverables",
+          "text": "线下赛除现场比赛外，还须按赛前通知通过指定百度网盘提交源码与技术手册压缩包，每队限提交一次；手册至少五个案例，须能结合源码复现。规则要求使用ROS2，使用ROS1有100秒罚时。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "scope": "2025室外ROS高教组，不套用室内竞速和职教组",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "locator": "规则第7至9页§2.3、2.4.2、3.4",
+          "review": "supported within named source scope"
+        },
+        {
+          "id": "smart-car:v2:rubric",
+          "text": "运行80分、技术手册20分；有效时间为首圈30%与次圈70%的耗时加罚时。第二圈停车失败加罚20秒，未在比赛中建图加罚50秒；赛道中停止运行超过10秒判本次任务失败。手册按创新、实用、复杂程度和可复现性评价，每个案例最多4分。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "scope": "2025室外ROS高教组，不套用室内竞速和职教组",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "locator": "规则第7至8页§2.3.1、2.4.1–2.4.2",
+          "review": "supported within named source scope"
+        }
+      ],
+      "legacyFacts": [
+        {
+          "id": "smart-car:legacy:fact:eligibility",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "candidateScope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "smart-car:legacy:fact:team",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "candidateScope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "smart-car:legacy:fact:mentor",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "candidateScope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        },
+        {
+          "id": "smart-car:legacy:fact:fee",
+          "kind": "unknown",
+          "status": "unknown",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "candidateScope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "judgment": "Unrechecked or unknown archived fact. No endorsement as a verified fact for the chosen historical task."
+        }
+      ],
+      "noArchivalFactInDecisionField": true
+    }
+  ],
+  "counts": {
+    "reviewed": 2,
+    "approved": 2,
+    "changesRequested": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "contentDigest": "992ed11ac2c94ba0ba263dc95e80c6ff22c36fec72bedf6a00bd09838ef20b46",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.908958+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "biomod-2023-requirements",
+    "biomod-2023-rubric",
+    "biomod-2023-sendai-project",
+    "biomod-2023-sendai-design",
+    "biomod-2023-sendai-experiment"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "biomod-2023-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML lines 9-65; extracted/51-00.txt",
+      "verification": "Read eligibility, fees, deliverables and FAQ."
+    },
+    {
+      "sourceId": "biomod-2023-rubric",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sourceSha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: PDF pages 4,10-12; rendered/biomod-04.png,-10.png,-11.png,-12.png",
+      "verification": "Visually read presentation times and full scoring/award criteria."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-project",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sourceSha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-203; extracted/51-02.txt",
+      "verification": "Read Project text; external figure assets not available."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-design",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sourceSha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-90; extracted/51-03.txt",
+      "verification": "Read Design text; external figures and GIFs not visually read."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-experiment",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sourceSha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-204; extracted/51-04.txt",
+      "verification": "Read experiment text including failed 30nt and revised 34nt TMSD proxy. Figures 1-11, tables 1-10, GIFs not available in frozen artifacts."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "本轮与batch01正文无变化；新增包目录仍无可匹配Sendai完整实验图表资产。本记录保留具体未核图片与资格门槛缺口，不将文本抽取当作完整作品已读。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-52-01",
+      "severity": "major",
+      "description": "Strict L3 complete-work verification is incomplete: frozen HTML refers to absent experiment figures 1-11, tables 1-10, and design images/GIFs. The proposed evidence reading depends on these images, especially gel bands before and after the locking redesign. Supply traceable original assets for visual recheck or withhold the complete-work/L3 claim. Captions and author interpretation do not replace reading the actual figures.",
+      "resolved": false
+    },
+    {
+      "id": "B2-52-02",
+      "severity": "minor",
+      "description": "Eligibility says at least one faculty advisor but omits the Requirements FAQ line 45 tenure-track professor requirement. State the exact qualification or explicitly resolve the mixed-version FAQ applicability to 2023.",
+      "resolved": false
+    }
+  ]
+}

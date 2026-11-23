@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+  "contentDigest": "717592b6ffccbe5e3327909a62157031fd8aaeba3a3299d8d76dc2b81967f1fa",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:57:57.283669+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-intercultural-rules-case"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-intercultural-rules-case",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7289328ed11f17fb773ac26914b7fbe0870ef117151fc5e2ac0949cb7cc24b1c.pdf",
+      "sourceSha256": "7289328ed11f17fb773ac26914b7fbe0870ef117151fc5e2ac0949cb7cc24b1c",
+      "actualReadLocator": "PDF pages 1-7 and 9-16; rendered/intercultural-p{1..7,9..16}.png",
+      "verification": "逐页视觉阅读：资格、校荐1队、2025辽宁复决赛边界、原创案例、8至10分钟展析/2分钟问答/2分钟名言；复赛70/10/20正式表及不同决赛表；附件2完整八页波兰教师案例、四组冲突、分析和解决过程。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、前置、四周、退出均已读；当届费用和资格没有擅自外推。",
+    "完整示范案例属于官方参考模板，不是可直接提交的自创参赛作品；稿件明确反对按国籍直接归因，要求替代解释和情境证据，因此未把示范文中的群体概括转成确定事实。",
+    "半决赛分值与稿件一致；决赛另表，未混用。PDF第8页报名空表没有作为内容依据，未声称全卷逐页阅读。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

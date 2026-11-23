@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "cmc-c5-rules",
+      "url": "https://statics.scnu.edu.cn/pics/maths/2013/1002/20131002033745685.pdf",
+      "title": "第三届全国大学生数学竞赛通知原件",
+      "publisher": "全国大学生数学竞赛委员会／华南师范大学存档",
+      "scope": "2011第三届全国资格、报名、费用与赛程",
+      "locator": "四页PDF第1—2页；文件日期2011-05-12，不以存储路径2013作届次",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。",
+      "sha256": "589ccaf43ae4b0b8365c70f5a6c8b0317be247f1280bd3529fa9d2efef7e6854",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/589ccaf43ae4b0b8365c70f5a6c8b0317be247f1280bd3529fa9d2efef7e6854.pdf"
+    },
+    {
+      "sourceId": "cmc-c5-paper",
+      "url": "https://math.ecnu.edu.cn/llin/pdf_files/nonmath2011.pdf",
+      "title": "2011预赛非数学类原卷",
+      "publisher": "竞赛委员会试卷／华东师范大学存档",
+      "scope": "2011非数学组作答要求及第三大题",
+      "locator": "PDF第1页满分100/150分钟/密封线要求，第3页第三大题全文",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。",
+      "sha256": "97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/97374ed3c4bfa9e0b66be49b21a0b61cba20189263de63bf72131517b992b846.pdf"
+    },
+    {
+      "sourceId": "cmc-c5-answer",
+      "url": "https://math.ecnu.edu.cn/llin/pdf_files/nonmathans2011.pdf",
+      "title": "2011预赛非数学类解答与评分标准",
+      "publisher": "竞赛试卷解答／华东师范大学存档",
+      "scope": "2011第三题15分完整证明及累计分值",
+      "locator": "PDF第3页第三题；与厦门大学公开扫描版第3页逐式视觉核对",
+      "readMethod": "Official public web body or downloaded original; exact read scope in locator",
+      "finding": "已读取定位所列正文；仅采用限定范围，不视为独立评审。",
+      "sha256": "c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/c5e541e527e837c84cf719b6461ab3ea9facf0437b7a67e698fa7f5112e33e0e.pdf"
+    }
+  ]
+}

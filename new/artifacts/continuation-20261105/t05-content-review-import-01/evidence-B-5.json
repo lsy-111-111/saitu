@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/review.json",
+    "sha256": "a690d5fd43631e2743982b3e3b70e9a834135dca4637408b8059db0666f730f8"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/source-reading-evidence.json",
+    "sha256": "b03685380557710b403aaf3a23024e51219f8732540ab4507aa27ed84ba566c0"
+  },
+  "recordId": "loreal-brandstorm:2026-luxe:future-fragrance:18-30-team:global-local-entry:v3",
+  "contentDigest": "bfae3e6c92057ae9a996b93c0a248b6abfa80d7e08dc5779bc1f51f14371748a",
+  "informationalScopeNotes": [
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "使命PDF为初选交付框架，不代替当地完整资格/法律条款。候选已明确当地参赛通道与截止另核验，本审批没有确认任何个人当前参赛资格。"
+    },
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "PDF 14–17页为市场背景图表，未发现改变提交或评分规则的附加条件；候选未引用其中市场数字。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "if-student-award:2025-entry-guide:sdg-design:design-students-graduates:global-2025:v3",
+  "contentDigest": "ba7f40c58ac3bf61302faa3833782b91e0123d99ee0ff9d712cc68de31f35383",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:51:40.074627+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-if-guide"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-if-guide",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29.pdf",
+      "sourceSha256": "36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29",
+      "actualReadLocator": "PDF pages 1-5; rendered/if-p1.png through p5.png + if-p5-poster.png detail",
+      "verification": "全部相关指南及完整示范海报已视觉读：设计相关学生或两年毕业、4人、2025-02-05、免费英文提交、SDG1—15、五维正式标准、两图/650字符平台字段、A1横版单页5MB、MASHAV三模式及穿着/磁吸导电纱线/拉链开关示意。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周及退出已读。",
+    "官方指南示范海报已完整视觉核；没有核对获奖身份，也没有把海报定性冷却主张转为经实验证实的降温/健康效果。",
+    "被动热空气向上、主动帽部太阳能通风及组合模式表述与图文一致；底层试验未知被披露不冒充本次阅读。",
+    "五维来自明确评审标准；免费只指参赛，制作测试支出分开。第6页赞助联系方式未作为依据。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

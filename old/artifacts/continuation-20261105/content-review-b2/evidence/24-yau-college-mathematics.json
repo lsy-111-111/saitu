@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "yau-college-mathematics:2026-17:algebra-non-simple-group:undergraduate-individual:global-2026-historical-training:v3",
+  "contentDigest": "a748867111f86fdc6f97d09592a5a504e4ea7c62ff79c90327551d7c90b0edd0",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:33:22.203731+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "yau-c6-rules",
+    "yau-c6-assessment",
+    "yau-c6-2011"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "yau-c6-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/2e5c8906a6e4429caddf5468c1cc1648d19df4447cdbbcf398814cbea8a9c10e.html",
+      "sourceSha256": "2e5c8906a6e4429caddf5468c1cc1648d19df4447cdbbcf398814cbea8a9c10e",
+      "actualReadLocator": "fresh HTML text lines 31-43,83-93",
+      "verification": "2026本科在读且未获学士、个人1至6科、团队另列六人、报名日期、每科2小时与考点均已读。"
+    },
+    {
+      "sourceId": "yau-c6-assessment",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1f23413268d1c90768274d82a9f9f749bcc7ccc15b2cd8d3d1b6812fe3fc69da.html",
+      "sourceSha256": "1f23413268d1c90768274d82a9f9f749bcc7ccc15b2cd8d3d1b6812fe3fc69da",
+      "actualReadLocator": "fresh HTML text lines 31-39",
+      "verification": "笔试阅卷、成绩申诉、40分钟准备/30分钟面试及英文回答、最终安排条件均已读。"
+    },
+    {
+      "sourceId": "yau-c6-2011",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d.zip",
+      "sourceSha256": "f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d",
+      "actualReadLocator": "ZIP member 2010-2026历年笔试真题/2011/4.Algebra-Individual-2011.pdf pages 1-2; rendered/yau-2011-1.png and yau-2011-2.png",
+      "verification": "原卷两页完整视觉阅读。2011个人2:30-5:00、六题选五、无证明例子/断言不计分、第6题150阶群非单均核实。渲染有非关键SimSun告警，英文题与公式可读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、前置、四周和退出内容已读；2011题面/定性评分与2026资格流程显式分开，未猜数字分步评分。",
+    "编辑证明正确：n5=1或6；六Sylow子群共轭传递作用非平凡，若简单则核平凡而嵌入S6，150不整除720矛盾。",
+    "未知报名与赴考费用未视为免费；此批准为历史训练内容核验，不是2027资格。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

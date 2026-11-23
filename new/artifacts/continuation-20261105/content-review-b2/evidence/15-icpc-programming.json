@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "icpc-programming:2025-world-finals:world-finals:qualified-university-team:world-finals-baku-2025:v3",
+  "contentDigest": "391129705dcc9daea8a99fb9d68efdfb022d98333af74e6988763206912885c9",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:10:35.007575+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "icpc-c-2025-rules",
+    "icpc-c-2025-d"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "icpc-c-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd.pdf",
+      "sourceSha256": "69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd",
+      "actualReadLocator": "PDF pages24–27；rendered/icpc-2-24..27.png逐页视觉",
+      "verification": "2025 Baku晋级、同校唯一队及原3人无替补、未曾两次总决赛、教练认证与签证/在读/到场、限定日期食宿与交通自理、5小时、前12名罚时与CE例外全部核对。"
+    },
+    {
+      "sourceId": "icpc-c-2025-d",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456.pdf",
+      "sourceSha256": "249467d758ce43a7bb947d3a4d5be6305ad164c4b4bcf9ed661fca7eebf31456",
+      "actualReadLocator": "PDF pages7–8完整D题；rendered/icpc-3-07..08.png逐页视觉",
+      "verification": "2秒，200x200网格，移动最多10000，四方向首可行选择，首步无改变费用；完整三组样例输出1/0/4及前两组解释。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周和退出均已读；只批准2025总决赛历史题边界，未推断当前区域赛资格。",
+    "24排列状态覆盖全部可能，保持或改变转移正确；全局最小值可给O(24n)路线。没有运行代码或声称官方AC。",
+    "PDF其余章节/其他题未读，不计为全手册已读；费用边界明确。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

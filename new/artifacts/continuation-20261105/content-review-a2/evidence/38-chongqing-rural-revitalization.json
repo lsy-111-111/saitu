@@ -1,0 +1,58 @@
+{
+  "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+  "name": "重庆市大学生乡村振兴创意大赛",
+  "contentDigest": "7c3a58e7672e21b053416e2769fe6229b035e81375a50ceca5f8dd9ac848dd47",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "b-rural-rules",
+      "url": "https://www.cqgjxh.com/upload/file/202509/%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E7%AC%AC%E4%BA%94%E5%B1%8A%E9%87%8D%E5%BA%86%E5%B8%82%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E5%88%9B%E6%84%8F%E5%A4%A7%E8%B5%9B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "readingLocation": "PDF P1-P8参赛与常规作品；P12-P17知识产权、调研、常规初复赛及决赛评价",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383.pdf",
+      "sha256": "22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383",
+      "bytes": 666047
+    },
+    {
+      "sourceId": "b-rural-task",
+      "url": "https://xtw.swupl.edu.cn/docs/2025-09/d9f9b43ef5ca415588bc637e066aae32.pdf",
+      "readingLocation": "PDF两页全文；常规任务P1-P2首段",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7.pdf",
+      "sha256": "014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7",
+      "bytes": 188876
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "324亩坡地、菊花农文旅原题完整，资格2-5学生/1-2导师及五年内毕业、有条件跨校精确。60/30/10明确限初复赛，未串用电商或现场决赛。12模块、场地真伪/运营责任、四周与桌面研究退出具体。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

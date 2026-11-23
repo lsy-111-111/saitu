@@ -1,0 +1,622 @@
+{
+  "schemaVersion": "saitu.independent-content-review-evidence.v1",
+  "reviewerId": "/root/content_corrections_review_b",
+  "runId": "content-corrections-independent-b1-2026-11-06T005415667841+0000",
+  "reviewedAt": "2026-11-06T00:54:15.667841+00:00",
+  "inputCandidateSha256": "174f6ad77f8e397eb43f55316e4ba5451e4a524d2c38f0cd37305b53420b8ac4",
+  "inputSourceManifestSha256": "8f1b892693a5856fb6942b315abeea537868911364be992a020f8749e282a735",
+  "provenanceArtifact": "artifacts/continuation-20261105/content-corrections-independent-b1/provenance.json",
+  "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b1/source-reading-evidence.json",
+  "records": [
+    {
+      "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+      "contentDigest": "510af2a86347c9ff3e1882c3504f648ea7fcba41b72b08d6799c4a783509c57b",
+      "verdict": "needs_revision",
+      "checks": {
+        "factualSupport": false,
+        "entityScope": true,
+        "studentUsefulness": false,
+        "temporalAccuracy": true
+      },
+      "summary": "2023幼教师资生资格、幼教主题网与小学架构图区分、纸本电子双交、20页、30/40/30和费用未知均支持。完整教案评读的主要分析合理，并排除未经核实故事及未测教学效果；但精确卡牌页码/内容指认仍需改。",
+      "requiredSourceIds": [
+        "teach-d3-2023-rules",
+        "teach-d3-children-rights-work"
+      ],
+      "allRequiredSourcesActuallyRead": true,
+      "factAssessments": [
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:eligibility",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:track",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:participation",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:deliverables",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:rubric",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:investment",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        }
+      ],
+      "issues": [
+        {
+          "id": "b1-child-card-location",
+          "severity": "minor",
+          "description": "sevenDayTrial.action 与 sections.nextStep 将第15—16页描述成“查看书包的虚构情境卡与记录单”。原作第15页卡牌实际写“未經過同意拿別人東西”，第16页为通用绘画记录；打开同伴书包查看发生在第9页正文。把这两个不同来源情境混为一个原作卡牌事实，影响学生按页定位。请改为第9页正文情境配第15—16页可改编卡牌/记录模板，明确改编属于编辑路线，或准确采用第15页拿取物品情境。",
+          "resolved": false,
+          "paths": [
+            "sevenDayTrial.action",
+            "sections.nextStep[0].text"
+          ],
+          "sourceIds": [
+            "teach-d3-children-rights-work"
+          ],
+          "sourceLocator": "PDF p9 and visually inspected p15–16"
+        }
+      ],
+      "studentRouteReview": {
+        "officialVsEditorialBoundary": "Official source claims distinguished from optional learning implementation; no result/effect/recognition guarantee.",
+        "costHandling": "Historical fee where established; unknown personal total not treated as free.",
+        "scopeHandling": "Historical edition, chosen track/group and source territorial scope reviewed; known archival identity failures retained in issues.",
+        "fullRecordRead": true
+      },
+      "legacyBoundary": "Only pending/unknown archival legacy material can remain unendorsed; this review does not verify imported local source contents. Known incorrect edition binding is an unresolved issue rather than silently exempted."
+    },
+    {
+      "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+      "contentDigest": "e9ad3b4e2477c4df47c239cdf43e2acec495c4aab7b38e8e42178e6da16f4009",
+      "verdict": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "2026自我推广命题、学生分支、团队/收费、创作数量与主交付限制、本人身份特例、通用评审及Games Design例外均受当年原文支持。非学生FAQ/条款冲突如实保留；静态五幅编辑路线具备可交付和自查标准。",
+      "requiredSourceIds": [
+        "newblood-2026-dad-brief",
+        "newblood-2026-tutor-pack"
+      ],
+      "allRequiredSourcesActuallyRead": true,
+      "factAssessments": [
+        {
+          "factId": "dandad-new-blood:v2:eligibility",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "dandad-new-blood:v2:track",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-dad-brief"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "dandad-new-blood:v2:participation",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-dad-brief",
+            "newblood-2026-tutor-pack"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "dandad-new-blood:v2:deliverables",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-dad-brief"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "dandad-new-blood:v2:investment",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "dandad-new-blood:v2:rubric",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        }
+      ],
+      "issues": [],
+      "studentRouteReview": {
+        "officialVsEditorialBoundary": "Official source claims distinguished from optional learning implementation; no result/effect/recognition guarantee.",
+        "costHandling": "Historical fee where established; unknown personal total not treated as free.",
+        "scopeHandling": "Historical edition, chosen track/group and source territorial scope reviewed; known archival identity failures retained in issues.",
+        "fullRecordRead": true
+      },
+      "legacyBoundary": "Only pending/unknown archival legacy material can remain unendorsed; this review does not verify imported local source contents. Known incorrect edition binding is an unresolved issue rather than silently exempted."
+    },
+    {
+      "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+      "contentDigest": "7977019f221ae6f13863df6337eee5f013a56aabc0554dd10037c041b93c61aa",
+      "verdict": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "全国通知与A3题干共同支持所有新历史事实：全日制组队导师安排、框架自由与其他讯飞AI工具限制、六维五类完整课程、评分35/45/10/10、七分钟材料和参赛费边界。课程局部试做与正式交付区分明确；没有虚报效果。",
+      "requiredSourceIds": [
+        "softcup-c2-a3",
+        "softcup-c2-notice"
+      ],
+      "allRequiredSourcesActuallyRead": true,
+      "factAssessments": [
+        {
+          "factId": "china-software-cup:legacy:fact:eligibility",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:team",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:mentor",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:fee",
+          "kind": "unknown",
+          "status": "unknown",
+          "assessment": "archived_unknown_not_endorsed",
+          "sourceIds": [],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:eligibility",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-notice",
+            "softcup-c2-a3"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:track",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:participation",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-notice"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:deliverables",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:rubric",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "china-software-cup:v2:investment",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "softcup-c2-notice",
+            "softcup-c2-a3"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        }
+      ],
+      "issues": [],
+      "studentRouteReview": {
+        "officialVsEditorialBoundary": "Official source claims distinguished from optional learning implementation; no result/effect/recognition guarantee.",
+        "costHandling": "Historical fee where established; unknown personal total not treated as free.",
+        "scopeHandling": "Historical edition, chosen track/group and source territorial scope reviewed; known archival identity failures retained in issues.",
+        "fullRecordRead": true
+      },
+      "legacyBoundary": "Only pending/unknown archival legacy material can remain unendorsed; this review does not verify imported local source contents. Known incorrect edition binding is an unresolved issue rather than silently exempted."
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "contentDigest": "829c0b591739b3722b29605b761ee278927a5468192cf679477cbe079725b0cd",
+      "verdict": "needs_revision",
+      "checks": {
+        "factualSupport": false,
+        "entityScope": false,
+        "studentUsefulness": false,
+        "temporalAccuracy": false
+      },
+      "summary": "黑龙江2024资格、时间、35件推荐、1089×841图版尺寸和五项标准支持；Empty原板结构和跨赛区训练界限支持。独立设计说明遗漏、未经证实别名及2026旧事实实体错绑使整条摘要不能批准。",
+      "requiredSourceIds": [
+        "b-industrial-rule",
+        "b-industrial-work"
+      ],
+      "allRequiredSourcesActuallyRead": true,
+      "factAssessments": [
+        {
+          "factId": "national-college-industrial-design:legacy:fact:eligibility",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "national-college-industrial-design:legacy:source:2"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:team",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "national-college-industrial-design:legacy:source:2"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:mentor",
+          "kind": "unknown",
+          "status": "unknown",
+          "assessment": "archived_unknown_not_endorsed",
+          "sourceIds": [],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:fee",
+          "kind": "unknown",
+          "status": "unknown",
+          "assessment": "archived_unknown_not_endorsed",
+          "sourceIds": [],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:v2:eligibility",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:v2:track",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "b-industrial-work"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:v2:participation",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:v2:deliverables",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "national-college-industrial-design:v2:rubric",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        }
+      ],
+      "issues": [
+        {
+          "id": "b1-industrial-missing-description",
+          "severity": "major",
+          "description": "deliverables只列一张JPG图版，未列规则第4页“（2）单独的作品设计说明”，会使学生将板内设计说明误当成完整提交材料。应补充独立说明文件、官网模板，并保留学校汇总流程。",
+          "resolved": false,
+          "paths": [
+            "facts[national-college-industrial-design:v2:deliverables]",
+            "sections.deliverables"
+          ],
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocator": "PDF pp3–4, online electronic submission numbered items (1) and (2)"
+        },
+        {
+          "id": "b1-industrial-edition-binding",
+          "severity": "major",
+          "description": "旧事实 eligibility/team 的scope明确为2026第八届浙江农林大学校选，但entity.editionId是2024-7，scopeId是heilongjiang-rules-national-work。pending_review表明它未获证实，不能消除已知实体/时间错绑。允许保留未核旧source元数据；建议将旧事实移到明确历史档案区或纠正实体并保证不作为本记录的本届事实。不得用本次2024来源为其背书。",
+          "resolved": false,
+          "paths": [
+            "facts[national-college-industrial-design:legacy:fact:eligibility].entity",
+            "facts[national-college-industrial-design:legacy:fact:team].entity"
+          ],
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocator": "candidate legacy facts scope/entity cross-check; original rule cover is 2024 seventh edition Heilongjiang"
+        },
+        {
+          "id": "b1-industrial-alias-unsupported",
+          "severity": "minor",
+          "description": "aliases中的“NCDA工业设计大赛”未获本轮允许的原始来源支持；原展板标识为CUIDC 2024。请删除该别名或另以实际阅读的官方原文验证，不能仅凭相似赛事名称建立别名。",
+          "resolved": false,
+          "paths": [
+            "aliases[0]"
+          ],
+          "sourceIds": [
+            "b-industrial-rule",
+            "b-industrial-work"
+          ],
+          "sourceLocator": "rule cover and Empty board footer"
+        }
+      ],
+      "studentRouteReview": {
+        "officialVsEditorialBoundary": "Official source claims distinguished from optional learning implementation; no result/effect/recognition guarantee.",
+        "costHandling": "Historical fee where established; unknown personal total not treated as free.",
+        "scopeHandling": "Historical edition, chosen track/group and source territorial scope reviewed; known archival identity failures retained in issues.",
+        "fullRecordRead": true
+      },
+      "legacyBoundary": "Only pending/unknown archival legacy material can remain unendorsed; this review does not verify imported local source contents. Known incorrect edition binding is an unresolved issue rather than silently exempted."
+    },
+    {
+      "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+      "contentDigest": "86f051b573e13a0a93a1045a86acf5c8b4a1134517f5687239fbb4ae447855bf",
+      "verdict": "needs_revision",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": false,
+        "studentUsefulness": true,
+        "temporalAccuracy": false
+      },
+      "summary": "2025ROS规则的两圈建图/导航、随机挡板、停车、80+20、30/70耗时、至少五案例、一次源码手册提交和设备措辞冲突已实际核实；学习路线适当。2026旧事实错绑2025实体仍使整条记录的实体/时间检查失败。",
+      "requiredSourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "allRequiredSourcesActuallyRead": true,
+      "factAssessments": [
+        {
+          "factId": "smart-car:legacy:fact:eligibility",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "smart-car:legacy:fact:team",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "smart-car:legacy:fact:mentor",
+          "kind": "official_fact",
+          "status": "pending_review",
+          "assessment": "pending_original_unread_not_endorsed",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "smart-car:legacy:fact:fee",
+          "kind": "unknown",
+          "status": "unknown",
+          "assessment": "archived_unknown_not_endorsed",
+          "sourceIds": [],
+          "note": "No legacy source contents read or claimed verified; not used to support current historical facts. Known scope/entity contradiction separately reported where applicable."
+        },
+        {
+          "factId": "smart-car:v2:eligibility",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "smart-car:v2:track",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "smart-car:v2:participation",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "smart-car:v2:deliverables",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        },
+        {
+          "factId": "smart-car:v2:rubric",
+          "kind": "official_fact",
+          "status": "historical",
+          "assessment": "supported_by_required_original",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "note": "Checked against source observations above; issue on material completeness is separately recorded where applicable."
+        }
+      ],
+      "issues": [
+        {
+          "id": "b1-smartcar-edition-binding",
+          "severity": "major",
+          "description": "三条legacy official_fact（eligibility/team/mentor）的scope写2026第二十一届、来源标题为2026常州工学院校内选拔，但entity.editionId绑定2025-20-outdoor且scopeId为china-2025-outdoor-ros。这不是仅存档未核来源元数据，而是将另一届事实绑定本历史实体。保持未核状态可避免声称已验证，却不能使实体时序检查通过。请移至清晰档案结构或纠正实体并避免作为2025本届事实使用。",
+          "resolved": false,
+          "paths": [
+            "facts[smart-car:legacy:fact:eligibility].entity",
+            "facts[smart-car:legacy:fact:team].entity",
+            "facts[smart-car:legacy:fact:mentor].entity"
+          ],
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocator": "candidate legacy scope/entity inconsistency; primary rule cover July2025 twentieth edition"
+        }
+      ],
+      "studentRouteReview": {
+        "officialVsEditorialBoundary": "Official source claims distinguished from optional learning implementation; no result/effect/recognition guarantee.",
+        "costHandling": "Historical fee where established; unknown personal total not treated as free.",
+        "scopeHandling": "Historical edition, chosen track/group and source territorial scope reviewed; known archival identity failures retained in issues.",
+        "fullRecordRead": true
+      },
+      "legacyBoundary": "Only pending/unknown archival legacy material can remain unendorsed; this review does not verify imported local source contents. Known incorrect edition binding is an unresolved issue rather than silently exempted."
+    }
+  ],
+  "counts": {
+    "records": 5,
+    "approved": 2,
+    "needs_revision": 3,
+    "requiredSourcesRead": 9
+  },
+  "notFormalBenchmarkAcceptance": true
+}

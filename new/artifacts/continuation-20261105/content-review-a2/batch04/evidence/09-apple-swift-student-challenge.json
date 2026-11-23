@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+  "contentDigest": "fb3c3f4c6e582ce2ef5bfcc5355884e9e3e42219469095e08eba00c92b5cc788",
+  "priorDigest": "6d7eeb127996319e2bb6498424dbca809a9ba3d637aa86c013f4741061a8bdde",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 9,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "新增锁定commit完整SwiftPM工程已解包核成员哈希，实际读README、Package、入口、模型、五关、共享完成逻辑和VoiceOver指南，并看三张作者截图。五关及苹果标签/输入分支与源码对应；apple及APPLE可触发true，apples和空白不满足。共享onChange没有true保护，iOS16包声明与iOS18类型边界均被正文保留，没有把静态阅读当实机通过。2026正式条款的技术/创意/书面回答已重读；2025作品仅作明确分年的学习比较，不声称2026提交合格、获奖或可复制授权。原缺完整具体作品的问题已实质补足。",
+  "qualificationDecision": "2026资格原文可读，学校身份/年龄/全职开发排除等仍须按本人具体情况核验；这不是缺原始资格规则。作品2025作者身份和获奖未认证，不作为资格依据。",
+  "retainedUnknowns": [
+    "未进行iOS构建或运行、VoiceOver真实设备测试及用户学习效果试验。",
+    "无明确开源许可，公开可读不代表可复制参赛。",
+    "2025具体提交版和奖项未核；2026评审只作标年比较。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-2026-policy",
+      "url": "https://developer.apple.com/swift-student-challenge/policy/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb.html",
+      "sha256": "afcca43cde9b1470893affd7cfa3aa89a6b103033537d82d93498e02a4489beb",
+      "bytes": 117108,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML L120—171，完整资格、交付、原创和判断标准",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3 P1:L144—161个人原创及判断",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/swift-2026-policy.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-playground-requirements",
+      "url": "https://developer.apple.com/swift-student-challenge/eligibility/",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235.html",
+      "sha256": "cc919b27e4fcfeffa653bd040477d03062175c3f26796f3bb6953b6cae6ab235",
+      "bytes": 107448,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML L118—143技术交付、离线和个人要求",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3 P1:L132—137个人与离线",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/swift-playground-requirements.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "sourceId": "swift-accessibility-2025-full",
+      "url": "https://github.com/phnagy/ssc2025/tree/960b72301329ff8dd5f67801eca8d9a8240fabe7",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04.zip",
+      "sha256": "4754f90fc7d6ce15629196fba624981a152b8a2228b9d77e2b03207a6979cc04",
+      "bytes": 8890582,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "原ZIP解包；README L1—3、Package.swift L1—45、AccessibilityEscape.swift L1—32、Model.swift L1—43、Level.swift L1—54、Levels.swift L1—58、LevelsView.swift L1—68、LevelViewModifier.swift L1—89、GuideVoiceOverView.swift L1—89；五关Contrast/DarkMode/DynamicType/Motion/VoiceOver全文件；实际看VoiceOver/Overview/Guide-DarkMode三PNG；仅静态阅读，未构建运行；完整ZIP成员哈希不等于全部代码实读",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": null,
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "swift-2026-policy",
+    "swift-accessibility-2025-full",
+    "swift-playground-requirements"
+  ],
+  "actualFrozenReadSourceIds": [
+    "swift-2026-policy",
+    "swift-playground-requirements",
+    "swift-accessibility-2025-full"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。",
+  "memberHashArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/swift-accessibility-2025-full-members.json"
+}

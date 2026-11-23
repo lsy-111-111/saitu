@@ -1,0 +1,90 @@
+{
+  "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+  "name": "IMA校园管理会计案例大赛",
+  "contentDigest": "0249cc89916b37fd097e1629821a3cedbf01ba00df3dd1ee113a6dad777a3601",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.155619+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+    "previousContentDigest": "529d19a66d623e137765eb2338c637e6481982369f7904a9f0a53cb38bba5041",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-ima-rules",
+      "url": "https://casecompetition.imachina.org.cn/details/100.html",
+      "readingLocation": "A3 P1:L94—140资格及超过5队校内选拔",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee.html",
+      "sha256": "637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee",
+      "bytes": 56672,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-ima-delivery",
+      "url": "https://casecompetition.imachina.org.cn/details/102.html",
+      "readingLocation": "P1:L94-L131区域赛上传和扣分规则",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566.html",
+      "sha256": "1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566",
+      "bytes": 56223,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-ima-case",
+      "url": "https://casecompetition.imachina.org.cn/Uploads/Picture/2026/10/27/u6ae04e27dbd7d.pdf",
+      "readingLocation": "PDF六页完整案例、数据与三个问题",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7.pdf",
+      "sha256": "8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7",
+      "bytes": 718653,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核IMA参赛流程和L107/114/137：超过5队才要求校内选拔的条件已修复。六页案例完整，但Questions属于案例任务，当前稿明确缺实际内容评分标准。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-31-01",
+      "severity": "major",
+      "description": "补当届适用内容评分标准（或明确且有来源的参考尺度），不能以提交格式或案例问题替代评分。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

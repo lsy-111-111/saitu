@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "google-hash-code:2022:qualification-mentorship:historical-public-task:qualification-mentorship-2022:v3",
+  "contentDigest": "fccf9e048308064cc5b0a79df12944abfaabfb11d5007c81a82bd04b460234ed",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch06-20261106-2ba54f74",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:24:04.857069+00:00",
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "manifestVerification": {
+    "expectedFiles": 150,
+    "verifiedFiles": 150,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "ghc-2022-mentorship-task",
+    "ghc-2022-event",
+    "google-competitions-farewell"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "ghc-2022-mentorship-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8.pdf",
+      "sourceSha256": "4e287f001462ae16b114e2c26de3cdd5c7adeb407b0542ea299f4afaa02d6db8",
+      "actualReadLocator": "rendered/02-00-1.png至02-00-9.png；原PDF全9页本轮目读，重点p4、p7–9",
+      "verification": "p4任一贡献者同一时间至多一个项目；p7输出WebServer Bob Anna、Logging Anna、WebChat Maria Bob；p8–9：WebServer[0,7)10分，Logging Anna[7,12)3分，WebChat Maria/Bob[7,17)20分，总33。p2–4另一个讲解例技能不同，不混入正式样例。p3导师同项目另角色且仅补一级；升级在完成后。p5–6说明栏原件右侧裁切，左输入及p7–9重复解释完整可核，不把裁切内容称已读。"
+    },
+    {
+      "sourceId": "ghc-2022-event",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408.html",
+      "sourceSha256": "ded13b7d2c9bc6dd0a81f2d159fb792e69d84f1c8a186add93bb3840f4f74408",
+      "actualReadLocator": "extracted/02-01.txt L231–241，本轮全文L1–310",
+      "verification": "官方2022文章要求真实资格赛队伍2–4人、2月23日前登记、2月24日资格赛，与题中模拟contributors/mentor分开；完整资格仍未知。"
+    },
+    {
+      "sourceId": "google-competitions-farewell",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sourceSha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "actualReadLocator": "extracted/00-02.txt L20–26，本轮全文L1–65",
+      "verification": "Google公告明确系列结束、2023告别轮及公开题/分析存档；不提供2022年龄、地域或雇佣资格，因此unknown事实sourceIds为空且不伪托此公告。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "按已授权中立裁决独立判断：历史公开学习L3允许有理由未知；unknown不等于官方资格已证实。B04旧结论保留，本次只批准新摘要的历史学习范围。",
+    "12模块、六维价值、三层难度、角色个人交付/可学前置、四周验收与退出条件均逐项读过。正式资格/完整费用仍未核，strictParticipationCoverage=false，currentRegistrationOpportunity=false，严格36/40增量0。",
+    "未读取A或其他审者意见，未依赖作者读取声明。新稿完整正文已实际阅读；PDF本轮重新渲染并目读，网页实际正文按行核对。",
+    "本轮逐字核三个重复位置nextStep、learningFeedback、sevenDayTrial：Logging用Anna，WebChat用已空闲Maria/Bob，任何贡献者不能同时执行两项目。全部与原题p7–9相符。",
+    "新摘要修正具体旧歧义，未知资格改typed unknown且无虚假来源；并非仅因中立裁决就批准。未声称跑过竞赛全部数据或取得优化分数。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

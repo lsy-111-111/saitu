@@ -1,0 +1,82 @@
+{
+  "recordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+  "name": "全国大学生市场调查与分析大赛",
+  "contentDigest": "f94a162260827da0befab774fdac94c5b49f89c0a3d8a83252ca105a8bd9217d",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.157984+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+    "previousContentDigest": "f94a162260827da0befab774fdac94c5b49f89c0a3d8a83252ca105a8bd9217d",
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-market-rules",
+      "url": "https://youth.cau.edu.cn/art/2025/1/9/art_45078_1051289.html",
+      "readingLocation": "HTML P1:L11-L30 CAU校赛资格与报告/视频/赛期",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/a3f1ba7654971be43a3fe9addae92a8faac0ef7fdb13d14c92de008df3bbbc1b.html",
+      "sha256": "a3f1ba7654971be43a3fe9addae92a8faac0ef7fdb13d14c92de008df3bbbc1b",
+      "bytes": 24152,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-market-task",
+      "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=87f59d4d9434466aaf043a159b3c445f.xlsx",
+      "readingLocation": "原始xlsx 问卷网-全国范围题 A1:H3完整AI任务",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/68c95b1b3ba4658ce4d283d19b5393f035894aa68aa92c05634c649c15c0f246.zip",
+      "sha256": "68c95b1b3ba4658ce4d283d19b5393f035894aa68aa92c05634c649c15c0f246",
+      "bytes": 63162,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-market-score",
+      "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=382685a6abf7412497e458faab6c562b.docx",
+      "readingLocation": "原始docx评分全文：10/7/20/20/25/15/3及赛段70/30、50/50",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984.zip",
+      "sha256": "12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984",
+      "bytes": 21552,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "具体AI影响完整企业任务、问卷网必用和非大学生样本边界与稿件一致。评分赛段分清，未把建议模型当强制。12模块、个人真实小样本路线、四周与退出具体。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

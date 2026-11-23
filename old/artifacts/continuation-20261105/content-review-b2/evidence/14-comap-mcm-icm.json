@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "comap-mcm-icm:2026:mcm-a:undergraduate-or-below:global-2026-mcm-a:v3",
+  "contentDigest": "278aea0727fc9da526725be905952391a96ca529e16ce2863b4cb11dfb4dbf89",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:50:37.147237+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "comap-c-2026-rules",
+    "comap-c-2026-mirror",
+    "comap-c-2026-a"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "comap-c-2026-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/0b69bcc27f8fc7d994ebb2d127b28ba6e6e4760bd5def691f0d19062e350d781.pdf",
+      "sourceSha256": "0b69bcc27f8fc7d994ebb2d127b28ba6e6e4760bd5def691f0d19062e350d781",
+      "actualReadLocator": "PDF pages 2-5 and 7-11; rendered/comap-2-p*.png for those pages",
+      "verification": "视觉核对同校1—3人本科及以下全/非全日制、学生可任advisor、控制号、成员锁定、$100团队不退费、英文匿名PDF、25页/AI附录及正式思路模型评阅。第11页在线提交与email残留同在。"
+    },
+    {
+      "sourceId": "comap-c-2026-mirror",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7e345047549ae12385540ff54896ae94d00b3a27a14a5d0fb8f670fcf3bd668.html",
+      "sourceSha256": "d7e345047549ae12385540ff54896ae94d00b3a27a14a5d0fb8f670fcf3bd668",
+      "actualReadLocator": "fresh HTML text lines 1-42 complete",
+      "verification": "当届赛期及在线提交明确不再email；无文件大小新数值。"
+    },
+    {
+      "sourceId": "comap-c-2026-a",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1afb2971d364ae9467a0f63b5d5d1a9eebb609285c76888db9263f6195083744.pdf",
+      "sourceSha256": "1afb2971d364ae9467a0f63b5d5d1a9eebb609285c76888db9263f6195083744",
+      "actualReadLocator": "PDF pages 1-3 complete; rendered/comap-4-p1.png through p3.png",
+      "verification": "全部官方A题已视觉读：连续模型、公开许可数据、SOC与time-to-empty、敏感性/建议、25页和AI报告。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周和退出已读；核心任务、资格、费用、正式评阅、历史范围正确。",
+    "没有把任务要求冒充量化评分；暂不通过仅涉及小范围来源追溯与无依据的冲突断言。",
+    "未运行模型、未验证节能幅度；记录也没有宣称运行或实验成功。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-14-01",
+      "severity": "minor",
+      "description": "suitability.uncertainties称“文件大小冲突”，但冻结规则第11页仅写小于20MB，当届镜像只改变在线/邮件提交方式，未给不同文件大小。请删除未有原件支持的大小冲突断言，或提供确实不同的当届正式规定；可以继续保留已证实的邮件文字冲突说明。",
+      "resolved": false
+    },
+    {
+      "id": "B2-14-02",
+      "severity": "minor",
+      "description": "deliverables事实包含英文与匿名要求，但sourceIds只绑定A题PDF；该3页并未写英文或匿名，依据实际在comap-c-2026-rules第4/10页。请把该规则sourceId加入该事实以便逐事实追溯。",
+      "resolved": false
+    }
+  ]
+}

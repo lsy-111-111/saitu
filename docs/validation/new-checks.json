@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "saitu.github-export.validation.v1",
+  "version": "new",
+  "startedAt": "2026-11-23T09:57:29.344Z",
+  "paidAiCalls": 0,
+  "externalNetwork": "blocked",
+  "isolatedDatabase": true,
+  "databaseEndpoint": "dedicated IPv6 loopback cluster; test-only Socket shim maps literal IPv4 URL to ::1 with no network-family fallback",
+  "stages": [
+    {
+      "name": "typecheck",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 4.31
+    },
+    {
+      "name": "lint",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 2.68
+    },
+    {
+      "name": "tests",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 38.91
+    },
+    {
+      "name": "build",
+      "passed": true,
+      "exitCode": 0,
+      "elapsedSeconds": 17.93
+    }
+  ],
+  "sourceFilesRestored": [],
+  "tests": {
+    "total": 880,
+    "passed": 880,
+    "failed": 0,
+    "pending": 0,
+    "totalSuites": 128,
+    "success": true
+  },
+  "build": {
+    "sourceSha256": "9ad7a4b319d5008cb3089f04ef35c17f91bc3470833d3d0d2f1a9fbc107da15d",
+    "artifactSha256": "b87287182edb7f688bd0496321314524d625ce6c42826364b0bd8901502d9129",
+    "nextBuildId": "r2SUSB0Q2dEUky2uXrgEk",
+    "nextBindingSha256": "d85f83363601f9cbdeebcf0e23db6fa6e58c63a6575516afbc7b60da49a99133"
+  },
+  "completedAt": "2026-11-23T10:01:38.641Z",
+  "passed": true,
+  "testAttemptHistory": [
+    {
+      "name": "tests",
+      "passed": false,
+      "exitCode": 1,
+      "elapsedSeconds": 35.46,
+      "tests": {
+        "total": 880,
+        "passed": 788,
+        "failed": 0,
+        "pending": 92,
+        "totalSuites": 128,
+        "success": false
+      },
+      "cause": "PostgreSQL driver interpreted bracketed IPv6 URL hostname as DNS literal; no test assertion failure."
+    },
+    {
+      "name": "tests",
+      "passed": false,
+      "exitCode": 1,
+      "elapsedSeconds": 34.17,
+      "tests": {
+        "total": 880,
+        "passed": 793,
+        "failed": 68,
+        "pending": 19,
+        "totalSuites": 128,
+        "success": false
+      },
+      "cause": "localhost transport reached isolated IPv6 cluster but application intentionally requires literal IPv4 loopback URL; export also needed a sanitized legacy policy fixture, restored before final test run."
+    }
+  ],
+  "databaseIsolationPreflight": "asserted PostgreSQL socket remoteAddress is ::1 and server data_directory is dedicated temporary cluster"
+}

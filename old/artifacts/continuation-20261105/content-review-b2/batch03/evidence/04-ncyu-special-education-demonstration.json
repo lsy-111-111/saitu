@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ncyu-special-education-demonstration:2016-2017-105:reading-lesson-design:pre-service-teachers:taiwan-105-special-education:v3",
+  "contentDigest": "d301539e1d828e6209065a975a8337c3e5acf8415ba51b0f062549ba85029843",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.019332+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "teach-d2-2017-rules",
+    "teach-d2-official-work",
+    "teach-d2-roaming-lesson"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "teach-d2-2017-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152.pdf",
+      "sourceSha256": "b130c0c2d03b5d62cfd0888fe720f9f585fd2d92a98f329ee2013c6c7d2a9152",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/04-ncyu-special-education-demonstration.json :: 完整PDF3页；rendered/ncyu-0-1..3.png逐页视觉",
+      "verification": "105学年师资生资格4人；40分钟教案15分钟影片4份匿名纸本/CD，初选6件决赛12分钟，10/30/40/20正式评分，2017日期和自备教具条件交通补助。"
+    },
+    {
+      "sourceId": "teach-d2-official-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024.html",
+      "sourceSha256": "7ea2aec427c80991709d2d90777fa8070b829bc73dacaf92716dcc6b1dd63024",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/04-ncyu-special-education-demonstration.json :: fresh HTML text lines299–327",
+      "verification": "官方105学年师资生第二名漫游古都及PDF链接，2024只是网页最后更新时间。"
+    },
+    {
+      "sourceId": "teach-d2-roaming-lesson",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe.pdf",
+      "sourceSha256": "253dfa9d414a7bf6aec1c1c26fe1b6dde36a8311cc184574fa53f43c8e581dfe",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/04-ncyu-special-education-demonstration.json :: PDF pages1,10,12–21；rendered/ncyu-2对应页均视觉阅读",
+      "verification": "第三课完整40分钟方案与教材、字卡、目标活动评价、结果反思；5+30+5支持。四课总框架与本文件第三课区分清楚，结果不足因果推断。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/04-ncyu-special-education-demonstration.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/04-ncyu-special-education-demonstration.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

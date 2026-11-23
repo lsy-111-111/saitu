@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/review.json",
+    "sha256": "a690d5fd43631e2743982b3e3b70e9a834135dca4637408b8059db0666f730f8"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-b1/source-reading-evidence.json",
+    "sha256": "b03685380557710b403aaf3a23024e51219f8732540ab4507aa27ed84ba566c0"
+  },
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "78c0c7410c209bc558c63d5b554da69a1f4f1379d192599c527a33768f542cc0",
+  "informationalScopeNotes": [
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "校通知实际存在第十三届标题、赛项一第十二届正文及2025-04-07至2024-04-15倒置年份。候选保留提醒，历史练习无需据此推定报名期限。"
+    },
+    {
+      "severity": "info",
+      "blocking": false,
+      "text": "题库其余页仅为其他古今篇目；规则11–25页属于讲解、书写、篆刻其他赛项，不应套用其国赛通道到本条个人诵读。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

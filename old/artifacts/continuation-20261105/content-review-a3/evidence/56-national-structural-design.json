@@ -1,0 +1,69 @@
+{
+  "recordId": "national-structural-design:2026-19-shanghai:lele-cart:undergraduate-junior-college:shanghai-division:v3",
+  "name": "全国大学生结构设计竞赛",
+  "contentDigest": "8f076fb59d3e8c0e2c30e37c1ab5531cb2150583e08d78a3ac5d7a3e6a649b2b",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.218707+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "national-structural-design:2026-19-shanghai:lele-cart:undergraduate-junior-college:shanghai-division:v3",
+    "previousContentDigest": "8f076fb59d3e8c0e2c30e37c1ab5531cb2150583e08d78a3ac5d7a3e6a649b2b",
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "structure-shanghai-2026-notice",
+      "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/131fb335-fbb3-4ed9-bef3-3894867f2f46.pdf",
+      "readingLocation": "原PDF1—2页全文",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6.pdf",
+      "sha256": "dcded117d5a13495fdccdc3237bda24266b4fd4f385c8679da1130667f4acad6",
+      "bytes": 195116,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "structure-shanghai-2026-task",
+      "url": "https://www.sues.edu.cn/_upload/article/files/20/1e/2db459b7465887d8f668885071da/2c4a1ed7-4d28-437b-83d2-57787b0de0bb.pdf",
+      "readingLocation": "原PDF1—13页全部视觉阅读，模型/材料/流程/判定/评分公式",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c.pdf",
+      "sha256": "734a2e4a46a89df3800533ed326212f8436a881cce14f428e5131aa269c8ea6c",
+      "bytes": 13044033,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "上海范围、3人、未毕业全日制本专科明确。具体勒勒车全题与5/10/5/80及30/10/40支持；个人载荷路径、纸模至试验、四周退出有效，费用未知保留。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

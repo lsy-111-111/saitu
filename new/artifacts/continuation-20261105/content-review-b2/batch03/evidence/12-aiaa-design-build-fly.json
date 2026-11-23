@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "aiaa-design-build-fly:2025-2026:aircraft-missions:university-team:2026-charter-flight:v3",
+  "contentDigest": "d8981f4a664c5b4ee94ade3309c81c248980201fc84be4802a3f501bd85ae004",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.022549+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "aiaa-dbf-2026-rules"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "aiaa-dbf-2026-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917.pdf",
+      "sourceSha256": "cc4c95d150febd6a9b8cfb169db41af93e25a43ce355c4da6736c93a05f57917",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/11-aiaa-design-build-fly.json :: PDF pages 1,5,8-20,26-29,32-34; rendered/dbf-{page}.png",
+      "verification": "Visual read 2025-26 eligibility/membership/pilot, 550 USD team fee, full Charter Flight incl payload compartments and propulsion limits, course diagram, ordered missions, net-income formula and relative score, report formats/proposal rubric and combined 15/85 score, FAQ configuration limits."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/12-aiaa-design-build-fly.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/11-aiaa-design-build-fly.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "新增队伍和会员fact与已读规则一致；原2027新题断言未删除，原finding维持。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-12-01",
+      "severity": "minor",
+      "description": "scope明确声称2027是传感器新题，registration.note也断言2027另有新任务，但本稿唯一冻结来源为2025-26规则，无法支持2027具体命题。请删除未有原件支持的新届题目断言，保留下一届需另核的边界；或补入并绑定2027官方原件。",
+      "resolved": false
+    }
+  ]
+}

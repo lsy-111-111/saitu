@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+  "contentDigest": "09237dc7243c5e8ae2044fad8feb165d39ac5343a413b3ecafbee4e83df5c1d7",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.034667+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "abc-c7-home",
+    "abc-c7-rules",
+    "abc-c7-task",
+    "abc-c7-editorial",
+    "abc-c7-free"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "abc-c7-home",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b.html",
+      "sourceSha256": "42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json :: fresh HTML text lines 16-18,29-35,72-102,107-131",
+      "verification": "比赛100分钟、All与rating分离、奖品地区学生条件、D425分和罚时均支持。"
+    },
+    {
+      "sourceId": "abc-c7-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4.html",
+      "sourceSha256": "5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json :: fresh HTML text lines 29-58 and tail 1719-1742",
+      "verification": "已读相关规则，个人作答、CE无罚时、未解题错误不累加；庞大编译器列表未全读且未用于2025环境核验。"
+    },
+    {
+      "sourceId": "abc-c7-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b.html",
+      "sourceSha256": "1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json :: fresh HTML text lines 29-178",
+      "verification": "完整英日题面及样例说明已读，2K步、出度≥1、K≤10、总N/M各20万、2秒1024MiB均支持。"
+    },
+    {
+      "sourceId": "abc-c7-editorial",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c.html",
+      "sourceSha256": "41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json :: fresh HTML text lines 29-40",
+      "verification": "日文正式题解完整证明已读，偶数Alice取或、奇数Bob取与、终态与O((N+M)K)一致。"
+    },
+    {
+      "sourceId": "abc-c7-free",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627.html",
+      "sourceSha256": "c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json :: fresh HTML text lines 41-54",
+      "verification": "免费参赛、赞助及线上历史题练习原文已读；不支持个人设备网络总额为零。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/26-atcoder-beginner-contest.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/25-atcoder-beginner-contest.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "已删除未冻结英文14202错误断言；新增个人规则限定2026读取版本，Team or Individual原文行889及后文核实。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

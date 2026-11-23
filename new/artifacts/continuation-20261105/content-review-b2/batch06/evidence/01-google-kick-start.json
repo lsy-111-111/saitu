@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+  "contentDigest": "9a76f98fe2803e5c1c62938e4b585fd2aa0f1908dfdd83e5a35620b9824c17ef",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch06-20261106-2ba54f74",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:24:04.856569+00:00",
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "manifestVerification": {
+    "expectedFiles": 150,
+    "verifiedFiles": 150,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "gks-2022-speed-task",
+    "gks-2022-speed-analysis",
+    "google-competitions-farewell"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "gks-2022-speed-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2.pdf",
+      "sourceSha256": "47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2",
+      "actualReadLocator": "rendered/01-00-1.png、01-00-2.png；原PDF全2页本轮目读",
+      "verification": "Speed Typing仅删除字符、保序大小写；四样例结果1、IMPOSSIBLE、2、IMPOSSIBLE。两个test set限制20/40秒、1GB、长度≤100000，已核。"
+    },
+    {
+      "sourceId": "gks-2022-speed-analysis",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239.pdf",
+      "sourceSha256": "5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239",
+      "actualReadLocator": "rendered/01-01-1.png、01-01-2.png；分析PDF全2页本轮目读",
+      "verification": "子序列双指针含终止检查；完全匹配后才可用|P|-|I|，O(|P|)时间/O(1)额外空间；不同于仅比较字频或长度。"
+    },
+    {
+      "sourceId": "google-competitions-farewell",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sourceSha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "actualReadLocator": "extracted/00-02.txt L20–26，本轮全文L1–65",
+      "verification": "Google公告明确系列结束、2023告别轮及公开题/分析存档；不提供2022年龄、地域或雇佣资格，因此unknown事实sourceIds为空且不伪托此公告。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "按已授权中立裁决独立判断：历史公开学习L3允许有理由未知；unknown不等于官方资格已证实。B04旧结论保留，本次只批准新摘要的历史学习范围。",
+    "12模块、六维价值、三层难度、角色个人交付/可学前置、四周验收与退出条件均逐项读过。正式资格/完整费用仍未核，strictParticipationCoverage=false，currentRegistrationOpportunity=false，严格36/40增量0。",
+    "未读取A或其他审者意见，未依赖作者读取声明。新稿完整正文已实际阅读；PDF本轮重新渲染并目读，网页实际正文按行核对。",
+    "eligibility.historical-rules已实核kind/status=unknown、空sourceIds、checkedAt与lastVerifiedAt为null，requires_confirmation保留。",
+    "新稿围绕真实输入、边界反例、个人实现与复盘形成可核学习路径；没有将停办题目写作当前报名机会。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

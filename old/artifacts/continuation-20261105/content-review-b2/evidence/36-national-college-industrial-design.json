@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "contentDigest": "a83b1a62a9b07002d072be484c0d35ef1469082dea72eba984c310d9b1fd2e15",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:54:52.075493+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-industrial-rule",
+    "b-industrial-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "sourceSha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e",
+      "actualReadLocator": "PDF pages 1-6; rendered/industrial-2-1..6.png",
+      "verification": "Visual read Heilongjiang 2024 eligibility, dates, 1089x841mm portrait JPG150dpi5MB, explanation, five qualitative criteria and provincial recommendation."
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "sourceSha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+      "actualReadLocator": "PDF page 44 / printed page 42; rendered/industrial-3-44.png and industrial-work-detail.png",
+      "verification": "Whole Empty poster visually read plus enlarged text: 2024 CUIDC artwork 06B107796, Shenyang Ligong, authors and teachers; cooker removable, refrigerator slides and support opens, lid/table wings; family versus 23-year-old graduating-student personas and colors."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12 modules, roles/prerequisites/four-week safe paper prototype and exits checked. Published artwork and provincial rules explicitly separated; no claim that Heilongjiang rubric was original Shenyang award score.",
+    "Poster published in 2025 issue and labelled CUIDC2024; this supports historical2024 artwork. Missing manufacturing dimensions, heat/weight tests not fabricated.",
+    "Only relevant rules pages1-6 and one entire poster page read; remaining publication pages and external submission template not read."
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

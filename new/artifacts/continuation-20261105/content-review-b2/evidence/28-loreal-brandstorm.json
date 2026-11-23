@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "loreal-brandstorm:2026-luxe:future-fragrance:18-30-team:global-local-entry:v3",
+  "contentDigest": "5ea291022708c126c2170ed741781381cac1628a383bfd66671043176cf644c0",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:52:44.297687+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-loreal-entry",
+    "b-loreal-brief"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-loreal-entry",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/88c1415a72cb7beea741d55d4382d3ab761dfb9950dbd638aadef07fb164a786.html",
+      "sourceSha256": "88c1415a72cb7beea741d55d4382d3ab761dfb9950dbd638aadef07fb164a786",
+      "actualReadLocator": "fresh HTML text lines 14-75,95,110,135",
+      "verification": "18—30岁无专业经验要求、三人队、报名提交到地区和国际选拔、按居住或学习地选择赛区，期限因地区不同。"
+    },
+    {
+      "sourceId": "b-loreal-brief",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/706dfaa000191bffa6fde2f05a9020e2b68d199904316f6a9cf638f129fc5c43.pdf",
+      "sourceSha256": "706dfaa000191bffa6fde2f05a9020e2b68d199904316f6a9cf638f129fc5c43",
+      "actualReadLocator": "PDF pages 2-9; rendered/loreal-p2.png through p9.png",
+      "verification": "完整Mission及其四领域示例、全部Deliverables/Framework和Evaluation已视觉读；3页50MB与3分钟MP4另50MB；项目5项各5分与团队5项5/2/0。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周及退出已读；三页项目与团队视频分开，真实经历不虚构。",
+    "具体Luxe年度命题及完整任务/提交/评审段落已读；第10页起品牌市场洞察及技术宣传背景未逐页读，不作为本稿品牌销量或技术效能事实的依据。",
+    "地区资格及期限没有被全球年龄概括替代，报名费未知没有被当免费；2026明确历史学习范围。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

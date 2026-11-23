@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "saitu.accelerate.E.catalog-source-recheck.v1",
+  "reviewer": "E",
+  "reviewedAt": "2026-11-11T09:20:41.233Z",
+  "locked": true,
+  "previousCatalog": {
+    "path": "artifacts/accelerate-20261111/D/v747-formal-04/catalog.snapshot.json",
+    "sha256": "a3e3abae7e54b30d0a379dff003aef9aa67a63d59a175bfdce1e55f58ffb7f5e",
+    "canonicalSha256": "2341757bdea03e9302c87f3e3c47def7e20bfefaea30d2aaf06d0130d4c74e1a"
+  },
+  "sourceFiles": [
+    {
+      "path": "src/content/competitions-v6/researched-engineering-a10.ts",
+      "sha256": "ab7b857d8a3017d3ef881eaa2626e3054462144d91a86c78eb3db037611b7818"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-batch-01.ts",
+      "sha256": "ed5d99444c9bbeb8dd44bb16fc37fc221aaa1d17b2af61460af888045df23bc6"
+    },
+    {
+      "path": "src/content/competitions-v6/researched-software-math-c6.ts",
+      "sha256": "3a056c7d60835d7c0090eb9dcd39bbbbfe817a720f841a4cdeaa10b6090a3c99"
+    },
+    {
+      "path": "src/content/competitions-v6/compact-task-copy.ts",
+      "sha256": "7f65fb57159a82ca421a206e1fe05f8b68d5615356a210275a669c57bdb82a8f"
+    },
+    {
+      "path": "src/content/competitions-v6/compact-value-copy.ts",
+      "sha256": "9ab53a00738bb5455b86166711e693d93b456673ec71fa858a20948df8fa11f1"
+    }
+  ],
+  "changedRecords": [
+    {
+      "recordId": "apple-swift-student-challenge:2026:app-playground:individual-student:global-2026:v3",
+      "previousCoreDigest": "36cb0c910438e21006e63d40927911fd7d0f9ca54881023fb7ce507cc7a7aad0",
+      "coreDigest": "d350e2209b349f57568d8d4086d7d089ef4f319c9af597e666e0113121c9643e",
+      "authoredContentDigest": "12ceff8aa7c866583494ee7f5d7d8b1b8a9919d45a244c122ddde78dfb0c600c",
+      "approvedSourceIds": [
+        "swift-2026-policy",
+        "swift-playground-requirements"
+      ],
+      "rechecked": [
+        {
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/69f11f4d190a35045ae6870e08ffca468c270aa54bc612ec413df078b5b7b1ce.txt",
+          "sha256": "69f11f4d190a35045ae6870e08ffca468c270aa54bc612ec413df078b5b7b1ce",
+          "locator": "Apple 2026 Terms 142–153，包、离线评审、大小、工具、语言、独立作者和素材许可"
+        },
+        {
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/0d5e941fd8d9095bd37edb73df357b6d0e293ae673e815fe1c3ccd0b7e59d91e.txt",
+          "sha256": "0d5e941fd8d9095bd37edb73df357b6d0e293ae673e815fe1c3ccd0b7e59d91e",
+          "locator": "Apple Building your app playground 130–139，三分钟、离线及作品要求"
+        },
+        {
+          "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/captures/03e979347246ec9db1ab.txt",
+          "sha256": "06af0c73b5af5f0d8b2339abe6da3eccc80b58a3b49fa34bd365efc7fdfe756b",
+          "locator": "页首Apple Developer赛事名称，119行2026 Distinguished Winners；只有年份有据"
+        }
+      ],
+      "assessment": "实际目录轨道与紧随的可用引文包括离线评审；三分钟原文在作品要求页并由对应source同条绑定。离线要求不能推出不允许登录。新的简短任务说明保留本人小型交互和书面技术解释；官方入口与2026最近届次按原冻结页面复核。"
+    },
+    {
+      "recordId": "mathorcup:2026-16:d-three-dimensional-packing:undergraduate-d:china-spring-d-2026:v3",
+      "previousCoreDigest": "7913b9f3ef114e3ff6efe5c14af8fb44beea1198d2735d0a1cf4cfdd003ec134",
+      "coreDigest": "7913b9f3ef114e3ff6efe5c14af8fb44beea1198d2735d0a1cf4cfdd003ec134",
+      "authoredContentDigest": "498ac045202148af558e0d0349fb80490c0a702b1de542961fac4ef0ab88183c",
+      "approvedSourceIds": [
+        "mathorcup-c6-notice",
+        "mathorcup-c6-rules"
+      ],
+      "rechecked": [
+        {
+          "path": "artifacts/v6/content-review/independent-a-20261105/mathorcup-notice-1.png",
+          "sha256": "39aec0a340d7b95b7002410ad7aefd3d351a5ebd21aa155d56e01bcf78bc9aca",
+          "locator": "2026报名通知原件第1页第4项，同校至多3名学生及1位导师"
+        },
+        {
+          "path": "artifacts/v6/content-review/independent-a-20261105/mathorcup-notice-2.png",
+          "sha256": "e862ffe0eeef8b9c45853b1dce413435709596ce3e52d66b00640729b276429d",
+          "locator": "2026报名通知原件第2页第7–8项，最高学历分组、本科及专科均可选D、研究生及教师只A/B"
+        },
+        {
+          "path": "artifacts/continuation-v7-20261109/challenge-author/private/sources/1cd48a0e81cf467af971d49cb114da4abebc4a035ade8925819d77413288ba9d.txt",
+          "sha256": "1cd48a0e81cf467af971d49cb114da4abebc4a035ade8925819d77413288ba9d",
+          "locator": "2026章程第二条10–13行，不同组别D题适用范围"
+        }
+      ],
+      "assessment": "2026春D题本科或专科组可选，研究生与教师组仅A/B；按队内最高学历分组、同校至多3人1位导师。保持本记录原身份与D题，不将历史范围直接当现届资格。"
+    },
+    {
+      "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+      "previousCoreDigest": "d6b3927854cf3f12539a2cac763e47d9df07c39c3e7f7d603ae14793ead745fd",
+      "coreDigest": "d6b3927854cf3f12539a2cac763e47d9df07c39c3e7f7d603ae14793ead745fd",
+      "authoredContentDigest": "4582b8afc20800d6c10a762f2d45970d504fdcf4f27685a0e6d8512982923388",
+      "approvedSourceIds": [
+        "igem-2025-judge-handbook"
+      ],
+      "rechecked": [
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/5fd7b3c4d65ef6397adf8cfc0acb4810e0745483bd899e33bf30e23597239b98.txt",
+          "sha256": "5fd7b3c4d65ef6397adf8cfc0acb4810e0745483bd899e33bf30e23597239b98",
+          "locator": "2025 Judge Handbook第67–68页，冻结2437–2452及2461–2466，优秀模型文档和四项评审"
+        }
+      ],
+      "assessment": "将2025优秀模型的文档和评审预期从普遍硬性要求中区分，四项评分维度及不外推2026边界有据。原核心任务与参赛条件未变。"
+    }
+  ],
+  "method": "independent_frozen_official_source_recheck_current_changed_fields_and_matching_core",
+  "historicalRowsPreserved": true,
+  "providerCalls": 0
+}

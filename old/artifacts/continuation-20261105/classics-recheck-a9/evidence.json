@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "saitu.independent-source-recheck-evidence.v1",
+  "runId": "classics-recheck-a9-20261106",
+  "reviewerId": "/root/classics_recheck_a8",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T21:08:55.641214+00:00",
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "0722dd9efbe73ba692acf357f184f293adeb6ed023fecacbbd29fc3e035fed0c",
+  "independence": {
+    "otherReviewerConclusionsRead": false,
+    "authorReadingLogsUsedAsApproval": false,
+    "srcModified": false,
+    "reviewLedgerModified": false,
+    "private800QuestionsRead": false,
+    "paidModelCalled": false,
+    "currentAuthorAgentId": "/root",
+    "reviewerNotAuthor": true,
+    "newAuthorReadingLogUsedAsProof": false
+  },
+  "inputValidationArtifact": "artifacts/continuation-20261105/classics-recheck-a9/input-validation.json",
+  "sourceReadings": [
+    {
+      "sourceId": "chinese-classics:legacy:source:1",
+      "url": "https://www.moe.gov.cn/srcsite/A18/s3137/202605/t20260528_1437956.html",
+      "sourceArtifact": null,
+      "bodyArtifact": null,
+      "status": "unavailable_not_used",
+      "reason": "Frozen index says transport failure; no PDF/HTML bytes. No record official_fact cites source:1. Not represented as read or verified.",
+      "readTiming": "A8 actual reading reused after byte identity verified; relevant repaired local statement reread in A9."
+    },
+    {
+      "sourceId": "chinese-classics:legacy:source:2",
+      "url": "https://www.cup.edu.cn/docs/2026-05/e6e258c803314bdfbd3f183fe944c111.pdf",
+      "sourceArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0.pdf",
+        "originalPath": "artifacts/v6/content-research/source-byte-snapshots/legacy-original-20261106/f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0.pdf",
+        "sha256": "f2a7e0d90b7a914f59bf41e4fdfd811149698f99595251a93f8acdcd31fe3eb0",
+        "bytes": 545830
+      },
+      "bodyArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/frozen-source-text/legacy-original-20261106/85a4a3f674fbaf83bfd6bb43f6bf6427282a26525d010a5179376abad1dc31b4.txt",
+        "originalPath": "artifacts/v6/content-research/frozen-source-text/legacy-original-20261106/85a4a3f674fbaf83bfd6bb43f6bf6427282a26525d010a5179376abad1dc31b4.txt",
+        "sha256": "85a4a3f674fbaf83bfd6bb43f6bf6427282a26525d010a5179376abad1dc31b4",
+        "bytes": 35647
+      },
+      "status": "read",
+      "method": "Direct PDF extraction with bundled Poppler; page-specific reading; visual inspection of frozen page renders 10,15,21,25, cross-checked against direct PDF text. Author reading log not used as proof.",
+      "locations": [
+        {
+          "pdfPages": [
+            1,
+            7,
+            8,
+            13,
+            18,
+            24
+          ],
+          "purpose": "2026 document title, issue date and event-specific participant groups; PDF13 confirms 讲解 and 演讲 categories."
+        },
+        {
+          "pdfPages": [
+            10,
+            15,
+            21,
+            25
+          ],
+          "printedPages": [
+            9,
+            14,
+            20,
+            24
+          ],
+          "frozenTextLines": [
+            "2463-2487",
+            "2567-2591",
+            "2713-2737",
+            "2803-2827"
+          ],
+          "purpose": "Per-work recitation maximum 2; explanation/speech 1; writing 1; engraving 1 with teacher group blank."
+        }
+      ],
+      "visualArtifacts": [
+        "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/continuation-20261105/legacy-product-impact-r1/classics-10.png",
+        "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/continuation-20261105/legacy-product-impact-r1/classics-15.png",
+        "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/continuation-20261105/legacy-product-impact-r1/classics-21.png",
+        "artifacts/continuation-20261105/content/review-batch-09/dependencies/artifacts/continuation-20261105/legacy-product-impact-r1/classics-25.png"
+      ],
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-a9/chinese-classics-legacy-source-2.txt",
+      "readTiming": "A8 actual reading reused after byte identity verified; relevant repaired local statement reread in A9."
+    },
+    {
+      "sourceId": "b-classics-local",
+      "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+      "sourceArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+        "originalPath": "artifacts/v6/content-research/source-byte-snapshots/f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa.html",
+        "sha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+        "bytes": 66863
+      },
+      "bodyArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/frozen-source-text/e5040ecd653f2d501c8d68453a58bc63f3cb9d993b7765d126cd82d847a60935.txt",
+        "originalPath": "artifacts/v6/content-research/frozen-source-text/e5040ecd653f2d501c8d68453a58bc63f3cb9d993b7765d126cd82d847a60935.txt",
+        "sha256": "e5040ecd653f2d501c8d68453a58bc63f3cb9d993b7765d126cd82d847a60935",
+        "bytes": 14841
+      },
+      "status": "read",
+      "method": "Read frozen HTML article plus frozen body; independently parsed HTML and saved readable text. Checked attachment hrefs against the rules/task URLs.",
+      "locations": [
+        {
+          "heading": "赛项一: 一、参赛对象; 二、参赛要求; 三、竞赛形式及内容; 四、报名方法",
+          "frozenTextLines": "72-87",
+          "purpose": "School/2025 scope, exclusion of graduates and past same-category prize winners, accurate Mandarin, posture, fixed anthology selection, three qualitative criteria, no required music/PPT, date errors."
+        },
+        {
+          "heading": "正文附件1、附件2 links",
+          "purpose": "Provenance chain to the two exact frozen PDFs."
+        }
+      ],
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-a9/b-classics-local-independent.txt",
+      "readTiming": "A8 actual reading reused after byte identity verified; relevant repaired local statement reread in A9."
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+      "sourceArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+        "originalPath": "artifacts/v6/content-research/source-byte-snapshots/f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373.pdf",
+        "sha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+        "bytes": 9646638
+      },
+      "bodyArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/frozen-source-text/b80de38290d4f9997b4823908a23ce18660f1ca83c6ac43548870666bbbf5283.txt",
+        "originalPath": "artifacts/v6/content-research/frozen-source-text/b80de38290d4f9997b4823908a23ce18660f1ca83c6ac43548870666bbbf5283.txt",
+        "sha256": "b80de38290d4f9997b4823908a23ce18660f1ca83c6ac43548870666bbbf5283",
+        "bytes": 35939
+      },
+      "status": "read",
+      "method": "Read frozen text PDF4-10 and directly rendered/viewed PDF4,5,6,9,10. Direct pdftotext lacks Adobe-GB1 mapping and returns watermark-only pages; this failed extraction is not substantive proof. Visual PDF pages provide independent confirmation.",
+      "locations": [
+        {
+          "pdfPages": [
+            4,
+            5
+          ],
+          "frozenTextLines": "95-157",
+          "purpose": "Five provincial groups, individual vs comprehensive/foreign-student groups, school selection, restrictions, two anthology readings with explanation."
+        },
+        {
+          "pdfPages": [
+            6
+          ],
+          "frozenTextLines": "158-190",
+          "purpose": "Three distinct 2025 videos and no music for provincial individual preliminary stage."
+        },
+        {
+          "pdfPages": [
+            9,
+            10
+          ],
+          "frozenTextLines": "257-317",
+          "purpose": "National recommendation restricted here to comprehensive/foreign-student route; RMB500 individual prelim fee paid by school; no student charge; finals travel/accommodation paid by school."
+        }
+      ],
+      "visualArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-rules-4.png",
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-rules-5.png",
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-rules-6.png",
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-rules-9.png",
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-rules-10.png"
+      ],
+      "readTiming": "A8 actual reading reused after byte identity verified; relevant repaired local statement reread in A9."
+    },
+    {
+      "sourceId": "b-classics-task",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+      "sourceArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+        "originalPath": "artifacts/v6/content-research/source-byte-snapshots/6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e.pdf",
+        "sha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+        "bytes": 328637
+      },
+      "bodyArtifact": {
+        "path": "dependencies/artifacts/v6/content-research/frozen-source-text/89be5b0b206b313d6c298d96736de48e5d79ee67379130fb5f25ed1a56f680d2.txt",
+        "originalPath": "artifacts/v6/content-research/frozen-source-text/89be5b0b206b313d6c298d96736de48e5d79ee67379130fb5f25ed1a56f680d2.txt",
+        "sha256": "89be5b0b206b313d6c298d96736de48e5d79ee67379130fb5f25ed1a56f680d2",
+        "bytes": 14389
+      },
+      "status": "read",
+      "method": "Direct PDF text extraction and direct rendered first-page visual inspection; compared frozen text.",
+      "locations": [
+        {
+          "pdfPage": 1,
+          "printedPage": 1,
+          "heading": "一、古代部分(10篇) / 3. 庄子·秋水（节选）",
+          "frozenTextLines": "18-23",
+          "purpose": "Read the complete designated excerpt from 秋水时至 to 吾长见笑于大方之家, including nested quotation and provided fú/shǎo pronunciation markers."
+        }
+      ],
+      "visualArtifacts": [
+        "artifacts/continuation-20261105/classics-recheck-a9/b-classics-task-1.png"
+      ],
+      "independentExtraction": "artifacts/continuation-20261105/classics-recheck-a9/b-classics-task.txt",
+      "readTiming": "A8 actual reading reused after byte identity verified; relevant repaired local statement reread in A9."
+    }
+  ],
+  "officialFactChecks": [
+    {
+      "factId": "chinese-classics:legacy:fact:eligibility",
+      "verdict": "supported",
+      "sources": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "locations": "PDF8/13/18/24",
+      "reason": "Different national events have student/teacher/other groups; statement stays at that generality and entity explicitly denotes 2026 nationwide multi-event reference."
+    },
+    {
+      "factId": "chinese-classics:legacy:fact:mentor",
+      "verdict": "supported",
+      "sources": [
+        "chinese-classics:legacy:source:2"
+      ],
+      "locations": "PDF10/15/21/25",
+      "reason": "Every mentor limit and engraving teacher-group exception is supported; explicit text blocks transfer to other years/local events."
+    },
+    {
+      "factId": "chinese-classics:v2:eligibility",
+      "verdict": "supported",
+      "sources": [
+        "b-classics-local"
+      ],
+      "locations": "Frozen body76-77",
+      "reason": "Correct school, full-time status, 2025 graduates excluded, past same-category first/second prize restriction."
+    },
+    {
+      "factId": "chinese-classics:v2:track",
+      "verdict": "supported",
+      "sources": [
+        "b-classics-local",
+        "b-classics-task"
+      ],
+      "locations": "Local body83; task PDF1 item3",
+      "reason": "b-classics-local now included in fact.sourceIds/sourceScopes along with task source; exact school selection and task numbering each have their direct official source."
+    },
+    {
+      "factId": "chinese-classics:v2:participation",
+      "verdict": "supported",
+      "sources": [
+        "b-classics-rules"
+      ],
+      "locations": "PDF5/9",
+      "reason": "School selection into provincial competition; separate national selection for comprehensive and foreign-student categories. Does not assert direct national entry from individual local selection."
+    },
+    {
+      "factId": "chinese-classics:v2:deliverables",
+      "verdict": "supported",
+      "sources": [
+        "b-classics-local",
+        "b-classics-rules"
+      ],
+      "locations": "Local body83; rules PDF5-6",
+      "reason": "School fact and deliverables module now both preserve 无需配乐、无需PPT; no strengthened school prohibition. Provincial three-video requirements remain independently supported by PDF5-6."
+    },
+    {
+      "factId": "chinese-classics:v2:rubric",
+      "verdict": "supported_with_boundary",
+      "sources": [
+        "b-classics-local"
+      ],
+      "locations": "Local body78-83",
+      "reason": "Three named qualitative criteria, Mandarin and posture requirements supported. Numeric weights not in the inspected school recitation section; not a claim that no unpublished rubric exists."
+    },
+    {
+      "factId": "chinese-classics:v2:investment",
+      "verdict": "supported",
+      "sources": [
+        "b-classics-rules"
+      ],
+      "locations": "PDF9-10",
+      "reason": "RMB500 per individual prelim entrant, school payer and no student charging, school-paid finals travel/accommodation. Unknown other expenses and null personal-total estimates preserve boundary."
+    }
+  ],
+  "twelveModuleChecks": {
+    "task": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "eligibility": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "track": {
+      "reviewed": true,
+      "assessment": "Repaired exact official-source wording/citation verified; all remaining text is unchanged from this reviewer’s substantive source review."
+    },
+    "participation": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "deliverables": {
+      "reviewed": true,
+      "assessment": "Repaired exact official-source wording/citation verified; all remaining text is unchanged from this reviewer’s substantive source review."
+    },
+    "rubric": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "skills": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "investment": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "difficulty": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "benefits": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "value": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    },
+    "nextStep": {
+      "reviewed": true,
+      "assessment": "Supported as scoped official information or clearly labeled editorial/unknown material; no current-entry or award guarantee."
+    }
+  },
+  "workedExample": {
+    "verdict": "supported_historical_learning_example",
+    "sources": [
+      "b-classics-local",
+      "b-classics-rules",
+      "b-classics-task"
+    ],
+    "sourceLocation": "Task PDF1 item3; school body83; rules PDF5-6",
+    "taskCompleteness": "Complete designated excerpt read, not merely title: narration of river rise and self-satisfaction, viewing the North Sea, and full quoted self-reflection through 大方之家. No claim that this excerpt is the complete original 秋水 chapter.",
+    "textSpecificAnalysis": "自喜 is grounded in 欣然自喜/以天下之美为尽在己; reversal grounded in 至于北海/不见水端; reflection grounded in 我之谓也/今我睹子之难穷也 and ending. Nested 野语 quotation supports distinguishing narrator, 河伯 and quoted saying.",
+    "studentUsefulness": "Four steps, two role paths, weekly artifacts, listener retelling, and stop-before-emotional-processing condition are actionable and labeled editorial. Review questions and three rubric dimensions fit the school task. One-minute trial is practice, not official duration.",
+    "boundary": "Only this ancient piece is worked; provincial full entry still needs modern piece and prepared speech. Quantitative scoring not supplied. No claim of current registration, nationwide personal route, complete personal-cost coverage, school credit, or award probability."
+  },
+  "positiveConclusions": [
+    "Mentor revision accurately separates 2026 nationwide per-event rules and includes the engraving teacher exception.",
+    "2025 local task identity, actual classic text and qualitative rubric are supported.",
+    "Historical status, national-route limitation, source date errors, remaining provincial material and personal-cost uncertainty are explicitly disclosed.",
+    "All three A8 findings resolved in new bytes. No unrelated substantive content change found. Approval binds only to digest 0722dd9efbe73ba692acf357f184f293adeb6ed023fecacbbd29fc3e035fed0c."
+  ],
+  "negativeConclusions": [],
+  "unverifiedOrExcluded": [
+    "Unavailable MOE source:1 not read or used.",
+    "No live/current registration verification; no future-edition eligibility established.",
+    "No numeric scoring weights or all-stage entry completeness certified.",
+    "No L3/contentTier/publication assertion made; targetTier does not determine outcome.",
+    "Direct provincial PDF text extraction failed due missing language mapping; substantive provincial verification used rendered original pages and frozen body instead."
+  ],
+  "overallOutcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "reviewContinuation": {
+    "previousReview": "artifacts/continuation-20261105/classics-recheck-a8/reviews.json",
+    "previousReviewSha256": "158fba56b61448f599014ae84b60a80b175b1e2a4b2dcf0aba1d8d855169cb23",
+    "previousEvidence": "artifacts/continuation-20261105/classics-recheck-a8/evidence.json",
+    "previousEvidenceSha256": "2148f2b16e7aed3dc7feb5fbb1ee4351a4333a77082c142348f82b2a5a0e9eeb",
+    "previousSeal": "artifacts/continuation-20261105/classics-recheck-a8/seal.json",
+    "previousSealSha256": "a838b7aeec092966a4f0e19fd9c7c8b9883a0d2dae501ffeb5bd03a80b7982c8",
+    "previousOutcomePreserved": "changes_requested",
+    "reuseBasis": "All 14 original frozen dependencies are byte-identical and full substantive record diff has been reviewed. Reused only /root/classics_recheck_a8 actual source readings and visual observations from A8; not an inherited approval. Local body76-85 reread for repaired wording and attribution. Four legacy facts, new source arrays/scopes and authorship reread. All other 12-module/deepDive content unchanged.",
+    "newDependency": "dependencies/artifacts/continuation-20261105/classics-author-repair-09/reading.json",
+    "newDependencyTreatment": "Hash checked only; author log not used as factual support.",
+    "recordDiffArtifact": "artifacts/continuation-20261105/classics-recheck-a9/record-diff.json",
+    "sameOriginalDependencyCount": 14
+  },
+  "resolvedFindings": [
+    {
+      "id": "a8-local-deliverables-modality",
+      "severity": "minor",
+      "description": "Resolved in batch09: both chinese-classics:v2:deliverables and sections.deliverables use 无需配乐、无需PPT, matching local body83. Provincial stage remains separately described.",
+      "resolved": true
+    },
+    {
+      "id": "a8-unknown-legacy-entity-scope",
+      "severity": "minor",
+      "description": "Resolved in batch09: unknown team/fee now share the explicit 2026-national-8/multi-event-reference/source-defined-groups/china-national entity with the two other legacy nationwide facts, consistent with 2026 scope. Unknown status/source absence remain visible; no conversion into verified eligibility or fee data.",
+      "resolved": true
+    },
+    {
+      "id": "a8-track-fact-source-completeness",
+      "severity": "minor",
+      "description": "Resolved in batch09: v2:track sourceIds=[b-classics-local,b-classics-task], corresponding sourceScopes and combined scope now cover the local one-piece rule and the anthology item separately.",
+      "resolved": true
+    }
+  ]
+}

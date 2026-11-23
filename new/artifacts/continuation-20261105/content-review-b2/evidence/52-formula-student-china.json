@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "formula-student-china:2026-fscc:cost-manufacturing:university-combustion:china-2026-fscc-cost:v3",
+  "contentDigest": "5639b0ba4c8cf8020c5b5c38b2a43ecc3fe0b41e11d6eafa1972120e2fb39ddb",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:48:42.133460+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fsc-2026-rules-cost",
+    "fsc-2026-cost-case"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fsc-2026-rules-cost",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece.pdf",
+      "sourceSha256": "7f2efddf604190851fab7e1ecbc6d9aa0bc6d98ebe00b96c7d4dced52b2aaece",
+      "actualReadLocator": "PDF pages 13-14,17-18,138-142; rendered/fsc-1-013,014,017,018,138..142.png",
+      "verification": "Visual read eligibility A4/A5, registration A7/A8, cost S4 and scoring table: 20/40/40, complete BOM and 1000-car standard assumptions, 5000 RMB or 800 USD team nonrefundable registration."
+    },
+    {
+      "sourceId": "fsc-2026-cost-case",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed.pdf",
+      "sourceSha256": "d46e31fd6ef6317761ffd49431218e80f284854a16fc645a0baa10eee9a620ed",
+      "actualReadLocator": "PDF all pages 1-4; rendered/fsc-2-1..4.png",
+      "verification": "Full bilingual task visual read: existing 80 race cars/300 karts capacity, 250000 RMB unit price, 200/500/800 year orders, investor and performance changes, six hints including altered cost-table interpretation."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12 modules and all roles/prerequisites/four-week/exit content read. Case interpretation, scoring and team fee boundaries supported.",
+    "Only listed rules chapters visually read, not whole 198-page file. Full actual case read. Insurance/document differences correctly left for confirmation."
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-52-01",
+      "severity": "minor",
+      "description": "资格摘要和eligibilityRules缺A4.1.1的全日制高校学生限制。当前仅写全日制研究生，可能使非全日制本科生误判。请将全日制限制按原规则纳入结构化条件及摘要，并保留毕业七个月例外与组别差异。",
+      "resolved": false
+    }
+  ]
+}

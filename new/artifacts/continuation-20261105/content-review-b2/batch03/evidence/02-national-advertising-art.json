@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-advertising-art:edition-8a08b7777f9d:graphic:group-78fd9199138e:scope-6e32b3157c92:v3",
+  "contentDigest": "55d8f72aaee49ded1824e90321760ca5564d8ab74f88eb90d9dc7833ffc517ec",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.877618+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "advertising-guide-2026",
+    "advertising-aliyun-brief-2026"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "advertising-guide-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sourceSha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "actualReadLocator": "本轮HTML实际全文读取，extracted/02-03.txt 57-233行",
+      "verification": "2026修订、全日制、平面A3横竖不限、2作者1导师、费用和三级流程；不得推广当届报名"
+    },
+    {
+      "sourceId": "advertising-aliyun-brief-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sourceSha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "actualReadLocator": "本轮HTML实际全文读取，extracted/02-04.txt 50-143行",
+      "verification": "阿里云完整命题、受众、AI融合和Slogan、A3竖版；创作须知不是正式评审表"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "与本人batch01完整正文核对本轮资格修订，12模块/角色/前置/四周/退出已审；其他原文阅读沿用前轮记录，不宣称未读遗留来源。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-02-01",
+      "severity": "major",
+      "description": "rubric仍为unknown；完整命题及创作要求不能代替适用正式评审依据，严格L3该项尚未补齐。",
+      "resolved": false
+    }
+  ]
+}

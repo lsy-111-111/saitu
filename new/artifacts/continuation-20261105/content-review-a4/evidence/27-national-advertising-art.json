@@ -1,0 +1,117 @@
+{
+  "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+  "name": "全国大学生广告艺术大赛",
+  "contentDigest": "557af1582406dffd971536ca1c6d8a45d2e0b7d7ea452d3a427d73eaefeb537b",
+  "priorOwnA3ContentDigest": "8852a1fb71533ab9034d67343cc456b3e2c89d16dcf44649752a429b7dc86829",
+  "runId": "a4-gpt6astra-20261105T182253Z-981b858ce5be",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T18:22:53.567803+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+    "previousContentDigest": "8852a1fb71533ab9034d67343cc456b3e2c89d16dcf44649752a429b7dc86829",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "sourceReads": [
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-rules",
+      "url": "https://www.sun-ada.net/home/about_intrs2.html",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526.html",
+      "sha256": "6e3255aa663a7c4771be1914604ac7442b2c0bde506c7ad2ec3ab7b95465c526",
+      "bytes": 90038,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "A3 P1:L185—213投稿人数及奖项；未发现实际评分",
+      "readingLocation": "A3 P1:L185—213投稿人数及奖项；未发现实际评分",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    },
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-task",
+      "url": "https://www.sun-ada.net/home/zt_xqs3026.html",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8.html",
+      "sha256": "8d4c98ec1a7a9a6068b557a08e035ca5804205ad57b348f5230309de3235a1d8",
+      "bytes": 64469,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": false,
+      "priorOwnReadingSameBytes": true,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "本人A2完整命题沿用，A3核任务要求与评分缺口",
+      "readingLocation": "本人A2完整命题沿用，A3核任务要求与评分缺口",
+      "extractionArtifact": null,
+      "visuallyReadArtifacts": [],
+      "retainedReadingNotice": "本轮重新核原字节SHA与变更内容；此来源的完整语义阅读沿用本人的A2/A3，不冒称A4整份重新阅读。"
+    },
+    {
+      "recordId": "national-advertising-art:2026-18-aliyun:graphic:fulltime-students:china-aliyun-graphic:v3",
+      "sourceId": "b-ad-shaoyang-2026-reference",
+      "url": "https://www.syzyedu.com/Uploads/202606/6a338bf15e345.pdf",
+      "origin": "frozen_batch_03",
+      "path": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb.pdf",
+      "sha256": "7612675c599a2b113ee8e4abae2869402cb5c8e3cdb33d538a5bee4db96d43bb",
+      "bytes": 164339,
+      "captureKind": "original_download",
+      "freshTargetedRecheck": true,
+      "priorOwnReadingSameBytes": false,
+      "semanticReadingBasis": "A4原件针对变更重读，未变化原题可沿用本人A2/A3同字节实际阅读；不是复用他人结论",
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "readingLocation": "本轮PDF1—5页全文抽取阅读；P1校赛和本校范围，P4四项权重实际视觉阅读，P5日期/AIGC要求",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a4/extractions/b-ad-shaoyang-2026-reference.txt",
+      "visuallyReadArtifacts": [
+        "artifacts/continuation-20261105/content-review-a4/b-ad-shaoyang-2026-reference-p4.png"
+      ]
+    }
+  ],
+  "assessment": "完整2026阿里云品牌命题与全国平面投稿规范沿用本人同SHA原件阅读；本轮新增完整5页邵阳职业技术学院2026校赛文件，P4明确创意30/艺术表现30/制作质量30/规范10。该文件P1限定本校全日制学生；正文和rubricMapping明确它仅是同届校赛训练参考，不声称全国总评或其他院校采用相同权重。任务要求、参考评分和编辑证据建议分别表达，支持完整命题的具体训练。",
+  "retainedUnknowns": [
+    "全国总评及读者本人院校的适用评分权重仍未取得；不得用邵阳校赛评分预测全国比赛分数。",
+    "旧导入西安交通大学资格/费用事实仍pending，未因本次批准升格；制作、工具和其他支出不能当成全部免费。"
+  ],
+  "scopeReviewed": [
+    "当前冻结摘要与所有差异",
+    "12决策模块及具体任务",
+    "完整原题/公开原作与正式或明确参考评分",
+    "个人路线和贡献证据",
+    "四周完成条件与退出条件",
+    "费用、资格、届次及赛区范围"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A4-27-01",
+      "severity": "major",
+      "description": "原仅有命题要求而无评分尺度的缺口，已补有原件且明确校赛范围的四项参考评分；没有据此宣称全国权重已核。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "priorOwnEvidenceArtifact": "artifacts/continuation-20261105/content-review-a3/evidence/27-national-advertising-art.json",
+  "readingLocationConvention": "A4 HTML为本人自冻结原件抽取L序号；PDF为原件物理页，P#:L#在抽取文件可定位；图像阅读单列。",
+  "limitations": [
+    "本批准只针对当前contentDigest的L3准备内容，不是当前报名资格、得分、中奖或安全性能保证。",
+    "保留pending/unknown事实，不把requires_confirmation占位或validator通过当作事实已核。",
+    "AI独立阅读；未进行人审。流程独立共享文件系统，不宣称技术权限隔离。"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "cumcm-c-charter",
+      "url": "https://www.mcm.edu.cn/html_cn/block/44e92058f537729c6b6a62a3662ee417.html",
+      "title": "全国大学生数学建模竞赛章程",
+      "publisher": "全国组委会",
+      "scope": "2023章程及2026规则入口",
+      "locator": "第二条评奖标准与第三条资格形式"
+    },
+    {
+      "sourceId": "cumcm-c-format",
+      "url": "https://www.mcm.edu.cn/html_cn/node/4cd596519c9eb9fbd866398f6df0caa3.html",
+      "title": "2026论文格式规范",
+      "publisher": "全国组委会",
+      "scope": "2026论文及代码支撑材料",
+      "locator": "第三至十一条全文"
+    },
+    {
+      "sourceId": "cumcm-c-rules",
+      "url": "https://www.mcm.edu.cn/html_cn/node/9d8e511fe7a1447b35f53a82c908e2e0.html",
+      "title": "2026参赛规则",
+      "publisher": "全国组委会",
+      "scope": "2026独立完成与AI政策入口",
+      "locator": "第3—6条赛时协作界限"
+    },
+    {
+      "sourceId": "cumcm-c-problem-a",
+      "url": "https://www.mcm.edu.cn/upload_cn/CUMCM2026Problems.zip",
+      "title": "2026官方赛题包A题药材的烘干问题",
+      "publisher": "全国组委会",
+      "scope": "2026A题四页题干及附录1—4",
+      "locator": "ZIP内A题PDF第1—4页；下载原件SHA见阅读日志",
+      "sha256": "a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/a54c0e6b552d31e2dbd41aba4a07769943433cb9317927514c2d39ec6442e241.zip",
+      "readMethod": "curl public download; zipfile in memory; pypdf complete 4 pages; no archive extraction",
+      "archiveMember": "A╠Γ/A╠Γ.pdf"
+    },
+    {
+      "sourceId": "comap-c-2026-rules",
+      "url": "https://www2.scut.edu.cn/_upload/article/files/e5/f2/8871d9db4b7b8ea970516352c699/5b837653-8e0c-41dc-9238-97f734bcb90f.pdf",
+      "title": "COMAP 2026 Contest Rules, Registration and Instructions",
+      "publisher": "COMAP（华南理工大学托管当届原件）",
+      "scope": "2026队伍、报名费用、论文与评阅要求",
+      "locator": "PDF第2—5、7—11页；旧email文字与新在线流程冲突由当届镜像澄清"
+    },
+    {
+      "sourceId": "comap-c-2026-mirror",
+      "url": "https://www.comapmath.com/MCMICM/",
+      "title": "2026 MCM/ICM官方镜像赛题页",
+      "publisher": "COMAP",
+      "scope": "2026时间与新在线提交流程",
+      "locator": "Contest Dates及Online Submission Process"
+    },
+    {
+      "sourceId": "comap-c-2026-a",
+      "url": "https://www.contest.comap.org/undergraduate/contests/mcm/contests/2026/problems/2026_MCM_Problem_A.pdf",
+      "title": "2026 MCM Problem A Modeling Smartphone Battery Drain",
+      "publisher": "COMAP",
+      "scope": "2026A题全部要求及报告格式",
+      "locator": "完整PDF第1—3页"
+    },
+    {
+      "sourceId": "icpc-c-2025-rules",
+      "url": "https://icpc.global/community/history/brochures/world-finals-2025-brochure.pdf",
+      "title": "2025 ICPC World Finals Baku Brochure",
+      "publisher": "ICPC Foundation",
+      "scope": "2025总决赛资格、出行、赛制及评分",
+      "locator": "PDF第24—27页原文；本地pypdf读取，sha见日志",
+      "sha256": "69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd",
+      "artifact": "artifacts/v6/content-research/source-byte-snapshots/69e8ca28bb5c101751a061423e697f40ed7f4f8f6c08a4377ceed4a62d7951fd.pdf",
+      "readMethod": "urllib public download; pypdf pages24-27"
+    },
+    {
+      "sourceId": "icpc-c-2025-d",
+      "url": "https://worldfinals.icpc.global/problems/2025/finals/problems/problemset.pdf",
+      "title": "2025 ICPC World Finals Problem Set",
+      "publisher": "ICPC Foundation",
+      "scope": "D题Buggy Rover完整题面与样例",
+      "locator": "PDF第7—8页（D题）"
+    }
+  ],
+  "findings": [
+    "CUMCM2026 A题完整四页已读；没有用2025武器题或2026无线电题做深度案例。",
+    "COMAP2026旧PDF残留email及20MB；新官方镜像明确在线不再email，文件大小不作硬事实。",
+    "ICPC2025D题完整及3样例；官网unofficial题解不当官方解答。"
+  ]
+}

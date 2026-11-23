@@ -1,0 +1,59 @@
+{
+  "recordId": "china-college-computer-design:2026-19:ai-industrial-vision:full-time-undergraduate:china-ai-industrial-2026:v3",
+  "name": "中国大学生计算机设计大赛",
+  "contentDigest": "3021621bdf1a73a9f342b810532e296a9d2844c8a3668f70511f80f47efdd48b",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "4c-c2-national",
+      "url": "https://jsjds.blcu.edu.cn/info/1042/2124.htm",
+      "readingLocation": "P1:L27-L48全国对象、三级赛制和赛期",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/7558172e1b8bbff7957a48e940c2d40b6e74ce9b63dd8f4bee0cb62376712915.html",
+      "sha256": "7558172e1b8bbff7957a48e940c2d40b6e74ce9b63dd8f4bee0cb62376712915",
+      "bytes": 33297
+    },
+    {
+      "sourceId": "4c-c2-industrial",
+      "url": "https://jsjds.exelab.cc/docs/C02v20260225.01.pdf",
+      "readingLocation": "PDF P1-P11全文文字；P1-P5任务与评分，P8-P11赛段边界及支持",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f.pdf",
+      "sha256": "e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f",
+      "bytes": 538521
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "指定平台、25件五类、图像证据与切换计时、65/35名次加权均原文对应。计数评分错字已明确保留且不计算精确分数，不阻碍公开具体任务学习。现场数据未取得边界、个人路线、四周和退出有效。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

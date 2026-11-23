@@ -1,0 +1,1131 @@
+{
+  "authorAgentId": "/root/research_b",
+  "status": "author_drafts_not_reviewed",
+  "retrievedAt": "2026-11-05",
+  "hashPolicy": "Hashes identify exact web-tool source segments read in this research session, not remote files or factual truth. Original source remains linked; reading summaries are paraphrases. No human review performed.",
+  "sources": [
+    {
+      "sourceId": "b-ad-rules",
+      "url": "https://www.sun-ada.net/home/about_intrs2.html",
+      "retrievedAt": "2026-11-05",
+      "locator": "第一部分一、四A、五；第二部分二至四",
+      "readingSummary": "在校全日制学生；平面作者最多2人、导师1人；同校组队，线上上传并学校上报，A3/JPG/300dpi/5MB，6月12日截止；全国组委会不收参赛费。",
+      "readSegments": [
+        {
+          "batch": 1,
+          "sha256": "2d4a63251b7a6e9c56763e9e8b7e453834c6b54186818cebc307555ddd4eba12",
+          "length": 6485,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 2,
+          "sha256": "b85c5e3a3ca116bbaddef3b79ba054bd9d413900af826c38cca1d3efd00bbb9e",
+          "length": 945,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 13,
+          "sha256": "a562fdfd82b914ce9c19e881b772d8c47b7d4864fe754f445fb203b3af745e6d",
+          "length": 11166,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "1c0a7b18f29490c9016305c9baaa1d0216ac7a7936938e26d628f4f5bb1eabc3",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ad-task",
+      "url": "https://www.sun-ada.net/home/zt_xqs3026.html",
+      "retrievedAt": "2026-11-05",
+      "locator": "广告主题、目标群体、创作须知、广告形式1",
+      "readingSummary": "千问品牌需要解释其作为AI应用底层能力的价值；自拟slogan，须用千问及配套工具；平面A3竖版；要求原创、传播性、美誉度和AI创作融合。品牌自述能力不作独立技术事实。",
+      "readSegments": [
+        {
+          "batch": 1,
+          "sha256": "c87725ec3c5cfbff3f677441fd4280ee015262856db65f2c1c3ad5f6d747a07a",
+          "length": 5561,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "64fc89945b9cb89b13f351d69745d75f0b78f86ba2ba5414299430fe2f469b0c",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ncda-task",
+      "url": "https://www.ncda.org.cn/dsjs/dsnr/mtsd/cxcysd/",
+      "retrievedAt": "2026-11-05",
+      "locator": "竞赛内容9C1D、投稿要求、评审标准、知识产权",
+      "readingSummary": "便携刷聚焦收纳、清洁、操作、场景、专业功能和外观；管口16/12/7.3mm，单手柄成本2—5元、多功能5—8元；最多3作者2导师。交方案与海报，评分看市场、工艺、批量与品牌；获奖知识产权归主办单位。",
+      "readSegments": [
+        {
+          "batch": 4,
+          "sha256": "1d5ff7063fdbb22728151d73839bbd0c70b927a6094ca4bbcf6334b745bce6d0",
+          "length": 297,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 5,
+          "sha256": "f68214ce6cd53a849c87c9c417a9b80d158bc997139b15c61b807689be34ed2a",
+          "length": 3135,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 6,
+          "sha256": "e2fa75c262012075086260adf130841a92a619804682517814b44879f71a0b8b",
+          "length": 725,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 7,
+          "sha256": "cdc01d6bb34b2926d1044bbcb39e15d01b121765c4c5ce33def17ea02fefeba5",
+          "length": 328,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 8,
+          "sha256": "590212ce24397a9770cfbd62c8a2ecc7abe69eb5f4a274cfe954b0a0e9f0c06b",
+          "length": 767,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 12,
+          "sha256": "1e9a915f485f264973c7d557c5517cd49c1ac6e39f91240ebecf8665d1636fa3",
+          "length": 3238,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "7520cd1adceb0bf94cd85bfbab9faeaef4faa54de328534971faf6eb5f0d1d89",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-loreal-entry",
+      "url": "https://brandstorm2026.loreal.com/en",
+      "retrievedAt": "2026-11-05",
+      "locator": "参加条件、How it works",
+      "readingSummary": "18—30岁三人组队，不限专业经验；通过当地通道提交。",
+      "readSegments": [
+        {
+          "batch": 6,
+          "sha256": "3ce38d662d034741fc5a66d3b6a773fa060b6d7faa044a7bdfa142e908ee29a4",
+          "length": 562,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 7,
+          "sha256": "44562eb77e1dcfd47e81d1f054a0f1be7b7734114d90e441d3a6ad5ad0c0777d",
+          "length": 7717,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 15,
+          "sha256": "8081c7b863eecd8a088bf642bbe49d0311e0aaaa5b45b20c5c10136f5ad19e2e",
+          "length": 2974,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "2e01883732f4c3549debf80870b0dfd745771eaa9356e0bd0292257e0863b96e",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-loreal-brief",
+      "url": "https://d32gkk464bsqbe.cloudfront.net/activities/o/BRANDSTORM_2026_MISSION_DOCUMENT.pdf?v=6.8.13",
+      "retrievedAt": "2026-11-05",
+      "locator": "Mission；Submission；Evaluation criteria",
+      "readingSummary": "围绕奢华香氛产品、服务和体验创新；交3页方案与3分钟团队视频。项目创新、可持续、包容、可行、扩展各5分，团队判断、韧性、雄心、共情和学习敏捷各以5/2/0评估。",
+      "readSegments": [
+        {
+          "batch": 15,
+          "sha256": "5b89742f4cc727381d37b1da78d8507836be12baf67d0d7f0943647f705e9213",
+          "length": 3470,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 16,
+          "sha256": "2535536549567b7323c37b564a9ef5ce3cd8325d178ecf5b647843b898996164",
+          "length": 7194,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "dfa02f457c1068f8e0d3eea24aab6aa4c7be9503a4190337ebac06cf24826cbd",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-intercultural-rules-case",
+      "url": "https://ictvd.oss-cn-beijing.aliyuncs.com/uploadfile/2025/0901/20250901041005540.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "参赛资格、复赛评分、附件案例An Intercultural Conflict Case—A Chinese Teacher in Poland",
+      "readingSummary": "三人同校队，英语相关专业最多一人；复赛案例8—10分钟、问答2分钟、名言阐释2分钟。案例80分含展析70问答10，名言20。附完整韩悦在波兰工作与生活冲突故事及分析参考。",
+      "readSegments": [
+        {
+          "batch": 21,
+          "sha256": "a521a94ef603fadb449c057b7bab16d7ef02c78f0fd11895f382e208bba0f708",
+          "length": 292,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 22,
+          "sha256": "62d37c4c8afc1cf8b5b99ddb40048ae07d19ae12356602b0d26ad00d0b1d9579",
+          "length": 1661,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 23,
+          "sha256": "97b6c1191bdd104aff02ac1b7ec68ea22a442decde989d61e8cd9b6d27b84775",
+          "length": 4713,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 23,
+          "sha256": "cb1b13b6400ecdbb9552c887b7e980801768a46c94b23a6932f7abe14bb9ee88",
+          "length": 5309,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 24,
+          "sha256": "31eadf7f06fbb50a0acb95d0d4daf1c533f0ab7fa9e695432adf19a8a60e2382",
+          "length": 17687,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "a6d3452d1d4f329abd4ccfd600f451c579b927853295fa51ab8d401059a107c9",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ima-rules",
+      "url": "https://casecompetition.imachina.org.cn/details/100.html",
+      "retrievedAt": "2026-11-05",
+      "locator": "参赛资格、队伍要求",
+      "readingSummary": "3—5名同校在校生，不限专业；研究生含MBA、MPAcc，不要求CMA会员；每校最多5队晋级区域赛。",
+      "readSegments": [
+        {
+          "batch": 6,
+          "sha256": "7644c8f6750d355ad5546a13b8cce7025779fd54c8050fe2306066c6aa63b398",
+          "length": 890,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 7,
+          "sha256": "4b7e07b86b1cc139eb8a116d9f2a288ad115fee84943ab740a538994fd9369c7",
+          "length": 259,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 12,
+          "sha256": "33412250bbd6fad46b5d4589524ea7352eb8945dc72c4be7ef790b02831bf6d4",
+          "length": 3544,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "e9231402d0752472f092a1bc7717b55fbf18be480e8c85eaf7cf10ec3f6cb58b",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ima-delivery",
+      "url": "https://casecompetition.imachina.org.cn/details/102.html",
+      "retrievedAt": "2026-11-05",
+      "locator": "视频、PPT、提交日期",
+      "readingSummary": "全员出镜英文陈述20分钟内加中文字幕，英语PPT转PDF不超15MB，不出现学校信息；2027年1月1日至2月24日上传。",
+      "readSegments": [
+        {
+          "batch": 13,
+          "sha256": "3408a8cdaced792d48ec9091f715fde0e2dfc39e3b5a199d3a170a0ef0991c48",
+          "length": 222,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 14,
+          "sha256": "d6c662e580eb5198a1578aba251ee82d2fc9ab84f37e182a21fc79df88e803e9",
+          "length": 3609,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "7840d6ac170dc0c544d6c7d9811a4d01bfca66b47804be2533a4d39c28866c56",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ima-case",
+      "url": "https://casecompetition.imachina.org.cn/Uploads/Picture/2026/10/27/u6ae04e27dbd7d.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "6页案例正文、数据表、案例要求",
+      "readingSummary": "虚构新能源企业立航比较两种投资方案，要求含碳价与不含碳价的回收期和净现值、策略比较，并展示AI提示词、人类复核点与AI不足；案例数值只作题设。",
+      "readSegments": [
+        {
+          "batch": 15,
+          "sha256": "90a15d8cf80fb00bb92ea039d480fc017e8ba185ebc267a7f8bcb0bcf75f87dd",
+          "length": 287,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 16,
+          "sha256": "86b2e14e8711902e3fb22db3395e1151ebd25b6100edfa9beba74b700ab60222",
+          "length": 292,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 17,
+          "sha256": "91104496d3ee9ab0467335c1339f32a2c459d050d5bc8b6a0e074b32bca58d53",
+          "length": 795,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 18,
+          "sha256": "f636d0c739d16e30a45baedf4b91e4e536e7df0340dedef8bc94337d48cf6517",
+          "length": 3785,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 23,
+          "sha256": "f72c2c9c4c53fe0d63f482e56a04587354baf053dfdfe3172571ec06f9b37bc8",
+          "length": 5419,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 24,
+          "sha256": "e2d2d28ac9651209cbfaab5f029a9ca90999f141cd1f437685e4cbd406e4a655",
+          "length": 10945,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "38acbc9ab267bd8bfe4dc5622619dcb90d261c86d33eca914880f9ba6c90197c",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-dyson-rule",
+      "url": "https://www.dyson.co.uk/discover/sustainability/james-dyson-award/2025-james-dyson-award-open-for-entries",
+      "retrievedAt": "2026-11-05",
+      "locator": "How to enter及2025征集说明",
+      "readingSummary": "2025年7月16日截止，设计工程学生和近期毕业生提交解决问题的发明；国家评审看功能、设计过程、差异与商业可行性。",
+      "readSegments": [
+        {
+          "batch": 2,
+          "sha256": "8c244681a6bdc7ef1e5009e8b9679e3c3cc80e3a9d51003e680c117a0d8fb3c3",
+          "length": 2560,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 26,
+          "sha256": "05cd90b4a5359fef8f16202056dcc24c20e19230811697483fc6fc932bfb3852",
+          "length": 984,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 27,
+          "sha256": "28fe185677fe1b7bd3b7f16430fefa86e6037129a012f39a406c432d5627bd4d",
+          "length": 849,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 28,
+          "sha256": "8c50e2b56ae75c1a9a8e0c2f3f4eb1d21d08d479bed0ff1d2d167c94bd69b52c",
+          "length": 7416,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "5380d1b489473750ac9321b5dfcb45a7d7c95f3decf0348459dec8d653d09b5d",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-dyson-bloc",
+      "url": "https://www.jamesdysonaward.org/2025/project/bloc-a-modular-cooling-system-for-public-spaces",
+      "retrievedAt": "2026-11-05",
+      "locator": "Function、Inspiration、Design process",
+      "readingSummary": "完整公开作者叙述：模块化陶土蒸发降温装置结合太阳能风扇、泵及雨水收集；1:1 VR检验城市空间，材料试验比较陶土吸水、强度和气流。性能数值为作者主张，未独立验证。",
+      "readSegments": [
+        {
+          "batch": 4,
+          "sha256": "3930df112e9736b9987600323cd774c652209fe7e0766eb3a06a0936e584c15e",
+          "length": 4386,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 26,
+          "sha256": "69a034a01d992ebaddd2df9e574605b84663e802add4ebd3a808832572054ef0",
+          "length": 315,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 27,
+          "sha256": "18b4fbf21319c0fb186094db3813b95c66fe62decec993b177c867aec709a959",
+          "length": 2075,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "7d22c3d58c07f18ad00444242ee58a721eba3031bfa88beaf5d099bb2cc96121",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-if-guide",
+      "url": "https://assets.ctfassets.net/9el74s703hin/mEuiHUwteSLEZbLDQT7VR/c2ca102a428805da3c6d37fdf411d845/iF_DESIGN_STUDENT_AWARD_2025_Entry_Guide_Spanish.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "资格、投稿说明、Evaluation criteria及第5页示范海报",
+      "readingSummary": "设计相关在校或毕业两年内，至多4人，免费英文投稿；A1横版PDF海报。五维评分含问题解决、伦理、团结、积极体验、经济可行性。指南嵌入MASHAV可穿戴通风系统示范海报，展示双层衣物与被动/主动/组合气流。",
+      "readSegments": [
+        {
+          "batch": 20,
+          "sha256": "0fffde958510c97c2d66fa7a1cef35a99690c76587ce1b935b8e3f8f0dac1b88",
+          "length": 2790,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 21,
+          "sha256": "d06baed631c08a30bbe5fec88e151c2395232c43f3f36e625bace08c5ba63088",
+          "length": 2694,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 22,
+          "sha256": "38aed74c34352f32bfda37aef67c02f36b3a16dff48631ef59a8522db50d5abe",
+          "length": 3154,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 23,
+          "sha256": "be26ddf8570b0364da97a0579d06f779c2275ad30360ded66f67d843c9c134a7",
+          "length": 5579,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "36359add622443dfeab50a6ae6415718f5afa711163949a620d8a7a928bd4c29",
+        "byteLength": 787774,
+        "readMethod": "PDF第5页已渲染并目视读取MASHAV完整示范海报；不是2025获奖证明",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "0964aa033b3a496d61a7fec12f6ba29e680a8c1fc7f27037d48a5357aca01f3d",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-cfa-rules",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/research-challenge-official-rules.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "封面、学生与团队资格、报告及附录",
+      "readingSummary": "当届规则为2026—2027赛季，学校代表队经本地主办方进入，以指定公司公开信息作独立研究。",
+      "readSegments": [
+        {
+          "batch": 8,
+          "sha256": "d0afa686912fe8755caeea4ffe87c531463095b9277a025916d8bcb950297294",
+          "length": 314,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 10,
+          "sha256": "e032ef9765726e4f5216af6cb6370ba16ecd2107750089e116ab2c742620b3d6",
+          "length": 1221,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 30,
+          "sha256": "58c0c772b3d35d588f882364fa2a3c85403b8158fe39488948a42d7c06cc0ec9",
+          "length": 909,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "544464425547ba000d973919d214943a3a7f437d4522426ebb13ebcdef2270d5",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-cfa-score",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-written-report-guidelines.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "第1页要求、第2页评价表",
+      "readingSummary": "主报告至多10页、附录至多10页，仅公开信息。公司5、行业竞争10、投资摘要15、估值20、财务20、风险15、ESG15，总100。",
+      "readSegments": [
+        {
+          "batch": 8,
+          "sha256": "fe776efc6ad05ed7c9e4ebc2eeba4a4990785bf86e09bfaecb7436f30a33182d",
+          "length": 2126,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 25,
+          "sha256": "d7f273fead7b7991c3219c5897bb68b2307096162cd57b23dc380a79b814b62c",
+          "length": 2844,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "d528dfa7de3427acdc194d35f04e8a330def66d03d501e8f8b4054ed81cba179",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-cfa-report",
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2025-winning-written-report-kozminski-university.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "投资摘要、估值、风险、敏感性及附录",
+      "readingSummary": "Dom Development历史报告以2025年1月31日为估值时点，给BUY与DCF目标价；含WACC/增长敏感性、情景及蒙特卡洛。所有目标价为历史学生研究判断，不是当前建议。",
+      "readSegments": [
+        {
+          "batch": 13,
+          "sha256": "5dd3eadd8137bf704cf1af119251dafe9304c3b169408911711942ca6d33492a",
+          "length": 349,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 14,
+          "sha256": "3462689b64dff155fce7cb64c506985d5a7c208f1510f980910bed61651dc087",
+          "length": 3490,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 15,
+          "sha256": "962626aff68c3f4b45e439b29f450b6587165cdeea9aceba29fc5421436be56f",
+          "length": 4348,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "c636ab40bccfa9ec913d213a91ef552fb91d9843a61c401ad6ed1de9f37f9402",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-market-rules",
+      "url": "https://youth.cau.edu.cn/art/2025/1/9/art_45078_1051289.html",
+      "retrievedAt": "2026-11-05",
+      "locator": "参赛对象、材料、企业命题安排",
+      "readingSummary": "本科生须已通过个人知识赛，3—5学生1—3导师；学校推荐；报告正文2万字以内；农大校赛另交PPT及8分钟内视频。",
+      "readSegments": [
+        {
+          "batch": 9,
+          "sha256": "f48aed934a5269380856df606dada59404b6dee37d8d322dddc148a786101dba",
+          "length": 1241,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 35,
+          "sha256": "2b3c609d7697e3ee5bb246dd2f709b33448dfaaf2858f2a84230200b5001dcb9",
+          "length": 1270,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 36,
+          "sha256": "1bc4ba787421c3aa3f53dd5cca53d2213ae31b10ff351c7ccfe32e171bb57917",
+          "length": 792,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 37,
+          "sha256": "7d258e4ce452b781f017ae30cc116b3e5c927c9372eade976e60f5ea6390d17c",
+          "length": 2583,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "4acc5dc698e14520d467ece5e2049ae9e9f536c7a201a703d19a0711f62bac3f",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-market-task",
+      "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=87f59d4d9434466aaf043a159b3c445f.xlsx",
+      "retrievedAt": "2026-11-05",
+      "locator": "问卷网-全国范围题工作表B3:H3",
+      "readingSummary": "题目AI对在线问卷平台的影响与价值；必须包含问卷网，受访人群不可仅限高校；必须有网络定量调查，可自行加入定性/舆情，建议需求挖掘方法。",
+      "readSegments": [
+        {
+          "batch": 38,
+          "sha256": "8c49a4254671ac18d92fabaccdaa3620ae6cfdde6f254a5e51a559ffa683007c",
+          "length": 329,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "68c95b1b3ba4658ce4d283d19b5393f035894aa68aa92c05634c649c15c0f246",
+        "byteLength": 63162,
+        "readMethod": "OOXML工作表“问卷网-全国范围题”B3:H3逐格读取；未复制联系人字段",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "e17975bb67dff1c13d01e5a7271501a222125b246c7b80d0476dcf56fd324710",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-market-score",
+      "url": "https://youth.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=382685a6abf7412497e458faab6c562b.docx",
+      "retrievedAt": "2026-11-05",
+      "locator": "本科组报告打分表及逐项说明",
+      "readingSummary": "报告评分选题10、文献7、设计20、实施20、分析结论25、文本15、创新3。省赛/国赛初赛报告70%PPT30%，决赛报告50%现场50%；起评75最高95。",
+      "readSegments": [
+        {
+          "batch": 38,
+          "sha256": "b6cacce6ee4ca5f71035e974ddaaaa20e2a5357502e065ee5fadf80ade689346",
+          "length": 335,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984",
+        "byteLength": 21552,
+        "readMethod": "OOXML正文完整评分表与分赛段计分说明",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "838efd6b2d2d79ff710b3e9fd68b14de7181efbba11f51217ff1d37fceb4ccf6",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-fltrp-rules",
+      "url": "https://ucc.fltrp.com/c/2026-04-15/517928.shtml",
+      "retrievedAt": "2026-11-05",
+      "locator": "参赛资格、作品要求、英语短视频赛项",
+      "readingSummary": "主题数说中国，3分钟以内双语字幕，真实选手英语旁白，至多5人同校队；不得AI生成全部或核心创作，引用或AI画面标注、禁止一稿多投。",
+      "readSegments": [
+        {
+          "batch": 25,
+          "sha256": "2a8e1c5b9d2963353e9b9298561aade86ce7c652785e80c6ffd69e8e763443ad",
+          "length": 10526,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 26,
+          "sha256": "2e357383e92fbf3008e89bc3820e8057184d1c4b59ddfaaaee76d5d4ee56d073",
+          "length": 834,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 27,
+          "sha256": "e383ce230432eab952a6436c0470ef371dfd63039b6e24b79147fb9cb89a8c4f",
+          "length": 834,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 28,
+          "sha256": "6ced533f929834ad4a1c11cbb5ead56a7de4bd0dd565419034e1b4a690f16323",
+          "length": 278,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 29,
+          "sha256": "70f80722b5ccbab4f93cc9ad5f273edc9e40ddf6f0b2a201beb499c18fc801b9",
+          "length": 5270,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "35502ba5f87ca7cf3cf64f1c69dc03b2c110c29f2508b3b4305ab8dd46831904",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-fltrp-local",
+      "url": "https://flc.ahnu.edu.cn/info/1090/50391.htm",
+      "retrievedAt": "2026-11-05",
+      "locator": "二（三）评分标准及提交要求",
+      "readingSummary": "视频内容50、语言30、制作20；校赛8月31日23:59截止。数据为切口，需兼顾目标受众、英语准确与镜头逻辑。",
+      "readSegments": [
+        {
+          "batch": 31,
+          "sha256": "c2ed432bdd827f30f2dd465cdee5ecc5d605ea462cac715819feeb136cbc6b84",
+          "length": 812,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 32,
+          "sha256": "8dbc73bf96bdf0d3e5bb996ebcbd2408a9d0af901066d341d6a5e19b57e06e07",
+          "length": 366,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 34,
+          "sha256": "744e75f7df3d78edcdadb8144fb83b0e076825b2e54ba1caa881441624ba8cfc",
+          "length": 3985,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "886b497d83e2ec1826532c707aec3d730b4ca53827eb5ad8f18610e5d0d5acf3",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "url": "https://arch.hit.edu.cn/_upload/article/files/ee/e4/13a9400d4b9189d376c73be3b166/e8624474-d7df-46aa-9343-ad9ba91ff0bf.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "参赛对象、作品提交、五项评审标准",
+      "readingSummary": "全日制大学生以学校集体报名；纵向1089×841mm图版150dpi≤5MB及设计说明；作品表现、创造、实用、经济、环保为省赛标准。",
+      "readSegments": [
+        {
+          "batch": 6,
+          "sha256": "2b44085879fc0248161006e1e781417a0a31f00107f6c45c2928b3bf738bbd69",
+          "length": 808,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 19,
+          "sha256": "13301376e4bcde091ae6352077a5655711a465d0b67231dfac42618e0373e9f7",
+          "length": 920,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 20,
+          "sha256": "61f403566630e2aac88dd9c4baf6688387d41cf179fc6e4abe8dd27c14f9ccf2",
+          "length": 822,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 29,
+          "sha256": "7d8fc47001c8d5d23062114389d462d445e824caf84e7e1cbfa375f1535eae88",
+          "length": 4053,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "d58a2fe19dd3fd4960e81a37a69cadf6b0e1163de9da82815e1e3448e9f7b7ce",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "url": "https://www.gdep.edu.cn/__local/7/DB/0D/045B0FC787464C7A103EAE08495_1FD490AC_7AB15B.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "PDF第44页（印刷页42），Empty完整展板",
+      "readingSummary": "原作者冷宇铭等、沈阳理工大学，作品号06B107796。展板呈现推箱/展开两形态、可取出灶具、滑出冰箱与折展桌板、用户画像和配色。栏目称银奖；效能与安全无独立测试。",
+      "readSegments": [
+        {
+          "batch": 27,
+          "sha256": "06dd2268138cd9e51169174c8bcf7325d49581fe7edf7d219138c02879efebd4",
+          "length": 984,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 28,
+          "sha256": "baa4932e89f830d65645c3fafe78d769cfb6546a0be03ee735cb50c814de1a49",
+          "length": 5029,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 29,
+          "sha256": "331bf93f8ad18a59b1721a1c9375b1efa5f765b195305647ba31cde6359685d2",
+          "length": 311,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 30,
+          "sha256": "50a4ec4f89cf1b2e0d0b40540f1655ddbb945f82fa7e25a1dc10396350067873",
+          "length": 241,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 35,
+          "sha256": "945aecdba4d5f4b7bdcfe24cc656dd0c45c43ea158088c36a83bde952b018a29",
+          "length": 311,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+        "byteLength": 8040795,
+        "readMethod": "PDF第44页已渲染并目视读取完整Empty展板，含结构图和形态转换",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "a82dd015f71020bd90f631591cdb36ebd56fed3593a7f00022ccbf0a92c8b4e7",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-ecommerce-plan",
+      "url": "https://cxcyxy.zbnc.edu.cn/info/1024/1171.htm",
+      "retrievedAt": "2026-11-05",
+      "locator": "实施流程、参赛要求、创业实战评价",
+      "readingSummary": "全福品平台，须落实合作授权与协议，团队实践选品营销及真实交易；3—5名学生，0—2校导师及0—2企业导师；创业45分由准备10、过程20、业绩15组成，创业0分不能获奖。",
+      "readSegments": [
+        {
+          "batch": 17,
+          "sha256": "c6b1be615050269e4141739fc280ca6b64da5cc9d6328a866a925edae1000ea5",
+          "length": 486,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 19,
+          "sha256": "72c5610065f4719dc92f9b303ed40c5bbaabff769a78e7b6e8d9b8066b92e2c9",
+          "length": 696,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 22,
+          "sha256": "60b8b6fc2625bd82f0348516236204d2e6b36540e4e8b32631c95e876d49d3f0",
+          "length": 3619,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 32,
+          "sha256": "191d37bf8b439402f82898a573d038313893ff83d6da227c4a4bb8ff0348a166",
+          "length": 923,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "ca9933cb173fb0183a57f2b135898ecdb0d8131ed6c7cfad57905905ce45efba",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-rural-rules",
+      "url": "https://www.cqgjxh.com/upload/file/202509/%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E7%AC%AC%E4%BA%94%E5%B1%8A%E9%87%8D%E5%BA%86%E5%B8%82%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E5%88%9B%E6%84%8F%E5%A4%A7%E8%B5%9B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "资格、作品要求、附件1常规赛初复赛评价表",
+      "readingSummary": "市内外在校/毕业五年内可参加，2—5学生1—2导师，可跨校；初复赛可行落地及影响60、创意30、资料10，缺摘要则资料项零分。",
+      "readSegments": [
+        {
+          "batch": 26,
+          "sha256": "159000a5f829a5fc1fc538d9bd5bfa1806ec577028160d7a02f7bf05264cf424",
+          "length": 942,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 34,
+          "sha256": "cada072852581df6de6bdddb14c8219a10b5e7e271dc2fe0015e719b0aaf5a32",
+          "length": 4223,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 35,
+          "sha256": "79dbeeac91f2ebacbe40842c21158a67d945ee5f0c5b14478bb9632ccb82dc62",
+          "length": 411,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383",
+        "byteLength": 666047,
+        "readMethod": "PDF全文规则及第16—20页分赛段评分已读取；本记录只用常规赛16页",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "ccc24c5c51641ff6566dbf832e5bddcb1d187357514af2d8b638347a99ae2ea4",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-rural-task",
+      "url": "https://xtw.swupl.edu.cn/docs/2025-09/d9f9b43ef5ca415588bc637e066aae32.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "常规赛完整题目与324亩基地背景",
+      "readingSummary": "北温泉街道本草花创谷，山岭坡地为主；要求分析地脉文脉、定位客源，开发原创农文旅项目并宣传推广。题设含菊花、茶、景观、研学及休闲资源。",
+      "readSegments": [
+        {
+          "batch": 36,
+          "sha256": "7b2a0ccf19ea73bf153f6fc61712e378950099b16ccfd281eefa29c3fbd085fe",
+          "length": 806,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 37,
+          "sha256": "fec6ea39bb8726b796baab2f33a469268ff3c1890be611e01f5740c839f7c6be",
+          "length": 1381,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "summarySha256": "c8abf75fbb987fddc9a24bf1a9832f18745728894aaf7dd60c593fb2fbf628cc",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-hult-guide",
+      "url": "https://a.storyblok.com/f/133195/x/c87070884e/2023-hult-prize-challenge.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "第1、4页任务，第22页组队，第23页评审关注点",
+      "readingSummary": "在服装价值链创办可盈利社会企业，改善服装可持续性并对齐SDG；校园3—5学生。评审要相关、实用、聚焦、盈利潜力、可衡量影响。指南不是2027报名规则。",
+      "readSegments": [
+        {
+          "batch": 9,
+          "sha256": "762c03be7bd6cbe4be28085e47919f4006221af41c1d1e28eb32cbed34ed3327",
+          "length": 500,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 10,
+          "sha256": "ebc64b97e12a98e96146ea5e47d6736f024972458082717d8d29be7363bf15b9",
+          "length": 4227,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 11,
+          "sha256": "af3ca4efa530c5165014f6765ae669687ac9d5ac5fc6442c396bd868d32471fe",
+          "length": 749,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 15,
+          "sha256": "3b3b8a268f76d298da744fe16def55f8e048f92c3aea2a398c6ce1ed9dd0fa1d",
+          "length": 387,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "4324aa383ae6c0e23464eddd45e4c79baab9c58b871b1c15d585394381c6fd32",
+        "byteLength": 12789453,
+        "readMethod": "PDF第1/4/22/23页任务、组队及五项评审期待已读",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "dc051e2dddd641611a2bf2dab1d4b4c7848c374c1d86ca45c37162c961c460ab",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-classics-local",
+      "url": "https://rwxy.huznu.edu.cn/2025/0409/c534a231481/page.htm",
+      "retrievedAt": "2026-11-05",
+      "locator": "赛项一参赛要求、竞赛内容；附件列表",
+      "readingSummary": "校选要求从2025题库选一篇古代或现代作品脱稿朗诵，不配乐不PPT；考阅读理解、艺术鉴赏和语言表达。正文存在第十二/十三届及报名年份笔误，不能机械使用日期。",
+      "readSegments": [
+        {
+          "batch": 35,
+          "sha256": "90a53c7933ce1a9ad3cabcd31f9fe0a46aa460ab12c8ef1399b00b1221b95471",
+          "length": 995,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 36,
+          "sha256": "b9147737f527befc8ed867ac4ce505cced8d4388478cc995a56035f8b2ef266e",
+          "length": 1046,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 37,
+          "sha256": "fca02ab8a03dc93262d795fa8269f8258bbcd62415f837bda204aaf7ccc42460",
+          "length": 204,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        },
+        {
+          "batch": 38,
+          "sha256": "3c350799a1f787cce03e6f49549628572d785b23950e0df364afc5830755fdbc",
+          "length": 248,
+          "basis": "web.run returned source segment, UTF-8; not raw HTTP bytes"
+        }
+      ],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "f15680b17981637151bd9c2237aee4f52e0996a461b382a95024f13506a77efa",
+        "byteLength": 66863,
+        "readMethod": "网页赛项一及附件列表已读；保留届次与日期笔误说明",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "e8f9d640ac5fe5ee5b63fcf52aa5d12654476fcbdd057e0ddc1d082690451769",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-classics-rules",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/b0053435-8be0-4bf1-a93c-e74ae08d4843.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "附件1第4—10页",
+      "readingSummary": "个人省初赛选古代与现代各一篇朗读讲解，每篇≤6分钟，加备稿演讲；个人与综合组不同。个人参赛费500元由学校支付，不得向学生收费；全国推荐从综合/留学生组遴选。",
+      "readSegments": [],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "f6ff7d21ef668f27f5871594ae002b6449f7b58aba160acb202de6dcc471d373",
+        "byteLength": 9646638,
+        "readMethod": "PDF第4—10页典润之江资格、组别、材料、费用与全国推荐范围",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "255ee9d1a7f3053d4fc00180919afcad3591eff70aa40115b85af1c70e441cec",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    },
+    {
+      "sourceId": "b-classics-task",
+      "url": "https://rwxy.huznu.edu.cn/_upload/article/files/24/5e/408522fc4fada966b2b571aa9c8f/90c168b5-4687-4f3c-bfb9-611ca1f56f66.pdf",
+      "retrievedAt": "2026-11-05",
+      "locator": "古代部分第3题，第1页",
+      "readingSummary": "完整指定篇目庄子秋水节选：河伯由自满至见北海后的反思，附易错字提示。本条只拆其中一篇，不声称覆盖全部省赛材料。",
+      "readSegments": [],
+      "authorAgentId": "/root/research_b",
+      "reviewStatus": "not_reviewed",
+      "downloadedOriginal": {
+        "sha256": "6b08e96e6c90a78bd8febc6933315ee4aad9db55b1ab8ba0c18b338796dd4e8e",
+        "byteLength": 328637,
+        "readMethod": "PDF第1页第3题《庄子·秋水》完整节选已读；不是编辑虚构题",
+        "retrievedAt": "2026-11-05",
+        "retention": "原件保存在研究临时目录供本次审阅；仓库仅保存摘要与原件哈希，不再分发完整作品。"
+      },
+      "summarySha256": "c90b3c4f539e2da4543f06bab7e50d81b3f31ebed16a7181cdb94fe648812795",
+      "editorialSeparation": "readingSummary为原文阅读摘要；记录中的尝试、四周计划、退出条件和判断问题均为编辑建议，不是官方答案。"
+    }
+  ],
+  "records": [
+    {
+      "seriesId": "national-advertising-art",
+      "editionId": "2026-18-aliyun",
+      "sourceIds": [
+        "b-ad-rules",
+        "b-ad-task"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "future-designer-ncda",
+      "editionId": "2026-14-yiwu",
+      "sourceIds": [
+        "b-ncda-task"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "loreal-brandstorm",
+      "editionId": "2026-luxe",
+      "sourceIds": [
+        "b-loreal-entry",
+        "b-loreal-brief"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "intercultural-competence",
+      "editionId": "2025-liaoning",
+      "sourceIds": [
+        "b-intercultural-rules-case"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "ima-management-accounting",
+      "editionId": "2026-27-16",
+      "sourceIds": [
+        "b-ima-rules",
+        "b-ima-delivery",
+        "b-ima-case"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "james-dyson-award",
+      "editionId": "2025-global",
+      "sourceIds": [
+        "b-dyson-rule",
+        "b-dyson-bloc"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "if-student-award",
+      "editionId": "2025-entry-guide",
+      "sourceIds": [
+        "b-if-guide"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "cfa-research-challenge",
+      "editionId": "2026-27-rules-2025-case",
+      "sourceIds": [
+        "b-cfa-rules",
+        "b-cfa-score",
+        "b-cfa-report"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "market-research-analysis",
+      "editionId": "2025-15-undergraduate",
+      "sourceIds": [
+        "b-market-rules",
+        "b-market-task",
+        "b-market-score"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "understanding-contemporary-china-foreign-language",
+      "editionId": "2026-english-video",
+      "sourceIds": [
+        "b-fltrp-rules",
+        "b-fltrp-local"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "national-college-industrial-design",
+      "editionId": "2024-7",
+      "sourceIds": [
+        "b-industrial-rule",
+        "b-industrial-work"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "ecommerce-innovation-creativity-entrepreneurship",
+      "editionId": "2025-15-rural",
+      "sourceIds": [
+        "b-ecommerce-plan"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "chongqing-rural-revitalization",
+      "editionId": "2025-5",
+      "sourceIds": [
+        "b-rural-rules",
+        "b-rural-task"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "hult-prize",
+      "editionId": "2023-fashion",
+      "sourceIds": [
+        "b-hult-guide"
+      ],
+      "deepStatus": "draft"
+    },
+    {
+      "seriesId": "chinese-classics",
+      "editionId": "2025-zhejiang-13",
+      "sourceIds": [
+        "b-classics-local",
+        "b-classics-rules",
+        "b-classics-task"
+      ],
+      "deepStatus": "draft"
+    }
+  ],
+  "retainedLegacyGaps": [
+    {
+      "seriesId": "student-rural-revitalization",
+      "status": "not_upgraded",
+      "reason": "全国2026具体题与评分附件仅网盘资料，本次未完整读取，原目录保留；重庆为独立新增系列，不覆盖全国事实。",
+      "replacementSeriesId": "chongqing-rural-revitalization"
+    }
+  ],
+  "readerEvidenceNote": "网页证据按实际读取的web工具返回片段计算SHA256（并非远程原件哈希）；下载原件另列真实字节哈希与读取位置。所有摘要与练习均由/root/research_b作者撰写，未进行独立双审或人工验收。"
+}

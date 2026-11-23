@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "iot-design:2026-13:espressif-aiot:regular-university:china-espressif:v3",
+  "contentDigest": "1bdd0572c34b716d2b4063461a42d14466b9f0ba7a833e93d67d4e838fadc51d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:16:11.265686+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "iot-2026-charter",
+    "iot-2026-espressif"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "iot-2026-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492.pdf",
+      "sourceSha256": "65676231f78dc9f007fcf8a6dc7eca7f8281c2c5c6251654dff4ef5cec9fe492",
+      "actualReadLocator": "PDF pages 1–6; rendered/iot-2-1.png through iot-2-6.png",
+      "verification": "章程全部六页视觉读取：第十三届、普通高校全日制本研同校≤4学生≤2导师单队、高职独立、2026提交窗口、原创要求、网评及现场定性评审、不收报名参赛评审费。"
+    },
+    {
+      "sourceId": "iot-2026-espressif",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30.pdf",
+      "sourceSha256": "538623fd400373172817a45c511e40b9ba16d761d97aec3ec422066cc43a5e30",
+      "actualReadLocator": "PDF pages 1–13; rendered/iot-3-01.png through iot-3-13.png",
+      "verification": "乐鑫命题全部13页视觉读取：第1页ESP三选一/传感器/至少一个云大模型/下行或非音视频上行四项必备；第2页可选加分，第3—7页板卡限量返还、云额度和资源，第8—11页官方及第三方案简介与图片，第12页条件性奖励，第13页品牌说明。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色前置、四周各验收和退出条件完整核验。B2与本稿修订作者/root/continue_catalog独立。",
+    "命题为有明确必备链路、主控和输入限制的完整官方工程题；本稿明确编辑实践路线，没有把第8—11页作品简介冒充完整获奖作品分析，也未声称读取其外链源码/视频。",
+    "正式定性评审依据章程，技术必备项依据命题；开放选场景不等于免除必备要求。主控三选一、上行非音视频限制与或关系均与原文一致。",
+    "免费报名、限量硬件及条件性实习/内推均未推成免费总预算或保证机会；历史2026和高职边界清楚。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

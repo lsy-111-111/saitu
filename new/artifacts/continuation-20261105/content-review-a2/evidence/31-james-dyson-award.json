@@ -1,0 +1,57 @@
+{
+  "recordId": "james-dyson-award:2025-global:engineering-design:students-recent-graduates:2025-national-review:v3",
+  "name": "James Dyson Award",
+  "contentDigest": "448a5becbb7fd9a5cd1be0e0a5258c32dad9b0abd35c5d466ded27d19e3aa209",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/research_b",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "b-dyson-rule",
+      "url": "https://www.dyson.co.uk/discover/sustainability/james-dyson-award/2025-james-dyson-award-open-for-entries",
+      "readingLocation": "官方web L116—140，当年征集、7月16截止及国家四维评审",
+      "origin": "official_web_tool_transcription_only",
+      "originalBytesAvailable": false,
+      "originalSha256": null,
+      "transcriptionArtifact": "artifacts/continuation-20261105/content-review-a2/live-originals/web-recheck-response.json",
+      "transcriptionSha256": "fa16977c54dcb9296296f11e30c52e85c1d5c3e736ef1e9995e53ed173f30413"
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "官方公告支持基本类别、截止和四维评分；完整bloc作品原站403，未能独立重读其VR/陶土过程。学生路线及历史范围合理，但不能基于作者描述批准作品事实。",
+  "checks": {
+    "factualSupport": false,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-31-01",
+      "severity": "major",
+      "description": "提供bloc完整原页字节及作品图/过程可读记录，并补入2025完整资格与上传条款后再审；本次只读官方征集公告，不把403作品计为已读。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

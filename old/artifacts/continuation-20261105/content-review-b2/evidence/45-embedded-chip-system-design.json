@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "embedded-chip-system-design:2026-9:gowin-real-time-synth:nuaa-undergraduate-graduate:nuaa-gowin-fpga:v3",
+  "contentDigest": "d5eedf8d66bd522d03612a1708259c959ee586ac632dce0092e5e647a81aa444",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:38:06.564355+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fpga-nuaa-2026-notice",
+    "fpga-gowin-2026-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fpga-nuaa-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e733142bcd1ec359e1dd4d5d8f6f40f12c2e7b52972705227c5d899b34039bd0.html",
+      "sourceSha256": "e733142bcd1ec359e1dd4d5d8f6f40f12c2e7b52972705227c5d899b34039bd0",
+      "actualReadLocator": "fresh HTML text lines 163-190",
+      "verification": "南航2026完整相关通知已读：全日制电子电气相关本研、1至3学生、最多2导师、一人一队、报名/提交/决赛日期、指定平台与培训。"
+    },
+    {
+      "sourceId": "fpga-gowin-2026-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/bde2d4bfa3c705799a9dbc05fcbec6fcbd8b45bebba1ab899acdddec6e4204de.html",
+      "sourceSha256": "bde2d4bfa3c705799a9dbc05fcbec6fcbd8b45bebba1ab899acdddec6e4204de",
+      "actualReadLocator": "fresh HTML text lines 140-203,249-277",
+      "verification": "选题二完整设计、基础、拓展、核心评分与板卡部分已读；两维、≥4声部、HDL逐样本、≤10ms、可闻独立振荡器×实际采样率、频谱和RTL均支持。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块及角色、同步逻辑/测量前置、四周与退出内容已读；没有把仿真当板上实测或单波表谐波数当独立振荡器。",
+    "资格严格限定南航，未外推其他学校；报名截止已过，未把待举行决赛当新报名开放。",
+    "除届序微小缺证外，所选完整任务和正式评分均可复核；费用与提交文件格式明确未知，不填免费。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-45-01",
+      "severity": "minor",
+      "description": "edition写“2026第九届”，但两份当前冻结原件只标2026，没有第九届序号；对两份原始HTML检索第九/第9/9th也无结果。请删除未获本包支持的届序或补入标明第九届的原件；2026年份、赛道和时间本身已核实。",
+      "resolved": false
+    }
+  ]
+}

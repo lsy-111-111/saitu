@@ -1,0 +1,17 @@
+.DS_Store
+.runtime/
+.local/
+node_modules/
+.next*/
+dist/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
+coverage/
+*.pem
+*.key
+*.p12
+*.pfx

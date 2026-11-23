@@ -1,0 +1,64 @@
+{
+  "recordId": "future-designer-ncda:2026-14-yiwu:portable-brush:university-students:china-yiwu-9c1d:v3",
+  "name": "未来设计师·全国高校数字艺术设计大赛",
+  "contentDigest": "5a20488a5e14c032932fe9e64f966436ee4f4dea9944b47f93926191ac20315a",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.152557+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "future-designer-ncda:2026-14-yiwu:portable-brush:university-students:china-yiwu-9c1d:v3",
+    "previousContentDigest": "d87c349587bef0c604e3e91910801d50db2f32518f23767851c6ee07d6bf35a6",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-ncda-task",
+      "url": "https://www.ncda.org.cn/dsjs/dsnr/mtsd/cxcysd/",
+      "readingLocation": "A3 P1:L49—51完整网页9C1D；L113—138评分和详细设计PPT引用",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd.html",
+      "sha256": "281ea34d6d379ad1356d59e26e79e5deb67b2706d866ecb480ac26ce2580bfbd",
+      "bytes": 54131,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "网页9C1D的接口、材料、成本、包装与通用评分实际重读；网页同时指向企业详细设计要求PPT及课件，稿也承认尚未取得，不能再称完整官方命题已读。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-28-01",
+      "severity": "major",
+      "description": "取得9C1D企业详细设计要求及必要素材原件并核对完整任务；现有网页摘要虽具体，仍缺其明确引用的详细命题附件。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

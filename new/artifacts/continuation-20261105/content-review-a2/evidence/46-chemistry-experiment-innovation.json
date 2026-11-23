@@ -1,0 +1,67 @@
+{
+  "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+  "name": "全国大学生化学实验创新设计大赛",
+  "contentDigest": "6b787bc779e9d77d98abbacc8ab93e26575697918b7bf9ffd630a7c4754fa076",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "chem-innovation-2025-charter",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250311/1741657661442014167.pdf",
+      "readingLocation": "PDF P5:L31-P7:L15及P8:L1-L19，命题类型、资格、材料、经费",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b.pdf",
+      "sha256": "0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b",
+      "bytes": 12931938
+    },
+    {
+      "sourceId": "chem-innovation-2025-final",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250818/1755500298814050899.pdf",
+      "readingLocation": "PDF P1-P2第三四七节，实际两轮计分和费用",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b.pdf",
+      "sha256": "55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b",
+      "bytes": 324834
+    },
+    {
+      "sourceId": "chem-cochineal-2026-work",
+      "url": "https://www.dxhx.pku.edu.cn/CN/10.12461/PKU.DXHX202509113",
+      "readingLocation": "PDF P1-P11全文文字，原印页120-130，特别P5-P7比色限制、P7-P10受众分层",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115.pdf",
+      "sha256": "b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115",
+      "bytes": 5484160
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "完整公开作者论文内容可支撑分层科普和对照分析；稿件没有沿用作者泛化的家庭安全/食品含量判断，明确粗估与真实含量边界。2025两轮评分、费用主体与2026发表时点准确。12模块、个人新问题、四周及实验资源退出充分。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

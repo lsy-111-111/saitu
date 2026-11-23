@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ecommerce-innovation-creativity-entrepreneurship:2025-15-rural:rural-commerce:university-3-5:china-rural-practical:v3",
+  "contentDigest": "078c196464136af90bc064b8f459158e14a550750c4813af3d6d3171321e6850",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:23:31.379907+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ecommerce-plan",
+    "b-ecommerce-full-guide"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ecommerce-plan",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/c68669bd75f650b7539a5ff3a688e1a2a05517c55f992ec16f9ebc738d57f369.html",
+      "sourceSha256": "c68669bd75f650b7539a5ff3a688e1a2a05517c55f992ec16f9ebc738d57f369",
+      "actualReadLocator": "fresh HTML lines 22–84; extracted/37-02.txt",
+      "verification": "已读实施方案完整正文：2024-10-22规则，2025历史赛期；在校专本研专业不限3—5人、学校审核、两类导师各0—2；全福品指定平台、合作授权协议、三级赛和有效数据要求。"
+    },
+    {
+      "sourceId": "b-ecommerce-full-guide",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/229f65811f497e44c53f351118d037b3fe95f6a39f2ecaac391c4a9e6b66056d.pdf",
+      "sourceSha256": "229f65811f497e44c53f351118d037b3fe95f6a39f2ecaac391c4a9e6b66056d",
+      "actualReadLocator": "PDF pages 1–14; rendered/ecommerce-01.png through ecommerce-14.png",
+      "verification": "实施方案与指南全部14页逐页视觉读取，含横向评分表：p8抖音快手各至少1实名账号绑定；p9五构面15/15/45/15/10，报告至少一真实典型案例；p10—12准备10过程20业绩15、6+4+4周、交易完成超过退换货期、相对数据及赛区排名，p13—14真实性和平台渠道。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色及前置、四周验收和退出条件全部阅读；该官方实战任务限定平台、账号、周期、交易口径和正式评分，稿件已逐项拆解。",
+    "四周仅准备明确不能替代至少6周正式实战；未伪造商品/订单/收益案例。营业额和利润分开，个人总费及授权没有自动视作已满足。",
+    "参赛操作手册外链与二维码目的页面未读取，不声称当前平台可用；冻结任务本体及评分已完整核验。qualificationRules为空不代表用户自动满足资格，正文与来源只确认历史基本条件。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

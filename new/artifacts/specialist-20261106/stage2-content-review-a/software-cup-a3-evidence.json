@@ -1,0 +1,505 @@
+{
+  "reviewerId": "/root/stage2_content_a",
+  "runId": "stage2-content-review-a-20261106",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "max",
+  "reviewedAt": "2026-11-06T05:43:35Z",
+  "method": "independent_source_recheck",
+  "inputManifestSha256": "96e5f231c2719144062ba77461a8e540ca2a2bfddf45d073bf1739e9d449475c",
+  "reviewScope": {
+    "inputDirectory": "artifacts/specialist-20261106/stage2-intake/clean-content-review",
+    "basis": "独立阅读隔离输入中的稿件正文、各自所属来源原件/正文索引及PDF原页；结论为本评审者判断，不依赖作者自评或任何既有评级。",
+    "notAccessed": [
+      "其他评审、早期评级、作者修改意见",
+      "赛途正式测题、开发结果、产品页面",
+      "正式39目录内容"
+    ],
+    "unchanged": [
+      "输入records.json、manifest.json、source-inventory.json及20个来源文件",
+      "产品实现及正式发布目录"
+    ],
+    "networkRefresh": false,
+    "verificationLimit": "本轮核查的是给定SHA绑定的官方来源存档及其正文/版面，不声称本轮重新从公网服务器抓取，也不证明未提供的原作实测、当前报名或后续补充通知。12节可读性指逐段正文阅读，未声称产品UI通过浏览器验收。",
+    "legacyReferences": "三份稿件保留的legacy未复核引用均未作为本轮官方事实通过依据；它们的pending/unknown和异届、校内范围按记录原样保留。"
+  },
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "contentDigest": "eb04772c1518bbdd436d8f5c4693137a27c07cf4277996ed090f196ad393c0c6",
+  "outcome": "approved",
+  "decision": "批准这份SHA绑定的历史学习稿。官方核心要求、组队范围、工具约束和完整交付均有正文证据；12节给出可检验的局部练习，并保持历史与编辑建议边界。批准不等于当前报名或正式完整作品认证。",
+  "sourceIds": [
+    "softcup-c2-notice",
+    "softcup-c2-a3"
+  ],
+  "sourceReadings": [
+    {
+      "sourceId": "softcup-c2-notice",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+          "sha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/4c0f9a3475044f1c76e140eb3c16be01b6def37b28a321ec536facdc95ed1e55.txt",
+          "sha256": "4c0f9a3475044f1c76e140eb3c16be01b6def37b28a321ec536facdc95ed1e55"
+        }
+      ],
+      "readingMode": "entire saved HTML and complete text index; whitespace-normalized body equality checked",
+      "scopeBoundary": "2026年第十五届全国通用组织通知；A3另以题目正文确定，未把B组资格套入A3。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "SC-N-IDENTITY",
+          "textIndexLines": "31-34,95-97",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "标题、页面时间2026-03-24及组委会落款确认届次和发布身份。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "investment"
+          ]
+        },
+        {
+          "evidenceId": "SC-N-TEAM",
+          "textIndexLines": "38-56",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "通用参赛对象、队长1名/导师1名/其他队员至多2名，导师任职与多人登记、电子及盖章报名表、跨校、队长限制、原创及重复参赛限制均有正文。",
+          "relevantSections": [
+            "eligibility",
+            "participation",
+            "deliverables"
+          ]
+        },
+        {
+          "evidenceId": "SC-N-TIME",
+          "textIndexLines": "58-69",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "报名阶段3月24日至7月20日；初赛提交暂定7月20日15时；决赛拟8月。相对2026-11-06均已过去；不把拟定日程声称为实际完赛公告。",
+          "relevantSections": [
+            "participation"
+          ]
+        },
+        {
+          "evidenceId": "SC-N-SUBMIT",
+          "textIndexLines": "78-79",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "通用提交源代码/可执行文件/文档/视频；通用通知对视频写尽量7分钟，A3正文另有严格7分钟内要求。",
+          "relevantSections": [
+            "deliverables"
+          ]
+        },
+        {
+          "evidenceId": "SC-N-GOVERNANCE",
+          "textIndexLines": "80-96",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "结果监督反馈期5日；大赛全程不收队伍费用、决赛食宿自理，不能据此承诺模型、资料或个人差旅为零。",
+          "relevantSections": [
+            "investment",
+            "benefits",
+            "value"
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "softcup-c2-a3",
+      "originalFiles": [
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+          "sha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b"
+        },
+        {
+          "path": "artifacts/specialist-20261106/stage2-intake/clean-content-review/sources/953717c68d291aee877a39262c4c0aa760ea2e90b8426903322aaddc74894dcc.txt",
+          "sha256": "953717c68d291aee877a39262c4c0aa760ea2e90b8426903322aaddc74894dcc"
+        }
+      ],
+      "readingMode": "entire saved HTML and complete text index; whitespace-normalized body equality checked",
+      "scopeBoundary": "2026年第十五届A组A3、出题企业科大讯飞；不套用其他题权重。",
+      "evidenceEntries": [
+        {
+          "evidenceId": "SC-A3-IDENTITY",
+          "textIndexLines": "31-36",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "页面日期2026-04-01；A组本科、研究生、高职；出题企业科大讯飞。",
+          "relevantSections": [
+            "eligibility",
+            "track"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-CORE",
+          "textIndexLines": "40-48",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "一门高校专业课程切入；对话动态画像至少6维、不同角色协作至少5类个性化资源、路径规划推送；辅导与效果评估为可选加分项。",
+          "relevantSections": [
+            "task",
+            "track",
+            "rubric",
+            "skills",
+            "difficulty",
+            "nextStep"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-CONSTRAINTS",
+          "textIndexLines": "49-59",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "显著标注开源/工具名称来源协议；防幻觉与内容安全；智能体框架不限、其他AI辅助工具须用讯飞；自行构造至少一门完整高校课程知识库/文档集，未限定硬件。",
+          "relevantSections": [
+            "track",
+            "deliverables",
+            "investment",
+            "difficulty"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-DOCS",
+          "textIndexLines": "60-64",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "开发和测试等规范文档须覆盖需求、设计开发测试部署、数据案例支撑。",
+          "relevantSections": [
+            "deliverables",
+            "skills"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-SCORING",
+          "textIndexLines": "65-69",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "创新35%、实现45%、文档10%、演示视频/PPT10%，原文措辞为大致占比。",
+          "relevantSections": [
+            "rubric"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-SUBMIT",
+          "textIndexLines": "70-76",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "演示PPT、完整可运行源码/数据集/模型部署配置等、7分钟之内视频、配套文档；AI Coding须说明。",
+          "relevantSections": [
+            "deliverables"
+          ]
+        },
+        {
+          "evidenceId": "SC-A3-RIGHTS",
+          "textIndexLines": "77",
+          "readingMode": "full_saved_html_body_and_matching_text_index",
+          "observedEvidence": "团队自主开发部分著作权归团队，优秀市场作品企业有优先合作/购买权，后续商业合作应协商。稿件未作相反权益保证。",
+          "relevantSections": [
+            "benefits",
+            "value"
+          ]
+        }
+      ]
+    }
+  ],
+  "sectionChecks": [
+    {
+      "section": "task",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。用课程资料、对话与反馈解释推荐是合理任务归纳，标为editorial_inference；未把学习提升目标当实测效果。",
+      "evidenceIds": [
+        "SC-A3-CORE"
+      ],
+      "statementsRead": [
+        {
+          "text": "把一门课程的知识材料、学生对话与学习反馈串成能解释推荐依据的多智能体学习产品。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "china-software-cup:v2:track"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "eligibility",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。A3的本科/研究生/高职及全国通知的学生至多3人、导师名额、跨校、导师任职/证明流程与原创限制可逐项回到正文；未借校内旧引用覆盖全国资格。",
+      "evidenceIds": [
+        "SC-A3-IDENTITY",
+        "SC-N-TEAM"
+      ],
+      "statementsRead": [
+        {
+          "text": "全日制高校学生可组队，A3明确本科、研究生、高职；报名队伍含队长一名、其他学生至多两名及一个指导教师名额，可跨校组队。导师须为学生所在院校专职教师；多位导师时按“xx大学指导组”登记，证书体现为指导组，如需列出具体导师姓名的证明，要在报名截止前发送学校、团队、导师及分工材料，决赛结束后再从同一邮箱提出申请。参赛软件须由团队在本届大赛期间原创，决赛结束前已在其他比赛或平台展出、获奖的作品及雷同作品不得参赛。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:eligibility"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "track",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。6维画像、5类资源和动态规划与原文相符，尤其正确区分框架不限和其他AI辅助工具限定讯飞。完整课程输入在deepDive另有提醒。",
+      "evidenceIds": [
+        "SC-A3-CORE",
+        "SC-A3-CONSTRAINTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "A3针对一门高校专业课程开发多智能体学习系统，智能体开发框架不限，但开发中其他AI辅助工具须用科大讯飞相关工具；须通过对话形成不少于六维画像，协作生成至少五类资源并规划学习路径。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:track"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "participation",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。网上报名、选官方题、初赛电子表及决赛盖章表、队长限制有据；历史身份避免形成当前可报名指令。",
+      "evidenceIds": [
+        "SC-N-TEAM",
+        "SC-N-TIME"
+      ],
+      "statementsRead": [
+        {
+          "text": "团队网上报名并选择企业题，按当届初赛要求交作品，晋级后参加后续评审；一名学生只能担任一支团队的队长。初赛须在作品提交系统交电子报名表并注明学生分工，决赛现场报到另交盖章的纸质版。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:participation"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "deliverables",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。报名表、PPT、可运行相关文件、严格7分钟内视频、开发测试文档及开源/AI声明均获具体题正文支持；严格视频时限来自A3而非通用通知的尽量用语。",
+      "evidenceIds": [
+        "SC-N-TEAM",
+        "SC-N-SUBMIT",
+        "SC-A3-DOCS",
+        "SC-A3-SUBMIT",
+        "SC-A3-CONSTRAINTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "初赛提交注明成员职责的电子报名表、演示PPT、可运行的代码/数据/配置、七分钟以内演示视频和开发测试文档。决赛现场另交盖章纸质报名表。使用其他 AI 辅助工具须按题目选科大讯飞相关工具，使用 AI Coding 须说明，并标注开源及工具协议。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "rubric",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。35/45/10/10为该题大致权重，可选加分项未说成必做。没有外推获奖概率。",
+      "evidenceIds": [
+        "SC-A3-SCORING",
+        "SC-A3-CORE"
+      ],
+      "statementsRead": [
+        {
+          "text": "A3各项大致占比为创新价值与实用性35%、功能实现及技术要求45%、配套文档10%、演示视频和PPT10%；智能辅导与学习效果评估是可选加分功能。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:rubric"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "skills",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。课程来源整理、画像更新和失败评测作为编辑角色建议可执行；以个人产物和反例提问而非抽象能力标签。",
+      "evidenceIds": [
+        "SC-A3-CORE",
+        "SC-A3-DOCS"
+      ],
+      "statementsRead": [
+        {
+          "text": "需求与教学资源：整理课程知识结构及可核对的学习目标。需要的经历证据：生成材料错在哪里，你如何以原资料纠正？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "china-software-cup:v2:deliverables"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "系统与评测：实现画像更新、角色协作和失败处理。需要的经历证据：怎样证实五类资源都与该学生当前需求有关？",
+          "kind": "editorial_inference",
+          "factIds": [
+            "china-software-cup:v2:deliverables"
+          ],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "investment",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读三段。官方免费/食宿自理有据；四周每周5小时明确为局部原型建议，模型与完整课程成本仍待学生核实。预算解释句可再拆清官方费用事实和编辑提醒，但未制造具体收费。",
+      "evidenceIds": [
+        "SC-N-GOVERNANCE",
+        "SC-A3-CONSTRAINTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "大赛不收参赛费，决赛食宿自理；A3未限定硬件但可能需要模型与生成资源，不能将报名免费等同总成本零。",
+          "kind": "official_fact",
+          "factIds": [
+            "china-software-cup:v2:investment"
+          ],
+          "conditions": []
+        },
+        {
+          "text": "编辑建议四周每周5小时完成一门课程局部原型；先核对指定讯飞AI辅助工具的可用性、授权及费用；完整课资料、模型费用和正式赛期投入需另估。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "总费用和个人时间取决于所在学校、赛段及资源；未知金额不视为免费。"
+        }
+      ]
+    },
+    {
+      "section": "difficulty",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读入门、完赛、获奖三段。均作编辑判断；强调内容可核查、协作和学习效果证据，没有声称只需五次模型调用即可完赛。",
+      "evidenceIds": [
+        "SC-A3-CORE",
+        "SC-A3-CONSTRAINTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "入门：需有基础编程和课程资料整理能力，可先在一个小知识点验证生成与引用。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "完赛：难点是持续更新画像、资源事实正确和多角色协作可复查，不能把五次调用包装成已验证学习提升。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "获奖：需结合所选赛道评审和同届作品比较；没有可靠数据，不给个人获奖概率。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "section": "benefits",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。收益有实际完成/展示授权条件，未承诺奖项、学习效果或就业。",
+      "evidenceIds": [
+        "SC-A3-DOCS",
+        "SC-A3-RIGHTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "能积累需求分析、工程实现和内容评测证据；模型生成流畅不证明学习效果，也不保证赛果。",
+          "kind": "editorial_inference",
+          "factIds": [
+            "china-software-cup:v2:deliverables"
+          ],
+          "conditions": [
+            "已实际完成相应工作",
+            "公开展示已取得必要授权"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "value",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读两段。学习证据与学校认定/招聘/升学效果分开，后者标unknown。治理来源身份与存档正文相符，partial没有被当成赛事治理已全面认证。",
+      "evidenceIds": [
+        "SC-N-IDENTITY",
+        "SC-N-GOVERNANCE",
+        "SC-A3-RIGHTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "能积累需求分析、工程实现和内容评测证据；模型生成流畅不证明学习效果，也不保证赛果。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        },
+        {
+          "text": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。",
+          "kind": "unknown",
+          "factIds": [],
+          "conditions": [],
+          "unknownReason": "学校认定、企业招聘与升学作用尚无对该学生适用的保证，需分别核验。"
+        }
+      ]
+    },
+    {
+      "section": "nextStep",
+      "readingStatus": "read_in_full",
+      "assessment": "approved",
+      "reason": "已读完整。两种学生对话、画像变化、来源支持及错误修正有可检查产物；局部试做与正式完整课程交付边界在deepDive中清楚。",
+      "evidenceIds": [
+        "SC-A3-CORE",
+        "SC-A3-CONSTRAINTS"
+      ],
+      "statementsRead": [
+        {
+          "text": "选一个课程章节，用两种学生对话生成有来源的解释与练习，记录画像变化与一条错误。完成标准：说清哪句对话改变了哪个字段，哪条原资料支持生成答案。",
+          "kind": "editorial_inference",
+          "factIds": [],
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "checkRationale": {
+    "factualSupport": "实际读完两份官方HTML，文本索引与HTML归一化内容一致；正式规则逐项有定位。",
+    "entityScope": "2026-15/A3/A组与全国通用通知分工清楚，旧校内引用未作新全国证明。",
+    "studentUsefulness": "完整交付清单、个人贡献证据、试做产物和停止条件足以开始历史训练。",
+    "temporalAccuracy": "日期与页面正文相符；2026年7月报名/初赛提交为已过去，稿件明确historical。"
+  },
+  "findings": [],
+  "governanceAndAnnotationObservations": [
+    "组委会/科大讯飞的来源身份与题目页一致。治理段的partial只表示来源边界，没有治理质量评级或赛事背书外推。",
+    "official_fact承载主要规则，editorial_inference承载试做、能力与难度；investment首段把官方费用事实和预算解释放在同一句，可拆开以便更清楚，但不是新增收费事实或批准阻断项。",
+    "legacy待核来源未被本轮批准；registration当前历史状态只由所读历史日程判断，不把拟定总决赛当作已取得实际结束公告。"
+  ],
+  "studentImprovements": [
+    "先给课程资料逐项标出处和使用许可；把完整课程目标与一周局部试做分开。",
+    "对两名不同学习者保留对话到画像字段变化，再核查五类资源各自的内容正确性及适配证据，先修一条生成错误。",
+    "若仅做练习，也保留工具清单；若复盘正式历史交付，用7分钟内视频、可复现文件及AI/开源声明逐项自查。",
+    "公开作品集前阅读A3原文第77行权益条款，并保留团队自主部分和第三方资料授权边界。"
+  ],
+  "readingCompletion": {
+    "sectionsRead": 12,
+    "expectedSections": 12,
+    "notAUIRenderingReview": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+  "name": "中国大学生物理学术竞赛",
+  "contentDigest": "d82bc7b52c96d3bc66b1f403b70fa0eae4cad4867f884820cb7168801271a0d7",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.102060+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+    "previousContentDigest": "a2771b436ae6d01010f1f3bc33ca90cda19f54d7d4d673072bfaab4808882951",
+    "excludeReviewers": [
+      "/root/audit_catalog",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "cupt-2020-rules",
+      "url": "https://jwc.ecust.edu.cn/_upload/article/files/37/7f/056b829b414e9ee2268c1beb2775/6f94229e-2725-47d6-a854-79d2997a269b.pdf",
+      "readingLocation": "A3原PDF P3—5：区域制度、学校名额、邀请及队员资格",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be.pdf",
+      "sha256": "4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be",
+      "bytes": 239755,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "iypt-2020-problem6",
+      "url": "https://iypt.org/problems/iypt-2020-problems/",
+      "readingLocation": "HTML P1:L49-L64届次与完整第6题",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2.html",
+      "sha256": "7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2",
+      "bytes": 121697,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核2020规则3—5页全国名额、区域赛、主办与邀请例外、队员本科及人数；新增资格未将2020途径外推当前。原题第6题Saxon bowl和角色评分、个人实验论证路线仍由同字节原件支持。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+  "contentDigest": "f94a162260827da0befab774fdac94c5b49f89c0a3d8a83252ca105a8bd9217d",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.041535+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-market-rules",
+    "b-market-task",
+    "b-market-score"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-market-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/a3f1ba7654971be43a3fe9addae92a8faac0ef7fdb13d14c92de008df3bbbc1b.html",
+      "sourceSha256": "a3f1ba7654971be43a3fe9addae92a8faac0ef7fdb13d14c92de008df3bbbc1b",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/34-market-research-analysis.json :: fresh HTML lines 8–39",
+      "verification": "2025农大校赛通知全文；本科知识赛通过、同校3–5人1–3导师一人一队、2万字匿名报告/承诺书/PPT/8分钟视频、本校3月12日17时、企业推荐。"
+    },
+    {
+      "sourceId": "b-market-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/68c95b1b3ba4658ce4d283d19b5393f035894aa68aa92c05634c649c15c0f246.zip",
+      "sourceSha256": "68c95b1b3ba4658ce4d283d19b5393f035894aa68aa92c05634c649c15c0f246",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/34-market-research-analysis.json :: XLSX package xl/workbook.xml/rels and xl/worksheets/sheet5.xml + sharedStrings.xml；问卷网-全国范围题 A1:H3、A17",
+      "verification": "按原始单元格读取完整特定企业任务：在线问卷AI现状/工具实践/未来影响/成长，问卷网必选、不限地区但不能仅高校，网络定量必需，定性舆情可选、5W2H/JTBD仅建议。群联系二维码不是题目约束，未视觉读。"
+    },
+    {
+      "sourceId": "b-market-score",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984.zip",
+      "sourceSha256": "12b40373b0a57a37080825731ddc78a0c2d5a341adba9e03e69a3ee111b5d984",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/34-market-research-analysis.json :: DOCX word/document.xml paragraphs 1–135；仅字体替换展示副本 rendered/market-display/page-1..7.png 全部视觉核对",
+      "verification": "完整正式赛段合成70/30或50/50、本科报告表10/7/20/20/25/15/3共100、实际起评75最高95及7项详解。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/35-market-research-analysis.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/34-market-research-analysis.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

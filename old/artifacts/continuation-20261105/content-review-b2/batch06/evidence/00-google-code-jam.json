@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "29ee16968811edb552518880bc6507ee5647b86a2fa260f5794caf4c1b04fd23",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch06-20261106-2ba54f74",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:24:04.855716+00:00",
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "manifestVerification": {
+    "expectedFiles": 150,
+    "verifiedFiles": 150,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "gcj-2022-3d-task",
+    "gcj-2022-3d-analysis",
+    "google-competitions-farewell"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "gcj-2022-3d-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sourceSha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "actualReadLocator": "rendered/00-00-1.png、00-00-2.png；原PDF全2页本轮目读",
+      "verification": "3D Printing：每色三台最小容量，非负整数和恰为1000000；第一样例唯一300000/200000/300000/200000，第二magenta不足，第三允许多解。5秒/1GB；T≤100。"
+    },
+    {
+      "sourceId": "gcj-2022-3d-analysis",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sourceSha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "actualReadLocator": "rendered/00-01-1.png；分析PDF全1页本轮目读",
+      "verification": "官方分析从四色上界递减至1000000；新稿从剩余需求分配的编辑演示等价，未假称额外官方评分。"
+    },
+    {
+      "sourceId": "google-competitions-farewell",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sourceSha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "actualReadLocator": "extracted/00-02.txt L20–26，本轮全文L1–65",
+      "verification": "Google公告明确系列结束、2023告别轮及公开题/分析存档；不提供2022年龄、地域或雇佣资格，因此unknown事实sourceIds为空且不伪托此公告。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "按已授权中立裁决独立判断：历史公开学习L3允许有理由未知；unknown不等于官方资格已证实。B04旧结论保留，本次只批准新摘要的历史学习范围。",
+    "12模块、六维价值、三层难度、角色个人交付/可学前置、四周验收与退出条件均逐项读过。正式资格/完整费用仍未核，strictParticipationCoverage=false，currentRegistrationOpportunity=false，严格36/40增量0。",
+    "未读取A或其他审者意见，未依赖作者读取声明。新稿完整正文已实际阅读；PDF本轮重新渲染并目读，网页实际正文按行核对。",
+    "eligibility.historical-rules已实核kind/status=unknown、空sourceIds、checkedAt与lastVerifiedAt为null，requires_confirmation保留。",
+    "历史题判定/代表原例/官方分析足以支持本学习案例；练习时间为编辑估计，缺少历史参赛总费不被写成免费。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

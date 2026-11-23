@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "saitu.catalog.independent-correction-review.v1",
+  "reviewerId": "/root",
+  "reviewedAt": "2026-11-08T17:05:09.349425+00:00",
+  "method": "independent_source_recheck",
+  "scope": "five corrected metadata rows only; primary web pages independently opened and read",
+  "reviews": [
+    {
+      "recordId": "national-college-mathematics:2011-3:calculus-third-derivative:non-mathematics:zhejiang-zjut-preliminary-2011:v3",
+      "metadataDigest": "72866db4b1c2c7b3fa331b92fb4ce557994636f903b28348245f07d971d07395",
+      "outcome": "approved",
+      "primarySource": "https://www.cms.org.cn/competition/NationalCollegeStudentMathematicsCompetition.html",
+      "sourceTitle": "CMS official competition navigation and copyright",
+      "finding": "Official site navigation identifies the college mathematics competition; China Mathematical Society copyright; date left unknown."
+    },
+    {
+      "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+      "metadataDigest": "28df7246366e029a0eb3fc49e8d7592dd458ba936d2c31d540f60a03f3e79299",
+      "outcome": "approved",
+      "primarySource": "https://atcoder.jp/",
+      "sourceTitle": "AtCoder official homepage and company footer",
+      "finding": "Recent Contests identifies ABC 483 start 2026-11-07 +0900. Footer identifies AtCoder Inc.; later AGC is not used as ABC history."
+    },
+    {
+      "recordId": "intercultural-competence:2025-liaoning:case-analysis:chinese-student-team:liaoning-semifinal:v3",
+      "metadataDigest": "1c7b20ce87b9c620d33303592028e275f8ccc48f4485f758613421099d49af84",
+      "outcome": "approved",
+      "primarySource": "https://ict.sflep.com/",
+      "sourceTitle": "SFLEP contest and contact identity",
+      "finding": "National intercultural competition navigation and contact address identify Shanghai Foreign Language Education Press intercultural center; no Liaoning publisher claim."
+    },
+    {
+      "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+      "metadataDigest": "bca45914052f10a569e594b74640c4f05cb5961d75d92f478b72af208451a73a",
+      "outcome": "approved",
+      "primarySource": "https://www.cqgjxh.com/",
+      "sourceTitle": "Chongqing higher education society organizer home",
+      "finding": "Homepage includes rural revitalization competition notice and society copyright. No current eligibility or opening status inferred."
+    },
+    {
+      "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+      "metadataDigest": "24dbaa7ce95406cc4d2769fa9c80b414f21bbea1787df8f053c746c02a50e545",
+      "outcome": "approved",
+      "primarySource": "https://biomod.net/",
+      "sourceTitle": "BIOMOD official homepage historic results",
+      "finding": "Official footer identifies BIOMOD Foundation. 2025 Winners establishes a held edition; later announcements are not evidence of completed edition or exact opening date."
+    }
+  ]
+}

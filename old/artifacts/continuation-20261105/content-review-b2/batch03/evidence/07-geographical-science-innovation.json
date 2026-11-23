@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "geographical-science-innovation:2026-9:human-geography:human-geography:china-preliminary:v3",
+  "contentDigest": "2e5e5a1362679056a6f45cd0277cb2b844d32993ed8e06a110c53fc6b85d6a2e",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:34:33.161169+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "geography-2026-notice"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "geography-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/c2bea03bcfd75c65cdc84d347c041b84f09788d5cf3364f702807f37ce9414ac.html",
+      "sourceSha256": "c2bea03bcfd75c65cdc84d347c041b84f09788d5cf3364f702807f37ce9414ac",
+      "actualReadLocator": "batch02 freshly extracted HTML 07-00.txt lines 86–122；batch03同SHA",
+      "verification": "通知全文核对：地理分异与因地制宜、地理科学类本科院系报名、每组2队、8分钟50M匿名视频、7项函评定性标准、初审每件300元、决赛另费。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色/前置/四周/退出前轮已读；费用与地域、届次不扩大；稿件已诚实列出缺口但不能据此通过。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-07-01",
+      "severity": "major",
+      "description": "目前仅开放主题与通用初审要求，没有足够具体的完整官方题或完整公开作品，严格L3案例仍缺。",
+      "resolved": false
+    }
+  ]
+}

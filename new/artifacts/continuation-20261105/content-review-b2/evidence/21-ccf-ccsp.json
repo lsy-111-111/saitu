@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ccf-ccsp:2025:systems-programming-xor:csp-qualified-students:china-harbin-2025:v3",
+  "contentDigest": "7031fd5649d2f80ea96e147907d48932cf71b1c2d32255d72c608e7d542c5b01",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:11:49.954188+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "ccsp-c4-notice",
+    "ccsp-c4-archive",
+    "ccsp-c4-xor"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "ccsp-c4-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d.html",
+      "sourceSha256": "edeef98d27b72071e174b659467433f53d19a2fb9aae5b20a7a942aac2bb058d",
+      "actualReadLocator": "fresh HTML text57–126",
+      "verification": "完整通知相关正文；CSP33–39最好>=200有限名额，个人/团报审核，5题500分，C/C++JavaPython，10月22日9–21时，历史两档会员非会员费用与不退费边界。"
+    },
+    {
+      "sourceId": "ccsp-c4-archive",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723.html",
+      "sourceSha256": "55b4621b8e12fd5158322e5cfdfe818e19ba51b8732bb9f3894ab90630e0f723",
+      "actualReadLocator": "fresh HTML text51–61",
+      "verification": "2025资料下载及版权声明，未重分发原题。"
+    },
+    {
+      "sourceId": "ccsp-c4-xor",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6.zip",
+      "sourceSha256": "dc84cb993fa0614452c0beae85e50ed1aba52c0119711128d6076f402eeba7e6",
+      "actualReadLocator": "ZIP题面PDF pages1–3，rendered/ccsp-01..03.png逐页视觉",
+      "verification": "完整XOR题与样例、十个等分子任务、1秒512MiB、互异0<=Ai<=2^30，20万元素和最小掩码规则。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、4周及退出均已读；最高不同位归属、稳定分组与并列取0数学路线正确，31位及64位计数必要。未跑代码/官方隐藏评测，不声称100分。",
+    "全ZIP解包时day0-public-data.zip发生CRC错误；单独题面PDF读取CRC成功且已视觉核验，未把其他数据包当正确性证据，故不影响本稿明确限定的题面推导批准。其他题未读。",
+    "费用资格只限2025，未外推2026。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

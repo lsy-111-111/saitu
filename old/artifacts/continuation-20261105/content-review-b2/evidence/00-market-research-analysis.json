@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "market-research-analysis:edition-d1b2c1bf1daf:undergraduate-practice:group-78fd9199138e:scope-8e1db2092033:v3",
+  "contentDigest": "96f15c13625d1890a62face808c9bdc006c75fee3fd6501783e1a448e2c5327b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:32:28.874857+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [],
+  "sourceEvidence": [],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块与全部角色、前置、四周、退出内容已读；可见有实践指导，但关键原件缺失导致实体及时间事实无法完成独立核验。",
+    "四项false表示本次独立核验未达完成标准，不表示所有文字都错误。",
+    "费用未知及本校/往届范围均保留，不要求猜出不存在金额和资格。"
+  ],
+  "incompleteSources": [
+    "market-czu-2027",
+    "market-cau-case-2026"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-00-01",
+      "severity": "major",
+      "description": "冻结记录中关键事实及案例来源全部没有sourceArtifact，无法在限定冻结包内实际读原件。sourceIds保持空，不继承作者body_read或旧审结论。需补入可核SHA的原件后独立重审。",
+      "resolved": false
+    },
+    {
+      "id": "B2-00-02",
+      "severity": "major",
+      "description": "workedExample明确published_summary；无原问卷、原数据与完整报告，且rubric未知。摘要及编辑问题不能当L3完整案例。",
+      "resolved": false
+    }
+  ]
+}

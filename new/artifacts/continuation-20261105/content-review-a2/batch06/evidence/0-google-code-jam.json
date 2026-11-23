@@ -1,0 +1,128 @@
+{
+  "runId": "a2-batch06-20261105T201748Z-7df37711",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:17:48.696704+00:00",
+  "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+  "contentDigest": "29ee16968811edb552518880bc6507ee5647b86a2fa260f5794caf4c1b04fd23",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-06/records.json",
+  "recordIndex": 0,
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "scopeOfApproval": "限定历史公开学习型L3内容审查；不是历史或当前正式报名资格、总费用或严格参赛覆盖批准",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b06-fact-type",
+      "severity": "major",
+      "description": "资格知识缺口已拆成kind/status unknown、空sourceIds/sourceScopes、checkedAt与lastVerifiedAt null，并保留requires_confirmation；解决的是类型混淆，未解决未知资格本身。",
+      "resolved": true
+    }
+  ],
+  "taskAssessment": "三台机器逐色上界取最小值；第一例300000/200000/300000/200000唯一；第二例共同品红仅999999故无解；第三例多解但总量必须100万。前向min分配与官方削减法等价。",
+  "depthAndStudentPathAssessment": "完整2页题及1页分析、正式正确性和资源限制足够；个人证明/代码/边界和四周从手算到独立重写均具体，读不懂维度先退出。",
+  "recordReading": "当前record全部实质字段、六条或七条facts、十二模块、角色、价值、结构化资格和完整deepDive逐项实际读取；不是只检查字段存在或沿用旧批准。",
+  "unknownEligibilityFact": {
+    "id": "google-code-jam:v2:eligibility.historical-rules",
+    "field": "eligibility.historical-rules",
+    "text": "2022年龄、地域及雇佣关系等完整资格条款未取得；公开读题不证明历史或当前参赛资格。",
+    "kind": "unknown",
+    "status": "unknown",
+    "sourceIds": [],
+    "sourceScopes": [],
+    "scope": "2022历史报名资格资料缺口；仅供公开题学习，不确认历史或当前报名条件",
+    "checkedAt": null,
+    "supersedes": [],
+    "conflictsWith": [],
+    "entity": {
+      "editionId": "2022",
+      "trackId": "qualification-3d-printing",
+      "groupId": "historical-public-task",
+      "scopeId": "qualification-3d-printing-2022"
+    },
+    "validFrom": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "validUntil": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "retrievedAt": null,
+    "lastVerifiedAt": null,
+    "reviewStatus": "pending_review"
+  },
+  "retainedUnknowns": [
+    "2022完整年龄、地域及雇佣资格未知",
+    "历史费用与题目分值未核",
+    "未执行旧评测或认证官方成绩"
+  ],
+  "strictParticipationCoverageIncrement": 0,
+  "currentRegistrationConfirmed": false,
+  "historicalEligibilityConfirmed": false,
+  "sources": [
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/statement.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063.pdf",
+      "sha256": "d7041415b3fa7aca7e05996c51f63fdcb4764109846084a0aefe02be5a24b063",
+      "bytes": 76327,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P1—2完整文字与视觉，所有样例/约束/资源限制",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/gcj-2022-3d-task.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gcj-2022-3d-task-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gcj-2022-3d-task-p2.png"
+      ],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "gcj-2022-3d-analysis",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/codejam/2022/qualification_round/3d_printing/analysis.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9.pdf",
+      "sha256": "2ae3051b856e5f4e9286a0eb753eb694b8aac62eb262d383f876abad02fe78c9",
+      "bytes": 49406,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P1完整文字与视觉，逐维最小值与削减不变量",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/gcj-2022-3d-analysis.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gcj-2022-3d-analysis-p1.png"
+      ],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-code-jam:2022:qualification-3d-printing:historical-public-task:qualification-3d-printing-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML正文L19—30完整文章，停办、最后活动和持续官方归档",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/google-competitions-farewell.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    }
+  ],
+  "commonStandardArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/standard-inputs.json",
+  "helperCheckArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/helper-check.json",
+  "helperBoundary": "实际调用helper验证unknown输出checkedAt null且拒绝伪挂来源；这不是未知资格获证。eligibility.ts仅读代码确认不支持的facts保持unknown，本轮未运行整产品推荐。",
+  "independence": "独立AI审核。读过root授权最终中立裁决（其总结双方争议），不宣称双盲；未读B审查产物/新稿意见或包外作者交接，不与另一审者交流。共享FS，仅流程独立。",
+  "networkAcquisitions": [],
+  "nonblockingEditorialAdvice": "获奖难度模板仍可改写为该系列已停办、当前学习不产生获奖机会；现有edition/registration/收益/退出已明确，不构成当前获奖承诺或本轮阻断。"
+}

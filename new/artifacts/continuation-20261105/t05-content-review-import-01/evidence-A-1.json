@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/review.json",
+    "sha256": "31aa875738fb02368e32336ce3077dc8e88f414bdb0ed53200dfa9c4f8f70b21"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/evidence.json",
+    "sha256": "d4c0df5b017d0f0f64ba4dd0ce6a27aaabb8519fb76d0e438081681441463a29"
+  },
+  "recordId": "market-research-analysis:2025-15-undergraduate:wenjuan-ai:undergraduate-3-5:china-cau-submission:v3",
+  "contentDigest": "5034455272366d03f7c3e5a4a6daca11d9c7411aa151ac0588c3750e969e1792",
+  "informationalScopeNotes": [
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "历史2025农大提交口径不等于当前全国报名；旧2027贵州财经来源及pending_review事实未读、未批准，当前sections/roles/deepDive均未引用它们。"
+    },
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "费用总额仍未知；4–6小时/周是编辑小规模练习建议，不作为正式完赛工时或总费用证明。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

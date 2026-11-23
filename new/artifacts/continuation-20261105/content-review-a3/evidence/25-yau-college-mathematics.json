@@ -1,0 +1,82 @@
+{
+  "recordId": "yau-college-mathematics:2026-17:algebra-non-simple-group:undergraduate-individual:global-2026-historical-training:v3",
+  "name": "丘成桐大学生数学竞赛",
+  "contentDigest": "a748867111f86fdc6f97d09592a5a504e4ea7c62ff79c90327551d7c90b0edd0",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.150871+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "previousRecordId": "yau-college-mathematics:2026-17:algebra-non-simple-group:undergraduate-individual:global-2026-historical-training:v3",
+    "previousContentDigest": "a748867111f86fdc6f97d09592a5a504e4ea7c62ff79c90327551d7c90b0edd0",
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "yau-c6-rules",
+      "url": "https://www.yau-contest.com/page-rule.html",
+      "readingLocation": "P1:L32-L44,L93-L94资格与2026赛期",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/2e5c8906a6e4429caddf5468c1cc1648d19df4447cdbbcf398814cbea8a9c10e.html",
+      "sha256": "2e5c8906a6e4429caddf5468c1cc1648d19df4447cdbbcf398814cbea8a9c10e",
+      "bytes": 35852,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "yau-c6-assessment",
+      "url": "https://www.yau-contest.com/page-assessment.html",
+      "readingLocation": "P1:L32-L40完整考核流程",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/1f23413268d1c90768274d82a9f9f749bcc7ccc15b2cd8d3d1b6812fe3fc69da.html",
+      "sha256": "1f23413268d1c90768274d82a9f9f749bcc7ccc15b2cd8d3d1b6812fe3fc69da",
+      "bytes": 14905,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "yau-c6-2011",
+      "url": "https://www.yau-contest.com/index/reldown?id=9",
+      "readingLocation": "ZIP成员2010-2026历年笔试真题/2011/4.Algebra-Individual-2011.pdf两页，内层SHA256=9a7fa187a87b93d5f599360a97a1733228a25d2bae66f33bb5f4384767c17252",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d.zip",
+      "sha256": "f2f027f4f4a2d67d3d88609fdb41362cb29550f078893cee353fc24eba42121d",
+      "bytes": 13194262,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "150阶群的Sylow数1/6、共轭传递作用、核及150不整除720证明正确；原卷无证明不计分要求与编辑推导分清。2026资格/2小时与2011原卷2.5小时明确分开；12模块、四周及退出完整。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

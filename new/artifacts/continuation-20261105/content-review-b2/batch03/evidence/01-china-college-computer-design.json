@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-college-computer-design:edition-b8257354f41e:software-development:group-78fd9199138e:scope-3497779db6c7:v3",
+  "contentDigest": "32e8dcbe61c1556fe2d905844e2d879246b32b6862cc3d6bd140ff93bae78029",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:34:33.159395+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "4c-rules-2026",
+    "4c-submission-2026"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "4c-rules-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/b07a0de3980ba4da9efb6813a969cbfd614b1763dad0499f2d639935e27993a0.html",
+      "sourceSha256": "b07a0de3980ba4da9efb6813a969cbfd614b1763dad0499f2d639935e27993a0",
+      "actualReadLocator": "batch02 freshly extracted HTML 01-03.txt lines 30–50；batch03同SHA",
+      "verification": "完整2026国赛基础要求：在籍本科同校2–9、答辩>=2、原创、省上推、11大类不得重复。"
+    },
+    {
+      "sourceId": "4c-submission-2026",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e3f819300678bb5142fb57274802f0384542f12ca2a13c6cacba70bfa5b8e16a.html",
+      "sourceSha256": "e3f819300678bb5142fb57274802f0384542f12ca2a13c6cacba70bfa5b8e16a",
+      "actualReadLocator": "batch02 freshly extracted HTML 01-04.txt lines 25–31；batch03同SHA",
+      "verification": "全部提交入口正文读取；6国赛区线下与模板百度网盘入口，本包无模板正文。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块与学习路线本人前轮已读；新原件闭合通用资格与赛制，未闭合专项案例。"
+  ],
+  "incompleteSources": [
+    "4c-ai-special-task-2026"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-01-01",
+      "severity": "major",
+      "description": "4c-ai-special-task-2026仍没有可独立核查的原文/附件；详细模板与适用评分缺失，不能将搜索缓存节选或通用路线当严格L3完整任务。",
+      "resolved": false
+    }
+  ]
+}

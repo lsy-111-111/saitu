@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "chongqing-rural-revitalization:2025-5:bencao-cultural-tourism:students-graduates-2-5:chongqing-regular:v3",
+  "contentDigest": "7c3a58e7672e21b053416e2769fe6229b035e81375a50ceca5f8dd9ac848dd47",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:48:53.648407+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-rural-rules",
+    "b-rural-task"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-rural-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383.pdf",
+      "sourceSha256": "22534e500aea4c909371da0fdbe31038e65525ee9a0bc2fdc0aca408c124e383",
+      "actualReadLocator": "PDF pages 1,3-8,16-17; rendered/rural-0-p*.png for those pages",
+      "verification": "视觉核对第五届2025、跨地区在校及2020年6月后毕业、人数导师与负责件数、10月31日12时初稿、校/市阶段、匿名及文本摘要、常规初复赛60/30/10正式表；决赛另表未混用。"
+    },
+    {
+      "sourceId": "b-rural-task",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7.pdf",
+      "sourceSha256": "014b69c6be5ad2f7b3971da80e75b184cab8d5b569e533f388569057277493c7",
+      "actualReadLocator": "PDF pages 1-2 complete; rendered/rural-1-p1.png and p2.png",
+      "verification": "已视觉读全部题目指南；324亩山岭坡地及建设目标、完整常规农文旅策划和针对性推广任务，区分专项电商。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周及退出已读；题设建设愿景与现场事实分开，未将桌面方案说成落地成果。",
+    "正式评审明确限制初赛/复赛，未把60/30/10冒充决赛，也没有套电商专项指标。",
+    "资格接受外省高校但仍是重庆市赛事；费用未知没有被当免费；实地场点资料包未读，不声称核实现场当前设施。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

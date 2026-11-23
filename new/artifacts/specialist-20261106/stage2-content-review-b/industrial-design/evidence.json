@@ -1,0 +1,236 @@
+{
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "contentDigest": "2be8e6759d8b70df83e6892a600933af7b9a2077cf04d4902ab4f910f3f67db8",
+  "reviewerId": "/root/stage2_content_b",
+  "runId": "stage2-content-review-b-20261106T055555Z",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "max",
+  "reviewedAt": "2026-11-06T05:55:55+00:00",
+  "method": "independent_source_recheck",
+  "outcome": "approved",
+  "inputBoundary": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review",
+  "independence": {
+    "readPriorRatings": false,
+    "readReviewerA": false,
+    "readRevisionDiffs": false,
+    "readOtherModelResults": false,
+    "calledPaidModels": false,
+    "published": false,
+    "sourceMethod": "local immutable originals only; direct HTML extraction and visual original PDF page inspection"
+  },
+  "sourceIds": [
+    "b-industrial-rule",
+    "b-industrial-work"
+  ],
+  "pageReadings": [
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 1,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "红头及标题为2024年第七届全国大学生工业设计大赛黑龙江省赛区；主办单位为省普通高等学校创新创业教育指导委员会，哈尔滨工业大学承办。",
+        "本页开始参赛对象范围为工业设计/产品设计等设计相关专业，并续至下页；不能据此称全国统一主办单位。"
+      ],
+      "draftRefs": [
+        "organizer",
+        "scope",
+        "identity"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-1.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 2,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "续文鼓励跨学科跨专业；全日制在校研究生、本科、高职高专等，所在院校集体报名。",
+        "赛事主题新质·生产力/新生·设计力；A智慧与体验、B服务与系统、C文化与社会及D时尚与生活部分定义。"
+      ],
+      "draftRefs": [
+        "sections.eligibility",
+        "sections.track"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-2.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 3,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "续D；E健康与环保；F专项赛内容另行官网通知。",
+        "报名为2024-06-22至7-30；每位第一作者作品不超过3件，生成八位编号。",
+        "一张纵向图版，原件确写1089mm×841mm、jpg、150dpi、不超过5M；不得自行改成通常纸张标准。"
+      ],
+      "draftRefs": [
+        "sections.track",
+        "sections.participation",
+        "sections.deliverables"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-3.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 4,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "单独作品设计说明模板由官网下载；曾推荐往届全国赛作品不得报名；作品须原创、同一作品一个申报主体。",
+        "学校汇总作品信息等材料；展板与汇总表报送8—9月；网上报名6-22至7-30。"
+      ],
+      "draftRefs": [
+        "sections.deliverables",
+        "sections.participation"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-4.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 5,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "分赛区评审选35件优秀作品推荐全国复评；并有9—12月颁奖和电子作品集安排。",
+        "五项基本评判为表现形式、创造性、实用性、经济性、环保性；本页含表现形式具体要求。"
+      ],
+      "draftRefs": [
+        "sections.participation",
+        "sections.rubric"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-5.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 6,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "续创造性、实用性、经济性、环保性定义，含制造/合理成本可行性、节能、安全和维护。",
+        "奖项表为省赛拟定奖项且最终名额可调整；本稿没有以这些比例预测个人获奖，也没有用于追认沈阳原作评分。"
+      ],
+      "draftRefs": [
+        "sections.rubric",
+        "deepDive.rubricMapping"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-6.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 7,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "黑龙江联系人、线下展板/材料地址、微信公众号及全国秘书处标题；支持省赛与全国联系渠道的层次差异。"
+      ],
+      "draftRefs": [
+        "scope"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-7.png"
+    },
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "page": 8,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "全国秘书处地址/官网续文；其他事宜明确展板制作费用各参赛单位自行承担，如需代打印以学校对接。",
+        "作品入围国赛后模型寄送和收回费用各参赛单位自行承担；签章日期2024-07-02。",
+        "随包抽取txt在本页为空，费用判断直接来自本页可视原件。"
+      ],
+      "draftRefs": [
+        "sections.investment",
+        "sources.b-industrial-rule.publishedAt"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-rule-8.png"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "page": 1,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "封面为广东工程职业技术学院图书馆主办《导读》，2025年第1期，总第55期；支持转载载体和时间语境。"
+      ],
+      "draftRefs": [
+        "sources.b-industrial-work"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-work-cover-01.png"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "page": 2,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "目录列全国大学生工业设计大赛优秀作品展，印刷40荔枝采摘机器人、41优速云轨、42银奖户外多功能灶具设计；PDF与印刷页相差2。"
+      ],
+      "draftRefs": [
+        "deepDive.representativeTask",
+        "sources.b-industrial-work.locator"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-work-cover-02.png"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "page": 42,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "印刷40，优秀作品展标题及另一完整作品；板底CUIDC 2024标识，作为转载段落与页码语境。"
+      ],
+      "draftRefs": [
+        "sources.b-industrial-work.scope"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-work-42.png"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "page": 43,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "印刷41，优速云轨完整展板，板底CUIDC 2024；与Empty是不同作品，未将其结构/编号混用。"
+      ],
+      "draftRefs": [
+        "sources.b-industrial-work.locator"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-work-43.png"
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/specialist-20261106/stage2-intake/content-round2/clean-content-review/sources/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "page": 44,
+      "readMode": "rendered_original_pdf_visual",
+      "observations": [
+        "印刷42，完整Empty户外多功能灶具设计展板；编号06B107796，所在学校沈阳理工大学，板底CUIDC 2024。",
+        "设计说明为便携、露营/野餐、多功能及配套冰箱拉出桌板；灶具部分是卡式炉概念，形态转换描述独立取灶、冰箱向一侧滑动、翻下支架、开盖展开桌板。",
+        "用户画像并列一家三口和23岁小张，支持多人需求与个人便携的比较训练。",
+        "图板有外观/结构概念和文字设计意图，但没有制造尺寸、实物热源安全或承重测试数据；稿件将其明示为未知，纸模不能代替这些验证。"
+      ],
+      "draftRefs": [
+        "deepDive.workedExample",
+        "roles",
+        "sevenDayTrial",
+        "sections.skills"
+      ],
+      "renderArtifact": "artifacts/specialist-20261106/stage2-content-review-b/evidence/renders/industrial-work-44.png",
+      "boundary": "这是公开完整作品转载，不是原作者测试报告；既未证明其属于黑龙江赛区，也未提供原始获奖评审分。"
+    }
+  ],
+  "sectionChecksArtifact": "artifacts/specialist-20261106/stage2-content-review-b/industrial-design/section-checks.json",
+  "hashesArtifact": "artifacts/specialist-20261106/stage2-content-review-b/industrial-design/hashes.json",
+  "checkAssessments": {
+    "factualSupport": "省赛资格、类别、交件、35件推荐、五项标准及费用均与8页原件一致；Empty完整展板可直接观察所讨论结构和用户画像。",
+    "entityScope": "明确2024第七届黑龙江省赛规则加全国公开的沈阳理工大学作品评读；不把省赛主办/规则视作全国统一、不将Empty归为黑龙江作品。",
+    "studentUsefulness": "无燃料纸模和动作/需求对照适于低成本历史题训练；个人记录与原作分开，未知尺寸和安全性能不补造。",
+    "temporalAccuracy": "2024届与2025转载载体分别标识；历史报名日期不用作现行入口，没有用2026校内选拔规则补历史事实。"
+  },
+  "nonBlockingBoundaries": [
+    "《导读》70页中本次仅读取封面、目录及PDF42—44相关作品展页；其余非相关内容未用作证据。",
+    "原展板不是制造/安全测试原始记录，未提供原作者获奖打分；黑龙江五项标准只作为跨赛区训练尺度。",
+    "随包txt第8页空白，已以可视PDF第8页核实收费及落款，不能只凭txt结论。"
+  ],
+  "findings": []
+}

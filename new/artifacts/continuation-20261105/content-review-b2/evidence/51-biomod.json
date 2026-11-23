@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "contentDigest": "992ed11ac2c94ba0ba263dc95e80c6ff22c36fec72bedf6a00bd09838ef20b46",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:30:16.911554+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "biomod-2023-requirements",
+    "biomod-2023-rubric",
+    "biomod-2023-sendai-project",
+    "biomod-2023-sendai-design",
+    "biomod-2023-sendai-experiment"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "biomod-2023-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "HTML lines 9-65; extracted/51-00.txt",
+      "verification": "Read eligibility, fees, deliverables and FAQ."
+    },
+    {
+      "sourceId": "biomod-2023-rubric",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sourceSha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "actualReadLocator": "PDF pages 4,10-12; rendered/biomod-04.png,-10.png,-11.png,-12.png",
+      "verification": "Visually read presentation times and full scoring/award criteria."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-project",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sourceSha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "actualReadLocator": "HTML text lines 27-203; extracted/51-02.txt",
+      "verification": "Read Project text; external figure assets not available."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-design",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sourceSha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "actualReadLocator": "HTML text lines 27-90; extracted/51-03.txt",
+      "verification": "Read Design text; external figures and GIFs not visually read."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-experiment",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sourceSha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "actualReadLocator": "HTML text lines 27-204; extracted/51-04.txt",
+      "verification": "Read experiment text including failed 30nt and revised 34nt TMSD proxy. Figures 1-11, tables 1-10, GIFs not available in frozen artifacts."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "All 12 modules, roles, prerequisites, four-week plan and exit conditions reviewed. The distinction between component/proxy evidence and successful complete light-controlled gas exchange is correct.",
+    "2023 historical fee only; individual fee remains TBD. No award claim independently verified. External Google Drive raw data not frozen or read."
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-51-01",
+      "severity": "major",
+      "description": "Strict L3 complete-work verification is incomplete: frozen HTML refers to absent experiment figures 1-11, tables 1-10, and design images/GIFs. The proposed evidence reading depends on these images, especially gel bands before and after the locking redesign. Supply traceable original assets for visual recheck or withhold the complete-work/L3 claim. Captions and author interpretation do not replace reading the actual figures.",
+      "resolved": false
+    },
+    {
+      "id": "B2-51-02",
+      "severity": "minor",
+      "description": "Eligibility says at least one faculty advisor but omits the Requirements FAQ line 45 tenure-track professor requirement. State the exact qualification or explicitly resolve the mixed-version FAQ applicability to 2023.",
+      "resolved": false
+    }
+  ]
+}

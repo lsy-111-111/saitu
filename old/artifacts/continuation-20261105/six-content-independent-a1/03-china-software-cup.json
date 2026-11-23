@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "saitu.independent-reading-evidence.a1",
+  "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+  "review": {
+    "reviewerId": "/root/six_content_independent_a",
+    "runId": "six-content-independent-a1@2026-11-06T01:28:26+00:00",
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "reviewedAt": "2026-11-06T01:28:26+00:00",
+    "method": "independent_source_recheck",
+    "outcome": "changes_requested",
+    "contentDigest": "6c466896baa2a0b16c0facb22cdc257cae21e711b31e8a25a55dec19bb22f7bf",
+    "sourceIds": [
+      "softcup-c2-a3",
+      "softcup-c2-notice"
+    ],
+    "checks": {
+      "factualSupport": true,
+      "entityScope": true,
+      "studentUsefulness": false,
+      "temporalAccuracy": true
+    },
+    "findings": [
+      {
+        "id": "A-SW-01",
+        "severity": "major",
+        "description": "重要遗漏；sections.participation/deliverables 及对应历史事实。softcup-c2-notice 二（二）明定初赛须在作品提交系统附电子版报名表，决赛现场报到须交纸质盖章版，表内注明成员职责。A3题列技术交件未取代大赛必交件；现稿读者照清单会漏交。",
+        "resolved": false
+      },
+      {
+        "id": "A-SW-02",
+        "severity": "major",
+        "description": "重要遗漏；sections.eligibility/participation。全国通知二（四）3、4：软件须本届大赛期间原创；在本届决赛完成之前在其他比赛或平台展出、获奖的作品或雷同作品不得参赛，不能把已有公开、参赛作品直接拿来报名。当前学生试做与正式资格界线缺该约束；勿扩写为终身禁止一切既有学习素材。",
+        "resolved": false
+      },
+      {
+        "id": "A-SW-03",
+        "severity": "minor",
+        "description": "步骤缺失；facts.eligibility/sections.eligibility。二（二）多导师具体姓名证明：除截止前发送学校、团队及分工信息，决赛后还要用相同邮箱发申请；现只写截止前材料。评分原题说各项“大致占比”，宜保留近似语气。",
+        "resolved": false
+      }
+    ],
+    "evidenceArtifact": "artifacts/continuation-20261105/six-content-independent-a1/03-china-software-cup.json"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "forkTurns": "none",
+    "basis": "Parent confirmed actual collaboration.spawn_agent arguments. Run ID is reviewer-assigned, not a provider UUID."
+  },
+  "reviewedInput": {
+    "path": "artifacts/continuation-20261105/six-content-dual-review-input-01/candidate-records.json",
+    "sha256": "b81f5204217fc297338ed14ee98abc6aeb6a779fd220b49444e8e85c454f572c"
+  },
+  "sources": [
+    {
+      "sourceId": "softcup-c2-a3",
+      "url": "https://www.cnsoftbei.com/content-3-1286-1.html",
+      "independentlyRead": "题目网页组别标本科/研究生/高职，企业科大讯飞。基本1–3：对话动态画像≥6维、不同角色生成≥5种多模态资源及动态路径推荐；辅导和效果评估为可选。非功能要求含防幻觉、敏感内容过滤和响应体验；实现条件分开规定框架不限及开发中其他AI辅助工具选讯飞。至少一门完整高校专业课知识集。初赛题页要求PPT、可运行文件、≤7分钟视频、配套文档及AI Coding说明；四项约35/45/10/10。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b.html",
+          "sha256": "008039a7728077b2b0e57a1485da3264b29bde35e02d17b9eab985dc3bb16c8b"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/953717c68d291aee877a39262c4c0aa760ea2e90b8426903322aaddc74894dcc.txt",
+          "sha256": "953717c68d291aee877a39262c4c0aa760ea2e90b8426903322aaddc74894dcc"
+        }
+      ]
+    },
+    {
+      "sourceId": "softcup-c2-notice",
+      "url": "https://www.cnsoftbei.com/content-74-1250-1.html",
+      "independentlyRead": "全国通知二（二）对报表、原件盖章和多导师开证分阶段规定；二（三）鼓励跨校，二（四）第3、4款要求本届大赛期间的原创，决赛完成前在其他比赛或平台展出、获奖的作品或雷同作品不得参赛。全国A组覆盖面宽于A3标题，不据此为中职等确认A3资格。三（一）（三）3/24—7/20报名；初赛交件7/20 15时为暂定。七不收参赛费，决赛食宿自理。核对冻结HTML正文与对应文本。",
+      "verifiedFiles": [
+        {
+          "path": "artifacts/v6/content-research/source-byte-snapshots/658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba.html",
+          "sha256": "658025f0cba98aa7765441082e71af71fe308b2bf1c41b7d91cc5402338fd5ba"
+        },
+        {
+          "path": "artifacts/v6/content-research/frozen-source-text/4c0f9a3475044f1c76e140eb3c16be01b6def37b28a321ec536facdc95ed1e55.txt",
+          "sha256": "4c0f9a3475044f1c76e140eb3c16be01b6def37b28a321ec536facdc95ed1e55"
+        }
+      ]
+    }
+  ],
+  "sectionReadability": {
+    "task": "单课的画像、资源和反馈实施链",
+    "eligibility": "准确限定此题组，团队与导师开证见发现",
+    "track": "六维、五种、讯飞限制成立",
+    "participation": "缺初决赛报表及原创时段见发现",
+    "deliverables": "技术交件清楚，欠行政必交件",
+    "rubric": "四项约占比成立；不宜表述为精确硬权重",
+    "skills": "课程资料纠错与系统评测分工",
+    "investment": "报名费和食宿分列，编辑工时独立",
+    "difficulty": "局部原型与正式完整课程区分",
+    "benefits": "不以生成流畅证明学习效果",
+    "value": "不承诺赛果及学校待遇",
+    "nextStep": "两种对话导致画像变动并回查课程依据，可执行"
+  },
+  "boundary": "Historical learning only. No live registration decision. Legacy out-of-scope/pending sources have not been verified or used; no author reading logs, review ledgers, other reviewers or gold set were consulted."
+}

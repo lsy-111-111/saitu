@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "integrated-circuit-innovation:2026-10:xinnuoda-tp3057:a-undergraduate-or-below:china-xinnuoda:v3",
+  "contentDigest": "5a2f798a3b67e69779a3919b69f9cdd12f56711d93918159ff28d2527f0426dd",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:20:00.367070+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "ic-2026-charter",
+    "ic-2026-xinnuoda",
+    "ic-2026-preliminary"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "ic-2026-charter",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/19e8391510110c096ce90bca80e101a55bce5eec58cbb92b09628f6915c28b13.html",
+      "sourceSha256": "19e8391510110c096ce90bca80e101a55bce5eec58cbb92b09628f6915c28b13",
+      "actualReadLocator": "gzip-decoded fresh HTML text lines 37–164; extracted/43-02.txt",
+      "verification": "完整章程正文读取；相关专业在校专本硕博、1—3跨校、1—2导师盖章、A本科以下/B含研究生；每队300押金转费及退款条件、差旅自理；2026更新日志和分赛区/全国规则。"
+    },
+    {
+      "sourceId": "ic-2026-xinnuoda",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/24eeed15064fe6badba7c0689edf005c3288c27ddd97687bfae40aa4cee93e85.png",
+      "sourceSha256": "24eeed15064fe6badba7c0689edf005c3288c27ddd97687bfae40aa4cee93e85",
+      "actualReadLocator": "original PNG 4096x19351; rendered/ic-task-01.png through ic-task-11.png, entire image",
+      "verification": "完整长图自上而下视觉读取；A组、ST3020/TP3057、初赛参数覆盖/测试方案、分区PCB自制手焊与远程验证、全国现场新器件、初赛15/35/10/40、分区15/15/30/25/15、全国35/35/20/10，手册仅注明群内发布。"
+    },
+    {
+      "sourceId": "ic-2026-preliminary",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/b57e2c8cf79f8d576dd575e00cc8abc49200d6bdd7b6490c9f75023cdf09d161.html",
+      "sourceSha256": "b57e2c8cf79f8d576dd575e00cc8abc49200d6bdd7b6490c9f75023cdf09d161",
+      "actualReadLocator": "gzip-decoded fresh HTML text lines 37–44 and 149–157; extracted/43-04.txt",
+      "verification": "已读总说明和信诺达完整条目：2026-04-13修订优先、汇总PDF与拆分内容一致、向量txt文字doc图JPG、无设备代码视文字提交。其他企业要求不作为本稿依据。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色前置、四周和退出条件已读；资格、费用和初赛正式评分本身有原文支撑。",
+    "实际读取三份原件，不把gzip乱码或OCR抽取视为已读；PNG已切片逐段视觉读完。",
+    "仅拒绝严格L3具体技术案例完整性，不要求取得群内私密资源、不要求作者伪造实际测试结果。未读手册与未执行测试如实记录。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-43-01",
+      "severity": "major",
+      "description": "严格L3的参数案例仍缺关键原件：长图第五节“四、赛事资料”明确TP3057器件手册和ST3020系统手册第6版另在钉钉群发布；冻结包本稿来源未包含这两份手册。deepDive要求“按手册建立参数—条件—向量—判定表”，却未选取并完整核验任何一个具体参数，无法检查该链路或器件覆盖是否实质正确。补入可合法公开并复审的相关手册及至少一项具体完整分析，或保留为概览层级；不要猜写参数。",
+      "resolved": false
+    }
+  ]
+}

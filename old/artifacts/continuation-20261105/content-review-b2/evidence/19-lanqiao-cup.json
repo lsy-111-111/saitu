@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "lanqiao-cup:2019-10:cpp-array-successor:cpp-a:china-provincial-cpp-a-2019:v3",
+  "contentDigest": "49a4f1986f0181f7a0710bcbbc88a602d163607f218b9ac5eee5d40ae2ebd737",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:35:59.271491+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "lanqiao-c3-rules",
+    "lanqiao-c3-h"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "lanqiao-c3-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531.rar",
+      "sourceSha256": "bc58356bb01f436d14f9bce7a9b92070a9363dbe16e4282360449559de1b6531",
+      "actualReadLocator": "RAR: 个人赛通知 PDF p2-3; 软件类竞赛大纲 PDF p1-3; 报名指南 PDF p1,3; 报名费说明 PDF p1. rendered/lq-*.png",
+      "verification": "上述11张中的8张规则/报名/费用页已视觉核，全文提取仅辅助定位。资格组别、4小时、个人机考断网、逐测试用例计分、注册认证缴费、2018截止与300元/人和差旅自理均支持。未声称读完整归档或不相关练习题。"
+    },
+    {
+      "sourceId": "lanqiao-c3-h",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95.pdf",
+      "sourceSha256": "5f790cfbae199558b808a73b0d6372c6e11aab86ff82d95dabce80627e855b95",
+      "actualReadLocator": "PDF p1,12,13; rendered/lq-task-p1.png, lq-task-p12.png, lq-task-p13.png",
+      "verification": "完整H题两页及考生须知已视觉读，样例2 1 1 3 4→2 1 3 4 5，20分/1秒/256MB/N≤10万/A≤100万及80%用例N≤1万支持。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块与个人算法角色、前置、四周验收及退出已读。后继查找定义、占用更新、保持原顺序及容量max(A)+N加哨兵的推导正确。",
+    "收费为同届每科报名，不把学校承担未知当用户必付300元，不把80%用例推成固定16分。",
+    "只审所选H题、适用规则及编辑推导，未运行代码或官方隐藏评测。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

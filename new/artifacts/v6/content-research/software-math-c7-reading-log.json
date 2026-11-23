@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-11-05",
+  "authorAgentId": "/root/audit_catalog",
+  "independentReview": false,
+  "entries": [
+    {
+      "sourceId": "abc-c7-home",
+      "url": "https://atcoder.jp/contests/abc427",
+      "title": "ABC427官方比赛页",
+      "scope": "2025第427场资格、100分钟和分值",
+      "locator": "Can Participate: All、时间、Rated Range、Point Values与Contest Rules；奖品资格另看日文说明",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official HTML body read; task statement, samples and Japanese editorial read in full where named. No solver execution or accepted submission claimed.",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "abc-c7-rules",
+      "url": "https://atcoder.jp/contests/abc427/rules",
+      "title": "比赛规则页面",
+      "scope": "2026-11读取的通用个人参赛、计分和提交规则",
+      "locator": "英语Eligibility至Language开头；个人作答、CE无罚时、未解题不累加罚时，语言版本不采纳为2025事实",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official HTML body read; task statement, samples and Japanese editorial read in full where named. No solver execution or accepted submission claimed.",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "abc-c7-task",
+      "url": "https://atcoder.jp/contests/abc427/tasks/abc427_d",
+      "title": "D - The Simple Game完整题面",
+      "scope": "ABC427 D题、输入输出、限制与425分",
+      "locator": "英文Problem Statement到Sample Output及解释全文；2秒1024MiB，K最多10、总N/M各20万",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official HTML body read; task statement, samples and Japanese editorial read in full where named. No solver execution or accepted submission claimed.",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "abc-c7-editorial",
+      "url": "https://atcoder.jp/contests/abc427/editorial/14196",
+      "title": "D题官方日文解说",
+      "scope": "ABC427 D有限步博弈的正确动态规划",
+      "locator": "日文完整状态定义、终态、偶数Alice/奇数Bob转移、复杂度；与英文14202的明显笔误区分",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official HTML body read; task statement, samples and Japanese editorial read in full where named. No solver execution or accepted submission claimed.",
+      "finding": "Adopted facts limited to the explicit locator. Not independently reviewed."
+    },
+    {
+      "sourceId": "abc-c7-free",
+      "url": "https://info.atcoder.jp/overview/about/why-tada",
+      "title": "AtCoder为什么免费",
+      "scope": "2026-11读取的线上竞赛参与费政策，不含个人设备网络",
+      "locator": "正文首段明确参赛不收费、任何人可免费参加；页尾说明在线竞赛及历史题练习",
+      "readAt": "2026-11-05",
+      "authorAgentId": "/root/audit_catalog",
+      "independentReview": false,
+      "readMethod": "Official HTML body read; task statement, samples and Japanese editorial read in full where named. No solver execution or accepted submission claimed.",
+      "finding": "AtCoder company page explicitly states online contest participation is free. This supports entry fee only, not a zero personal equipment/network/travel total."
+    }
+  ],
+  "sourceCaveats": [
+    {
+      "url": "https://atcoder.jp/contests/abc427/editorial/14202",
+      "finding": "English translation Bob paragraph repeats Alice parity and reverses the successor rule. Original Japanese editorial /14196 explicitly has Bob odd turns and Alice wins only if every successor is winning; adopted recurrence checked against Japanese and task, not erroneous English paragraph.",
+      "independentReview": false
+    }
+  ]
+}

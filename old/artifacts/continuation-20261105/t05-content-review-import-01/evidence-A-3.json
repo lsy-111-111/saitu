@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "saitu.review-normalization-evidence.v1",
+  "reviewerSource": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/review.json",
+    "sha256": "31aa875738fb02368e32336ce3077dc8e88f414bdb0ed53200dfa9c4f8f70b21"
+  },
+  "rawSourceReadingEvidence": {
+    "path": "artifacts/continuation-20261105/t05-content-revision-clean-a1/evidence.json",
+    "sha256": "d4c0df5b017d0f0f64ba4dd0ce6a27aaabb8519fb76d0e438081681441463a29"
+  },
+  "recordId": "chinese-classics:2025-zhejiang-13:classics-recitation:huzhou-individual:zhejiang-huzhou-local:v3",
+  "contentDigest": "78c0c7410c209bc558c63d5b554da69a1f4f1379d192599c527a33768f542cc0",
+  "informationalScopeNotes": [
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "校通知同时存在第十二/十三届文字及2025年4月7日--2024年4月15日报名笔误；候选不确定性完整保留，本轮不更正为确定赛程。"
+    },
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "chinese-classics:legacy:source:1 教育部原件缺失，未读、未核实、未批准；当前关键事实没有引用它。legacy:source:2的2026全国档案亦未作为2025浙江校选证据。"
+    },
+    {
+      "severity": "non_blocking",
+      "kind": "scope_or_preserved_limitation",
+      "text": "数字评分权重继续未知；个人报名费承担不等于个人全部费用为零。"
+    }
+  ],
+  "normalization": "Author approved with no blocking/open defect. Informational scope limitations stay here and in immutable raw reviewer files; they are not fabricated resolved defects. Ledger findings carries only actionable findings, none in this review. Root transforms field names and check booleans, not semantic verdicts."
+}

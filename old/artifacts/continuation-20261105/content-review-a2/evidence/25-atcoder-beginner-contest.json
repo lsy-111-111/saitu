@@ -1,0 +1,85 @@
+{
+  "recordId": "atcoder-beginner-contest:2025-427:d-simple-game:individual-open:global-online-abc427:v3",
+  "name": "AtCoder Beginner Contest",
+  "contentDigest": "ca5776889ac5f053249bc66fad705130216b44bfd390e23527212f606a04b5e2",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/audit_catalog",
+    "currentRecordAuthorAgentId": "/root/audit_catalog",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root/audit_catalog"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "abc-c7-home",
+      "url": "https://atcoder.jp/contests/abc427",
+      "readingLocation": "P1:L17-L36,L73-L102,L108-L132",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b.html",
+      "sha256": "42c1bef01de2be9e64ccb056a437a26d62ecbdede07a8569e14e57289d2cd69b",
+      "bytes": 24610
+    },
+    {
+      "sourceId": "abc-c7-rules",
+      "url": "https://atcoder.jp/contests/abc427/rules",
+      "readingLocation": "P1:L888-L917",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4.html",
+      "sha256": "5a6e5a83c3d931e49c9c49bb8e04535e29d7f312493116c2f1eb3c2e28017bb4",
+      "bytes": 109288
+    },
+    {
+      "sourceId": "abc-c7-task",
+      "url": "https://atcoder.jp/contests/abc427/tasks/abc427_d",
+      "readingLocation": "P1:L107-L179完整英文题及样例",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b.html",
+      "sha256": "1b388e662f546cdc5d422acfc55f962dd351e023e0e2293e56a56fbe98d8306b",
+      "bytes": 22129
+    },
+    {
+      "sourceId": "abc-c7-editorial",
+      "url": "https://atcoder.jp/contests/abc427/editorial/14196",
+      "readingLocation": "P1:L30-L41完整日文原解",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c.html",
+      "sha256": "41a3b72b7cdeb4c09c7422a85b6c07685cafb4458a01d7276c6eace20b3a522c",
+      "bytes": 15336
+    },
+    {
+      "sourceId": "abc-c7-free",
+      "url": "https://info.atcoder.jp/overview/about/why-tada",
+      "readingLocation": "P1:L46-L55",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627.html",
+      "sha256": "c5d5398158e1ecac2f53837d1d944a4388b4edd1bda70414cdacd55ea054a627",
+      "bytes": 51173
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "2K终态、偶数或奇数与、复杂度与有限图环解释正确。免费仅参与费/2026一般规则非2025编译环境，资格不混rating或奖品。12模块和四周/退出具体；未读英文错误版本，故只核定日文原解及正确路线，未将英文错误指称用于算法批准。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

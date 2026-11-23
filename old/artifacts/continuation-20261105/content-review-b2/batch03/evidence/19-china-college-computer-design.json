@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-college-computer-design:2026-19:ai-industrial-vision:full-time-undergraduate:china-ai-industrial-2026:v3",
+  "contentDigest": "3021621bdf1a73a9f342b810532e296a9d2844c8a3668f70511f80f47efdd48b",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.028923+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "4c-c2-national",
+    "4c-c2-industrial"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "4c-c2-national",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/7558172e1b8bbff7957a48e940c2d40b6e74ce9b63dd8f4bee0cb62376712915.html",
+      "sourceSha256": "7558172e1b8bbff7957a48e940c2d40b6e74ce9b63dd8f4bee0cb62376712915",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/18-china-college-computer-design.json :: HTML lines 25-50; extracted/18-02.txt",
+      "verification": "Full relevant 2026 national pre-notice read; enrolled fulltime undergraduates and provincial nomination, historical July-August season."
+    },
+    {
+      "sourceId": "4c-c2-industrial",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f.pdf",
+      "sourceSha256": "e9a4d7ce11f45b7d40aa44e34b3eafe55fc4d20de7dc600fbd788b0bf4754c4f",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/18-china-college-computer-design.json :: PDF all 11 pages; rendered/industrialvision-01.png through -11.png",
+      "verification": "All pages visually read including defect, dimension, OCR figures, full task and ranking table, equipment, support and general conduct/retest clauses. V20260225.01 requires VisionMaster4.3.0, prescribed equipment, 25 items, 10 minutes, unique saved image, score then time, 65/35 rank weighting. Counting row indeed contains defect wording."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/19-china-college-computer-design.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/18-china-college-computer-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "正文digest未变。原未完成项与阅读边界原样保留；未将未核原件视为已核。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

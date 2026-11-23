@@ -1,0 +1,860 @@
+{
+  "schemaVersion": "saitu.independent-content-review-evidence.v1",
+  "reviewerId": "/root/content_corrections_review_b",
+  "runId": "content-corrections-independent-b2-2026-11-06T01:18:57.622Z",
+  "reviewedAt": "2026-11-06T01:18:57.622Z",
+  "inputSha256": "2266cf530f507cad618df1cf4567666009b55737b31a169b426d313e01027e55",
+  "sourceManifestSha256": "8f1b892693a5856fb6942b315abeea537868911364be992a020f8749e282a735",
+  "provenanceArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/provenance.json",
+  "records": [
+    {
+      "recordId": "taiwan-child-rights-lesson-contest:2023-first:preschool-rights-learning:preschool-student:taiwan-2023-preschool-student:v3",
+      "contentDigest": "a96c6bd030a053a54c5b0b1fd72ade7da3f622775d486800547398cc7ff24f95",
+      "originalAuthorAgentId": "/root/audit_catalog",
+      "revisionAuthor": "/root",
+      "outcome": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "幼教师资生组、材料与邮寄方式、评审比例和两项日期均与本届简章一致。学生练习现准确分开第9页书包情境、第15页取物示例卡及第16页通用记录单。第13页选项缺口、排除未核故事、桌面评读边界均得到原作支持。",
+      "issues": [],
+      "aliases": [
+        "台湾妇女儿童人权教案设计竞赛"
+      ],
+      "scope": "2023第一届台湾幼教师资生组；不扩展为普通大学生或当前报名资格",
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "本记录所用完整简章载明2023年4月10日收件截止、5月21日颁奖，已结束；不能据历史页面判断当前可报名。"
+      },
+      "requiredSourceIds": [
+        "teach-d3-2023-rules",
+        "teach-d3-children-rights-work"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/source-reading-evidence.json",
+      "officialFactChecks": [
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:eligibility",
+          "text": "幼教和小学分别设教师组、学生组，不可师生混合；每件1—4人。本条学生组须为台湾师资培育大学幼教学程师资生，普通大学生或其他地区教育专业不能自动等同。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第1、7、18页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:track",
+          "text": "妇女或儿童人权议题教案，以完整主题设计原则上4节课，结合教育阶段目标、活动及评价。本条选择幼教公开作品进行评读，不是统一指定题目。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第4、10至12页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:participation",
+          "text": "提交作品由现职教师与相关专家书面审查；同时寄送纸本与电子文件才完成报名，不能只上传电子稿。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第2、5页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:deliverables",
+          "text": "本条幼教师资生组提交主题网与详细教案，连图、表、学习单限20页，相关纸本3份；单元课程架构图属于小学组要求。另附报名、匿名作品封面、亲签授权承诺、身份切结和证明及形式审查表。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第2、4、9、10、13、19页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:rubric",
+          "text": "内容及理念30%、教学与创新40%、评价机制30%；评价须与目标相关，兼顾形成性和总结性及多元策略。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第2至3页评分表",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "taiwan-child-rights-lesson-contest:v2:investment",
+          "text": "需纸本挂号邮寄或亲送及电子邮件；简章未给报名费和总个人费用。赠书邮资由主办承担只针对赠书，不能推断正式参赛免费。",
+          "entity": {
+            "editionId": "2023-first",
+            "trackId": "preschool-rights-learning",
+            "groupId": "preschool-student",
+            "scopeId": "taiwan-2023-preschool-student"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "teach-d3-2023-rules"
+          ],
+          "sourceLocation": "简章第2至5页",
+          "assessment": "supported within named historical source scope"
+        }
+      ],
+      "archivalFacts": [],
+      "noLegacyFactReferencesInDecisionFields": true
+    },
+    {
+      "recordId": "dandad-new-blood:2026-share-your-passion:personal-social-campaign:eligible-creative:global-2026-dad-brief:v3",
+      "contentDigest": "81b5c7d9683737ba602a106206a0a9563a466c38f4b32c81fb45988268469066",
+      "originalAuthorAgentId": "/root/continue_catalog",
+      "revisionAuthor": "/root",
+      "outcome": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "本题身份例外、英语参赛材料、创作样例与提交介绍的不同限额均核实。学生分支有一致资格依据，非学生门槛冲突和本题未明示的评分优先顺序均被保留。五幅原创样稿是可独立实行的编辑练习，使用版权材料、制作时间和个人总成本保持条件化。",
+      "issues": [],
+      "aliases": [
+        "D&AD新血奖"
+      ],
+      "scope": "2026 D&AD自我推广命题；不沿用2027Craft资格及优先次序",
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "原题2026年3月17日17时GMT截止；仅作完整历史命题练习，不判断当届可报名。"
+      },
+      "requiredSourceIds": [
+        "newblood-2026-dad-brief",
+        "newblood-2026-tutor-pack"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/source-reading-evidence.json",
+      "officialFactChecks": [
+        {
+          "factId": "dandad-new-blood:v2:eligibility",
+          "text": "本记录只采用两处共同支持的学生分支：2026年1月1日就读认可的全日制或非全日制继续/高等教育课程；FAQ明确学生不限年龄和专业。个人或至多5人团队，每人均须合格，并受正式条款的赛事关联人员及家属等排除条件约束。同文件第30页FAQ的非学生门槛为over 18及自由职业折算6个月，第34页正式条款为2026年1月1日aged 18 and over及自由职业一年；未取得消歧依据，不选择任一版本确认非学生资格。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "sourceLocation": "导师包第30、34至35页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "dandad-new-blood:v2:track",
+          "text": "Share your passion要求为自己建立有持续性的社交传播活动，明确本人实践与热情、目标受众、求职/社群/品牌合作等目的，并解释平台与互动策略。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-dad-brief"
+          ],
+          "sourceLocation": "命题第1页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "dandad-new-blood:v2:participation",
+          "text": "按2026在线参赛规则提交原创命题回应；指南要求作品及解释使用英语，除非命题明确另有规定，本题未给中文提交例外。此题特别允许出现本人姓名、视频和照片，不能把该身份例外外推到其他匿名命题。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-dad-brief",
+            "newblood-2026-tutor-pack"
+          ],
+          "sourceLocation": "命题第1页、导师包第26、34页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "dandad-new-blood:v2:deliverables",
+          "text": "创作示例至少三条各不少于30秒的视频或五幅静态作品，可混合媒介；正式主材料为至多2分钟介绍视频或至多8张JPEG。选交交互作品；主交JPEG时可另交总长至多1分钟视频，主交视频时可另交至多4张JPEG。创作示例与评审介绍材料不是同一长度限制；正式作品和解释须符合英语提交要求，中文题面不等于允许中文参赛材料。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-dad-brief",
+            "newblood-2026-tutor-pack"
+          ],
+          "sourceLocation": "命题第1至2页、导师包第26至27页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "dandad-new-blood:v2:investment",
+          "text": "2026每项作品报名费15英镑，或由每位成员完成参赛调查获得全额报名费抵用券；这不足以确认个人总支出，设备、网络、制作及授权成本仍待核。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "sourceLocation": "导师包第30、34页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "dandad-new-blood:v2:rubric",
+          "text": "2026指南列出创意、执行与回应命题三个通用评审问题，并明确Games Design命题标准略有不同；广告大创意类与Craft类的优先次序也不同。本题未明确对应哪一优先分支，故不自定权重或冒用2027Craft排序。",
+          "entity": {
+            "editionId": "2026-share-your-passion",
+            "trackId": "personal-social-campaign",
+            "groupId": "eligible-creative",
+            "scopeId": "global-2026-dad-brief"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "newblood-2026-tutor-pack"
+          ],
+          "sourceLocation": "导师包第3、31、36页",
+          "assessment": "supported within named historical source scope"
+        }
+      ],
+      "archivalFacts": [],
+      "noLegacyFactReferencesInDecisionFields": true
+    },
+    {
+      "recordId": "china-software-cup:2026-15:a3-learning-agents:a-higher-education:china-a3-2026:v3",
+      "contentDigest": "6c466896baa2a0b16c0facb22cdc257cae21e711b31e8a25a55dec19bb22f7bf",
+      "originalAuthorAgentId": "/root/continue_catalog",
+      "revisionAuthor": "/root",
+      "outcome": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "A3题头、组队与导师、完整课程资料、框架与其他AI工具条件、分项评分和初赛交付均有相应正文依据。哈尔滨工程大学的旧校内事实只指向校内实体，未引用字段保留未知实体。四周局部试做明确区别完整交付及效果证据。",
+      "issues": [],
+      "aliases": [
+        "中国软件杯"
+      ],
+      "scope": "2026 A3科大讯飞多智能体题；不套用B组资格或其它题评分",
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "2026官网通知的报名与初赛提交期已结束，仅作历史题学习。"
+      },
+      "requiredSourceIds": [
+        "softcup-c2-a3",
+        "softcup-c2-notice"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/source-reading-evidence.json",
+      "officialFactChecks": [
+        {
+          "factId": "china-software-cup:v2:eligibility",
+          "text": "全日制高校学生可组队，A3明确本科、研究生、高职；报名队伍含队长一名、其他学生至多两名及一个指导教师名额，可跨校组队。导师须为学生所在院校专职教师；多位导师时按“xx大学指导组”登记，证书体现为指导组，具体姓名证明须依通知在报名截止前提交材料。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-notice",
+            "softcup-c2-a3"
+          ],
+          "sourceLocation": "全国通知二（一）至（二）及A3题头",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "china-software-cup:v2:track",
+          "text": "A3针对一门高校专业课程开发多智能体学习系统，智能体开发框架不限，但开发中其他AI辅助工具须用科大讯飞相关工具；须通过对话形成不少于六维画像，协作生成至少五类资源并规划学习路径。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "sourceLocation": "A3基本功能1至3及实现条件",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "china-software-cup:v2:participation",
+          "text": "团队网上报名并选择企业题，按当届初赛要求交作品，晋级后参加后续评审；队长仅能任一队队长。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-notice"
+          ],
+          "sourceLocation": "全国通知二、三、五",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "china-software-cup:v2:deliverables",
+          "text": "交演示PPT、可完整运行的代码/数据/配置、七分钟以内演示视频、开发与测试等文档；其他AI辅助工具须选科大讯飞相关工具，使用AI Coding须说明，开源与工具来源协议须显著标注。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "sourceLocation": "A3非功能性需求2、实现条件、初赛作品提交要求",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "china-software-cup:v2:rubric",
+          "text": "A3评分为创新价值与实用性35%、功能实现及技术要求45%、配套文档10%、演示视频和PPT10%；智能辅导与学习效果评估是可选加分功能。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-a3"
+          ],
+          "sourceLocation": "A3评分栏目及基本功能4至5",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "china-software-cup:v2:investment",
+          "text": "大赛不收参赛费，决赛食宿自理；A3未限定硬件但可能需要模型与生成资源，不能将报名免费等同总成本零。",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "a3-learning-agents",
+            "groupId": "a-higher-education",
+            "scopeId": "china-a3-2026"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "softcup-c2-notice",
+            "softcup-c2-a3"
+          ],
+          "sourceLocation": "全国通知七（一）及A3实现条件/设备需求",
+          "assessment": "supported within named historical source scope"
+        }
+      ],
+      "archivalFacts": [
+        {
+          "factId": "china-software-cup:legacy:fact:eligibility",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "school-participation-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "hrbeu-school-participation"
+          },
+          "status": "pending_review",
+          "scope": "哈尔滨工程大学2026第十五届参赛校内通知的旧库引用，仅限该校组织；原文未复核，不作为全国A3赛题规则。",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:team",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "school-participation-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "hrbeu-school-participation"
+          },
+          "status": "pending_review",
+          "scope": "哈尔滨工程大学2026第十五届参赛校内通知的旧库引用，仅限该校组织；原文未复核，不作为全国A3赛题规则。",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:mentor",
+          "entity": {
+            "editionId": "2026-15",
+            "trackId": "school-participation-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "hrbeu-school-participation"
+          },
+          "status": "pending_review",
+          "scope": "哈尔滨工程大学2026第十五届参赛校内通知的旧库引用，仅限该校组织；原文未复核，不作为全国A3赛题规则。",
+          "sourceIds": [
+            "china-software-cup:legacy:source:1"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "china-software-cup:legacy:fact:fee",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "status": "unknown",
+          "scope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "sourceIds": [],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        }
+      ],
+      "noLegacyFactReferencesInDecisionFields": true
+    },
+    {
+      "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+      "contentDigest": "59596e5ef139d7d43d9e16e8d07d8aa82a720f5321ce5fcca72e0a37740d30f3",
+      "originalAuthorAgentId": "/root/continue_catalog",
+      "revisionAuthor": "/root",
+      "outcome": "approved",
+      "checks": {
+        "factualSupport": true,
+        "entityScope": true,
+        "studentUsefulness": true,
+        "temporalAccuracy": true
+      },
+      "summary": "省赛报名、资格、35件推荐、图板格式与单独模板说明均得到黑龙江通知支持。CUIDC 2024展板来自沈阳理工大学，候选以省赛标准做跨赛区评读，未推断原作性能或获奖评分。别名为空，浙江2026旧校选单独归档，未知费用和导师项没有绑定黑龙江2024事实。",
+      "issues": [],
+      "aliases": [],
+      "scope": "黑龙江省赛规则；全国公开展板作跨赛区评读",
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "历史届次，仅用于历史任务学习；不表示当前仍可报名，也不自动适用于下一届。"
+      },
+      "requiredSourceIds": [
+        "b-industrial-rule",
+        "b-industrial-work"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/source-reading-evidence.json",
+      "officialFactChecks": [
+        {
+          "factId": "national-college-industrial-design:v2:eligibility",
+          "text": "2024黑龙江赛区面向普通高校全日制研究生、本科生、高职高专，学校集体报名。",
+          "entity": {
+            "editionId": "2024-7",
+            "trackId": "product-system",
+            "groupId": "fulltime-university",
+            "scopeId": "heilongjiang-rules-national-work"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocation": "省赛规则第1至2页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "national-college-industrial-design:v2:track",
+          "text": "公开Empty户外多功能灶具展板用于产品结构与使用系统评读；不是黑龙江参赛作品认定。",
+          "entity": {
+            "editionId": "2024-7",
+            "trackId": "product-system",
+            "groupId": "fulltime-university",
+            "scopeId": "heilongjiang-rules-national-work"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "b-industrial-work"
+          ],
+          "sourceLocation": "作品PDF第44页（印刷42页）",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "national-college-industrial-design:v2:participation",
+          "text": "黑龙江赛区2024年6月22日至7月30日网上报名，学校汇总材料交分赛区组委会；由分赛区评审委员会评选35件优秀作品推荐全国复评。",
+          "entity": {
+            "editionId": "2024-7",
+            "trackId": "product-system",
+            "groupId": "fulltime-university",
+            "scopeId": "heilongjiang-rules-national-work"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocation": "省赛规则第3至5页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "national-college-industrial-design:v2:deliverables",
+          "text": "将设计草图、设计说明、预想图、模型照片等编排为一张纵向1089×841mm JPG图版，150dpi且不超5MB；另按官网模板提交单独的作品设计说明，并由学校汇总报送作品信息汇总表等材料。",
+          "entity": {
+            "editionId": "2024-7",
+            "trackId": "product-system",
+            "groupId": "fulltime-university",
+            "scopeId": "heilongjiang-rules-national-work"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocation": "省赛规则第3至4页",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "national-college-industrial-design:v2:rubric",
+          "text": "黑龙江省赛五项：作品表现、创造性、实用性、经济性、环保性；仅用作同届训练尺度，不追认原作获奖评分。",
+          "entity": {
+            "editionId": "2024-7",
+            "trackId": "product-system",
+            "groupId": "fulltime-university",
+            "scopeId": "heilongjiang-rules-national-work"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "b-industrial-rule"
+          ],
+          "sourceLocation": "省赛规则第5至6页",
+          "assessment": "supported within named historical source scope"
+        }
+      ],
+      "archivalFacts": [
+        {
+          "factId": "national-college-industrial-design:legacy:fact:eligibility",
+          "entity": {
+            "editionId": "2026-8",
+            "trackId": "school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "zafu-school-selection"
+          },
+          "status": "pending_review",
+          "scope": "2026第八届浙江农林大学校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2024黑龙江省赛规则。",
+          "sourceIds": [
+            "national-college-industrial-design:legacy:source:2"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:team",
+          "entity": {
+            "editionId": "2026-8",
+            "trackId": "school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "zafu-school-selection"
+          },
+          "status": "pending_review",
+          "scope": "2026第八届浙江农林大学校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2024黑龙江省赛规则。",
+          "sourceIds": [
+            "national-college-industrial-design:legacy:source:2"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:mentor",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "status": "unknown",
+          "scope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "sourceIds": [],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "national-college-industrial-design:legacy:fact:fee",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "status": "unknown",
+          "scope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "sourceIds": [],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        }
+      ],
+      "noLegacyFactReferencesInDecisionFields": true
+    },
+    {
+      "recordId": "smart-car:2025-20-outdoor:outdoor-ros-mapping:higher-education:china-2025-outdoor-ros:v3",
+      "contentDigest": "668dd6c9972db59c999459a7d097e723a817f0be69b145a00df89d0d7867d36b",
+      "originalAuthorAgentId": "/root",
+      "revisionAuthor": "/root",
+      "outcome": "needs_revision",
+      "checks": {
+        "factualSupport": false,
+        "entityScope": true,
+        "studentUsefulness": false,
+        "temporalAccuracy": true
+      },
+      "summary": "2025高教组身份、赛道、公式、导师学生、线下/线上交付和设备矛盾均有原文支持。2026常州工学院旧事实已归至正确的单校、异届实体。仍需修正完赛条件与罚时的界限，并补齐ROS2/现场建图的事实引用。",
+      "issues": [
+        {
+          "id": "b2-smartcar-completion-penalty",
+          "severity": "major",
+          "description": "difficulty 的 completion 摘要和 sections.difficulty 把建图及规定停车均可复现写成完赛必要条件。第8页明确第二圈停车失败加罚20秒，未现场建图等加罚50秒，同时另列绕错锥桶过多、停超10秒等才判任务失败的条件。请在两个位置将成功建图和停车表述为完整任务的训练目标，并准确区分罚时与任务失败。",
+          "resolved": false,
+          "paths": [
+            "difficulty[stage=completion].summary",
+            "sections.difficulty[1].text"
+          ],
+          "location": "smartcar-2025-outdoor-ros p8 §2.4.2(2),(5)–(8)"
+        },
+        {
+          "id": "b2-smartcar-rubric-trace",
+          "severity": "minor",
+          "description": "deepDive.rubricMapping 中“ROS2与真实建图要求”仅引用 smart-car:v2:rubric，该事实只含80/20、30/70和手册案例评分。请补引 smart-car:v2:track 及 smart-car:v2:deliverables，分别定位现场建图及ROS2版本要求。相关内容本身受规则支持。",
+          "resolved": false,
+          "paths": [
+            "deepDive.rubricMapping[2].factIds"
+          ],
+          "location": "smartcar-2025-outdoor-ros pp3,7–8, with candidate facts track/deliverables/rubric compared"
+        }
+      ],
+      "aliases": [
+        "全国大学生智能汽车竞赛"
+      ],
+      "scope": "2025室外ROS高教组完整规则",
+      "registration": {
+        "status": "historical",
+        "checkedAt": "2026-11-05",
+        "factIds": [],
+        "note": "2025规则作为历史准备任务；下一届赛道、设备和资格需重新核对。"
+      },
+      "requiredSourceIds": [
+        "smartcar-2025-outdoor-ros"
+      ],
+      "sourceReadingArtifact": "artifacts/continuation-20261105/content-corrections-independent-b2/source-reading-evidence.json",
+      "officialFactChecks": [
+        {
+          "factId": "smart-car:v2:eligibility",
+          "text": "2025该赛项面向全日制在校专科、本科及研究生，每队2—5名学生、1—2名指导教师；线下赛不同队伍不能共用同一设备。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocation": "规则第8至9页§3.1",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "smart-car:v2:track",
+          "text": "首圈探索并构建二维地图，次圈依据该地图导航、识别停车牌并停入相应区域。现场随机挡板必须出现在地图中；红灯区域须停车3秒。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocation": "规则第2至6页§2.1–2.2",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "smart-car:v2:participation",
+          "text": "按室外赛安排报名并提交资料，线下自主运行和展示地图；若改为线上，另需三机位运行视频与赛道测量视频，不得遥控或伪造记录。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocation": "规则第8至12页§2.4.2、3.3–3.5",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "smart-car:v2:deliverables",
+          "text": "线下赛除现场比赛外，还须按赛前通知通过指定百度网盘提交源码与技术手册压缩包，每队限提交一次；手册至少五个案例，须能结合源码复现。规则要求使用ROS2，使用ROS1有100秒罚时。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocation": "规则第7至9页§2.3、2.4.2、3.4",
+          "assessment": "supported within named historical source scope"
+        },
+        {
+          "factId": "smart-car:v2:rubric",
+          "text": "运行80分、技术手册20分；有效时间为首圈30%与次圈70%的耗时加罚时。手册按创新、实用、复杂程度和可复现性评价，每个案例最多4分。",
+          "entity": {
+            "editionId": "2025-20-outdoor",
+            "trackId": "outdoor-ros-mapping",
+            "groupId": "higher-education",
+            "scopeId": "china-2025-outdoor-ros"
+          },
+          "kind": "official_fact",
+          "status": "historical",
+          "sourceIds": [
+            "smartcar-2025-outdoor-ros"
+          ],
+          "sourceLocation": "规则第7至8页§2.3–2.4",
+          "assessment": "supported within named historical source scope"
+        }
+      ],
+      "archivalFacts": [
+        {
+          "factId": "smart-car:legacy:fact:eligibility",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "status": "pending_review",
+          "scope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "smart-car:legacy:fact:team",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "status": "pending_review",
+          "scope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "smart-car:legacy:fact:mentor",
+          "entity": {
+            "editionId": "2026-21",
+            "trackId": "outdoor-school-selection-reference",
+            "groupId": "source-defined-group",
+            "scopeId": "czu-school-selection"
+          },
+          "status": "pending_review",
+          "scope": "2026第二十一届常州工学院室外赛校内选拔的旧库引用，仅限该校通知；原文未复核，不作为2025室外ROS高教组规则。",
+          "sourceIds": [
+            "smart-car:legacy:source:2"
+          ],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        },
+        {
+          "factId": "smart-car:legacy:fact:fee",
+          "entity": {
+            "editionId": "edition-unknown",
+            "trackId": "track-unknown",
+            "groupId": "group-unknown",
+            "scopeId": "scope-unknown"
+          },
+          "status": "unknown",
+          "scope": "旧库待核字段，无引用；适用届次、赛道、组别和范围均未知。",
+          "sourceIds": [],
+          "assessment": "Historical school-local assertion remains unrechecked or explicitly unknown. It supplies no verified evidence for this edition record."
+        }
+      ],
+      "noLegacyFactReferencesInDecisionFields": true
+    }
+  ],
+  "counts": {
+    "reviewed": 5,
+    "approved": 4,
+    "changesRequested": 1
+  }
+}

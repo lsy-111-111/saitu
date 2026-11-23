@@ -1,0 +1,129 @@
+{
+  "runId": "a2-batch06-20261105T201748Z-7df37711",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T20:17:48.696704+00:00",
+  "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+  "contentDigest": "9a76f98fe2803e5c1c62938e4b585fd2aa0f1908dfdd83e5a35620b9824c17ef",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-06/records.json",
+  "recordIndex": 1,
+  "manifestSha256": "2ba54f749bd53bb1518f09a371cf9946d26e40b6176a56572815af1000e695d4",
+  "scopeOfApproval": "限定历史公开学习型L3内容审查；不是历史或当前正式报名资格、总费用或严格参赛覆盖批准",
+  "outcome": "approved",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "a2-b06-fact-type",
+      "severity": "major",
+      "description": "资格知识缺口已拆成kind/status unknown、空sourceIds/sourceScopes、checkedAt与lastVerifiedAt null，并保留requires_confirmation；解决的是类型混淆，未解决未知资格本身。",
+      "resolved": true
+    }
+  ],
+  "taskAssessment": "仅删除且保序、大小写不归一化。四例1/无解/2/无解正确；双指针匹配最早可用字符，最终目标指针到末尾才输出长度差。",
+  "depthAndStudentPathAssessment": "完整2页原题及2页官方分析、20/40秒和1GB、测试集限制可核。角色交付是指针跟踪/个人实现/顺序反例；四周与越界时退回手算清楚。",
+  "recordReading": "当前record全部实质字段、六条或七条facts、十二模块、角色、价值、结构化资格和完整deepDive逐项实际读取；不是只检查字段存在或沿用旧批准。",
+  "unknownEligibilityFact": {
+    "id": "google-kick-start:v2:eligibility.historical-rules",
+    "field": "eligibility.historical-rules",
+    "text": "2022年龄、地域及雇佣关系等完整资格条款未取得；公开读题不证明历史或当前参赛资格。",
+    "kind": "unknown",
+    "status": "unknown",
+    "sourceIds": [],
+    "sourceScopes": [],
+    "scope": "2022历史报名资格资料缺口；仅供公开题学习，不确认历史或当前报名条件",
+    "checkedAt": null,
+    "supersedes": [],
+    "conflictsWith": [],
+    "entity": {
+      "editionId": "2022",
+      "trackId": "round-a-speed-typing",
+      "groupId": "historical-public-task",
+      "scopeId": "round-a-speed-typing-2022"
+    },
+    "validFrom": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "validUntil": {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "timezone": null
+    },
+    "retrievedAt": null,
+    "lastVerifiedAt": null,
+    "reviewStatus": "pending_review"
+  },
+  "retainedUnknowns": [
+    "2022完整资格和历史费用未知",
+    "题目分值未核",
+    "未复现旧评测环境，不认证官方通过"
+  ],
+  "strictParticipationCoverageIncrement": 0,
+  "currentRegistrationConfirmed": false,
+  "historicalEligibilityConfirmed": false,
+  "sources": [
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "gks-2022-speed-task",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/kickstart/2022/round_a/speed_typing/statement.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2.pdf",
+      "sha256": "47aa8db1a1d67bc0452c5374d5428e2360a22c5b4595a10e94c054fbffbfc4d2",
+      "bytes": 78863,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P1—2完整文字与视觉，四样例、大小写、两测试集",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/gks-2022-speed-task.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gks-2022-speed-task-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gks-2022-speed-task-p2.png"
+      ],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "gks-2022-speed-analysis",
+      "url": "https://github.com/google/coding-competitions-archive/blob/main/kickstart/2022/round_a/speed_typing/analysis.pdf",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239.pdf",
+      "sha256": "5380477d205dcc114976f56a7b9b9db04ed3f5d8c4858a8ae1e481ea93dd3239",
+      "bytes": 80333,
+      "freshSemanticRead": true,
+      "readingLocation": "原PDF P1—2完整文字与视觉，子序列定义/双指针/终止与复杂度",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/gks-2022-speed-analysis.txt",
+      "visualArtifactsActuallyRead": [
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gks-2022-speed-analysis-p1.png",
+        "artifacts/continuation-20261105/content-review-a2/batch06/visual/gks-2022-speed-analysis-p2.png"
+      ],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    },
+    {
+      "recordId": "google-kick-start:2022:round-a-speed-typing:historical-public-task:round-a-speed-typing-2022:v3",
+      "sourceId": "google-competitions-farewell",
+      "url": "https://developers.googleblog.com/celebrate-googles-coding-competitions-with-a-final-round-of-programming-fun/",
+      "origin": "frozen_batch_06",
+      "path": "artifacts/continuation-20261105/content/review-batch-06/dependencies/artifacts/v6/content-research/source-byte-snapshots/a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31.html",
+      "sha256": "a1f50522334f9c2406ae275ef890a704f93862a4f1dd01275df7e1c72921ba31",
+      "bytes": 27074,
+      "freshSemanticRead": true,
+      "readingLocation": "原HTML正文L19—30完整文章，停办、最后活动和持续官方归档",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/extractions/google-competitions-farewell.txt",
+      "visualArtifactsActuallyRead": [],
+      "sourceScope": "2022已结束赛事的历史题与判定依据；不构成当前报名机会"
+    }
+  ],
+  "commonStandardArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/standard-inputs.json",
+  "helperCheckArtifact": "artifacts/continuation-20261105/content-review-a2/batch06/helper-check.json",
+  "helperBoundary": "实际调用helper验证unknown输出checkedAt null且拒绝伪挂来源；这不是未知资格获证。eligibility.ts仅读代码确认不支持的facts保持unknown，本轮未运行整产品推荐。",
+  "independence": "独立AI审核。读过root授权最终中立裁决（其总结双方争议），不宣称双盲；未读B审查产物/新稿意见或包外作者交接，不与另一审者交流。共享FS，仅流程独立。",
+  "networkAcquisitions": [],
+  "nonblockingEditorialAdvice": "获奖难度模板仍可改写为该系列已停办、当前学习不产生获奖机会；现有edition/registration/收益/退出已明确，不构成当前获奖承诺或本轮阻断。"
+}

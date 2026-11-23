@@ -1,0 +1,58 @@
+{
+  "recordId": "robomaster-university:2026-rmuc:engineering-core-assembly:university:rmuc-2026-core-assembly:v3",
+  "name": "RoboMaster机甲大师高校系列赛",
+  "contentDigest": "dc2fe3a19f5cacbc2eb9ca5c260fa1aea772b4425f1bb9f30928911f5b412339",
+  "runId": "a2-gpt6astra-20261105T165926Z-5a7ff8c714f2",
+  "reviewerId": "/root/content_review_a2",
+  "reviewedAt": "2026-11-05T17:00:15.506107+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root",
+    "revisionAuthorAgentId": null,
+    "excludeReviewers": [
+      "/root"
+    ]
+  },
+  "packageManifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "readingLocationConvention": "P:L without explicit original/native PDF qualifier means extraction segment and line, not guaranteed physical PDF page. 原PDF/printed/visual locators refer to physical/rendered page as specified.",
+  "sourceReads": [
+    {
+      "sourceId": "robomaster-2026-participant",
+      "url": "https://bbs-web-static.robomaster.com/3fcc5b752b7a435b9323892f57c574141766654205303/RoboMaster%202026%20%E6%9C%BA%E7%94%B2%E5%A4%A7%E5%B8%88%E8%B6%85%E7%BA%A7%E5%AF%B9%E6%8A%97%E8%B5%9B%E5%8F%82%E8%B5%9B%E6%89%8B%E5%86%8CV1.1.0%EF%BC%8820251225%EF%BC%89.pdf",
+      "readingLocation": "原PDF第7—11页资格、10—35人、全日制及学籍；抽取P8—9（印刷14—20页）技术评审六阶段",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525.pdf",
+      "sha256": "444836b2203b74d60e0bbb1844bb12b62e84a3d65b0b498d08fa6506855c4525",
+      "bytes": 1117258
+    },
+    {
+      "sourceId": "robomaster-2026-core-task",
+      "url": "https://bbs-web-static.robomaster.com/e354d2750e17485e8f67e5b5a9d1a2891786094242879/RoboMaster%202026%20%E6%9C%BA%E7%94%B2%E5%A4%A7%E5%B8%88%E8%B6%85%E7%BA%A7%E5%AF%B9%E6%8A%97%E8%B5%9B%E6%AF%94%E8%B5%9B%E8%A7%84%E5%88%99%E6%89%8B%E5%86%8CV2.2.0%EF%BC%8820260807%EF%BC%89.pdf",
+      "readingLocation": "原PDF83—91页视觉阅读：位姿、难度、收益、灯效、步骤1—6、失败和退出规则",
+      "origin": "frozen_batch_01",
+      "path": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5.pdf",
+      "sha256": "88ae3c7d0bbd7312c8095eff2603910437e292a0b53f46c9378f26144c09a6f5",
+      "bytes": 21018604
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "任务限定科技核心装配，完整步骤和对应收益支持状态机学习；区分全赛规则未全读。个人控制/机械证据、四周及安全退出具体；2026已关闭，不外推2027。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "representative task and original source",
+    "applicable scoring",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "cost and temporal boundaries"
+  ],
+  "limitations": "Independent AI reviewer in shared filesystem; procedural independence only. No human review performed. Only identified locations were read; byte verification alone does not mean semantic review."
+}

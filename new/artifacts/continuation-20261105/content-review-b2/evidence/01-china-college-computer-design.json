@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "china-college-computer-design:edition-b8257354f41e:software-development:group-78fd9199138e:scope-3497779db6c7:v3",
+  "contentDigest": "32e8dcbe61c1556fe2d905844e2d879246b32b6862cc3d6bd140ff93bae78029",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:32:28.876529+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [],
+  "sourceEvidence": [],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块与全部角色、前置、四周、退出内容已读；可见有实践指导，但关键原件缺失导致实体及时间事实无法完成独立核验。",
+    "四项false表示本次独立核验未达完成标准，不表示所有文字都错误。",
+    "费用未知及本校/往届范围均保留，不要求猜出不存在金额和资格。"
+  ],
+  "incompleteSources": [
+    "4c-rules-2026",
+    "4c-submission-2026",
+    "4c-ai-special-task-2026"
+  ],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-01-01",
+      "severity": "major",
+      "description": "冻结记录中关键事实及案例来源全部没有sourceArtifact，无法在限定冻结包内实际读原件。sourceIds保持空，不继承作者body_read或旧审结论。需补入可核SHA的原件后独立重审。",
+      "resolved": false
+    },
+    {
+      "id": "B2-01-02",
+      "severity": "major",
+      "description": "专项仅搜索缓存节选，未取得完整题/提交模板及适用评分；记录自述缺口未解决，不能按严格L3。",
+      "resolved": false
+    }
+  ]
+}

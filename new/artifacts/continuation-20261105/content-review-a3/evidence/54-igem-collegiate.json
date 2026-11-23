@@ -1,0 +1,797 @@
+{
+  "recordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+  "name": "iGEM国际遗传工程机器大赛高校组",
+  "contentDigest": "06d7a541005f99446557a8f749bdab1f5bd5c04923508ceb2ef3382e22ab6f4d",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.213059+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "igem-collegiate:2026-collegiate:model-evidence:higher-education:igem-2026-higher-education:v3",
+    "previousContentDigest": "4220b5f52cad29b3c6b24d76f5cdc3a9de353a9b996294df594379d3d7e1f6e9",
+    "excludeReviewers": [
+      "/root",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "igem-2026-registration",
+      "url": "https://competition.igem.org/registration/overview",
+      "readingLocation": "HTML P1:L22-L70,L94-L115,L156-L176",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62.txt",
+      "sha256": "e8bda922913ba794e872ee630dd3bf840b0a8f63dc9b7f7ec6a4fae04eec5e62",
+      "bytes": 16382,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": true,
+      "notOriginalHttpBody": true,
+      "additionalOriginalByteRechecks": [
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/Overview-CztMwsB6.js",
+          "sha256": "c5e71e847ee0a83dc0c98f71b3a83b1fa265d1b0347f74026a463203244b0539",
+          "url": "https://competition.igem.org/assets/Overview-CztMwsB6.js",
+          "sourceIds": [
+            "igem-2026-registration"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 2268,
+              "endCharacter": 3668,
+              "anchor": "For teams made up of collegiate"
+            },
+            {
+              "startCharacter": 4180,
+              "endCharacter": 5580,
+              "anchor": "The registration must be done by the Primary PI"
+            }
+          ]
+        },
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/sections-BR8TgsJy.js",
+          "sha256": "c7ab36bb7c9609f4927eaf76c1a1e654ea10f2edb21010d4ba462572cd6cead4",
+          "url": "https://competition.igem.org/assets/sections-BR8TgsJy.js",
+          "sourceIds": [
+            "igem-2026-registration"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 193053,
+              "endCharacter": 194453,
+              "anchor": "The Primary PI must have an active role"
+            },
+            {
+              "startCharacter": 209293,
+              "endCharacter": 210693,
+              "anchor": "Higher Education Teams"
+            },
+            {
+              "startCharacter": 210288,
+              "endCharacter": 211688,
+              "anchor": "The Primary PI supports the team"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "igem-2026-roster",
+      "url": "https://competition.igem.org/registration/team-roster",
+      "readingLocation": "HTML P1:L20-L35,L49-L61,L74-L75",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053.txt",
+      "sha256": "ce1a2688647258a55692c7f8cd380b29b8fbc3eea08c3cf77fdb936dd74e1053",
+      "bytes": 7367,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": true,
+      "notOriginalHttpBody": true,
+      "additionalOriginalByteRechecks": [
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/TeamRoster-BjUGvhW6.js",
+          "sha256": "02798f7e1603ad336f214abf882c037405a1413565be4c9d7e813d089da39163",
+          "url": "https://competition.igem.org/assets/TeamRoster-BjUGvhW6.js",
+          "sourceIds": [
+            "igem-2026-roster"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 4016,
+              "endCharacter": 5416,
+              "anchor": "All participants must be at least 13"
+            },
+            {
+              "startCharacter": 12079,
+              "endCharacter": 13479,
+              "anchor": "All student team members (incl. leaders)"
+            },
+            {
+              "startCharacter": 12335,
+              "endCharacter": 13735,
+              "anchor": "One or more student team members"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "igem-2026-special-prizes",
+      "url": "https://competition.igem.org/judging/special-prizes",
+      "readingLocation": "HTML P1:L28-L41,L75-L84",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8.txt",
+      "sha256": "a45538d61f24c99a780172164116533817e026dfc9964edac3bbbe3aed9eb1e8",
+      "bytes": 19976,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": true,
+      "notOriginalHttpBody": true,
+      "additionalOriginalByteRechecks": [
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/Awards-3dQr7LpZ.js",
+          "sha256": "bd39d73a121f31375f58b8f9b3d90cf9ef320777e708f2df7e412fc657d486a3",
+          "url": "https://competition.igem.org/assets/Awards-3dQr7LpZ.js",
+          "sourceIds": [
+            "igem-2026-special-prizes"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 27324,
+              "endCharacter": 28724,
+              "anchor": "Scoring Rubric"
+            },
+            {
+              "startCharacter": 13260,
+              "endCharacter": 14660,
+              "anchor": "Best Model"
+            },
+            {
+              "startCharacter": 35183,
+              "endCharacter": 36583,
+              "anchor": "How impressive is the modeling or computational approach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "igem-2026-deliverables",
+      "url": "https://competition.igem.org/deliverables",
+      "readingLocation": "HTML P1:L22-L40,L58-L63",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc.txt",
+      "sha256": "e9af33e7ce65f7834d68ba8abc3504615545607f3ecc39b6252017291ff259cc",
+      "bytes": 4978,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": true,
+      "notOriginalHttpBody": true,
+      "additionalOriginalByteRechecks": [
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/Introduction-_VJHY8X-.js",
+          "sha256": "450af6af566f89fab9154e793cc91ff6bc02c905c75e7db64fd890b33aa5a681",
+          "url": "https://competition.igem.org/assets/Introduction-_VJHY8X-.js",
+          "sourceIds": [
+            "igem-2026-deliverables"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 9693,
+              "endCharacter": 11093,
+              "anchor": "Attributions Form: No Longer Embedded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "igem-2026-fees",
+      "url": "https://competition.igem.org/registration/fees",
+      "readingLocation": "HTML P1:L22-L36,L46-L58",
+      "semanticReadingBasis": "This same reviewer’s A2 semantic reading retained; original bytes and current content binding revalidated in A3",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c.txt",
+      "sha256": "3dbb2efdda802e299f57facb1723c57494ac2300aa72efcd3d21251fc069a58c",
+      "bytes": 15511,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": true,
+      "notOriginalHttpBody": true,
+      "additionalOriginalByteRechecks": [
+        {
+          "path": "artifacts/continuation-20261105/content-review-a3/source-supplement/Fees-Bus_unU7.js",
+          "sha256": "0e70efee0441c9c51db82a4542365f890bf440be29d7ce8b064278cb1c1ab38d",
+          "url": "https://competition.igem.org/assets/Fees-Bus_unU7.js",
+          "sourceIds": [
+            "igem-2026-fees"
+          ],
+          "readLocations": [
+            {
+              "startCharacter": 28506,
+              "endCharacter": 29906,
+              "anchor": "both in-person and remote"
+            },
+            {
+              "startCharacter": 29989,
+              "endCharacter": 30912,
+              "anchor": "Jamboree tickets are required only"
+            },
+            {
+              "startCharacter": 9372,
+              "endCharacter": 10772,
+              "anchor": "Starting in 2026, all iGEM registration fees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceId": "igem-2025-hkust-model",
+      "url": "https://2025.igem.wiki/hkust/model",
+      "readingLocation": "A3抽取P1:L23—586全部六段正文；Cycle0图1—19及后续关键图的实际视觉清单见additionalArtifacts/igem-image-read-index.json",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/43ac4d99fdaf07521e20cae33dedee8f2ecae59100c1752c28c643e65388934d.html",
+      "sha256": "43ac4d99fdaf07521e20cae33dedee8f2ecae59100c1752c28c643e65388934d",
+      "bytes": 140474,
+      "captureKind": "rendered_dom_text",
+      "priorSourceByteMatch": false,
+      "notOriginalHttpBody": true
+    },
+    {
+      "sourceId": "igem-2025-judge-handbook",
+      "url": "https://static.igem.org/websites/competition/2025/judging/2025judgehandbook.pdf",
+      "readingLocation": "A3原PDF67—68页文字及视觉，Model定义与四项评价",
+      "semanticReadingBasis": "A3 fresh read",
+      "priorReadingArtifact": null,
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/9dd7732b77065f9923a9375fd2f65ba3b1b9576d2b8e6673848ba96454479424.pdf",
+      "sha256": "9dd7732b77065f9923a9375fd2f65ba3b1b9576d2b8e6673848ba96454479424",
+      "bytes": 7705611,
+      "captureKind": "original_download"
+    }
+  ],
+  "additionalArtifacts": [
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/6b00f0873a03-mtoverview.webp",
+      "sha256": "5ed1a5407ff1cb678bcd72d6b63f28a985785616220d3d3718bdd2d66ce196b5",
+      "url": "https://static.igem.wiki/teams/5546/model/mtoverview.webp",
+      "bytes": 93834,
+      "readingLocation": "A3 visual montage 0",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-0.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/7632a6d88a80-bsoverview.webp",
+      "sha256": "bf9bcc2b2df46b40aa60c99da1aeb68417353ff06a6ad47e7a703b8629c28e23",
+      "url": "https://static.igem.wiki/teams/5546/model/bsoverview.webp",
+      "bytes": 121530,
+      "readingLocation": "A3 visual montage 0",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-0.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/9bb32655666c-c0figure1.webp",
+      "sha256": "d809f1cdcdb37c53cf0e1ec27e8f8afb52947b29b3b85e365f7e94e28e0abd32",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure1.webp",
+      "bytes": 77322,
+      "readingLocation": "A3 visual montage 0",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-0.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/4eadccd2a8fd-whatsapp-image-2025-10-08-at-13-57-26.webp",
+      "sha256": "0778eae046406d34d40760e342eb672d30c06cfca562209971493effbe0949f1",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/whatsapp-image-2025-10-08-at-13-57-26.webp",
+      "bytes": 107656,
+      "readingLocation": "A3 visual montage 0",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-0.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/48dda584550a-c0figure3.webp",
+      "sha256": "f930c9cb6a85537ed36c750be1fcc348b801ed28cf7ed026adce785eb334cd4c",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure3.webp",
+      "bytes": 46364,
+      "readingLocation": "A3 visual montage 1",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-1.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/6cb46aa9d320-c0figure4.webp",
+      "sha256": "53104b48c306229b14de2b307fc1d2b1ff939cf6c91cd0c35b6b4dce2fc5e0b4",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure4.webp",
+      "bytes": 53788,
+      "readingLocation": "A3 visual montage 1",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-1.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/cebce6d4c6eb-c0figure5.webp",
+      "sha256": "741af5444a8090ea8af2e4d9951c0d505e536594cabf7215feb013476abe4d07",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure5.webp",
+      "bytes": 54130,
+      "readingLocation": "A3 visual montage 1",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-1.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/063ae68ffecf-c0figure6.webp",
+      "sha256": "ebc2d5c46cf6f456830c510d683f5c42d604f355661168673868dc66f696828b",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure6.webp",
+      "bytes": 50422,
+      "readingLocation": "A3 visual montage 1",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-1.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/fd4687f33238-c0figure7.webp",
+      "sha256": "7e1c2b7572270e8af6dfb77f96137917075d44f71c4763d9426d807c72ec81be",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure7.webp",
+      "bytes": 53270,
+      "readingLocation": "A3 visual montage 2",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-2.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/37b93f123686-c0figure8.webp",
+      "sha256": "e4645cd9ae4a12e78d38ada2ce1c7e69c4c02af08ef7b95a99e7d4005b1eb9f6",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure8.webp",
+      "bytes": 44774,
+      "readingLocation": "A3 visual montage 2",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-2.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/b225175def2b-c0figure9.webp",
+      "sha256": "9652a5ef2948a43c3a8139cdbbde74127304e23cad6dffacdeb291d1d3dff258",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure9.webp",
+      "bytes": 78540,
+      "readingLocation": "A3 visual montage 2",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-2.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/856ab2f9ce1b-c0figure10.webp",
+      "sha256": "2b730710ca2f2719d4c136e7b627205aba5f620bcd2f07df22d361f38bd9013d",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure10.webp",
+      "bytes": 74798,
+      "readingLocation": "A3 visual montage 2",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-2.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/a47398d098cd-c0figure11.webp",
+      "sha256": "59b5f68cf1e9c06f709bcb4add766e287233263c1590183833ba6d536911dee5",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure11.webp",
+      "bytes": 113978,
+      "readingLocation": "A3 visual montage 3",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-3.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/f1b606659ce8-c0figure12.webp",
+      "sha256": "c8949ea4def0be813f3fca4b197808e3e9c04b9fa7f2b4b4805847537aa7b5e3",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure12.webp",
+      "bytes": 28446,
+      "readingLocation": "A3 visual montage 3",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-3.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/dd55116d9843-c0figure13.webp",
+      "sha256": "03b31f3b85a71c67301d7b26eca2d7d74d36acae43077d3906a91cf06a2243c6",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure13.webp",
+      "bytes": 51868,
+      "readingLocation": "A3 visual montage 3",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-3.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/a28fdde9bbbe-c0figure14.webp",
+      "sha256": "f3aa44e4783017b9eadfa7ad32cc06f6820b7c945d686554f9799846a26745a1",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure14.webp",
+      "bytes": 56320,
+      "readingLocation": "A3 visual montage 3",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-3.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/0d4c3d62345a-c0figure15.webp",
+      "sha256": "f2257cae4ebdd0524df7c8bc9018ab613c6de3c530bc1aa38b9c2de0e1051503",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure15.webp",
+      "bytes": 14142,
+      "readingLocation": "A3 visual montage 4",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-4.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/12cc58450ae8-c0figure16.webp",
+      "sha256": "a24d25db0c404665f4e932a716529522498247ab1193c9776cfef2759cdb7071",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure16.webp",
+      "bytes": 12340,
+      "readingLocation": "A3 visual montage 4",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-4.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/32389cf01a97-c0figure17.webp",
+      "sha256": "a82697808564a0c912f2de2486dda411000cb6b3d491760cf0c4b499fd9a57be",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure17.webp",
+      "bytes": 57688,
+      "readingLocation": "A3 visual montage 4",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-4.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/17cb49ea053e-c0figure18.webp",
+      "sha256": "22400db4f4bdbb958dc1c019868838fb438c2ba841840d839fa41e7ada447fc4",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodelcycle0/c0figure18.webp",
+      "bytes": 52244,
+      "readingLocation": "A3 visual montage 4",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-4.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/ff57560a850e-bindingpotential1.webp",
+      "sha256": "cad6e9b9f71e1ff9eb9ae268bd1d25650c211a67cb7ac7932375b6a5baca9dab",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/bindingpotential1.webp",
+      "bytes": 19414,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/477c5e02bb62-fig15.webp",
+      "sha256": "23b2a4e91967473e9e5e6d608963b7d6cfcb7eb3f9596c9c710834d409491519",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig15.webp",
+      "bytes": 15898,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/390330bfc207-fig16.webp",
+      "sha256": "ee90c0af4be686481cecbdbe5d101f29f6c33a88e64f5b220d0ddd88ab4eacef",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig16.webp",
+      "bytes": 19412,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/5d6c49ce904f-fig17.webp",
+      "sha256": "f235ad14d2cb797043179864060859214d096d05dcec4999525cb0832b6c6f1d",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig17.webp",
+      "bytes": 15378,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/c3eaed83d2f3-fig18.webp",
+      "sha256": "691e69e5786b08e3ff1fc3a27f9fe6fa518f1cf00ce6ca6eb6c442026e115e87",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig18.webp",
+      "bytes": 14480,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/53bac48a195f-fig19.webp",
+      "sha256": "bae6c878b95891e99d6229dfaf096dcaa141e4d28dd840b07f876e3193f8088a",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig19.webp",
+      "bytes": 16020,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/854fb0e643d9-fig20.webp",
+      "sha256": "779fb357c61a6782284c0316b6ad811344d8f54562b19122a03a5874bc241539",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig20.webp",
+      "bytes": 13354,
+      "readingLocation": "A3 visual montage 5",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-5.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/ecf3f9b76e3a-fig21.webp",
+      "sha256": "2f0c4576fd99d5d3671292acb3168e8e18d6515be80df64d6daac2ccf9f5baa8",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig21.webp",
+      "bytes": 7708,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/9f6c567f350f-fig22.webp",
+      "sha256": "fb443f1b585c5fe02579c77857e49944d58443f22acc889d97ab30fcca4968d7",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig22.webp",
+      "bytes": 5542,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/56e9cfefab2c-fig23.webp",
+      "sha256": "8b7ea75ea20740ee6edf1e7e7938af083830f64b0e632c22f2920e5f593685d5",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig23.webp",
+      "bytes": 14690,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/89e235589097-fig24.webp",
+      "sha256": "24bb97bc0098fb3f53ccb1fb9c2fc541160d52c7fe9dd1c15eb4729be29d98e4",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig24.webp",
+      "bytes": 22352,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/55f8315d5143-fig25.webp",
+      "sha256": "e44736eb94d71e4d652017dc09b183b28162a33fd155b7adb98f097d8e5b82d9",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig25.webp",
+      "bytes": 10536,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/886ecf3acda5-fig26.webp",
+      "sha256": "7169df0d5f480adee8d5953b5d844bda887b0397fe9ae8481ee14ea4eb88226b",
+      "url": "https://static.igem.wiki/teams/5546/model/gromacs/fig26.webp",
+      "bytes": 20062,
+      "readingLocation": "A3 visual montage 6",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-6.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/ba5411e0028a-bsmodel-1.webp",
+      "sha256": "12cb20498924cd6caac05e065d9dd609128fc1efd681da7b9d3e59ce0dbd3286",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-1.webp",
+      "bytes": 21646,
+      "readingLocation": "A3 visual montage 7",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-7.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/09cd500cb3ad-bsmodel-2.webp",
+      "sha256": "bcf7272ebef55d464843ab80de0bc7abe7ee0c913211d2d590224b2aa24a937a",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-2.webp",
+      "bytes": 19332,
+      "readingLocation": "A3 visual montage 7",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-7.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/b6630d246c5e-bsmodel-3.webp",
+      "sha256": "7f94dc16494d2714170722619780452f2abce24893981b75252ae25890c853fd",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-3.webp",
+      "bytes": 27188,
+      "readingLocation": "A3 visual montage 7",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-7.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/d46d93d7947f-bsmodel-4.webp",
+      "sha256": "fd43dc025f7a64b224034158f1993059f2032521f438655c372cbf52a1e796c5",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-4.webp",
+      "bytes": 23676,
+      "readingLocation": "A3 visual montage 8",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-8.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/1bef92f52a03-bsmodel-5.webp",
+      "sha256": "1d0e53e1a14ff8127c5afe6432142696309d9f4584f316ddab9b28c12a309fc3",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-5.webp",
+      "bytes": 20936,
+      "readingLocation": "A3 visual montage 8",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-8.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/6ce31d88a8ee-bsmodel-6.webp",
+      "sha256": "2a386ce9e8cb2b559226eeeed0a9147fe02be9d34ae4da31090af2c9f92221c9",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-6.webp",
+      "bytes": 25888,
+      "readingLocation": "A3 visual montage 8",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-8.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/86dc8f86f81c-bsmodel-7.webp",
+      "sha256": "2a9864ea5b8d5daf4b8b4272f1aa67735fe600183a4bca6ac9b4e5a47b648f4a",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-7.webp",
+      "bytes": 40066,
+      "readingLocation": "A3 visual montage 8",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-8.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/9578b72f9a99-bsmodel-8.webp",
+      "sha256": "a60dc3dd10320920a790be00ee95b6e6594ba5bbc16fad9564ef841606370ab8",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-8.webp",
+      "bytes": 20748,
+      "readingLocation": "A3 visual montage 8",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-8.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/84b94af3818e-bsmodel-20.webp",
+      "sha256": "05fec05dc0f2cb82eb9006fa8d3072ecdfd8a9258615d6151d2637a6745f0dc3",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-20.webp",
+      "bytes": 58010,
+      "readingLocation": "A3 visual montage 9",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-9.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/16bc62e8d38b-bsmodel-21.webp",
+      "sha256": "896a0a4ed6592cac3b9ab6d0cb3eaba0906273c0937423348c51a35307211fb5",
+      "url": "https://static.igem.wiki/teams/5546/model/bsmodel/bsmodel-21.webp",
+      "bytes": 14980,
+      "readingLocation": "A3 visual montage 9",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-9.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/3091d029a050-fig7.avif",
+      "sha256": "6824ac529b63cc3e6a0f3bb47ccf182442943c70cb50c89213d6bc9c7623e78a",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/fig7.avif",
+      "bytes": 13482,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/499366b679aa-fig8.avif",
+      "sha256": "3fcb6dcde9498df63fd705cf6c32066b1913dc51c58ef25cf12bdc3e6f06b015",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/fig8.avif",
+      "bytes": 25932,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/94c6237d1981-fig9.avif",
+      "sha256": "260c8604134bac10da1a9d5d266c2142a43e6f95ea7f31d53544248fac81c9be",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/fig9.avif",
+      "bytes": 31561,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/fa81664fcc27-fig10.avif",
+      "sha256": "5186f099fd2799fd2bff4694f589c6d4efde9eb353d8ce9af451b232e460b9dd",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/fig10.avif",
+      "bytes": 37070,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/0ecdfdee0153-membrane1.avif",
+      "sha256": "91c35021346d4c4d764013fb8936339571bd4051fa2ced42688123338dbdac21",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/membrane1.avif",
+      "bytes": 299566,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/223ea4805388-membrane2.avif",
+      "sha256": "4a7ea38144b48fb2915f66a8746839f33997a0d36b0ba7876a6a366c7c7f105f",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/membrane2.avif",
+      "bytes": 62288,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/3cb2da6d167b-protein.avif",
+      "sha256": "4cc2c964a068e4b68f2cdd33a47773e7a70dbb1bb1db7a98e0bfe6361aff6545",
+      "url": "https://static.igem.wiki/teams/5546/model/membranemodel/protein.avif",
+      "bytes": 12646,
+      "readingLocation": "A3 visual montage 10",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-10.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/d42b3e28896b-william1.avif",
+      "sha256": "824b4e8273f3a8df03e89170e5979f9fc8874e1cbdfa06c029f249d9d2257148",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william1.avif",
+      "bytes": 19181,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/5c556fbeef72-william2.avif",
+      "sha256": "31b82b2186bd5b8a67a4a15a62f5b5c0b0afc06f6e8b6819a67f71d1dbe036f4",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william2.avif",
+      "bytes": 18923,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/c4a0a2645aef-william3.avif",
+      "sha256": "df18b58f457a3dddf294bc63c54071a130fbb29d93e8f2c482a96dbae36f8734",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william3.avif",
+      "bytes": 20965,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/6cc2153066e2-william4.avif",
+      "sha256": "cdb56c5dc61af95059ac437fb81e39a9e3a11d2e95b122f775b4205bd44b1467",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william4.avif",
+      "bytes": 14281,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/0defe90d3190-william5.avif",
+      "sha256": "acb6a7e5c6d23bdac601851d07ea1719a02a98c0c30572cfce7a9408a3b59d40",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william5.avif",
+      "bytes": 32116,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/48a4bb66f8f7-william6.avif",
+      "sha256": "de7aa6b195e23034dd95b4796fe7bbd35281aa020de32312a0851237822706b1",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william6.avif",
+      "bytes": 11957,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/c0853faef9bb-william7.avif",
+      "sha256": "0ed41adad827b97f1dfaadb68983eda3b2f0e56b38290883b90cce65eac73912",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william7.avif",
+      "bytes": 18214,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/80ae85d8419b-william8.avif",
+      "sha256": "09765aced9cfc7149fe443a4371d1b16c4760e9cd86eed848a2945f319577fea",
+      "url": "https://static.igem.wiki/teams/5546/model/mtmodel2/william8.avif",
+      "bytes": 37321,
+      "readingLocation": "A3 visual montage 11",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-11.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/a56d285c56a0-ksfig1new.avif",
+      "sha256": "b5101150364f667b08090d255e6262b8336250d902981e1d21714dca4787c18c",
+      "url": "https://static.igem.wiki/teams/5546/model/killswitch/ksfig1new.avif",
+      "bytes": 40813,
+      "readingLocation": "A3 visual montage 12",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-12.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/6c81be58bded-ksfig3new.avif",
+      "sha256": "66a7ce5d11124144cca18e193250a48daeefc610721ced02efacfe966f83203a",
+      "url": "https://static.igem.wiki/teams/5546/model/killswitch/ksfig3new.avif",
+      "bytes": 45668,
+      "readingLocation": "A3 visual montage 12",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-12.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/f10631c70429-ksfig4.avif",
+      "sha256": "e89aba82cd8688670b1eb1d1322d2b87c4aa52884909dd708058ad3dee9d1081",
+      "url": "https://static.igem.wiki/teams/5546/model/killswitch/ksfig4.avif",
+      "bytes": 30823,
+      "readingLocation": "A3 visual montage 12",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-12.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/647a0cf16d09-ksfig5new.avif",
+      "sha256": "06a6879e9bfc28f274cb6bc5bf1e6bef42331b2503fef801a28b4afba2d446d0",
+      "url": "https://static.igem.wiki/teams/5546/model/killswitch/ksfig5new.avif",
+      "bytes": 29461,
+      "readingLocation": "A3 visual montage 12",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-12.jpg"
+    },
+    {
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/continuation-20261105/content/source-rechecks-batch02/igem-assets/e62853f0d2a2-ksfig6.avif",
+      "sha256": "f91e1dac01c80838aa57ff95389499d314c8d273c235535c9f418ff152434747",
+      "url": "https://static.igem.wiki/teams/5546/model/killswitch/ksfig6.avif",
+      "bytes": 35873,
+      "readingLocation": "A3 visual montage 12",
+      "render": "artifacts/continuation-20261105/content-review-a3/igem-sheet-12.jpg"
+    }
+  ],
+  "assessment": "已读完整2025 HKUST Model HTML文字（Cycle0、1A、1B、2、Biosensor、Kill Switch）与Cycle0完整图组及各后续关键图，并视觉核同届手册67—68页。稿准确区分预测置信度、作者解释、独立验证缺失；没有替原作背书错误科学解释或未运行结果。2026资格、名单、费用和交付为独立年度范围；冻结来源为rendered_dom_text，另取官方SPA原JS核关键事实，不伪称为原HTTP正文。完整研究评读、同届四项评分、个人路线及四周/退出足够。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-54-resolved",
+      "severity": "major",
+      "description": "本人A2意见：补完整2025公开作品链（包括后续建模循环/结果及必要上下文）与2025适用评分；2026评分可保留为当前训练参考，但不能代替案例适用评分和完整作品审读。 本轮处理依据：已读完整2025 HKUST Model HTML文字（Cycle0、1A、1B、2、Biosensor、Kill Switch）与Cycle0完整图组及各后续关键图，并视觉核同届手册67—68页。稿准确区分预测置信度、作者解释、独立验证缺失；没有替原作背书错误科学解释或未运行结果。2026资格、名单、费用和交付为独立年度范围；冻结来源为rendered_dom_text，另取官方SPA原JS核关键事实，不伪称为原HTTP正文。完整研究评读、同届四项评分、个人路线及四周/退出足够。",
+      "resolved": true
+    }
+  ],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

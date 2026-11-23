@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "acm-student-research:2025-chi:hci-education-research:undergraduate:chi-2025-undergrad:v3",
+  "contentDigest": "4428f0dd70aa239dbd8068f41493baec686990309cc0ed999321c4dd32244a74",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T17:31:18.348560+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "chi-d1-2025-rules",
+    "chi-d1-chemlab-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "chi-d1-2025-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc.html",
+      "sourceSha256": "5c956eb98084849dd76935d1475a8e5e5a8f27dfd646bfddbb39048f621263bc",
+      "actualReadLocator": "HTML lines 91-204 and 249-259; extracted/05-00.txt",
+      "verification": "Read CHI2025 winners, exact historical dates, enrolled/undergraduate exception, advisor exclusion, presenter membership, submission 8 pages, proof, onsite poster and all three distinct scoring rounds."
+    },
+    {
+      "sourceId": "chi-d1-chemlab-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01.pdf",
+      "sourceSha256": "5ae130f922bb36480e7b2b66ea893466fa7a3b124cad9d894e08f993bb8e1e01",
+      "actualReadLocator": "PDF all 6 pages; rendered/chi-work-1.png through -6.png",
+      "verification": "Visually read full published paper including Table1 and Figures1-8: 62 Korean survey respondents, 5 followup interviewees from survey, 3 informal trial participants from survey, step breakdown/environment/timeline design, and formal evaluation remains future work in 6.1; proficiency adaptation future in 6.3."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "All 12 modules, two individual learning roles, prerequisites, four weeks and exit conditions reviewed. Evidence-source analysis is appropriately bounded; no causal effect or 70-independent-subject claim.",
+    "2025 undergraduate second place directly supported by official winner list. Formal stage rubrics correctly separated 30/45/35; no invented combined score.",
+    "Raw survey data and implementation not supplied or rerun; record explicitly discloses this. The full six-page published work is available and visually read. No extra model calls, recruitment or experiments needed for this learning route.",
+    "Historical conference fees unknown, travel support conditional; no free participation assumption."
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

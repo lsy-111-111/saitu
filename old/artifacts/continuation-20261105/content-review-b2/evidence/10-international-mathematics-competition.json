@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "international-mathematics-competition:2026-33:proofs:individual:bulgaria-2026:v3",
+  "contentDigest": "fa5990e657eef26197b5da5a5868a1f0501325fa07308e40ef4ef60378b260ab",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:31:37.134384+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "imc-2026-info",
+    "imc-2026-day1",
+    "imc-2026-day1-marking"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "imc-2026-info",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974.html",
+      "sourceSha256": "4617176a2d54171534d1fc7dd867c9514bf0af4bd5a51f9d33f98d8bacb23974",
+      "actualReadLocator": "fresh HTML text lines 15-17,31-60,82-84",
+      "verification": "完整相关正文：2026日期、完成1至4学年、23岁例外、现场强制住宿、个人评阅及Huawei项目另列。"
+    },
+    {
+      "sourceId": "imc-2026-day1",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c.pdf",
+      "sourceSha256": "5be7483d9951803de26ba0904b13563a7006983d8d147b590f90ca0e9449719c",
+      "actualReadLocator": "PDF page 1; rendered/imc-paper-p1.png",
+      "verification": "已视觉读完整页；第1题 cos(cos x)=sin(sin x) 无实数解，题目完整。其余题不作为本稿证明路线依据。"
+    },
+    {
+      "sourceId": "imc-2026-day1-marking",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb.pdf",
+      "sourceSha256": "73c98592af10dfeaa80dda1bcfe0e0d244e9db5cfd86cdf606de7fc1c0d1edfb",
+      "actualReadLocator": "PDF page 1; rendered/imc-marking-p1.png",
+      "verification": "已视觉读第1题全部评分页；解法一互余2分、分支1+1分、周期排除2分、上界1分、矛盾3分，漏周期/单分支降分及其他两解法均可见。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、全部角色/前置/四周/退出内容已读；四周是单题编辑练习，不包装为整场准备周期。",
+    "费用、下届资格及个人设备资源明确未知；本批准只覆盖当前digest中的历史数学案例，不构成当届报名或个人预算批准。",
+    "数学推导两分支及|sin x±cos x|≤√2<π/2正确，评分映射来自同届同题正式方案。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

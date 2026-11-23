@@ -1,0 +1,70 @@
+{
+  "recordId": "chemical-engineering-design:2026-20:clean-styrene-plant:undergraduate:china-styrene:v3",
+  "name": "全国大学生化工设计竞赛",
+  "contentDigest": "8916516a2122b4ce0279e50e6be60989c752ddc1e234932498d0ccc6271f1004",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.178889+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "chemical-engineering-design:2026-20:clean-styrene-plant:undergraduate:china-styrene:v3",
+    "previousContentDigest": "5464b3f0aca0188501909ff3637941d28402bd2d08c42d14a58bbef0672dd4ca",
+    "excludeReviewers": [
+      "/root",
+      "/root/continue_catalog"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "chemical-design-2026-notice",
+      "url": "https://iche.zju.edu.cn/uploads/20260228/ad683cd23bc2417ffa3e1dd020f000a7.pdf",
+      "readingLocation": "本人A2三页完整视觉阅读，同SHA原件重核；A3再次视觉重读第2—3页",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53.pdf",
+      "sha256": "de0f2871940e7fc87ca298a1f139653084134b6af5578fc2c41de77e21d13e53",
+      "bytes": 9736636,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "chemical-design-2026-task",
+      "url": "https://iche.zju.edu.cn/uploads/20260226/ec4637873e07197e1ce4b72c781d8617.pdf",
+      "readingLocation": "A3原PDF4—5页计分材料与源文件",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d.pdf",
+      "sha256": "d7c753c42b38409be399f2ca457d7f0175e063ab8a166a0232e9c43fde44a06d",
+      "bytes": 245819,
+      "captureKind": "original_document_bytes",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "计分材料原PDF5页7.2与总通知的作品质量/报告/答辩已分别核；新增通知引用精确支撑评分总述。完整苯乙烯任务、源程序要求、个人衡算证据、四周和资源退出原已读且同字节，不把教学小练习声称整厂设计。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "findings": [],
+  "outcome": "approved",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

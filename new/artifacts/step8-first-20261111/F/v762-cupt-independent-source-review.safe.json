@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "saitu.catalog.independent-source-recheck.v1",
+  "candidate": "v762",
+  "reviewerId": "/root/f_resume",
+  "runId": "codex-v762-f-cupt-source-94c304065bc6",
+  "reviewedAt": "2026-11-11T22:13:01.068Z",
+  "independent": true,
+  "locked": true,
+  "otherReviewerVotesReadBeforeLock": false,
+  "outcome": "approved",
+  "recordId": "china-undergraduate-physics-tournament:2020-rules:physics-fight:undergraduate:china-historical-2020:v3",
+  "recordAuthor": "/root/continue_catalog",
+  "recordSnapshot": {
+    "path": "artifacts/step8-first-20261111/C/v762-cupt-source-review-input-r3.safe.json",
+    "sha256": "132dad3d185384fba1a152b4b41f8cb0f69220c8a2658cd0092f1c66b2fdbfc6",
+    "pointer": "/proposed/record"
+  },
+  "canonicalRecordSha256": "454a581d300af2fe5c8245d273f3ddc446d9bafa610134dba9c690ff8deb9ff9",
+  "contentDigest": "94c304065bc63acefce50ab557ee082e51e5bf8e6684eeb04547202494d73b3d",
+  "matchingCoreDigest": "f764d92a970b87677cb575dd2be8515fed36667027166c4918da5b6b475ef47d",
+  "previousContentDigest": "d82bc7b52c96d3bc66b1f403b70fa0eae4cad4867f884820cb7168801271a0d7",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "sources": [
+    {
+      "id": "cupt-2020-rules",
+      "role": "CUPT2020采用2020 IYPT全17题",
+      "locator": "PDF第3页§3.1；冻文87–91",
+      "raw": {
+        "path": "artifacts/v6/content-research/source-byte-snapshots/4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be.pdf",
+        "sha256": "4e8c1c4e7a1bc78faa4a9a5134ffc6f1ea9b0f07ef13cdd0242caf339a2621be",
+        "state": "verified"
+      },
+      "body": {
+        "path": "artifacts/v6/content-research/frozen-source-text/441eb1a1cb3ffe4a919ccecbe3be305744f2d58e169cace23ef9b2341fe8eee4.txt",
+        "sha256": "441eb1a1cb3ffe4a919ccecbe3be305744f2d58e169cace23ef9b2341fe8eee4",
+        "state": "verified"
+      }
+    },
+    {
+      "id": "iypt-2020-problem6",
+      "role": "第6题标题、所给对象、沉没时间问题",
+      "locator": "IYPT IOC官网题集；冻文48–51、62–63，页面把签章PDF列为权威版，当前核的是冻网页题干",
+      "raw": {
+        "path": "artifacts/v6/content-research/source-byte-snapshots/7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2.html",
+        "sha256": "7e6659aa848c2529bcfd31928aacf5eca1ce23e9061ecbf46e101d569fbe1fb2",
+        "state": "verified"
+      },
+      "body": {
+        "path": "artifacts/v6/content-research/frozen-source-text/e11d8b1aa036bc1d74795c9a5212e2200bcbfcb5a00aef342ae2286f084c6ed5.txt",
+        "sha256": "e11d8b1aa036bc1d74795c9a5212e2200bcbfcb5a00aef342ae2286f084c6ed5",
+        "state": "verified"
+      }
+    },
+    {
+      "id": "cupt-2026-north-notice",
+      "role": "2026华北赛区公告的届次和日期范围",
+      "locator": "赛事题目、队伍与2026年6月5—7日安排",
+      "raw": {
+        "path": "artifacts/v6/content-research/source-byte-snapshots/687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf.html",
+        "sha256": "687f76fdd061ceb4081cfaba197bd456c8e38f33c4f03b833fa1b8c17289cebf",
+        "state": "verified"
+      },
+      "body": {
+        "path": "artifacts/v6/content-research/frozen-source-text/de8b5ed65789efc33513aa9ed91defe2524008db8069ad4bf8faa6759771f0d7.txt",
+        "sha256": "de8b5ed65789efc33513aa9ed91defe2524008db8069ad4bf8faa6759771f0d7",
+        "state": "verified"
+      }
+    }
+  ],
+  "verifiedSourceSnapshotCount": 3,
+  "scopeFindings": [
+    "2020全国规则第3页§3.1明确采用当年IYPT的17题。IYPT IOC历史题集第6题支持有孔碗和沉没时间研究对象。现有事实保持历史状态，题干没有给实测结果或指定变量表。",
+    "独立重读规则第4至8页核对原本科校队范围、阶段角色与3/2/1加权。2026华北承办方公告只用于辨识后来届次，2020规则和题目按历史学习材料保留。",
+    "两条编辑角色及skills完全沿用deliverables来源。新增Saxon Bowl题干独立列为可选任务来源，角色建议和未来学生试验仍单独表述。"
+  ],
+  "metadata": {
+    "digest": "f69211d55697ee451ddea22dba4a3cae4d978094659446dca7f8f53754c0ad75",
+    "officialEntry": {
+      "url": "https://pt.nankai.edu.cn/cupt/",
+      "title": "南开大学CUPT官方赛事栏目（历史资料）",
+      "publisher": "南开大学",
+      "checkedAt": "2026-11-08",
+      "sourceId": "v7-landing:china-undergraduate-physics-tournament",
+      "kind": "official_host_website",
+      "evidenceArtifact": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/additional-homepage-author-evidence.json"
+    },
+    "evidence": {
+      "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/additional-homepage-author-evidence.json",
+      "sha256": "18f8a222351247546bfd1cfe7273abdec9d3cf6500523fd44af1ef299ba77130"
+    },
+    "frozenCapture": {
+      "raw": {
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/27b98b5a60d5ca9f52a6.bytes",
+        "sha256": "432140f6737286160210a5bd12fed88538dd296b985673d2a4d6e85f09fbfe0e"
+      },
+      "body": {
+        "path": "artifacts/continuation-v7-20261109/catalog/independent-review-20261109/remaining-homepage-retry/27b98b5a60d5ca9f52a6.txt",
+        "sha256": "e0f23aa4390aafce3a1178ec8f65f69c2ef23012592edd57b12b5c647cd7ca5d"
+      }
+    },
+    "independentlyCheckedUnchanged": true,
+    "existingReviewedMetadataReused": true,
+    "finding": "南开大学CUPT历史档案列2020及后续各届，入口与已审metadata逐字相同；历史入口不代表当前报名资格。"
+  },
+  "ledgerWrite": false,
+  "paidProviderCalls": 0
+}

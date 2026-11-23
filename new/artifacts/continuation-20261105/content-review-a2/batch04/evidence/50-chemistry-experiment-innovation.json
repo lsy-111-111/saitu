@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "a2.independent-review-evidence.v1",
+  "runId": "a2-batch04-20261105T194125Z-7db8c31a",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:41:25.608720+00:00",
+  "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+  "contentDigest": "8141e8706457835a598cfa61e4f5bc24726f06d67d65ea8a3207a31587a4f584",
+  "priorDigest": "6b787bc779e9d77d98abbacc8ab93e26575697918b7bf9ffd630a7c4754fa076",
+  "recordArtifact": "artifacts/continuation-20261105/content/review-batch-04/records.json",
+  "recordIndex": 50,
+  "packageManifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "recordReadScope": "当前摘要正文、12模块、深度案例、个人角色与四周/退出；修改项重新逐项核对。未变原件可沿用本人的同字节实际阅读，见逐来源列表。",
+  "assessment": "新期刊HTML L33—55明确41卷5期120—130及所属专题为第5届竞赛；PDF首页只有专题及期刊卷期，当前稿已正确区分二者证据。完整11页论文与2025章程/决赛规则保持同SHA本人已读，新增来源支持专题归属但不支持参赛编号、奖项或原作成绩，正文没有越界。科学现象/作者解释/受众理解分开，个人新对照与四周退出具体。",
+  "qualificationDecision": "2025本科生3人、学校推荐、作品发表时间和费用主体有当届规则；2026外部论文仅学习案例，不认证其2025参赛资格或结果。",
+  "retainedUnknowns": [
+    "原作参赛编号/奖项与实际得分未核。",
+    "颜色粗估不证明食品药品安全或真实含量；没有独立复现实验。"
+  ],
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": true,
+    "temporalAccuracy": true
+  },
+  "outcome": "approved",
+  "findings": [],
+  "sources": [
+    {
+      "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+      "sourceId": "chem-innovation-2025-charter",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250311/1741657661442014167.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b.pdf",
+      "sha256": "0335d5251c7b4936b100ed16bdf135270953fd34c12bfb7e7f7dc4bdcb88004b",
+      "bytes": 12931938,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "PDF P5:L31-P7:L15及P8:L1-L19，命题类型、资格、材料、经费",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "PDF P5:L31-P7:L15及P8:L1-L19，命题类型、资格、材料、经费",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/chem-innovation-2025-charter.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+      "sourceId": "chem-innovation-2025-final",
+      "url": "https://cid.nju.edu.cn/UpLoad/ueditor/jsp/upload/file/20250818/1755500298814050899.pdf",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b.pdf",
+      "sha256": "55966516e41c8d5516cd5a4636cab70043067204cd4149ce40f5568d3fc6062b",
+      "bytes": 324834,
+      "freshTargetedSemanticRead": false,
+      "readingLocation": "PDF P1-P2第三四七节，实际两轮计分和费用",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "PDF P1-P2第三四七节，实际两轮计分和费用",
+      "semanticReadingBasis": "本轮校验同SHA及当前内容绑定，沿用本人既有语义阅读；不冒称本轮全文重读",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/chem-innovation-2025-final.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+      "sourceId": "chem-cochineal-2026-work",
+      "url": "https://www.dxhx.pku.edu.cn/CN/10.12461/PKU.DXHX202509113",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115.pdf",
+      "sha256": "b0a61a692f7bab380382064b9a1be50989dbd627748e58ea6441da1e1a7cc115",
+      "bytes": 5484160,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "PDF P1视觉核卷期及专题；完整11页论文保留本人旧同字节阅读",
+      "priorOwnReadingSameBytes": true,
+      "priorOwnReadingArtifact": "artifacts/continuation-20261105/content-review-a3/reading-log.json",
+      "priorReadingLocation": "PDF P1-P11全文文字，原印页120-130，特别P5-P7比色限制、P7-P10受众分层",
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/chem-cochineal-2026-work.txt",
+      "visuallyReadArtifactsThisRun": [
+        "artifacts/continuation-20261105/content-review-a2/batch04/visual/chem-cochineal-2026-work-p1.png"
+      ],
+      "priorVisualArtifactsRetained": []
+    },
+    {
+      "recordId": "chemistry-experiment-innovation:2025-5:popular-science-cochineal:popular-science:china-2025-popular-science:v3",
+      "sourceId": "chem-cochineal-2026-issue",
+      "url": "https://www.dxhx.pku.edu.cn/CN/10.12461/PKU.DXHX202509113",
+      "origin": "frozen_batch_04",
+      "path": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/c392ab631894507f5516b5914d512d689c06747ff356097bd9bf00fd409b77e1.html",
+      "sha256": "c392ab631894507f5516b5914d512d689c06747ff356097bd9bf00fd409b77e1",
+      "bytes": 53505,
+      "freshTargetedSemanticRead": true,
+      "readingLocation": "HTML L33—116实际文字阅读；专题L43—44、作者L48—49、卷期与发布日期",
+      "priorOwnReadingSameBytes": false,
+      "priorOwnReadingArtifact": null,
+      "priorReadingLocation": null,
+      "semanticReadingBasis": "本轮实际针对性原件阅读；完整旧内容仅在相同SHA且本人先前实际阅读时沿用",
+      "extractionArtifact": "artifacts/continuation-20261105/content-review-a2/batch04/extractions/chem-cochineal-2026-issue.txt",
+      "visuallyReadArtifactsThisRun": [],
+      "priorVisualArtifactsRetained": []
+    }
+  ],
+  "priorWebOnlyReadingNotCountedAsFrozenRecheck": [],
+  "requiredSourceIds": [
+    "chem-cochineal-2026-issue",
+    "chem-cochineal-2026-work",
+    "chem-innovation-2025-charter",
+    "chem-innovation-2025-final"
+  ],
+  "actualFrozenReadSourceIds": [
+    "chem-innovation-2025-charter",
+    "chem-innovation-2025-final",
+    "chem-cochineal-2026-work",
+    "chem-cochineal-2026-issue"
+  ],
+  "independence": "流程独立的AI来源复核；共享文件系统，不宣称技术隔离或人审；未读取B或其他评审结论。",
+  "limitations": "哈希核验、解包、抽取、图片解码本身不构成语义阅读；仅明列定位算实际阅读。没有新网络取证、付费模型调用或生产发布。"
+}

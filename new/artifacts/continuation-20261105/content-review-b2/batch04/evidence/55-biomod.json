@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "biomod:2023:biomolecular-design:undergraduate:biomod-2023:v3",
+  "contentDigest": "ebb76ee0562f0e5e630de41fbf229c85e94622a8481652e587aad55c02a3c7ca",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch04-20261106-3f6acd66",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T19:46:55.315839+00:00",
+  "manifestSha256": "3f6acd66431de976ec341723bcf00c8ec7059f70603d4f1c51c9aa3828142f1e",
+  "manifestVerification": {
+    "expectedFiles": 978,
+    "verifiedFiles": 978,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "biomod-2023-requirements",
+    "biomod-2023-rubric",
+    "biomod-2023-sendai-project",
+    "biomod-2023-sendai-design",
+    "biomod-2023-sendai-experiment"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "biomod-2023-requirements",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373.html",
+      "sourceSha256": "f3a3299d03cd24c8cfd402db060ddf3fdeffc8c2ec226445a64976184bff2373",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML lines 9-65; extracted/51-00.txt；本轮新增实际读取：HTML9-65行重新阅读全文；extracted/55-00.txt",
+      "verification": "Read eligibility, fees, deliverables and FAQ.；第45行tenure-track professor与2023费用段、旧UCSF/SF场地混杂；个人费用TBD。"
+    },
+    {
+      "sourceId": "biomod-2023-rubric",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00.pdf",
+      "sourceSha256": "e1eed90f0c05cdce51ed6a9e57367f546eaa0ee666426248ce5ee6e7600aaa00",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: PDF pages 4,10-12; rendered/biomod-04.png,-10.png,-11.png,-12.png",
+      "verification": "Visually read presentation times and full scoring/award criteria."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-project",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b.html",
+      "sourceSha256": "a6bb8133a14997a7d363aa7bb68228f3b8c9b8669c64cc4b502f9d8fc2e7534b",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-203; extracted/51-02.txt",
+      "verification": "Read Project text; external figure assets not available."
+    },
+    {
+      "sourceId": "biomod-2023-sendai-design",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f.html",
+      "sourceSha256": "00d26ae56451866a1092a0c1250cab51690e90985722731d8a7fd5f0f094218f",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-90; extracted/51-03.txt；本轮新增实际读取：biomod/design-0.png至design-6.png联系表，18原件26静态帧；image-index.json",
+      "verification": "Read Design text; external figures and GIFs not visually read.；设计结构/堆叠/胆固醇/光控和TMSD替代路径分别核对。"
+    },
+    {
+      "sourceId": "biomod-2023-sendai-experiment",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-04/dependencies/artifacts/v6/content-research/source-byte-snapshots/efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495.html",
+      "sourceSha256": "efd7a2bb781ad1e3dbc514807cd1ad69c5159e7bb35d9eb3bdd41eae8e954495",
+      "actualReadLocator": "本人batch03已读证据沿用：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json :: B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/51-biomod.json :: HTML text lines 27-204; extracted/51-04.txt；本轮新增实际读取：HTML29-234行全文及biomod/experiment-0.png至experiment-7.png，25原件29静态帧",
+      "verification": "Read experiment text including failed 30nt and revised 34nt TMSD proxy. Figures 1-11, tables 1-10, GIFs not available in frozen artifacts.；图表1-10/图1-11与凝胶、AFM、荧光/气泡结果核对，原件不支持完整光控气体交换成功率。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch04新摘要独立复审。未变内容/原件沿用本人batch03已读证据并逐SHA重新核对；本轮新读位置单列，不冒称所有原文重新阅读。前轮证据：artifacts/continuation-20261105/content-review-b2/batch03/evidence/52-biomod.json",
+    "12模块/角色/前置/四周/退出：本人前轮逐稿阅读，本轮核对完整结构差异和全部修订正文。",
+    "43个图像引用全部实际视觉核读；6个GIF仅首/中/末采样帧，55个总图像帧，不声称全动画时序。逐图路径/SHA/Git blob核验及采样帧见biomod/image-index.json。",
+    "实验Fig6/7可支持作者所述30nt改34nt的TMSD替代验证；不等于光响应整机气体交换。PAGE正文16%与表7图片20%确有冲突，稿件保留而非给配方。",
+    "查找完整原件路径时索引biomod-complete-assets.json前两个对象附带作者视觉读取说明被工具意外展示；未据此判定，随即仅用api元数据索引并自行解码、核Git SHA、制作联系表、逐图阅读。未读取其他评审输出或作者修订结论。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-55-01",
+      "severity": "major",
+      "description": "完整图件补齐后案例组件证据可核，但2023导师职衔的适用性仍明确unknown，Requirements个人注册费也仅TBD。新版已诚实标注版本冲突和未知，不能因此将严格L3资格/投入缺口视为已闭合；应补原届适用资格/费用依据或保留历史项目探索层级。",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "service-outsourcing-innovation:2026-17:a11-basketball-reid:college-and-recent-graduates:china-a11-2026:v3",
+  "contentDigest": "fd871bb9225f2c0de0c7780ab338529a0d554036e33c4d3da12ad45289237e84",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:02:29.722643+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "fwwb-c2-handbooks",
+    "fwwb-c2-a11"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "fwwb-c2-handbooks",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8.zip",
+      "sourceSha256": "db4594a0846a1448926831cae1ee90ff82c82a2df1df93f420c6231e3a664aa8",
+      "actualReadLocator": "参赛手册PDF pages 12,28–30,37；A类赛题手册PDF page176；对应rendered/fwwb-*.png均已视觉阅读",
+      "verification": "核实全日制及毕业五年内、最多5学生2导师、A类一道题；提交材料与两种提交渠道；20/30/30/20表明确仅供参考。"
+    },
+    {
+      "sourceId": "fwwb-c2-a11",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e.html",
+      "sourceSha256": "9b0fc194e50f9db2f5f610d40d8c30284918c42df6d7fa5d587fdff36cc2534e",
+      "actualReadLocator": "fresh HTML text lines11–70",
+      "verification": "A11完整篮球ReID题面、Query/Gallery、三类难点、mAP/Rank1/4090时延门槛、模型及展示材料、企业测试和外部数据披露已读。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、4周及退出内容均已读；四周明确只做受限基线，不承诺竞赛达标。",
+    "仅视觉阅读所列手册页，没有声称全手册已读；报名网站操作、外部数据、Github基线、企业测试图片未取得或执行，不计入已读。",
+    "费用未知保留未知；2026 A11适用范围清楚，没有以B类每校2队限制套用A类。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-17-01",
+      "severity": "major",
+      "description": "严格L3适用正式评分仍未闭合：两份官方手册的20/30/30/20评分表均明确“仅供参考”，A11技术达标阈值不能替代最终适用评分依据。正文已正确标注参考性质，不属于虚构正式权重；但missingForPublication为空且请求完整L3批准不成立，应保留评分缺口或补入适用正式评分原件后再审。",
+      "resolved": false
+    }
+  ]
+}

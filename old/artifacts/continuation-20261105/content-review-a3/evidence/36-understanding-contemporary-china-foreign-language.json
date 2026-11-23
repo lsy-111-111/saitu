@@ -1,0 +1,77 @@
+{
+  "recordId": "understanding-contemporary-china-foreign-language:2026-english-video:china-through-data:fulltime-undergraduate-masters:china-ahnu-local:v3",
+  "name": "外研社·国才杯理解当代中国全国大学生外语能力大赛",
+  "contentDigest": "ccab0c44ad734430b8f6b740c3b3a093ea76b32365c3bc19f9229fcf83b74e41",
+  "runId": "a3-gpt6astra-20261105T175838Z-cc8b9db1bb24",
+  "reviewerId": "/root/content_review_a2",
+  "model": "gpt-6-astra",
+  "reviewedAt": "2026-11-05T17:58:39.158553+00:00",
+  "authorship": {
+    "originalAuthorAgentId": "/root/research_b",
+    "currentRecordAuthorAgentId": "/root/continue_catalog",
+    "revisionAuthorAgentId": "/root/continue_catalog",
+    "previousRecordId": "understanding-contemporary-china-foreign-language:2026-english-video:china-through-data:fulltime-undergraduate-masters:china-ahnu-local:v3",
+    "previousContentDigest": "e8fdc87420ed9cc9bc15cebbaa884d968f4c00c5442aba4efb6e60eb0de3024d",
+    "excludeReviewers": [
+      "/root/continue_catalog",
+      "/root/research_b"
+    ]
+  },
+  "packageManifestSha256": "5622d7d34ff799de3811eae289f992383cd4cec064b94b40da7915d42d8ecb95",
+  "sourceReads": [
+    {
+      "sourceId": "b-fltrp-rules",
+      "url": "https://ucc.fltrp.com/c/2026-04-15/517928.shtml",
+      "readingLocation": "A3 P1:L752—777英语短视频完整要求",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c.html",
+      "sha256": "49e746a4aee5d8d2aa07f5d9812a5d318483cf9bb6a1d8c7547fd75e04c3071c",
+      "bytes": 681413,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    },
+    {
+      "sourceId": "b-fltrp-local",
+      "url": "https://flc.ahnu.edu.cn/info/1090/50391.htm",
+      "readingLocation": "A3 P1:L54—57图像AI与真实配音，L79另赛项区别",
+      "semanticReadingBasis": "A3 targeted recheck plus this same reviewer’s A2 reading of identical bytes",
+      "priorReadingArtifact": "artifacts/continuation-20261105/content-review-a2/reading-log.json",
+      "origin": "frozen_batch_02",
+      "path": "artifacts/continuation-20261105/content/review-batch-02/dependencies/artifacts/v6/content-research/source-byte-snapshots/1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba.html",
+      "sha256": "1300ca400c67125ac4357ca134c48220a8a3b1878cb615bdc7f1b1d93a40dcba",
+      "bytes": 26189,
+      "captureKind": "original_download",
+      "priorSourceByteMatch": true
+    }
+  ],
+  "additionalArtifacts": [],
+  "assessment": "重新核英语短视频专节及校通知：AI画面可标注、旁白须选手本人英语配音；跨赛道AIGC禁令已纠正，范围现在准确。仍只有开放赛项/主题，没有完整具体视频或具体完整命题案例。",
+  "checks": {
+    "factualSupport": true,
+    "entityScope": true,
+    "studentUsefulness": false,
+    "temporalAccuracy": true
+  },
+  "findings": [
+    {
+      "id": "A3-36-01",
+      "severity": "major",
+      "description": "补完整公开短视频作品或完整具体官方命题并连到适用50/30/20评分；通用选题与脚本练习不充当L3原作。",
+      "resolved": false
+    }
+  ],
+  "outcome": "changes_requested",
+  "scopeReviewed": [
+    "12 modules",
+    "complete specific task/work and scoring scope",
+    "individual contribution paths",
+    "four-week completion checks",
+    "exit conditions",
+    "eligibility and cost references",
+    "historical/current distinction"
+  ],
+  "readingLocationConvention": "A3 P:L refers to current extraction; PDF uses native page. Prior A2 P:L may denote extracted segments rather than physical pages; explicit 原PDF locators identify physical pages. Only named ranges/figures were semantically read.",
+  "limitations": "Independent AI review in shared filesystem, procedural independence only. No human review. No other reviewer or author revision conclusions read. Unchanged evidence may retain this reviewer’s own A2 semantic reading only after exact SHA match. Body extraction/hash alone is not semantic review."
+}

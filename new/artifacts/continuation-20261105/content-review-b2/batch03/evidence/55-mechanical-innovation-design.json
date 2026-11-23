@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "mechanical-innovation-design:2026-12-regular:vegetable-processing:undergraduate-junior-college:china-regular-vegetable:v3",
+  "contentDigest": "0a4ebeec9ac1d9035cfecc0e146a23df4e32c0f58ce03e394fe27f5e23416593",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:33:22.062892+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "mechanical-2026-notice",
+    "mechanical-2026-instructions"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "mechanical-2026-notice",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395.html",
+      "sourceSha256": "ec6385d88947369e56546868fd0b3e88beb33e8d70e49b3ff7be01e0a6744395",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/54-mechanical-innovation-design.json :: fresh HTML lines 12-67",
+      "verification": "2026常规赛/2027挑战赛区分、个人或5学生2导师、本专科及2026毕业生、学校推荐、图纸样机3分钟视频、2026时间节点、赛区报名费自定。"
+    },
+    {
+      "sourceId": "mechanical-2026-instructions",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3.pdf",
+      "sourceSha256": "3b291b293bd34700548a8cf0aac52b8fb6ac5f21611ba040664b1ded4bdf51d3",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/54-mechanical-innovation-design.json :: PDF all 5 pages; rendered/mechanical-1.png through mechanical-5.png",
+      "verification": "叶菜批量去根黄叶泥土归一化及按重量包装完整任务，排除根茎花/家庭厨房；同方向四类正式评价，图纸淘汰、学校承担不向个人收费、不可跨区、样机体积与展示条件均逐页视觉核验。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "batch03正文digest与本人batch02审稿一致；原件哈希核对一致，本会话前段本人实际阅读沿用，不声称重新逐页读取。",
+    "前轮记录：artifacts/continuation-20261105/content-review-b2/batch02/evidence/55-mechanical-innovation-design.json",
+    "本轮为冻结batch02复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/54-mechanical-innovation-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "赛区费用自主绑定全国规则通知，原错误来源绑定解除。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

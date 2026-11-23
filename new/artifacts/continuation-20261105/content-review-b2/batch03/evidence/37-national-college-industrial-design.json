@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "national-college-industrial-design:2024-7:product-system:fulltime-university:heilongjiang-rules-national-work:v3",
+  "contentDigest": "a44fda68e147c35da6205b35c4e2495fb7166df87b903ebc0509b1c3eedc6bb1",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-batch03-20261106-f9ce7387",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T18:43:18.895057+00:00",
+  "manifestSha256": "f9ce7387e1fe061f3dc957bf88b0af9095d018bcadbb7d2397bf7f657c6a1c77",
+  "manifestVerification": {
+    "expectedFiles": 816,
+    "verifiedFiles": 816,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-industrial-rule",
+    "b-industrial-work"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-industrial-rule",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e.pdf",
+      "sourceSha256": "5ed8956da5f36c7fbf104c13b349f0b117adcf3522f2c3cb0b9028c1d56c8a0e",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/36-national-college-industrial-design.json :: PDF pages 1-6; rendered/industrial-2-1..6.png",
+      "verification": "Visual read Heilongjiang 2024 eligibility, dates, 1089x841mm portrait JPG150dpi5MB, explanation, five qualitative criteria and provincial recommendation."
+    },
+    {
+      "sourceId": "b-industrial-work",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-03/dependencies/artifacts/v6/content-research/source-byte-snapshots/079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928.pdf",
+      "sourceSha256": "079493e107a89799cb53d94d9d2640d0f9e90b4705b817dd88ac9057c4a04928",
+      "actualReadLocator": "B2本会话前段实际阅读沿用，见 artifacts/continuation-20261105/content-review-b2/evidence/36-national-college-industrial-design.json :: PDF page 44 / printed page 42; rendered/industrial-3-44.png and industrial-work-detail.png",
+      "verification": "Whole Empty poster visually read plus enlarged text: 2024 CUIDC artwork 06B107796, Shenyang Ligong, authors and teachers; cooker removable, refrigerator slides and support opens, lid/table wings; family versus 23-year-old graduating-student personas and colors."
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "本轮为冻结batch03复审；与本人batch01已读原件逐SHA核对一致，沿用本会话实际阅读，不冒称重新逐页读取。前轮证据：artifacts/continuation-20261105/content-review-b2/evidence/36-national-college-industrial-design.json",
+    "12模块/角色/前置/四周/退出：原内容已逐稿读；本轮核对完整结构差异及新正文改动。",
+    "新边界准确区分黑龙江评分参考与Empty公开原作，不伪称原作制造数据/安全测试/黑龙江获奖归属；完整原作展板与同届规则均在本会话前段实际目读，非只读获奖列表。"
+  ],
+  "incompleteSources": [],
+  "outcome": "approved",
+  "findings": []
+}

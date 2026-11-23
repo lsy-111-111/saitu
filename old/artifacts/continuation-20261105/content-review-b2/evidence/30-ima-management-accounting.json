@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "saitu.independent-review-evidence.v1",
+  "recordId": "ima-management-accounting:2026-27-16:carbon-investment:same-campus-3-5:china-regional:v3",
+  "contentDigest": "529d19a66d623e137765eb2338c637e6481982369f7904a9f0a53cb38bba5041",
+  "reviewerId": "/root/content_review_b2",
+  "runId": "content-b2-astra-high-20261106-f046e690",
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "reviewedAt": "2026-11-05T16:58:48.181256+00:00",
+  "manifestSha256": "f046e6905d06687509bcfa045f59e4e356cfc87c7ecd683d73cbfb7828ace926",
+  "manifestVerification": {
+    "expectedFiles": 308,
+    "verifiedFiles": 308,
+    "hashMismatches": []
+  },
+  "verificationMode": "independent_source_recheck",
+  "readSourceIds": [
+    "b-ima-rules",
+    "b-ima-delivery",
+    "b-ima-case"
+  ],
+  "sourceEvidence": [
+    {
+      "sourceId": "b-ima-rules",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee.html",
+      "sourceSha256": "637a546721da98069edb88b66fb60550ce9fa877a5300f654d2410d767e332ee",
+      "actualReadLocator": "fresh HTML lines 91-155",
+      "verification": "2026参赛须知：同校3至5名在读本科研究生、专业不限、每校5区域赛名额，校内赛超过5队时组织，队长/队员锁定，分赛段语言与评审形式。"
+    },
+    {
+      "sourceId": "b-ima-delivery",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566.html",
+      "sourceSha256": "1c24ce3f862e91b51ac6d6b00296fc24dad1025d66e1486ca1d71f32ae36c566",
+      "actualReadLocator": "fresh HTML lines 91-130",
+      "verification": "区域赛2027年1月1日至2月24日；全员英文视频20分钟、中文字幕、15MB PDF、学校背景匿名及格式扣分；决赛另规则。"
+    },
+    {
+      "sourceId": "b-ima-case",
+      "sourceArtifact": "artifacts/continuation-20261105/content/review-batch-01/dependencies/artifacts/v6/content-research/source-byte-snapshots/8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7.pdf",
+      "sourceSha256": "8501f97e14087651e860a371163aa1354efe79b1538695c171174a5eabb40bf7",
+      "actualReadLocator": "PDF all 6 pages (cover plus printed pages 1-5); rendered/ima-1.png through ima-6.png",
+      "verification": "完整虚构锂航案例、两方案十年成本残值排放补贴、营收变量税率折现率和固定碳价、三项问题、AI真实过程披露及人工审核已逐页视觉核验。"
+    }
+  ],
+  "recordContentRead": true,
+  "reviewedModules": [
+    "task",
+    "eligibility",
+    "track",
+    "participation",
+    "deliverables",
+    "rubric",
+    "skills",
+    "investment",
+    "difficulty",
+    "benefits",
+    "value",
+    "nextStep"
+  ],
+  "notes": [
+    "12模块、角色、前置、四周验收和退出全部已读。完整题例真实且编辑路线合理；没有虚构NPV数值或声称必须出现排序反转。",
+    "费用未知不视为免费；2026至2027赛段范围明确。AI题第3问是正式答题要求，稿件不造对话并让资源不足者另核要求，未把手工练习说成合规正式提交。"
+  ],
+  "incompleteSources": [],
+  "outcome": "changes_requested",
+  "findings": [
+    {
+      "id": "B2-30-01",
+      "severity": "major",
+      "description": "现有原件提供完整题目和格式扣分条款，但没有区域赛正式内容评审标准；题目Questions及考核提示不能单独充当正式rubric。稿件自己也将完整评分资料列为missingForPublication。严格L3仍须补适用正式评价依据并区分题目要求，或保留低层级，不能凭资料有限默认通过。",
+      "resolved": false
+    },
+    {
+      "id": "B2-30-02",
+      "severity": "minor",
+      "description": "rubric事实只绑定b-ima-case，却包含格式违规扣分；材料规范映射也复用该事实。扣分规定实际在b-ima-delivery第108-109行，应补绑定交付规则来源。",
+      "resolved": false
+    }
+  ]
+}
